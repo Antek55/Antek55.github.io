@@ -38,9 +38,9 @@
      inkscape:window-height="838"
      id="namedview4626"
      showgrid="false"
-     inkscape:zoom="1.9814647"
-     inkscape:cx="236.28642"
-     inkscape:cy="258.41995"
+     inkscape:zoom="1.4011071"
+     inkscape:cx="189.23032"
+     inkscape:cy="249.23492"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -209,6 +209,11 @@
        width="40"
        y="77.664825"
        x="390.37784" />
+    <path
+       style="fill:#00ffff;stroke:none;stroke-width:0.75000072px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 391.37784,97.664833 39,-19.000008 v 19.000001 z"
+       id="path1913"
+       inkscape:connector-curvature="0" />
     <rect
        style="font-style:normal;font-weight:400;font-size:11px;font-family:'Noto Sans';fill:#00a933;fill-opacity:1;stroke:none"
        id="rect70"
