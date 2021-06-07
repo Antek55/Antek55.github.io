@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oświadczenie woli</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="rower-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2"></script>
+    <link rel="icon" href="gfx/favicon.ico">
+  </head>
+  <body>    
+    <div class="testbox">
+      <form v-on:submit.prevent="submit">
+        <div v-if="form_id.length == 0" style="font-size: 60px; color: red">Formularz nieważny, nieustawiony id</div>
+        
+        <div class="banner" style='background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,208,237,1) 45%, rgba(0,212,255,1) 100%);; '>
+          <h1>Oświadczenie woli :: języki z Antkiem</h1>
+        </div>
+        <div class="opis">
+          <p>Cześć! W trakcie roku akademickiego zaproponowałem Ci kilka różnych wakacyjnych wyzwań językowych. Za pomocą poniższego formularza określ, wspólna nauka których języków potencjalnie by Cię interesowała. Oświadczenie nie jest zobowiązujące i służy orientacji co do istnienia woli dla dalszego planowania działań. Języków jest zbyt wiele, by podjąć je wszystkie, więc może być konieczna selekcja, ale nie krępuj się wskazać dowolnie wiele. Niewskazanie dowolnego języka będzie odebrane jako znak Twojego całkowitego braku zainteresowania nim i nie będą więcej proponowane działania z nim związane. Formularz zamyka się <span class="red">13 czerwca 22:00</span> a brak odpowiedzi oznacza odrzucenie wszystkich języków.</p>
+        </div>
+        
+        <div>
+          <label>Oświadcz swoją wolę. Które z poniższych wakacyjnych językowych chciałabyś przyjąć?</label>
+          <p v-for="[key, value] of Object.entries(r)">
+           <input type="checkbox" v-model="r[key]" :id="key" :name="key"> <label :for="key" style="position: relative; left: 15px">{{  key  }}</label>
+          </p>
+          
+        </div>
+    
+      <div class="item">
+          <label for="uwagi">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
+          <textarea id="uwagi" rows="3" v-model="uwagi"></textarea>
+        </div>
+        
+        <div class="btn-block">
+          <button>Wyślij</button>
+        </div>
+      </form>
+  </body>
+  
+  <script>
+  function submit_send()
+  {
+    $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
+
+    url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
+    
+    var wynik = encodeURIComponent(JSON.stringify(app.$data));
+    $.get(url + wynik, on_success);
+    
+    function on_success(data)
+    {
+      if (!data.success)
+      {
+        $("form").html('<h2 class="red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub zadeklaruj uczestnictwo osobiście przez wiadomość prywatną/<a href="mailto:ja.wodzinski@student.uw.edu.pl">email</a>.</h2>');
+        return false;
+      }
+      
+      $("form").html("Wysłano odpowiedź.")
+    }
+  }
+
+  var app = new Vue({
+    el: "form", 
+    data: {
+      form_id: "oświadczenie-woli-42ff83",
+      r: {
+        '🇨🇿 język czeski': false,
+        '🇷🇴 język rumuński': false,
+        '🇨🇳 język mandaryński': false,
+        '🇸🇪 język szwedzki': false,
+        '🧏 język migowy': true,
+      },
+      uwagi: "",
+    }, 
+    methods: 
+    {
+      submit: submit_send,
+    } 
+  })
+</script>
+</html>
