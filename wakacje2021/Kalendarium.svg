@@ -35,14 +35,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1600"
-     inkscape:window-height="838"
+     inkscape:window-height="839"
      id="namedview4626"
      showgrid="false"
-     inkscape:zoom="1.4011071"
-     inkscape:cx="189.23032"
-     inkscape:cy="249.23492"
+     inkscape:zoom="3.9629293"
+     inkscape:cx="268.33339"
+     inkscape:cy="352.40029"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="g4622"
      inkscape:document-rotation="0" />
@@ -8256,5 +8256,12 @@
        y="-58.335178"
        x="40.377846"
        xml:space="preserve" />
+    <rect
+       style="fill:#ff00ff;fill-opacity:1;stroke:none;stroke-width:9.97705746;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1911"
+       width="5.6488371"
+       height="5.088871"
+       x="304.729"
+       y="92.575951" />
   </g>
 </svg>
