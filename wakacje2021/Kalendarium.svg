@@ -38,9 +38,9 @@
      inkscape:window-height="839"
      id="namedview4626"
      showgrid="false"
-     inkscape:zoom="3.9629293"
-     inkscape:cx="268.33339"
-     inkscape:cy="352.40029"
+     inkscape:zoom="7.9258586"
+     inkscape:cx="380.24188"
+     inkscape:cy="381.32985"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -8263,5 +8263,12 @@
        height="5.088871"
        x="304.729"
        y="92.575951" />
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:9.97705746;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1911-3"
+       width="5.6488371"
+       height="5.0888705"
+       x="424.729"
+       y="72.575958" />
   </g>
 </svg>
