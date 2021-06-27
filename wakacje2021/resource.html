@@ -20,6 +20,19 @@
   function onload1(data)
   {
       var promise = openpgp.readMessage({armoredMessage: data});
-      promise.then((value) => openpgp.decrypt({passwords: key, message: value}).then((value) => {$("iframe").attr("srcdoc", value.data); $("#loading").hide(); $("iframe").show()}))
+      
+      function done1 (value)
+      {
+        $("iframe").attr("srcdoc", value.data); 
+        $("#loading").hide(); 
+        $("iframe").show(); 
+        var color = value.data.match(/background(?:-color)?: (#.{6})/)[1];
+        if (color.length)
+        {
+          $("body").css("background", color);
+        }
+      }
+      
+      promise.then((value) => openpgp.decrypt({passwords: key, message: value}).then(done1));
   }
 </script>
