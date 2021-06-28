@@ -26,6 +26,10 @@
         $("iframe").attr("srcdoc", value.data); 
         $("#loading").hide(); 
         $("iframe").show(); 
+        
+        var title = value.data.match(/<title>(.*)<\/title>/)[1];
+        $("title").html(title);
+          
         var color = value.data.match(/background(?:-color)?: (#.{6})/)[1];
         if (color.length)
         {
