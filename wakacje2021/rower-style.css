@@ -327,3 +327,9 @@ em
     all: initial;
     all: unset;
 }
+
+.grey
+{
+  font-size: 12px;
+  color: grey;
+}
