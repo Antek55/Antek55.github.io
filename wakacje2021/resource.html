@@ -12,8 +12,17 @@
 
 <script>
   var searchParams = new URLSearchParams(window.location.search);
-  var rid = searchParams.get("r");
+  var rid = searchParams.get('r');
   var key = searchParams.get('k');
+  var clid = searchParams.get('j');
+  
+  var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
+  
+  if (isSafari)
+  {
+    $("#loading").html("Przeglądarka Safari nie potrafi załadować tej strony. Zainstaluj porządną przeglądarkę (np. Mozilla Firefox)");
+    throw new Error("Safari not supported");
+  }
   
   $.get(rid, "", onload1, "text");
   
