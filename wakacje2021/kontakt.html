@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formularz kontaktowy</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="rower-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2"></script>
+    <link rel="icon" href="gfx/favicon.ico">
+  </head>
+  <body>    
+    <div class="testbox">
+      <form v-on:submit.prevent="submit">
+        <div >
+          <div class="banner" style='background-image: url("gfx/kontakt.jpg")'>
+            <h1>{{ title }}</h1>
+          </div>
+          
+          <div class="opis">
+            <p>Za pomocą tego formularza można kontaktować się z organizatorami różnych elementów, o ile tak wskazano w informacjach o tych elementach.</p>
+          </div>
+          
+          <div class="item">
+            <label for="name">Jak się nazywasz?</label>
+            <div class="item">
+              <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim…" required />
+            </div>
+          </div>
+          
+          <div class="item">
+            <label for="eevent">Którego zdarzenia/formularza dotyczy ta wiadomość?</label>
+            <div class="item">
+              <input id="eevent" v-model="eevent" class="cl" type="text" name="eevent" placeholder="" required />
+            </div>
+          </div>
+          
+          <div class="item">
+            <label for="contact">W jaki sposób / na jaki adres mailowy należy odesłać odpowiedź na Twoją wiadomość? <span style="color: grey; font-size: 14px">(Jeśli inny niż zwykła codzienna droga kontaktu)</span></label>
+            <div class="item">
+              <input id="contact" v-model="contact" class="cl" type="text" name="contact" placeholder="" />
+            </div>
+          </div>
+          
+          <div class="item">
+              <label for="content">Proszę opisz sprawę/pytanie</label>
+              <textarea id="content" rows="3" v-model="content"></textarea>
+          </div>
+          
+      
+          <div class="item">
+              <label for="uwagi">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
+              <textarea id="uwagi" rows="3" v-model="uwagi"></textarea>
+          </div>
+          
+          <div class="btn-block">
+            <button>Wyślij</button>
+          </div>
+        </div>        
+      </form>
+  </body>
+  
+  <script>
+  function submit_send()
+  {
+    $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
+
+    url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
+    
+    var wynik = encodeURIComponent(JSON.stringify(app.$data));
+    $.get(url + wynik, on_success);
+    
+    function on_success(data)
+    {
+      if (!data.success)
+      {
+        $("form").html('<h2 class="red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście inną drogą przez wiadomość prywatną/<a href="mailto:ja.wodzinski@student.uw.edu.pl">email</a>.</h2>');
+        return false;
+      }
+      
+      $("form").html("Wysłano odpowiedź.")
+    }
+  }
+
+  var app = new Vue({
+    el: "form", 
+    data: {
+      form_id: "kontakt-v1",
+      title: "Formularz kontaktowy",
+      name: "",
+      eevent: "",
+      content: "",
+      contact: "",
+      uwagi: "",
+    }, 
+    methods: 
+    {
+      submit: submit_send,
+    } 
+  })
+
+</script>
+</html>
