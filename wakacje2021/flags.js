@@ -1,0 +1,11 @@
+flags = {
+  'at' : 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg',
+  'de' : 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
+  'dk' : 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg',
+  'es' : 'https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg',
+  'fr' : 'https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg',
+  'ir' : 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg',
+  'it' : 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
+  'jp' : 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg',
+  'pl' : 'https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg',
+}

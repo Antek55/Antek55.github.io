@@ -1,0 +1,981 @@
+[Script Info]
+; Napisy wygenerowano przez skrypt ad-hoc do zszywania napisów autorstwa Jana Wodzińskiego z Instytutu Inicjatyw Lokalnych
+ScriptType: v4.00+
+PlayResX: 384
+PlayResY: 288
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,16,&Hffffff,&Hffffff,&H0,&H0,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,0
+Style: Dwa,Arial,14,&Hd3d3d3,&Hd3d3d3,&H0,&H0,0,0,0,0,100,100,0,0,1,1,0,2,10,10,260,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:09.71,Default,,0,0,0,,✮✪ Instytut Inicjatyw Lokalnych
+Dialogue: 0,00:00:09.72,00:00:12.72,Default,,0,0,0,,Nasze obcowanie z innymi ludźmi\npolega głównie na tym,
+Dialogue: 0,00:00:12.72,00:00:16.72,Default,,0,0,0,,że omawiamy i oceniamy
+Dialogue: 0,00:00:16.72,00:00:19.72,Default,,0,0,0,,charakter i zachowanie naszych bliźnich.
+Dialogue: 0,00:00:19.72,00:00:24.72,Default,,0,0,0,,To sprawiło, że na dobrą sprawę
+Dialogue: 0,00:00:24.72,00:00:28.72,Default,,0,0,0,,odsunąłem się od ludzi.
+Dialogue: 0,00:00:28.72,00:00:34.72,Default,,0,0,0,,To uczyniło moją starość raczej samotną.
+Dialogue: 0,00:00:34.72,00:00:41.72,Default,,0,0,0,,Każdy dzień mojego życia był wypełniony\nciężką pracą, co przyjmuję z wdzięcznością.
+Dialogue: 0,00:00:41.72,00:00:43.72,Default,,0,0,0,,Zaczęło się od harówki\nna kawałek chleba,
+Dialogue: 0,00:00:43.72,00:00:49.72,Default,,0,0,0,,A skończyło na miłości do nauki.
+Dialogue: 0,00:00:49.72,00:00:55.72,Default,,0,0,0,,Mam syna, który również jest lekarzem\ni mieszka w Lund.
+Dialogue: 0,00:00:55.72,00:01:00.72,Default,,0,0,0,,Od wielu lat jest żonaty.\nNie mają dzieci.
+Dialogue: 0,00:01:00.72,00:01:11.72,Default,,0,0,0,,Moja matka jeszcze żyje\nJest bardzo żywotna, mimo podeszłego wieku.
+Dialogue: 0,00:01:11.72,00:01:18.72,Default,,0,0,0,,Moja żona Karin umarła dawno temu.
+Dialogue: 0,00:01:18.72,00:01:23.72,Default,,0,0,0,,Obiad podany, panie profesorze!
+Dialogue: 0,00:01:23.72,00:01:25.72,Default,,0,0,0,,Dziękuję.
+Dialogue: 0,00:01:25.72,00:01:30.72,Default,,0,0,0,,Na szczęście mam dobrą gospodynię.
+Dialogue: 0,00:01:30.72,00:01:35.72,Default,,0,0,0,,Być może powinienem dodać,\nże jestem starym pedantem,
+Dialogue: 0,00:01:35.72,00:01:46.72,Default,,0,0,0,,chwilami denerwującym\ndla siebie i otoczenia.
+Dialogue: 0,00:01:46.72,00:01:50.72,Default,,0,0,0,,Nazywam się Eberhardt Isak Borg
+Dialogue: 0,00:01:50.72,00:01:53.72,Default,,0,0,0,,i mam 78 lat.
+Dialogue: 0,00:01:53.72,00:01:56.72,Default,,0,0,0,,Jutro będę obchodził 50 rocznicę\notrzymania doktoratu.
+Dialogue: 0,00:01:56.72,00:02:14.72,Default,,0,0,0,,Uroczystość odbędzie się w katedrze w Lund.
+Dialogue: 0,00:02:14.72,00:03:18.72,Default,,0,0,0,,TAM GDZIE ROSNĄ POZIOMKI
+Dialogue: 0,00:03:18.72,00:03:22.72,Default,,0,0,0,,Wczesnym rankiem w sobotę 1 czerwca
+Dialogue: 0,00:03:22.72,00:03:27.72,Default,,0,0,0,,miałem dziwny\ni bardzo nieprzyjemny sen.
+Dialogue: 0,00:03:27.72,00:03:30.72,Default,,0,0,0,,Śniło mi się, że podczas porannego spaceru
+Dialogue: 0,00:03:30.72,00:03:36.72,Default,,0,0,0,,zabłądziłem w jakiejś zupełnie mi\nnieznanej dzielnicy miasta,
+Dialogue: 0,00:03:36.72,00:08:49.72,Default,,0,0,0,,o wyludnionych ulicach i zniszczonych domach.
+Dialogue: 0,00:08:49.72,00:08:50.72,Default,,0,0,0,,Czy pan profesor jest chory?
+Dialogue: 0,00:08:50.72,00:08:54.72,Default,,0,0,0,,Panno Agdo proszę przygotować trochę prowiantu.\nPojadę samochodem.
+Dialogue: 0,00:08:54.72,00:08:58.72,Default,,0,0,0,,Proszę się położyć.\nPrzyniosę kawę o 9-tej,
+Dialogue: 0,00:08:58.72,00:09:01.72,Default,,0,0,0,,a pojedziemy o 10-tej,\njak było ustalone.
+Dialogue: 0,00:09:01.72,00:09:06.72,Default,,0,0,0,,Proszę bardzo, mogę jechać bez prowiantu.
+Dialogue: 0,00:09:06.72,00:09:09.72,Default,,0,0,0,,A kto spakuje pana frak?
+Dialogue: 0,00:09:09.72,00:09:14.72,Default,,0,0,0,,- Poradzę sobie.\n- A co ze mną?
+Dialogue: 0,00:09:14.72,00:09:19.72,Default,,0,0,0,,Panna Agda może jechać ze mną samochodem,\nalbo polecieć samolotem, jak woli.
+Dialogue: 0,00:09:19.72,00:09:24.72,Default,,0,0,0,,Przez cały rok cieszyłam się,\nże będę na tym jubileuszu,
+Dialogue: 0,00:09:24.72,00:09:28.72,Default,,0,0,0,,i wszystko zorganizowaliśmy jak najlepiej.
+Dialogue: 0,00:09:28.72,00:09:31.72,Default,,0,0,0,,A teraz pan profesor mi mówi,\nże pojedzie samochodem.
+Dialogue: 0,00:09:31.72,00:09:34.72,Default,,0,0,0,,Uroczystość odbędzie się nie wcześniej\njak o piątej,
+Dialogue: 0,00:09:34.72,00:09:38.72,Default,,0,0,0,,więc jeżeli zaraz wyjadę,\nbędę miał 14 godzin.
+Dialogue: 0,00:09:38.72,00:09:41.72,Default,,0,0,0,,Musi pan wszystko zepsuć.
+Dialogue: 0,00:09:41.72,00:09:45.72,Default,,0,0,0,,Co powie pański syn,\nkiedy będzie czekał na lotnisku w Malmoe?
+Dialogue: 0,00:09:45.72,00:09:52.72,Default,,0,0,0,,Panna Agda może mu przecież wytłumaczyć.
+Dialogue: 0,00:09:52.72,00:09:56.72,Default,,0,0,0,,Jeżeli pan profesor pojedzie samochodem\nto nie będę na żadnej uroczystości!
+Dialogue: 0,00:09:56.72,00:09:59.72,Default,,0,0,0,,Ależ panno Agdo...
+Dialogue: 0,00:09:59.72,00:10:01.72,Default,,0,0,0,,Proszę jechać samochodem,\nale proszę pamiętać,
+Dialogue: 0,00:10:01.72,00:10:04.72,Default,,0,0,0,,że psuje mi pan\nnajbardziej uroczysty dzień w życiu.
+Dialogue: 0,00:10:04.72,00:10:06.72,Default,,0,0,0,,Nie jesteśmy małżeństwem, panno Agdo.
+Dialogue: 0,00:10:06.72,00:10:11.72,Default,,0,0,0,,Dziękuję Bogu co wieczór,\nże nie jestem żoną pana profesora.
+Dialogue: 0,00:10:11.72,00:10:15.72,Default,,0,0,0,,Przez 74 lata kierowałam się rozsądkiem,\ndzisiaj też mnie nie zawiedzie.
+Dialogue: 0,00:10:15.72,00:10:18.72,Default,,0,0,0,,Czy to ostatnie słowo panny Agdy?
+Dialogue: 0,00:10:18.72,00:10:22.72,Default,,0,0,0,,Tak, to moje ostatnie słowo.
+Dialogue: 0,00:10:22.72,00:10:28.72,Default,,0,0,0,,Może jeszcze tylko powiem\nco sądzę o złośliwych starszych panach,
+Dialogue: 0,00:10:28.72,00:10:34.72,Default,,0,0,0,,co to myślą tylko o sobie i lekceważą inne osoby,\nktóre służyły im wiernie przez 40 lat.
+Dialogue: 0,00:10:34.72,00:10:37.72,Default,,0,0,0,,To doprawdy niepojęte,\nże przez te wszystkie lata
+Dialogue: 0,00:10:37.72,00:10:42.72,Default,,0,0,0,,znajdowałem się w zasięgu\nstrasznej żądzy władzy panny Agdy.
+Dialogue: 0,00:10:42.72,00:10:45.72,Default,,0,0,0,,Proszę tylko powiedzieć,\na jutro to się skończy.
+Dialogue: 0,00:10:45.72,00:10:57.72,Default,,0,0,0,,W każdym razie pojadę samochodem,\na panna Agda może robić co jej się żywnie podoba!
+Dialogue: 0,00:10:57.72,00:11:08.72,Default,,0,0,0,,Przez przypadek jestem dorosły\ni nie muszę już słuchać rozkazów panny Agdy.
+Dialogue: 0,00:11:08.72,00:11:11.72,Default,,0,0,0,,Nikt tak nie potrafi pakować jak panna Agda.
+Dialogue: 0,00:11:11.72,00:11:14.72,Default,,0,0,0,,Naprawdę?
+Dialogue: 0,00:11:14.72,00:11:16.72,Default,,0,0,0,,Stara zrzęda...
+Dialogue: 0,00:11:16.72,00:11:18.72,Default,,0,0,0,,Ugotuję parę jajek.
+Dialogue: 0,00:11:18.72,00:11:27.72,Default,,0,0,0,,Dziękuję. To bardzo miłe ze strony panny Agdy.
+Dialogue: 0,00:11:27.72,00:11:30.72,Default,,0,0,0,,Doktor Jubilat\nCo za bzdura...
+Dialogue: 0,00:11:30.72,00:11:36.72,Default,,0,0,0,,Równie dobrze mogli by mnie mianować\nIdiotą Jubilatem.
+Dialogue: 0,00:11:36.72,00:11:40.72,Default,,0,0,0,,Powinienem coś kupić tej zrzędzie\nżeby ją jakoś udobruchać.
+Dialogue: 0,00:11:40.72,00:11:43.72,Default,,0,0,0,,Nie znoszę pamiętliwych ludzi.
+Dialogue: 0,00:11:43.72,00:11:48.72,Default,,0,0,0,,Nie mógłbym muchy skrzywdzić,\na co dopiero Agdy!
+Dialogue: 0,00:11:48.72,00:11:50.72,Default,,0,0,0,,Ma pan profesor ochotę na grzanki?
+Dialogue: 0,00:11:50.72,00:11:52.72,Default,,0,0,0,,Nie, proszę się o mnie nie martwić.
+Dialogue: 0,00:11:52.72,00:12:01.72,Default,,0,0,0,,Co taki naburmuszony?
+Dialogue: 0,00:12:01.72,00:12:09.72,Default,,0,0,0,,A panna Agda się nie napije?\nNie, dziękuję.
+Dialogue: 0,00:12:09.72,00:12:11.72,Default,,0,0,0,,Dzień dobry.
+Dialogue: 0,00:12:11.72,00:12:15.72,Default,,0,0,0,,Dzień dobry.\nDlaczego moja szanowna synowa tak wcześnie wstała?
+Dialogue: 0,00:12:15.72,00:12:19.72,Default,,0,0,0,,Trochę trudno spać skoro ty i Agda\ntak wrzeszczycie aż ściany się trzęsą.
+Dialogue: 0,00:12:19.72,00:12:21.72,Default,,0,0,0,,Tutaj nikt nie wrzeszczał.
+Dialogue: 0,00:12:21.72,00:12:25.72,Default,,0,0,0,,Nie, tutaj naprawdę nikt nie wrzeszczał.
+Dialogue: 0,00:12:25.72,00:12:27.72,Default,,0,0,0,,Pojedziesz samochodem do Lund?
+Dialogue: 0,00:12:27.72,00:12:28.72,Default,,0,0,0,,Mam taki zamiar.
+Dialogue: 0,00:12:28.72,00:12:30.72,Default,,0,0,0,,Mogę się zabrać z tobą?
+Dialogue: 0,00:12:30.72,00:12:32.72,Default,,0,0,0,,Wracasz do domu?
+Dialogue: 0,00:12:32.72,00:12:35.72,Default,,0,0,0,,Tak.
+Dialogue: 0,00:12:35.72,00:12:36.72,Default,,0,0,0,,I powrócisz do Ewalda?
+Dialogue: 0,00:12:36.72,00:12:38.72,Default,,0,0,0,,Nie musisz mnie pytać o powody.
+Dialogue: 0,00:12:38.72,00:12:41.72,Default,,0,0,0,,Gdybym miała za co pojechałabym pociągiem.
+Dialogue: 0,00:12:41.72,00:12:43.72,Default,,0,0,0,,Oczywiście. Możesz jechać z mną.
+Dialogue: 0,00:12:43.72,00:12:49.72,Default,,0,0,0,,Będę gotowa w dziesięć minut.
+Dialogue: 0,00:12:49.72,00:13:18.72,Default,,0,0,0,,Mój Boże,
+Dialogue: 0,00:13:18.72,00:13:23.72,Default,,0,0,0,,proszę cię nie pal,\nnie znoszę dymu papierosów.
+Dialogue: 0,00:13:23.72,00:13:25.72,Default,,0,0,0,,Zapomniałam.
+Dialogue: 0,00:13:25.72,00:13:29.72,Default,,0,0,0,,Powinno być prawo zabraniające kobietom palić.
+Dialogue: 0,00:13:29.72,00:13:30.72,Default,,0,0,0,,Piękna pogoda.
+Dialogue: 0,00:13:30.72,00:13:35.72,Default,,0,0,0,,Tak, ale trochę duszno.
+Dialogue: 0,00:13:35.72,00:13:38.72,Default,,0,0,0,,- Chyba zanosi się na burzę.\n- Chyba tak.
+Dialogue: 0,00:13:38.72,00:13:39.72,Default,,0,0,0,,Nie ma to jak cygaro.
+Dialogue: 0,00:13:39.72,00:13:43.72,Default,,0,0,0,,To podnieta i odprężenie.\nMęski nałóg.
+Dialogue: 0,00:13:43.72,00:13:46.72,Default,,0,0,0,,A jakież to nałogi wolno mieć kobietom?
+Dialogue: 0,00:13:46.72,00:13:49.72,Default,,0,0,0,,Płacz, rodzenie dzieci\ni obgadywanie innych kobiet.
+Dialogue: 0,00:13:49.72,00:13:52.72,Default,,0,0,0,,Ile ty właściwie masz lat, ojcze?
+Dialogue: 0,00:13:52.72,00:13:53.72,Default,,0,0,0,,Czemu o to pytasz?
+Dialogue: 0,00:13:53.72,00:13:55.72,Default,,0,0,0,,Tak sobie. A co?
+Dialogue: 0,00:13:55.72,00:13:58.72,Default,,0,0,0,,Dobrze wiem dlaczego pytasz.
+Dialogue: 0,00:13:58.72,00:14:03.72,Default,,0,0,0,,Czyżby?
+Dialogue: 0,00:14:03.72,00:14:07.72,Default,,0,0,0,,Nie udawaj. Nie lubisz mnie. Nigdy nie lubiłaś.
+Dialogue: 0,00:14:07.72,00:14:09.72,Default,,0,0,0,,Znam cię tylko jako teścia.
+Dialogue: 0,00:14:09.72,00:14:11.72,Default,,0,0,0,,Dlaczego wracasz do domu?
+Dialogue: 0,00:14:11.72,00:14:13.72,Default,,0,0,0,,To impuls. Nic więcej.
+Dialogue: 0,00:14:13.72,00:14:16.72,Default,,0,0,0,,Tak się składa, że Ewald jest moim synem.
+Dialogue: 0,00:14:16.72,00:14:17.72,Default,,0,0,0,,O tak, na pewno.
+Dialogue: 0,00:14:17.72,00:14:21.72,Default,,0,0,0,,Jesteśmy z Ewaldem bardzo do siebie podobni.\nMamy swoje zasady.
+Dialogue: 0,00:14:21.72,00:14:23.72,Default,,0,0,0,,Nie musisz mi tego mówić.
+Dialogue: 0,00:14:23.72,00:14:24.72,Default,,0,0,0,,Choćby sprawa tej pożyczki...
+Dialogue: 0,00:14:24.72,00:14:26.72,Default,,0,0,0,,Dokładnie wiem co chcesz powiedzieć:
+Dialogue: 0,00:14:26.72,00:14:29.72,Default,,0,0,0,,"spłaci tę pożyczkę, kiedy zostanie docentem.
+Dialogue: 0,00:14:29.72,00:14:32.72,Default,,0,0,0,,To dla niego punkt honoru\nspłacać rocznie te 5000 koron."
+Dialogue: 0,00:14:32.72,00:14:33.72,Default,,0,0,0,,I tak dalej, i tak dalej.
+Dialogue: 0,00:14:33.72,00:14:35.72,Default,,0,0,0,,Jak umowa to umowa.
+Dialogue: 0,00:14:35.72,00:14:38.72,Default,,0,0,0,,Dla nas oznacza to,\nże nigdy nie możemy spędzić razem urlopu
+Dialogue: 0,00:14:38.72,00:14:40.72,Default,,0,0,0,,i że twój syn zaharowuje się na śmierć.
+Dialogue: 0,00:14:40.72,00:14:43.72,Default,,0,0,0,,Ty przecież masz własne dochody?
+Dialogue: 0,00:14:43.72,00:14:46.72,Default,,0,0,0,,Ty tymczasem masz kupę pieniędzy,\nktórych wcale nie potrzebujesz!
+Dialogue: 0,00:14:46.72,00:14:53.72,Default,,0,0,0,,Jak umowa to umowa.\nWiem, że Ewald mnie rozumie i szanuje.
+Dialogue: 0,00:14:53.72,00:15:05.72,Default,,0,0,0,,Być może.\nAle również cię nienawidzi.
+Dialogue: 0,00:15:05.72,00:15:09.72,Default,,0,0,0,,Co ty właściwie masz przeciwko mnie?
+Dialogue: 0,00:15:09.72,00:15:10.72,Default,,0,0,0,,Mam być szczera?
+Dialogue: 0,00:15:10.72,00:15:13.72,Default,,0,0,0,,Bardzo proszę.
+Dialogue: 0,00:15:13.72,00:15:16.72,Default,,0,0,0,,Jesteś starym egoistą.
+Dialogue: 0,00:15:16.72,00:15:22.72,Default,,0,0,0,,Nigdy się z nikim nie liczyłeś.\nZawsze słuchałeś tylko siebie.
+Dialogue: 0,00:15:22.72,00:15:28.72,Default,,0,0,0,,Wszystko to skrywasz pod maską\nstaroświeckiego wdzięku i życzliwości.
+Dialogue: 0,00:15:28.72,00:15:30.72,Default,,0,0,0,,Stałeś się twardy jak skała,\nale wszyscy mówią i piszą,
+Dialogue: 0,00:15:30.72,00:15:34.72,Default,,0,0,0,,że jesteś wielkim przyjacielem ludzkości.
+Dialogue: 0,00:15:34.72,00:15:40.72,Default,,0,0,0,,Ale my którzy widzimy cię z bliska, wiemy kim jesteś.\nNas nie oszukasz.
+Dialogue: 0,00:15:40.72,00:15:45.72,Default,,0,0,0,,Pamiętasz jak przyjechałam do ciebie miesiąc temu?
+Dialogue: 0,00:15:45.72,00:15:48.72,Default,,0,0,0,,Miałam idiotyczne wyobrażenie,\nze pomożesz Ewaldowi i mnie.
+Dialogue: 0,00:15:48.72,00:15:50.72,Default,,0,0,0,,Dlatego prosiłam cię byś mi pozwolił\nzostać u siebie przez kilka tygodni.
+Dialogue: 0,00:15:50.72,00:15:53.72,Default,,0,0,0,,Pamiętasz co mi wtedy powiedziałeś?
+Dialogue: 0,00:15:53.72,00:15:57.72,Default,,0,0,0,,Powiedziałem, że bardzo chętnie cię ugoszczę.
+Dialogue: 0,00:15:57.72,00:16:02.72,Default,,0,0,0,,Chyba tego nie pamiętasz,\nale powiedziałeś mi tak:
+Dialogue: 0,00:16:02.72,00:16:06.72,Default,,0,0,0,,"Nie próbuj wciągnąć mnie\nw wasze małżeńskie kłopoty,
+Dialogue: 0,00:16:06.72,00:16:08.72,Default,,0,0,0,,bo one nic mnie nie obchodzą.
+Dialogue: 0,00:16:08.72,00:16:10.72,Default,,0,0,0,,Każdy sam musi sobie radzić ze swoimi sprawami."
+Dialogue: 0,00:16:10.72,00:16:11.72,Default,,0,0,0,,Tak powiedziałem?
+Dialogue: 0,00:16:11.72,00:16:15.72,Default,,0,0,0,,- Powiedziałeś jeszcze więcej.\n- To fatalnie.
+Dialogue: 0,00:16:15.72,00:16:17.72,Default,,0,0,0,,Powiedziałeś słowo w słowo tak:
+Dialogue: 0,00:16:17.72,00:16:20.72,Default,,0,0,0,,"Nie uznaję duchowych cierpień,
+Dialogue: 0,00:16:20.72,00:16:23.72,Default,,0,0,0,,więc nie przychodź do mnie na skargę.
+Dialogue: 0,00:16:23.72,00:16:27.72,Default,,0,0,0,,Jeżeli potrzebujesz psychicznego samogwałtu,\nmogę ci załatwić jakiegoś wziętego szarlatana
+Dialogue: 0,00:16:27.72,00:16:31.72,Default,,0,0,0,,albo może pastora?\nTo dzisiaj takie modne."
+Dialogue: 0,00:16:31.72,00:16:33.72,Default,,0,0,0,,Tak powiedziałem?
+Dialogue: 0,00:16:33.72,00:16:37.72,Default,,0,0,0,,Twoje opinie są dość kategoryczne.
+Dialogue: 0,00:16:37.72,00:16:44.72,Default,,0,0,0,,To straszne być uzależnionym od ciebie.
+Dialogue: 0,00:16:44.72,00:16:48.72,Default,,0,0,0,,Szczerze mówiąc dobrze mi było z tobą.
+Dialogue: 0,00:16:48.72,00:16:50.72,Default,,0,0,0,,Jak z kotem.
+Dialogue: 0,00:16:50.72,00:16:53.72,Default,,0,0,0,,Z kotem czy człowiekiem...
+Dialogue: 0,00:16:53.72,00:16:58.72,Default,,0,0,0,,Jesteś uroczą młodą kobieta więc\nprzykro mi, ze mnie nie lubisz.
+Dialogue: 0,00:16:58.72,00:17:01.72,Default,,0,0,0,,- To nieprawda, że cię nie lubię.\n- co takiego?
+Dialogue: 0,00:17:01.72,00:17:08.72,Default,,0,0,0,,- Ja ci współczuję.\n- Współczujesz?
+Dialogue: 0,00:17:08.72,00:17:12.72,Default,,0,0,0,,Z przyjemnością bym ci opowiedział sen\njaki miałem tego ranka.
+Dialogue: 0,00:17:12.72,00:17:14.72,Default,,0,0,0,,Sny niezbyt mnie interesują.
+Dialogue: 0,00:17:14.72,00:17:31.72,Default,,0,0,0,,Tak, jasne, nie.
+Dialogue: 0,00:17:31.72,00:17:33.72,Default,,0,0,0,,Dokąd jedziemy?
+Dialogue: 0,00:17:33.72,00:18:09.72,Default,,0,0,0,,Chcę ci coś pokazać.
+Dialogue: 0,00:18:09.72,00:18:15.72,Default,,0,0,0,,Każdego lata przez pierwszych 20 lat mojego życia\nwłaśnie tutaj mieszkaliśmy.
+Dialogue: 0,00:18:15.72,00:18:20.72,Default,,0,0,0,,Było nas dziesięcioro rodzeństwa.\nTo chyba wiesz.
+Dialogue: 0,00:18:20.72,00:18:21.72,Default,,0,0,0,,czy teraz także ktoś tu mieszka?
+Dialogue: 0,00:18:21.72,00:18:27.72,Default,,0,0,0,,Nie, latem nie.
+Dialogue: 0,00:18:27.72,00:18:30.72,Default,,0,0,0,,Jeżeli pozwolisz pójdę się wykąpać.\nMamy przecież czas.
+Dialogue: 0,00:18:30.72,00:18:44.72,Default,,0,0,0,,Oczywiście, idź.
+Dialogue: 0,00:18:44.72,00:19:00.72,Default,,0,0,0,,Poziomkowa polana!
+Dialogue: 0,00:19:00.72,00:19:05.72,Default,,0,0,0,,Być może stałem się nieco sentymentalny.
+Dialogue: 0,00:19:05.72,00:19:08.72,Default,,0,0,0,,Przecież mogłem się poczuć trochę zmęczony
+Dialogue: 0,00:19:08.72,00:19:12.72,Default,,0,0,0,,i odrobinę rozrzewnić.
+Dialogue: 0,00:19:12.72,00:19:17.72,Default,,0,0,0,,Prawdopodobnie zacząłem rozmyślać o tym i owym,
+Dialogue: 0,00:19:17.72,00:19:22.72,Default,,0,0,0,,co łączyło się z okolicami\nmoich dziecięcych zabaw.
+Dialogue: 0,00:19:22.72,00:19:26.72,Default,,0,0,0,,Nie wiem jak to się stało,
+Dialogue: 0,00:19:26.72,00:19:28.72,Default,,0,0,0,,lecz jasna rzeczywistość tego dnia
+Dialogue: 0,00:19:28.72,00:19:33.72,Default,,0,0,0,,rozpłynęła się w jeszcze jaśniejszych obrazach pamięci,
+Dialogue: 0,00:19:33.72,00:19:36.72,Default,,0,0,0,,które pojawiły się przed moimi oczyma
+Dialogue: 0,00:19:36.72,00:19:56.72,Default,,0,0,0,,z siłą realnych wydarzeń.
+Dialogue: 0,00:19:56.72,00:20:00.72,Default,,0,0,0,,Saro.
+Dialogue: 0,00:20:00.72,00:20:03.72,Default,,0,0,0,,Saro,
+Dialogue: 0,00:20:03.72,00:20:07.72,Default,,0,0,0,,to twój kuzyn Isak.
+Dialogue: 0,00:20:07.72,00:20:13.72,Default,,0,0,0,,Tak, oczywiście trochę się postarzałem,\nwięc może nie wyglądam tak jak wtedy...
+Dialogue: 0,00:20:13.72,00:20:25.72,Default,,0,0,0,,Ty jednak nie zmieniłaś się ani trochę.
+Dialogue: 0,00:20:25.72,00:20:28.72,Default,,0,0,0,,Dzień dobry, słodka kuzynko.\nCo robisz?
+Dialogue: 0,00:20:28.72,00:20:31.72,Default,,0,0,0,,zbieram poziomki.\nChyba widzisz, głuptasie?
+Dialogue: 0,00:20:31.72,00:20:33.72,Default,,0,0,0,,A któż to będzie rozkoszował się\ntymi smakowitymi jagodami
+Dialogue: 0,00:20:33.72,00:20:37.72,Default,,0,0,0,,zebranymi o poranku przez uroczą panienkę?
+Dialogue: 0,00:20:37.72,00:20:41.72,Default,,0,0,0,,Chyba dobrze wiesz,\nże wujek Aron ma dzisiaj imieniny.
+Dialogue: 0,00:20:41.72,00:20:43.72,Default,,0,0,0,,Zapomniałam o prezencie,
+Dialogue: 0,00:20:43.72,00:20:46.72,Default,,0,0,0,,więc dostanie koszyk poziomek.\nŚwietny pomysł, prawda?
+Dialogue: 0,00:20:46.72,00:20:47.72,Default,,0,0,0,,Pomogę ci.
+Dialogue: 0,00:20:47.72,00:20:51.72,Default,,0,0,0,,wyobraź sobie, że Charlotta i Sigbritta\nprzygotowały kilim,
+Dialogue: 0,00:20:51.72,00:20:53.72,Default,,0,0,0,,Angelika upiekła tort,\nAnna namalowała naprawdę dobry obraz,
+Dialogue: 0,00:20:53.72,00:20:56.72,Default,,0,0,0,,a Kristina i Brigitta zaśpiewają mu\nułożoną przez siebie piosenkę.
+Dialogue: 0,00:20:56.72,00:20:59.72,Default,,0,0,0,,Świetny pomysł.\nWujek Aron jest głuchy jak pień.
+Dialogue: 0,00:20:59.72,00:21:02.72,Default,,0,0,0,,Głupiś!\nOn się strasznie ucieszy.
+Dialogue: 0,00:21:02.72,00:21:07.72,Default,,0,0,0,,Ale masz ponętny kark.
+Dialogue: 0,00:21:07.72,00:21:09.72,Default,,0,0,0,,Wiesz, że tak nie wolno...
+Dialogue: 0,00:21:09.72,00:21:11.72,Default,,0,0,0,,- Kto to powiedział?\n- Ja ci to mówię.
+Dialogue: 0,00:21:11.72,00:21:14.72,Default,,0,0,0,,A poza tym jesteś nieznośnym smarkaczem,
+Dialogue: 0,00:21:14.72,00:21:16.72,Default,,0,0,0,,który ma o sobie zbyt wielkie wyobrażenia.
+Dialogue: 0,00:21:16.72,00:21:19.72,Default,,0,0,0,,Jestem twoim kuzynem,\na ty się we mnie zakochałaś.
+Dialogue: 0,00:21:19.72,00:21:22.72,Default,,0,0,0,,Tez coś!
+Dialogue: 0,00:21:22.72,00:21:24.72,Default,,0,0,0,,Chodź, pocałuję cię w usta.
+Dialogue: 0,00:21:24.72,00:21:29.72,Default,,0,0,0,,Jak mi nie dasz spokoju to powiem Isakowi,\nże próbujesz całować mnie przy każdej okazji.
+Dialogue: 0,00:21:29.72,00:21:33.72,Default,,0,0,0,,Mały Isak! Poradzę sobie z nim jedna ręką.
+Dialogue: 0,00:21:33.72,00:21:36.72,Default,,0,0,0,,Dobrze wiesz, że w sekrecie\njesteśmy z Isakiem zaręczeni.
+Dialogue: 0,00:21:36.72,00:21:40.72,Default,,0,0,0,,Tak wiem. Cały dom zna tę tajemnicę.
+Dialogue: 0,00:21:40.72,00:21:43.72,Default,,0,0,0,,Nic na to nie poradzę,\nże bliźniaczki wszystko wypaplały.
+Dialogue: 0,00:21:43.72,00:21:48.72,Default,,0,0,0,,A kiedy ślub?
+Dialogue: 0,00:21:48.72,00:21:53.72,Default,,0,0,0,,Zastanawiam się który z was czterech braci\njest najmniej zarozumiały.
+Dialogue: 0,00:21:53.72,00:21:55.72,Default,,0,0,0,,Chyba Isak.
+Dialogue: 0,00:21:55.72,00:21:57.72,Default,,0,0,0,,W każdym razie jest najgrzeczniejszy.
+Dialogue: 0,00:21:57.72,00:22:00.72,Default,,0,0,0,,A ty jesteś najpaskudniejszy,\nnajnieznośniejszy,
+Dialogue: 0,00:22:00.72,00:22:05.72,Default,,0,0,0,,najgłupszy - po prostu brak mi slow!
+Dialogue: 0,00:22:05.72,00:22:08.72,Default,,0,0,0,,Przyznaj jednak, że masz do mnie słabość.
+Dialogue: 0,00:22:08.72,00:22:10.72,Default,,0,0,0,,I palisz cuchnące cygara.
+Dialogue: 0,00:22:10.72,00:22:14.72,Default,,0,0,0,,Ale to prawdziwie męski zapach.
+Dialogue: 0,00:22:14.72,00:22:18.72,Default,,0,0,0,,Poza tym bliźniaczki,\nktóre zawsze wszystko wiedzą najlepiej,
+Dialogue: 0,00:22:18.72,00:22:23.72,Default,,0,0,0,,powiedziały że wyprawiałeś nieprzyzwoite rzeczy\nz ta najstarszą od Berglunda.
+Dialogue: 0,00:22:23.72,00:22:29.72,Default,,0,0,0,,Ona zaś, jak mówią bliźniaczki nie ma\nnajlepszej opinii, w co chętnie im wierze.
+Dialogue: 0,00:22:29.72,00:22:32.72,Default,,0,0,0,,Gdybyś wiedziała jak cudownie wyglądasz\nz tym rumieńcem.
+Dialogue: 0,00:22:32.72,00:22:36.72,Default,,0,0,0,,A teraz musisz mnie pocałować!\nJuz dłużej nie wytrzymam!
+Dialogue: 0,00:22:36.72,00:22:40.72,Default,,0,0,0,,Strasznie jestem w Tobie zakochany,\njak się porządnie nad tym zastanowię.
+Dialogue: 0,00:22:40.72,00:22:44.72,Default,,0,0,0,,- Tylko tak mówisz.\n- Nie.
+Dialogue: 0,00:22:44.72,00:22:47.72,Default,,0,0,0,,Bliźniaczki mówią też,
+Dialogue: 0,00:22:47.72,00:23:02.72,Default,,0,0,0,,że masz bzika na punkcie dziewcząt, to prawda?
+Dialogue: 0,00:23:02.72,00:23:06.72,Default,,0,0,0,,Spójrz, rozsypałam wszystkie poziomki!
+Dialogue: 0,00:23:06.72,00:23:11.72,Default,,0,0,0,,Co powiem Isakowi?\nOn jest taki dobry i naprawdę mnie kocha!
+Dialogue: 0,00:23:11.72,00:23:17.72,Default,,0,0,0,,Jak mi smutno!\nCoś ty zrobił najlepszego!
+Dialogue: 0,00:23:17.72,00:23:20.72,Default,,0,0,0,,Sprowadziłeś mnie na złą drogę\nalbo prawie.
+Dialogue: 0,00:23:20.72,00:23:22.72,Default,,0,0,0,,Idź sobie!
+Dialogue: 0,00:23:22.72,00:23:26.72,Default,,0,0,0,,Nie chcę cię widzieć\nprzynajmniej do śniadania!
+Dialogue: 0,00:23:26.72,00:23:30.72,Default,,0,0,0,,Nie mam czasu.\nPomóż mi zebrać poziomki!
+Dialogue: 0,00:23:30.72,00:24:03.72,Default,,0,0,0,,Spójrz, mam też plamę na fartuszku!
+Dialogue: 0,00:24:03.72,00:24:07.72,Default,,0,0,0,,Brigitta i Karolina,\ngdzie może być Isak?
+Dialogue: 0,00:24:07.72,00:24:12.72,Default,,0,0,0,,wydaje mi się że łowi z ojcem ryby.\nNa pewno nie słyszeli gongu.
+Dialogue: 0,00:24:12.72,00:24:15.72,Default,,0,0,0,,zresztą ojciec powiedział,\nżeby nie czekać ze śniadaniem.
+Dialogue: 0,00:24:15.72,00:25:08.72,Default,,0,0,0,,Na pewno pamiętam, że tak powiedział.
+Dialogue: 0,00:25:08.72,00:25:10.72,Default,,0,0,0,,W imię Jezusa\ndo stołu siadamy.
+Dialogue: 0,00:25:10.72,00:25:22.72,Default,,0,0,0,,Pobłogosław strawę, którą spożyć mamy.\nAmen.
+Dialogue: 0,00:25:22.72,00:25:26.72,Default,,0,0,0,,Benjamin! Idź natychmiast umyć ręce.
+Dialogue: 0,00:25:26.72,00:25:28.72,Default,,0,0,0,,Kiedy ty wreszcie nauczysz się czystości?
+Dialogue: 0,00:25:28.72,00:25:31.72,Default,,0,0,0,,Ale ja myłem ręce!
+Dialogue: 0,00:25:31.72,00:25:35.72,Default,,0,0,0,,Sigbritta, podaj Angelice owsiankę.\nAngelika nałoży bliźniaczkom.
+Dialogue: 0,00:25:35.72,00:25:39.72,Default,,0,0,0,,Masz brudne paznokcie.
+Dialogue: 0,00:25:39.72,00:25:42.72,Default,,0,0,0,,Hagbart, podaj mi chleb.
+Dialogue: 0,00:25:42.72,00:25:46.72,Default,,0,0,0,,Kto cię nauczył smarować\nprawą stronę chleba masłem?
+Dialogue: 0,00:25:46.72,00:25:50.72,Default,,0,0,0,,Charlotto, solniczka znowu pozatykana!
+Dialogue: 0,00:25:50.72,00:25:52.72,Default,,0,0,0,,Ile razy już ci mówiłam,\nże nie można zostawiać otwartej bo sól wilgotnieje?
+Dialogue: 0,00:25:52.72,00:25:55.72,Default,,0,0,0,,Myłem ręce,\na za paznokciami mam farbę.
+Dialogue: 0,00:25:55.72,00:25:57.72,Default,,0,0,0,,Któż nazbierał mi tyle poziomek?
+Dialogue: 0,00:25:57.72,00:26:01.72,Default,,0,0,0,,- Ja.\n- Co?
+Dialogue: 0,00:26:01.72,00:26:05.72,Default,,0,0,0,,Musisz mówić głośniej drogie dziecko.\nWiesz przecież, że wujek Aron nie dosłyszy.
+Dialogue: 0,00:26:05.72,00:26:08.72,Default,,0,0,0,,To ja!
+Dialogue: 0,00:26:08.72,00:26:12.72,Default,,0,0,0,,I pomyśleć ze pamiętałaś\no imieninach wujka Arona.
+Dialogue: 0,00:26:12.72,00:26:15.72,Default,,0,0,0,,To bardzo miło z twojej strony.
+Dialogue: 0,00:26:15.72,00:26:19.72,Default,,0,0,0,,Czy w tak uroczystym dniu\nwujek nie mógłby dostać przy śniadaniu kielicha?
+Dialogue: 0,00:26:19.72,00:26:22.72,Default,,0,0,0,,Picie przy śniadaniu kiedy ojca nie ma w domu?\nNie ma mowy.
+Dialogue: 0,00:26:22.72,00:26:26.72,Default,,0,0,0,,Wujek już wypił dziś trzy kieliszki.
+Dialogue: 0,00:26:26.72,00:26:30.72,Default,,0,0,0,,Widziałyśmy o 8, kiedy schodziłyśmy do łaźni.
+Dialogue: 0,00:26:30.72,00:26:32.72,Default,,0,0,0,,Wy też zbierałyście poziomki?\nDziękuję.
+Dialogue: 0,00:26:32.72,00:26:37.72,Default,,0,0,0,,Bliźniaczki, cisza przy jedzeniu!
+Dialogue: 0,00:26:37.72,00:26:42.72,Default,,0,0,0,,Nie zasłałyście łóżek\ni za karę wyczyścicie srebra.
+Dialogue: 0,00:26:42.72,00:26:45.72,Default,,0,0,0,,Bliźniaczki,\nsłyszycie co mówi ciocia Olga?
+Dialogue: 0,00:26:45.72,00:26:47.72,Default,,0,0,0,,Benjamin, nie obgryzaj paznokci!
+Dialogue: 0,00:26:47.72,00:26:51.72,Default,,0,0,0,,Anno, co robisz pod stołem?\nPamiętaj, że nie jesteś już dzieckiem.
+Dialogue: 0,00:26:51.72,00:26:56.72,Default,,0,0,0,,Pozwolisz ciociu,\nże wręczę wujkowi Aronowi obrazek.
+Dialogue: 0,00:26:56.72,00:26:58.72,Default,,0,0,0,,- Gdzie go masz?\n- Pod stołem.
+Dialogue: 0,00:26:58.72,00:27:01.72,Default,,0,0,0,,Poczekaj aż śniadanie się skończy.
+Dialogue: 0,00:27:01.72,00:27:06.72,Default,,0,0,0,,To prawdziwe dzieło sztuki.\nPrzedstawia Fritjofa i Ingeborgę,
+Dialogue: 0,00:27:06.72,00:27:10.72,Default,,0,0,0,,choć naprawdę trudno ich odróżnić!
+Dialogue: 0,00:27:10.72,00:27:15.72,Default,,0,0,0,,Czy wiecie co Sara i Zygfryd\nrobili dziś rano na poziomkowej polanie?
+Dialogue: 0,00:27:15.72,00:27:18.72,Default,,0,0,0,,Z łaźni wszystko było widać!
+Dialogue: 0,00:27:18.72,00:27:21.72,Default,,0,0,0,,Bliźniaczkom powinno się zamknąć buzie!
+Dialogue: 0,00:27:21.72,00:27:23.72,Default,,0,0,0,,Bliźniaczki, albo się uspokoicie,\nalbo odejdziecie od stołu!
+Dialogue: 0,00:27:23.72,00:27:25.72,Default,,0,0,0,,Czy już nie ma wolności słowa?
+Dialogue: 0,00:27:25.72,00:27:27.72,Default,,0,0,0,,Zamknijcie się, smarkacze!
+Dialogue: 0,00:27:27.72,00:27:32.72,Default,,0,0,0,,Sara się rumieni!\nSara się rumieni!
+Dialogue: 0,00:27:32.72,00:27:35.72,Default,,0,0,0,,I Zygfryd też się rumieni!\nZygfryd i Sara! Zygfryd i Sara!
+Dialogue: 0,00:27:35.72,00:27:40.72,Default,,0,0,0,,Cisza przy stole!
+Dialogue: 0,00:27:40.72,00:27:42.72,Default,,0,0,0,,Ależ Saro!
+Dialogue: 0,00:27:42.72,00:28:09.72,Default,,0,0,0,,One kłamią! One kłamią!
+Dialogue: 0,00:28:09.72,00:28:17.72,Default,,0,0,0,,Isak jest taki delikatny,
+Dialogue: 0,00:28:17.72,00:28:21.72,Default,,0,0,0,,bardzo wierny zasadom i ogromnie uczuciowy.
+Dialogue: 0,00:28:21.72,00:28:25.72,Default,,0,0,0,,Pragnie, abyśmy sobie czytali wiersze,
+Dialogue: 0,00:28:25.72,00:28:27.72,Default,,0,0,0,,opowiadali o życiu pozagrobowym
+Dialogue: 0,00:28:27.72,00:28:32.72,Default,,0,0,0,,i grali na pianinie na cztery ręce.
+Dialogue: 0,00:28:32.72,00:28:37.72,Default,,0,0,0,,Lubi się całować tylko wtedy,\nkiedy jest ciemno,
+Dialogue: 0,00:28:37.72,00:28:40.72,Default,,0,0,0,,a potem mówi o grzechu.
+Dialogue: 0,00:28:40.72,00:28:44.72,Default,,0,0,0,,Jest najmądrzejszy, najdoskonalszy,
+Dialogue: 0,00:28:44.72,00:28:48.72,Default,,0,0,0,,a ja czuję się tak bezwartościowa.
+Dialogue: 0,00:28:48.72,00:28:55.72,Default,,0,0,0,,A ja czuje się tak podle.\nJestem nic nie warta, naprawdę!
+Dialogue: 0,00:28:55.72,00:28:59.72,Default,,0,0,0,,Czasami jednak odnoszę wrażenie,\nże jestem o wiele starsza od niego,
+Dialogue: 0,00:28:59.72,00:29:01.72,Default,,0,0,0,,wiesz co mam na myśli?
+Dialogue: 0,00:29:01.72,00:29:07.72,Default,,0,0,0,,A z niego to takie dziecko,\nchoć jesteśmy rówieśnikami.
+Dialogue: 0,00:29:07.72,00:29:09.72,Default,,0,0,0,,Natomiast Zygfryd jest bezczelny\ni taki pociągający!
+Dialogue: 0,00:29:09.72,00:29:12.72,Default,,0,0,0,,A w ogóle to najchętniej pojechałabym do domu...
+Dialogue: 0,00:29:12.72,00:29:14.72,Default,,0,0,0,,Nie chcę tu siedzieć przez cale lato
+Dialogue: 0,00:29:14.72,00:29:17.72,Default,,0,0,0,,i być pośmiewiskiem dla bliźniaczek\ni dla was wszystkich.
+Dialogue: 0,00:29:17.72,00:29:19.72,Default,,0,0,0,,Naprawdę nie chcę!
+Dialogue: 0,00:29:19.72,00:29:22.72,Default,,0,0,0,,Porozmawiam z Zygfrydem.
+Dialogue: 0,00:29:22.72,00:29:23.72,Default,,0,0,0,,Jeśli nie zostawi cię w spokoju,
+Dialogue: 0,00:29:23.72,00:29:25.72,Default,,0,0,0,,to dopilnuję, aby dostał nauczkę.
+Dialogue: 0,00:29:25.72,00:29:27.72,Default,,0,0,0,,Ojciec na pewno chętnie się za niego weźmie!
+Dialogue: 0,00:29:27.72,00:29:30.72,Default,,0,0,0,,Wie przecież, że Zygfryd jest paskudny\ni trzeba mu wybić głupstwa z głowy.
+Dialogue: 0,00:29:30.72,00:29:35.72,Default,,0,0,0,,Biedny Isak!\nJest wobec mnie taki delikatny.
+Dialogue: 0,00:29:35.72,00:29:39.72,Default,,0,0,0,,Pomyśl, jakie to wszystko niesprawiedliwe!
+Dialogue: 0,00:29:39.72,00:29:42.72,Default,,0,0,0,,Wszystko będzie dobrze, zobaczysz.
+Dialogue: 0,00:29:42.72,00:29:46.72,Default,,0,0,0,,Słyszysz?\nŚpiewają wujkowi Aronowi.
+Dialogue: 0,00:29:46.72,00:29:51.72,Default,,0,0,0,,To głupota pisać piosenkę dla głuchego.
+Dialogue: 0,00:29:51.72,00:29:56.72,Default,,0,0,0,,To mogły wymyśleć tylko bliźniaczki.
+Dialogue: 0,00:29:56.72,00:29:58.72,Default,,0,0,0,,Kwiaty kiwają głową, trawy kłaniają się
+Dialogue: 0,00:29:58.72,00:30:04.72,Default,,0,0,0,,dookoła naszego ślicznego domu
+Dialogue: 0,00:30:04.72,00:30:10.72,Default,,0,0,0,,Dziś jest święto naszego wujka Arona,
+Dialogue: 0,00:30:10.72,00:30:12.72,Default,,0,0,0,,a nasza piosenka
+Dialogue: 0,00:30:12.72,00:30:17.72,Default,,0,0,0,,ozdabia jego brew.
+Dialogue: 0,00:30:17.72,00:30:20.72,Default,,0,0,0,,Niech żyje wujek Aron!
+Dialogue: 0,00:30:20.72,00:30:32.72,Default,,0,0,0,,Hura, hura, hura, hura!
+Dialogue: 0,00:30:32.72,00:30:34.72,Default,,0,0,0,,Wybiegnę na spotkanie\nIsaka i wujaszka.
+Dialogue: 0,00:30:34.72,00:30:37.72,Default,,0,0,0,,Zrób to.
+Dialogue: 0,00:30:37.72,00:30:43.72,Default,,0,0,0,,Ogarnął mnie smutek\ni uczucie pustki,
+Dialogue: 0,00:30:43.72,00:30:47.72,Default,,0,0,0,,ale wkrótce obudził mnie z marzeń
+Dialogue: 0,00:30:47.72,00:30:51.72,Default,,0,0,0,,dziewczęcy głos,\nktóry kilkakrotnie o coś mnie pytał.
+Dialogue: 0,00:30:51.72,00:30:53.72,Default,,0,0,0,,Czy to pana chałupa?
+Dialogue: 0,00:30:53.72,00:30:55.72,Default,,0,0,0,,Nie, nie moja.
+Dialogue: 0,00:30:55.72,00:30:57.72,Default,,0,0,0,,W porządku, nie kłamie pan.
+Dialogue: 0,00:30:57.72,00:31:00.72,Default,,0,0,0,,Ten cypel należy do mojego starego.\nŁącznie z chatą.
+Dialogue: 0,00:31:00.72,00:31:04.72,Default,,0,0,0,,Kiedyś tu mieszkałem.\nPrzed dwustu laty.
+Dialogue: 0,00:31:04.72,00:31:07.72,Default,,0,0,0,,O rany!
+Dialogue: 0,00:31:07.72,00:31:10.72,Default,,0,0,0,,- A ten gruchot tam przy bramie to twój?\n- Tak, mój.
+Dialogue: 0,00:31:10.72,00:31:12.72,Default,,0,0,0,,Prawdziwy antyk.
+Dialogue: 0,00:31:12.72,00:31:15.72,Default,,0,0,0,,Bo to jest antyk,\njak jego właściciel.
+Dialogue: 0,00:31:15.72,00:31:20.72,Default,,0,0,0,,Potrafisz z siebie żartować.\nTo fantastyczne.
+Dialogue: 0,00:31:20.72,00:31:22.72,Default,,0,0,0,,Przy okazji,\nw jakim kierunku jedziesz?
+Dialogue: 0,00:31:22.72,00:31:24.72,Default,,0,0,0,,Cóż, jadę do Lund.
+Dialogue: 0,00:31:24.72,00:31:27.72,Default,,0,0,0,,Och rzesz ty, pasuje mi doskonale.\nWidzisz, jestem w drodze do Włoch.
+Dialogue: 0,00:31:27.72,00:31:29.72,Default,,0,0,0,,To dla mnie zaszczyt.
+Dialogue: 0,00:31:29.72,00:31:32.72,Default,,0,0,0,,Na imię mi Sara.\nGłupie imię, prawda?
+Dialogue: 0,00:31:32.72,00:31:35.72,Default,,0,0,0,,A mnie Isak.\nTeż dość głupie.
+Dialogue: 0,00:31:35.72,00:31:37.72,Default,,0,0,0,,Czy oni byli małżeństwem?
+Dialogue: 0,00:31:37.72,00:31:42.72,Default,,0,0,0,,Niestety nie.\nMężem Sary był Abraham.
+Dialogue: 0,00:31:42.72,00:31:43.72,Default,,0,0,0,,A więc ruszamy!
+Dialogue: 0,00:31:43.72,00:31:47.72,Default,,0,0,0,,Tak, ale towarzyszy mi pewna dama.\nWłaśnie nadchodzi.
+Dialogue: 0,00:31:47.72,00:31:50.72,Default,,0,0,0,,- Marianno, to jest Sara.\n- Cześć.
+Dialogue: 0,00:31:50.72,00:31:52.72,Default,,0,0,0,,Mamy towarzystwo do Lund.
+Dialogue: 0,00:31:52.72,00:31:56.72,Default,,0,0,0,,Sara podróżuje do Włoch,\nale obiecała pojechać z nami kawałek.
+Dialogue: 0,00:31:56.72,00:32:06.72,Default,,0,0,0,,Znowu jesteś ironiczny,\nale to do ciebie pasuje.
+Dialogue: 0,00:32:06.72,00:32:09.72,Default,,0,0,0,,No to w drogę chłopaki!\nmamy połączenie prawie do samych Włoch.
+Dialogue: 0,00:32:09.72,00:32:18.72,Default,,0,0,0,,To jest Anders, a ten w okularach to Wiktor,\nzwany Wickiem. A to papa Isak.
+Dialogue: 0,00:32:18.72,00:32:25.72,Default,,0,0,0,,Ta babka na którą się tak bezwstydnie gapicie\nnazywa się Marianna.
+Dialogue: 0,00:32:25.72,00:32:27.72,Default,,0,0,0,,To niezwykle duży samochód.
+Dialogue: 0,00:32:27.72,00:32:29.72,Default,,0,0,0,,Starczy miejsca dla wszystkich.
+Dialogue: 0,00:32:29.72,00:32:48.72,Default,,0,0,0,,Wskakujcie.
+Dialogue: 0,00:32:48.72,00:32:52.72,Default,,0,0,0,,Oczywiście muszę zwierzyć się Isakowi,\nże chodzę z Andersem.
+Dialogue: 0,00:32:52.72,00:32:55.72,Default,,0,0,0,,Szalejemy za sobą.
+Dialogue: 0,00:32:55.72,00:32:59.72,Default,,0,0,0,,Wiktor jedzie jako przyzwoitka,\nbo stary tak zadecydował.
+Dialogue: 0,00:32:59.72,00:33:04.72,Default,,0,0,0,,Wiktor też jest we mnie zakochany\ni pilnuje Andersa jak szalony.
+Dialogue: 0,00:33:04.72,00:33:07.72,Default,,0,0,0,,To też był genialny pomysł starego.
+Dialogue: 0,00:33:07.72,00:33:11.72,Default,,0,0,0,,Chyba uwiodę Wiktora,\naby się go jakoś pozbyć.
+Dialogue: 0,00:33:11.72,00:33:16.72,Default,,0,0,0,,A w ogóle to jestem dziewicą.\nDlatego pozwalam sobie na takie gadanie.
+Dialogue: 0,00:33:16.72,00:33:18.72,Default,,0,0,0,,I palę fajkę.
+Dialogue: 0,00:33:18.72,00:33:25.72,Default,,0,0,0,,Wiktor mówi, że to zdrowsze.\nwiktor ma fioła na punkcie zdrowia.
+Dialogue: 0,00:33:25.72,00:33:28.72,Default,,0,0,0,,Moja pierwsza miłość miała na imię Sara.
+Dialogue: 0,00:33:28.72,00:33:31.72,Default,,0,0,0,,I oczywiście była do mnie podobna?
+Dialogue: 0,00:33:31.72,00:33:34.72,Default,,0,0,0,,Rzeczywiście.\nBardzo mi ją przypominasz.
+Dialogue: 0,00:33:34.72,00:33:35.72,Default,,0,0,0,,Co się z nią stało?
+Dialogue: 0,00:33:35.72,00:33:40.72,Default,,0,0,0,,Wyszła za mojego brata Zygfryda.\nMają sześcioro dzieci.
+Dialogue: 0,00:33:40.72,00:33:44.72,Default,,0,0,0,,Teraz ma 75 lat\ni jest uroczą staruszką.
+Dialogue: 0,00:33:44.72,00:33:48.72,Default,,0,0,0,,Nie mogę sobie wyobrazić nic gorszego\nod starości.
+Dialogue: 0,00:33:48.72,00:34:36.72,Default,,0,0,0,,Przepraszam.\nPewnie powiedziałam coś głupiego!
+Dialogue: 0,00:34:36.72,00:34:38.72,Default,,0,0,0,,Jak to się stało?
+Dialogue: 0,00:34:38.72,00:34:41.72,Default,,0,0,0,,Nie mam nic na swoje usprawiedliwienie.\nTo tylko nasza wina.
+Dialogue: 0,00:34:41.72,00:34:48.72,Default,,0,0,0,,Wóz prowadziła moja żona.\nJestescie cali i zdrowi? Bogu dzięki.
+Dialogue: 0,00:34:48.72,00:34:54.72,Default,,0,0,0,,Niedoszli zabójcy powinni się przedstawic!\nNazywam się Alman. Jestem inżynierem.
+Dialogue: 0,00:34:54.72,00:34:57.72,Default,,0,0,0,,A to moja żona Berit.\nByła kiedyś aktorką.
+Dialogue: 0,00:34:57.72,00:35:00.72,Default,,0,0,0,,Właśnie sprzeczaliśmy się z tego powodu\nkiedy...
+Dialogue: 0,00:35:00.72,00:35:02.72,Default,,0,0,0,,Chodź tu Berit,\ni przeproś.
+Dialogue: 0,00:35:02.72,00:35:06.72,Default,,0,0,0,,Bardzo proszę o wybaczenie.\njak mówią małe dziewczynki. To był w końcu mój błąd.
+Dialogue: 0,00:35:06.72,00:35:10.72,Default,,0,0,0,,Właśnie miałam przyłożyć mojemu mężowi\nkiedy pojawił się ten zakręt.
+Dialogue: 0,00:35:10.72,00:35:13.72,Default,,0,0,0,,Jedno jest pewne.\nNiektórych ludzi bóg każe od razu,prawda Sten?
+Dialogue: 0,00:35:13.72,00:35:15.72,Default,,0,0,0,,Jesteś przecież katolikiem.
+Dialogue: 0,00:35:15.72,00:35:19.72,Default,,0,0,0,,Może powinniśmy spróbować\nwyciągnąć wasz samochód?
+Dialogue: 0,00:35:19.72,00:35:21.72,Default,,0,0,0,,Proszę się o nas nie martwić, błagam.\n- Zamknij się, skarbie.
+Dialogue: 0,00:35:21.72,00:35:28.72,Default,,0,0,0,,Niektórzy ludzie naprawdę maja całkiem altruistyczne\nintencje, choc ty oczywiście w to nie wierzysz.
+Dialogue: 0,00:35:28.72,00:35:35.72,Default,,0,0,0,,Moja żona jest trochę nerwowa,\nale jesteśmy w szoku.
+Dialogue: 0,00:35:35.72,00:35:40.72,Default,,0,0,0,,Spójrzcie tylko jak pan inżynier\npróbuje swych sił z młodymi chłopcami.
+Dialogue: 0,00:35:40.72,00:35:51.72,Default,,0,0,0,,Jak napręża zwiotczałe mięśnie,\nby zrobić wrażenie na pięknej dziewczynie.
+Dialogue: 0,00:35:51.72,00:35:57.72,Default,,0,0,0,,Sten, kochanie!\nUważaj, abyś nie dostał krwotoku.
+Dialogue: 0,00:35:57.72,00:35:59.72,Default,,0,0,0,,Moja żona bardzo lubi\nośmieszać mnie przed innymi ludźmi.
+Dialogue: 0,00:35:59.72,00:37:06.72,Default,,0,0,0,,Pozwalam jej na to.\nTo psychoterapia.
+Dialogue: 0,00:37:06.72,00:37:12.72,Default,,0,0,0,,Nigdy nie wiem kiedy moja żona\nplacze naprawdę, a kiedy się zgrywa.
+Dialogue: 0,00:37:12.72,00:37:17.72,Default,,0,0,0,,Do diabła! Tym razem chyba naprawdę.
+Dialogue: 0,00:37:17.72,00:37:19.72,Default,,0,0,0,,Tak to bywa, gdy śmierć\nzajrzy ci w oczy.
+Dialogue: 0,00:37:19.72,00:37:22.72,Default,,0,0,0,,Czy mógłbyś się zamknąć?
+Dialogue: 0,00:37:22.72,00:37:25.72,Default,,0,0,0,,Moja żona ma rzadką zdolność\ndo wczuwania się w role.
+Dialogue: 0,00:37:25.72,00:37:29.72,Default,,0,0,0,,Dwa lata temu wmówiła mi,\nże jest chora na raka.
+Dialogue: 0,00:37:29.72,00:37:32.72,Default,,0,0,0,,Choć lekarze nic nie znaleźli,
+Dialogue: 0,00:37:32.72,00:37:35.72,Default,,0,0,0,,zamęczała wszystkich wszelkimi możliwymi\nopisami swojej choroby.
+Dialogue: 0,00:37:35.72,00:37:41.72,Default,,0,0,0,,Było to tak wiarygodne,\nże bardziej wierzyliśmy jej niż lekarzom!
+Dialogue: 0,00:37:41.72,00:37:44.72,Default,,0,0,0,,Mogę zrozumieć pańskie zdenerwowanie,
+Dialogue: 0,00:37:44.72,00:37:46.72,Default,,0,0,0,,ale czy nie mógłby pan na chwilę\nzostawić zony w spokoju?
+Dialogue: 0,00:37:46.72,00:37:49.72,Default,,0,0,0,,Kobietę zawsze wzruszają kobiece łzy.
+Dialogue: 0,00:37:49.72,00:37:53.72,Default,,0,0,0,,Ani myślę żartować!\nKobiece łzy są święte!
+Dialogue: 0,00:37:53.72,00:37:55.72,Default,,0,0,0,,Pani jest bardzo piękna,\na ja nawet nie wiem jak pani na imię.
+Dialogue: 0,00:37:55.72,00:37:58.72,Default,,0,0,0,,Berit zaczęła więdnąć,
+Dialogue: 0,00:37:58.72,00:38:00.72,Default,,0,0,0,,i dlatego może pani sobie pozwolić\nna jej obronę.
+Dialogue: 0,00:38:00.72,00:38:03.72,Default,,0,0,0,,Pan wybaczy, współczuję jej\nz wielu powodów.
+Dialogue: 0,00:38:03.72,00:38:06.72,Default,,0,0,0,,Bardzo sarkastyczna uwaga!
+Dialogue: 0,00:38:06.72,00:38:09.72,Default,,0,0,0,,Ale nie wygląda pani\nna histeryczkę.
+Dialogue: 0,00:38:09.72,00:38:12.72,Default,,0,0,0,,Berit zaś to arcyhisteryczka.
+Dialogue: 0,00:38:12.72,00:38:15.72,Default,,0,0,0,,Czy pani wie co to dla mnie znaczy?
+Dialogue: 0,00:38:15.72,00:38:17.72,Default,,0,0,0,,Pańska żona powiedziała,\nże jest pan katolikiem.
+Dialogue: 0,00:38:17.72,00:38:19.72,Default,,0,0,0,,Tak. To mój sposób przeżycia.
+Dialogue: 0,00:38:19.72,00:38:22.72,Default,,0,0,0,,Ja ośmieszam żonę,\na ona ośmiesza mnie.
+Dialogue: 0,00:38:22.72,00:38:24.72,Default,,0,0,0,,Ona ma swoją histerię,\na ja swój katolicyzm.
+Dialogue: 0,00:38:24.72,00:38:27.72,Default,,0,0,0,,Jesteśmy na siebie skazani.
+Dialogue: 0,00:38:27.72,00:38:41.72,Default,,0,0,0,,Jeżeli się dotąd nie pozabijaliśmy,\nto tylko z czystego egoizmu.
+Dialogue: 0,00:38:41.72,00:38:43.72,Default,,0,0,0,,To była seria!
+Dialogue: 0,00:38:43.72,00:38:48.72,Default,,0,0,0,,Można powiedzieć synkopa,\nprawda?
+Dialogue: 0,00:38:48.72,00:38:54.72,Default,,0,0,0,,Niesamowicie śmieszne.
+Dialogue: 0,00:38:54.72,00:38:58.72,Default,,0,0,0,,Gdybym miał stoper, to mógłbym wyliczyć\nten wybuch co do sekundy.
+Dialogue: 0,00:38:58.72,00:39:07.72,Default,,0,0,0,,Zamknij się! Zamknij się!
+Dialogue: 0,00:39:07.72,00:39:12.72,Default,,0,0,0,,Taka chwila prawdy\njest wam być może potrzebna,
+Dialogue: 0,00:39:12.72,00:39:25.72,Default,,0,0,0,,ale mamy w samochodzie młodzież,\na więc ze względu na nich proszę wysiąść.
+Dialogue: 0,00:39:25.72,00:39:58.72,Default,,0,0,0,,Wybaczcie nam, jeśli możecie.
+Dialogue: 0,00:39:58.72,00:40:03.72,Default,,0,0,0,,To nowe spotkanie z tą okolicą\nprzyjąłem z mieszanymi uczuciami.
+Dialogue: 0,00:40:03.72,00:40:06.72,Default,,0,0,0,,Po pierwsze dlatego,\nże właśnie tu rozpocząłem praktykę lekarską,
+Dialogue: 0,00:40:06.72,00:40:20.72,Default,,0,0,0,,a po drugie, tu nieopodal, w dużym domu\nmieszka moja stara matka.
+Dialogue: 0,00:40:20.72,00:40:24.72,Default,,0,0,0,,Dzień dobry, panie doktorze!
+Dialogue: 0,00:40:24.72,00:40:26.72,Default,,0,0,0,,Pan doktor wybrał się w podroż?
+Dialogue: 0,00:40:26.72,00:40:32.72,Default,,0,0,0,,Nalejemy do pełna?\nMa pan kluczyk?
+Dialogue: 0,00:40:32.72,00:40:37.72,Default,,0,0,0,,Ewa! Choć się przywitać!
+Dialogue: 0,00:40:37.72,00:40:41.72,Default,,0,0,0,,Pan doktor Borg we własnej osobie.
+Dialogue: 0,00:40:41.72,00:40:45.72,Default,,0,0,0,,Matka, ojciec i wszyscy ludzie tutaj\nnadal pana wspominają.
+Dialogue: 0,00:40:45.72,00:40:49.72,Default,,0,0,0,,Najlepszy lekarz na świecie.
+Dialogue: 0,00:40:49.72,00:40:53.72,Default,,0,0,0,,Proponuję abyśmy nowej latorośli\ndali imię na cześć doktora.
+Dialogue: 0,00:40:53.72,00:40:56.72,Default,,0,0,0,,Isak Akerman\n- to niezłe nazwisko dla przyszłego premiera.
+Dialogue: 0,00:40:56.72,00:40:58.72,Default,,0,0,0,,A jeśli będzie dziewczynka?
+Dialogue: 0,00:40:58.72,00:41:08.72,Default,,0,0,0,,Nam wychodzą tylko chłopaki.
+Dialogue: 0,00:41:08.72,00:41:11.72,Default,,0,0,0,,A jak się miewa ojciec?\nNadal boli go w krzyżu?
+Dialogue: 0,00:41:11.72,00:41:15.72,Default,,0,0,0,,Ostatnio mu się trochę pogorszyło,
+Dialogue: 0,00:41:15.72,00:41:19.72,Default,,0,0,0,,ale staruszka nadal jest nie do zdarcia.
+Dialogue: 0,00:41:19.72,00:41:22.72,Default,,0,0,0,,Oczywiście odwiedzi pan doktor swoją mamę?
+Dialogue: 0,00:41:22.72,00:41:26.72,Default,,0,0,0,,- Chyba tak.- To wspaniała dama,\nchoć musi mieć co najmniej 95 lat.
+Dialogue: 0,00:41:26.72,00:41:31.72,Default,,0,0,0,,- 96.\n- To jest wiek, słowo daję.
+Dialogue: 0,00:41:31.72,00:41:33.72,Default,,0,0,0,,Ile jestem ci winien?
+Dialogue: 0,00:41:33.72,00:41:36.72,Default,,0,0,0,,- Pozwoli pan że wpiszemy to na rachunek firmy!\n- Nie ma mowy!
+Dialogue: 0,00:41:36.72,00:41:38.72,Default,,0,0,0,,Proszę nam nie sprawiać przykrości.
+Dialogue: 0,00:41:38.72,00:41:40.72,Default,,0,0,0,,Choć mieszkamy w małej dziurze,\nstać nas przecież na gest.
+Dialogue: 0,00:41:40.72,00:41:45.72,Default,,0,0,0,,Nie ma żadnego powodu, abyście mieli płacić\nza moja benzynę. Doceniam uprzejmość ale...
+Dialogue: 0,00:41:45.72,00:41:48.72,Default,,0,0,0,,Panie doktorze,\npamięta się przecież pewne rzeczy.
+Dialogue: 0,00:41:48.72,00:41:50.72,Default,,0,0,0,,Są sprawy za które nie można zapłacić.\nNawet benzyną.
+Dialogue: 0,00:41:50.72,00:41:53.72,Default,,0,0,0,,Tak, niczego nie zapominamy.
+Dialogue: 0,00:41:53.72,00:41:57.72,Default,,0,0,0,,Kogokolwiek tu spytać,\nwszyscy pana pamiętają!
+Dialogue: 0,00:41:57.72,00:42:02.72,Default,,0,0,0,,I dobrze wiedzą co pan dla nich uczynił.
+Dialogue: 0,00:42:02.72,00:42:05.72,Default,,0,0,0,,Może powinienem był tu zostać...
+Dialogue: 0,00:42:05.72,00:42:07.72,Default,,0,0,0,,Nie rozumiem.
+Dialogue: 0,00:42:07.72,00:42:10.72,Default,,0,0,0,,Co takiego?\nCo powiedziałeś Henryku?
+Dialogue: 0,00:42:10.72,00:42:13.72,Default,,0,0,0,,To pan doktor powiedział,\nże powinien tu zostać.
+Dialogue: 0,00:42:13.72,00:42:15.72,Default,,0,0,0,,Tak powiedziałem?
+Dialogue: 0,00:42:15.72,00:42:20.72,Default,,0,0,0,,Być może...\nW każdym razie dziękuję.
+Dialogue: 0,00:42:20.72,00:42:25.72,Default,,0,0,0,,Zawiadomcie mnie tylko, a może przyjadę\ntrzymać małego Akermana do chrztu.
+Dialogue: 0,00:42:25.72,00:42:48.72,Default,,0,0,0,,Wiecie gdzie mieszkam.
+Dialogue: 0,00:42:48.72,00:42:53.72,Default,,0,0,0,,W trakcie lunchu, który był niezwykle udany\nwpadłem w doskonały humor
+Dialogue: 0,00:42:53.72,00:42:57.72,Default,,0,0,0,,i opowiadałem młodym o moich doświadczeniach\nprowincjonalnego lekarza.
+Dialogue: 0,00:42:57.72,00:43:00.72,Default,,0,0,0,,Z powodzeniem,
+Dialogue: 0,00:43:00.72,00:43:04.72,Default,,0,0,0,,ponieważ nie wydaje mi się,\naby śmiali się wyłącznie z grzeczności.
+Dialogue: 0,00:43:04.72,00:43:13.72,Default,,0,0,0,,Piłem zarówno wino do potraw,\njak i portwein do kawy.
+Dialogue: 0,00:43:13.72,00:43:19.72,Default,,0,0,0,,"O jeśli piękno widać\nw każdym przejawie stworzenia,
+Dialogue: 0,00:43:19.72,00:43:22.72,Default,,0,0,0,,jakże czyste musi być źródło,\nktóre je zrodziło!"
+Dialogue: 0,00:43:22.72,00:43:25.72,Default,,0,0,0,,Anders zostanie pastorem,\na Wiktor lekarzem.
+Dialogue: 0,00:43:25.72,00:43:27.72,Default,,0,0,0,,Przysięgliśmy sobie, że nie będziemy\ndyskutować w czasie podroży
+Dialogue: 0,00:43:27.72,00:43:31.72,Default,,0,0,0,,ani o Bogu ani o nauce.
+Dialogue: 0,00:43:31.72,00:43:33.72,Default,,0,0,0,,To było piękne!
+Dialogue: 0,00:43:33.72,00:43:37.72,Default,,0,0,0,,Trudno mi zrozumieć dlaczego nowoczesny człowiek\nmoże chcieć zostać pastorem!
+Dialogue: 0,00:43:37.72,00:43:42.72,Default,,0,0,0,,Przecież Anders nie jest wariatem!\nTwój racjonalizm jest bezsensownym mędrkowaniem.
+Dialogue: 0,00:43:42.72,00:43:43.72,Default,,0,0,0,,Ty nie jesteś idiotą, co?
+Dialogue: 0,00:43:43.72,00:43:47.72,Default,,0,0,0,,Uważam, że nowoczesny człowiek\nwinien gołym okiem dostrzegać swoja znikomość.
+Dialogue: 0,00:43:47.72,00:43:51.72,Default,,0,0,0,,Wierzyć tylko w siebie
+Dialogue: 0,00:43:51.72,00:43:52.72,Default,,0,0,0,,oraz w śmierć biologiczną.\nWszystko inne to bzdura.
+Dialogue: 0,00:43:52.72,00:43:55.72,Default,,0,0,0,,A ja uważam, że nowoczesny człowiek\nistnieje tylko w twojej wyobraźni,
+Dialogue: 0,00:43:55.72,00:43:59.72,Default,,0,0,0,,ponieważ człowiek ze strachem wypatruje\nswojej śmierci i nie znosi absurdu.
+Dialogue: 0,00:43:59.72,00:44:03.72,Default,,0,0,0,,Bynajmniej religia jest dla ludu.\nTo opium dla cierpiących, o to ci chyba chodzi?
+Dialogue: 0,00:44:03.72,00:44:05.72,Default,,0,0,0,,Czyż oni nie są wspaniali?
+Dialogue: 0,00:44:05.72,00:44:07.72,Default,,0,0,0,,Zawsze zgadzam się z tym,\nktóry mówi ostatni.
+Dialogue: 0,00:44:07.72,00:44:10.72,Default,,0,0,0,,Kiedy byłeś mały wierzyłeś w św. Mikołaja,\nteraz wierzysz w Boga.
+Dialogue: 0,00:44:10.72,00:44:14.72,Default,,0,0,0,,Zawsze cierpiałeś\nna zadziwiający brak fantazji!
+Dialogue: 0,00:44:14.72,00:44:16.72,Default,,0,0,0,,A co pan na to, profesorze?
+Dialogue: 0,00:44:16.72,00:44:22.72,Default,,0,0,0,,Cokolwiek wam powiem, drodzy chłopcy\nprzyjmiecie to z ironicznym pobłażaniem,
+Dialogue: 0,00:44:22.72,00:44:24.72,Default,,0,0,0,,dlatego milczę.
+Dialogue: 0,00:44:24.72,00:44:26.72,Default,,0,0,0,,Pomyśl jednak,\njacy oni będą wtedy nieszczęśliwi.
+Dialogue: 0,00:44:26.72,00:44:32.72,Default,,0,0,0,,Nie, Saro.\nBędą bardzo szczęśliwi.
+Dialogue: 0,00:44:32.72,00:44:35.72,Default,,0,0,0,,"Gdzież ten przyjaciel,\nco go szukam wszędzie?
+Dialogue: 0,00:44:35.72,00:44:41.72,Default,,0,0,0,,Świt to czas niepokoju i troski,
+Dialogue: 0,00:44:41.72,00:44:45.72,Default,,0,0,0,,a kiedy dzień wstaje, a kiedy...
+Dialogue: 0,00:44:45.72,00:44:49.72,Default,,0,0,0,,dzień wstaje,\nznów tęsknie za nim.
+Dialogue: 0,00:44:49.72,00:44:52.72,Default,,0,0,0,,i serce me płonie nieustannie.\nWidzę znak jego chwały!"
+Dialogue: 0,00:44:52.72,00:44:57.72,Default,,0,0,0,,Czy jest pan człowiekiem wierzącym, profesorze?
+Dialogue: 0,00:44:57.72,00:45:01.72,Default,,0,0,0,,"Widzę znak jego chwały i moc stworzenia
+Dialogue: 0,00:45:01.72,00:45:11.72,Default,,0,0,0,,w kształcie kłosa i w zapachu kwiatu
+Dialogue: 0,00:45:11.72,00:45:17.72,Default,,0,0,0,,w każdym mym ruchu i w każdym oddechu\nmiłość jego objawia się wszędzie,
+Dialogue: 0,00:45:17.72,00:45:20.72,Default,,0,0,0,,a głos jego w letnim słyszę powiewie..."
+Dialogue: 0,00:45:20.72,00:45:24.72,Default,,0,0,0,,Jako poemat miłosny to całkiem niezłe.
+Dialogue: 0,00:45:24.72,00:45:29.72,Default,,0,0,0,,Znowu spoważniałam.\nDzieje się tak ze mną ni stąd ni z owąd.
+Dialogue: 0,00:45:29.72,00:45:35.72,Default,,0,0,0,,Odwiedzę matkę. Mieszka w tej okolicy.\nNiebawem wrócę.
+Dialogue: 0,00:45:35.72,00:45:49.72,Default,,0,0,0,,- Mogłabym pojechać z tobą?\n- Ależ proszę! Do zobaczenia młodzi przyjaciele!
+Dialogue: 0,00:45:49.72,00:45:58.72,Default,,0,0,0,,Teraz na pewno nadciąga burza.
+Dialogue: 0,00:45:58.72,00:46:03.72,Default,,0,0,0,,wysłałam do ciebie telegram
+Dialogue: 0,00:46:03.72,00:46:06.72,Default,,0,0,0,,abyś wiedział, że jestem dziś myślami z tobą\nTo twój wielki dzień!
+Dialogue: 0,00:46:06.72,00:46:08.72,Default,,0,0,0,,A ty zjawiasz się u mnie.
+Dialogue: 0,00:46:08.72,00:46:14.72,Default,,0,0,0,,Tak, mamy swoje chwile radości,\ndroga mamo.
+Dialogue: 0,00:46:14.72,00:46:16.72,Default,,0,0,0,,Czy to twoja żona tam stoi?
+Dialogue: 0,00:46:16.72,00:46:20.72,Default,,0,0,0,,Poproś ją, aby opuściła ten pokój,\nnie chcę z nią rozmawiać.
+Dialogue: 0,00:46:20.72,00:46:23.72,Default,,0,0,0,,Wyrządziła nam zbyt wielką krzywdę.
+Dialogue: 0,00:46:23.72,00:46:25.72,Default,,0,0,0,,Kochana mamo, to nie Karin.
+Dialogue: 0,00:46:25.72,00:46:30.72,Default,,0,0,0,,To żona Ewalda,\nmoja synowa Marianna.
+Dialogue: 0,00:46:30.72,00:46:35.72,Default,,0,0,0,,To niech tu podejdzie\ni przywita się ze mną.
+Dialogue: 0,00:46:35.72,00:46:38.72,Default,,0,0,0,,Dzień dobry, pani Borg.
+Dialogue: 0,00:46:38.72,00:46:41.72,Default,,0,0,0,,Co ty właściwie porabiasz\ntak daleko od domu?
+Dialogue: 0,00:46:41.72,00:46:43.72,Default,,0,0,0,,Byłam z odwiedzinami w Sztokholmie.
+Dialogue: 0,00:46:43.72,00:46:48.72,Default,,0,0,0,,A czemu nie siedzisz w domu\nprzy Ewaldzie i dziecku?
+Dialogue: 0,00:46:48.72,00:46:51.72,Default,,0,0,0,,Nie mamy dziecka.
+Dialogue: 0,00:46:51.72,00:46:57.72,Default,,0,0,0,,Czy to nie dziwne co ci młodzi teraz wyprawiają?\nJa sama urodziłam dziesięcioro dzieci.
+Dialogue: 0,00:46:57.72,00:47:05.72,Default,,0,0,0,,Niech Marianna poda mi to duże pudło.
+Dialogue: 0,00:47:05.72,00:47:08.72,Default,,0,0,0,,Przede mną\nmieszkała w tym domu moja matka.
+Dialogue: 0,00:47:08.72,00:47:12.72,Default,,0,0,0,,Wy dzieci, często ją tu odwiedzałyście,\npamiętasz Isak?
+Dialogue: 0,00:47:12.72,00:47:14.72,Default,,0,0,0,,Bardzo dobrze pamiętam.
+Dialogue: 0,00:47:14.72,00:47:18.72,Default,,0,0,0,,W tym pudle zachowały się\nniektóre wasze zabawki.
+Dialogue: 0,00:47:18.72,00:47:23.72,Default,,0,0,0,,Często zastanawiałam się,\nktóra do kogo należała.
+Dialogue: 0,00:47:23.72,00:47:27.72,Default,,0,0,0,,Dziesięcioro dzieci,\ni tylko Isak został przy życiu.
+Dialogue: 0,00:47:27.72,00:47:29.72,Default,,0,0,0,,Dwadzieścioro wnucząt,
+Dialogue: 0,00:47:29.72,00:47:32.72,Default,,0,0,0,,i tylko Ewald odwiedza mnie raz do roku.
+Dialogue: 0,00:47:32.72,00:47:36.72,Default,,0,0,0,,Nie skarżę się, nie o to chodzi.
+Dialogue: 0,00:47:36.72,00:47:39.72,Default,,0,0,0,,Piętnaścioro prawnucząt,\nktórych nigdy nie widziałam.
+Dialogue: 0,00:47:39.72,00:47:45.72,Default,,0,0,0,,Co roku z okazji urodzin i różnych rocznic\nwysyłam 53 listy i prezenty.
+Dialogue: 0,00:47:45.72,00:47:51.72,Default,,0,0,0,,Otrzymuje uprzejme podziękowania,\nale nikt mnie nie odwiedza.
+Dialogue: 0,00:47:51.72,00:47:54.72,Default,,0,0,0,,Chyba tylko przypadkiem,\nalbo po pożyczkę.
+Dialogue: 0,00:47:54.72,00:47:58.72,Default,,0,0,0,,Tak, tak. Jestem męcząca.
+Dialogue: 0,00:47:58.72,00:48:00.72,Default,,0,0,0,,Nie mów tak droga mamo.
+Dialogue: 0,00:48:00.72,00:48:03.72,Default,,0,0,0,,I mam jeszcze jedna wadę.
+Dialogue: 0,00:48:03.72,00:48:05.72,Default,,0,0,0,,Nie umieram
+Dialogue: 0,00:48:05.72,00:48:09.72,Default,,0,0,0,,i nie zostawiam spadku
+Dialogue: 0,00:48:09.72,00:48:13.72,Default,,0,0,0,,zgodnie z kalkulacjami młodych,\nracjonalnych ludzi.
+Dialogue: 0,00:48:13.72,00:48:17.72,Default,,0,0,0,,Ta lalka była Sigbritty.
+Dialogue: 0,00:48:17.72,00:48:20.72,Default,,0,0,0,,Dostała ją na ósme urodziny.
+Dialogue: 0,00:48:20.72,00:48:23.72,Default,,0,0,0,,Sama uszyłam sukienkę,
+Dialogue: 0,00:48:23.72,00:48:25.72,Default,,0,0,0,,ale ona jej nie lubiła,
+Dialogue: 0,00:48:25.72,00:48:27.72,Default,,0,0,0,,więc wzięła ją Charlotta
+Dialogue: 0,00:48:27.72,00:48:32.72,Default,,0,0,0,,i ona opiekowała się lalką.\n- Dobrze to pamiętam.
+Dialogue: 0,00:48:32.72,00:48:34.72,Default,,0,0,0,,Poznajesz?
+Dialogue: 0,00:48:34.72,00:48:38.72,Default,,0,0,0,,To Zygfryd, kiedy miał trzy lata\ni ty kiedy miałeś pięć.
+Dialogue: 0,00:48:38.72,00:48:42.72,Default,,0,0,0,,A to ja.
+Dialogue: 0,00:48:42.72,00:48:45.72,Default,,0,0,0,,Mój boże, ale wyglądałam w tym czasie.
+Dialogue: 0,00:48:45.72,00:48:47.72,Default,,0,0,0,,Czy mogę dostać to zdjęcie?
+Dialogue: 0,00:48:47.72,00:48:51.72,Default,,0,0,0,,Oczywiście, że możesz.\nTo już tylko szpargał.
+Dialogue: 0,00:48:51.72,00:48:53.72,Default,,0,0,0,,A to zeszyt do rysunków.
+Dialogue: 0,00:48:53.72,00:48:58.72,Default,,0,0,0,,Chyba należał do bliźniaczek,\nalbo do Anny czy Angeliki.
+Dialogue: 0,00:48:58.72,00:49:02.72,Default,,0,0,0,,Już nie pamiętam,\nbo każda wydrukowała tu swoje imię.
+Dialogue: 0,00:49:02.72,00:49:04.72,Default,,0,0,0,,A Kristina nagryzmoliła:
+Dialogue: 0,00:49:04.72,00:49:10.72,Default,,0,0,0,,"Najbardziej ze wszystkich kocham tatusia."
+Dialogue: 0,00:49:10.72,00:49:16.72,Default,,0,0,0,,Zaś Brigitta dodała od siebie:\n"wyjdę za mąż za tatusia."
+Dialogue: 0,00:49:16.72,00:49:22.72,Default,,0,0,0,,Czy to nie zabawne?\nZawsze się śmieję kiedy to czytam.
+Dialogue: 0,00:49:22.72,00:49:26.72,Default,,0,0,0,,Czy tu nie za zimno?\nTen piec kiepsko grzeje.
+Dialogue: 0,00:49:26.72,00:49:29.72,Default,,0,0,0,,Nie, nie jest zbyt zimno.
+Dialogue: 0,00:49:29.72,00:49:32.72,Default,,0,0,0,,Jak tylko sięgam pamięcią, zawsze było mi zimno.\nOd czego to zależy? Jesteś w końcu lekarzem.
+Dialogue: 0,00:49:32.72,00:49:36.72,Default,,0,0,0,,Odczuwam zimno zwłaszcza w okolicach żołądka.
+Dialogue: 0,00:49:36.72,00:49:39.72,Default,,0,0,0,,Masz przecież niskie ciśnienie.
+Dialogue: 0,00:49:39.72,00:49:44.72,Default,,0,0,0,,Poproszę siostrę Elżbietę, żeby nam podała herbatę.\nSiądziemy i pogadamy.
+Dialogue: 0,00:49:44.72,00:49:51.72,Default,,0,0,0,,Nie, dziękuję mamo.\nNie chcemy ci sprawiać kłopotu.
+Dialogue: 0,00:49:51.72,00:49:54.72,Default,,0,0,0,,Spójrz, najstarszy syn Brigitty kończy 50 lat.
+Dialogue: 0,00:49:54.72,00:49:57.72,Default,,0,0,0,,Chciałabym mu podarować\nzłoty zegarek po moim ojcu.
+Dialogue: 0,00:49:57.72,00:50:11.72,Default,,0,0,0,,Czy to wypada,\nmimo że wskazówki odpadły?
+Dialogue: 0,00:50:11.72,00:50:16.72,Default,,0,0,0,,Pamiętam narodziny syna Brigitty...
+Dialogue: 0,00:50:16.72,00:50:21.72,Default,,0,0,0,,Kładłyśmy go do kosza wśród bzów\nprzy domku letniskowym,
+Dialogue: 0,00:50:21.72,00:50:25.72,Default,,0,0,0,,a teraz kończy 50 lat.
+Dialogue: 0,00:50:25.72,00:50:31.72,Default,,0,0,0,,Pamiętam też kuzynkę Sarę,\nciągle się przy nim krzątała i kołysała do snu.
+Dialogue: 0,00:50:31.72,00:50:35.72,Default,,0,0,0,,wyszła za tego nicponia Zygfryda.
+Dialogue: 0,00:50:35.72,00:50:40.72,Default,,0,0,0,,No cóż, nie chcę was dłużej zatrzymywać.\nMusicie tam być na czas.
+Dialogue: 0,00:50:40.72,00:50:45.72,Default,,0,0,0,,Bardzo dziękuję za odwiedziny\ni mam nadzieje, że się jeszcze kiedyś zobaczymy.
+Dialogue: 0,00:50:45.72,00:51:16.72,Default,,0,0,0,,Pozdrów ode mnie Ewalda.\nDo widzenia.
+Dialogue: 0,00:51:16.72,00:51:18.72,Default,,0,0,0,,A gdzie Anders i Wiktor?
+Dialogue: 0,00:51:18.72,00:51:21.72,Default,,0,0,0,,Po waszym odjeździe\nznowu zaczęli się kłócić o istnienie boga.
+Dialogue: 0,00:51:21.72,00:51:24.72,Default,,0,0,0,,W końcu wpadli w taką złość,\nże zaczęli głośno krzyczeć.
+Dialogue: 0,00:51:24.72,00:51:27.72,Default,,0,0,0,,Potem Anders chwycił Wiktora za rękę\ni próbował mu ją wykręcić,
+Dialogue: 0,00:51:27.72,00:51:32.72,Default,,0,0,0,,na co Wiktor odpowiedział,\nże to najwredniejszy argument na istnienie boga.
+Dialogue: 0,00:51:32.72,00:51:35.72,Default,,0,0,0,,Powiedziałam im aby dali spokój panu bogu\ni trochę zainteresowali się mną.
+Dialogue: 0,00:51:35.72,00:51:40.72,Default,,0,0,0,,Na co oni, żebym tyle nie paplała\nskoro nie rozumiem, że to dyskusja o pryncypiach.
+Dialogue: 0,00:51:40.72,00:51:42.72,Default,,0,0,0,,Zostawiłam ich,
+Dialogue: 0,00:51:42.72,00:51:46.72,Default,,0,0,0,,a oni pobiegli na dół porachować się,\nbo każdy uważał,
+Dialogue: 0,00:51:46.72,00:51:49.72,Default,,0,0,0,,że obrażono jego najgłębsze uczucia.\nA teraz będą się bili po pyskach.
+Dialogue: 0,00:51:49.72,00:51:55.72,Default,,0,0,0,,- Gdzie teraz są?\n- Tam na górze.
+Dialogue: 0,00:51:55.72,00:51:57.72,Default,,0,0,0,,Pójdę przywołać ich do porządku.
+Dialogue: 0,00:51:57.72,00:52:00.72,Default,,0,0,0,,Którego z nich bardziej lubisz?
+Dialogue: 0,00:52:00.72,00:52:02.72,Default,,0,0,0,,A ty?
+Dialogue: 0,00:52:02.72,00:52:06.72,Default,,0,0,0,,Sama nie wiem...\n- Anders zostanie pastorem.
+Dialogue: 0,00:52:06.72,00:52:08.72,Default,,0,0,0,,Jest bardzo ciepły i miły,
+Dialogue: 0,00:52:08.72,00:52:11.72,Default,,0,0,0,,ale być żoną pastora...?
+Dialogue: 0,00:52:11.72,00:52:14.72,Default,,0,0,0,,Natomiast Wiktor jest taki fajny...\nW inny sposób.
+Dialogue: 0,00:52:14.72,00:52:17.72,Default,,0,0,0,,I na pewno daleko zajdzie.\n- Co chcesz przez to powiedzieć?
+Dialogue: 0,00:52:17.72,00:52:23.72,Default,,0,0,0,,Lekarz zarabia więcej pieniędzy,\na pastor to bardzo staroświecki zawód.
+Dialogue: 0,00:52:23.72,00:52:28.72,Default,,0,0,0,,Ale on ma takie zgrabne nogi\ni cudowny kark...
+Dialogue: 0,00:52:28.72,00:52:43.72,Default,,0,0,0,,Ale jak można wierzyć w boga?
+Dialogue: 0,00:52:43.72,00:53:09.72,Default,,0,0,0,,I co? Jest bóg?
+Dialogue: 0,00:53:09.72,00:53:15.72,Default,,0,0,0,,Zasnąłem, ale w trakcie drzemki\nprześladowały mnie sny i obrazy,
+Dialogue: 0,00:53:15.72,00:53:21.72,Default,,0,0,0,,które wydawały się na wskroś\nrealne i upokarzające.
+Dialogue: 0,00:53:21.72,00:53:28.72,Default,,0,0,0,,Nie mogę również zaprzeczyć,\nże krył się w nich jakiś przymus,
+Dialogue: 0,00:53:28.72,00:53:45.72,Default,,0,0,0,,który drążył moją podświadomość\nz nieznośną premedytacją.
+Dialogue: 0,00:53:45.72,00:53:50.72,Default,,0,0,0,,Czy przejrzałeś się w lustrze, Isaku?
+Dialogue: 0,00:53:50.72,00:53:54.72,Default,,0,0,0,,Nie? Więc pokażę ci jak wyglądasz.
+Dialogue: 0,00:53:54.72,00:53:57.72,Default,,0,0,0,,Jesteś strwożonym starcem,\nktóry niebawem umrze.
+Dialogue: 0,00:53:57.72,00:54:01.72,Default,,0,0,0,,Ja zaś mam całe życie przed sobą.
+Dialogue: 0,00:54:01.72,00:54:05.72,Default,,0,0,0,,Obraziłeś się.
+Dialogue: 0,00:54:05.72,00:54:08.72,Default,,0,0,0,,Wcale się nie obraziłem.
+Dialogue: 0,00:54:08.72,00:54:14.72,Default,,0,0,0,,Ależ tak obraziłeś się,\nponieważ nie znosisz prawdy.
+Dialogue: 0,00:54:14.72,00:54:19.72,Default,,0,0,0,,A prawdą jest to,\nze byłam dla ciebie zbyt delikatna.
+Dialogue: 0,00:54:19.72,00:54:24.72,Default,,0,0,0,,Wtedy człowiek mimo woli\nstaje się okrutny.
+Dialogue: 0,00:54:24.72,00:54:25.72,Default,,0,0,0,,Rozumiem.
+Dialogue: 0,00:54:25.72,00:54:31.72,Default,,0,0,0,,Nie, nie rozumiesz.\nNie mówimy tym samym językiem.
+Dialogue: 0,00:54:31.72,00:54:33.72,Default,,0,0,0,,Zerknij jeszcze raz do lustra
+Dialogue: 0,00:54:33.72,00:54:36.72,Default,,0,0,0,,i nie odwracaj oczu.
+Dialogue: 0,00:54:36.72,00:54:38.72,Default,,0,0,0,,Patrzę.
+Dialogue: 0,00:54:38.72,00:54:41.72,Default,,0,0,0,,A teraz słuchaj.
+Dialogue: 0,00:54:41.72,00:54:45.72,Default,,0,0,0,,Wyjdę za twojego brata Zygfryda.
+Dialogue: 0,00:54:45.72,00:54:50.72,Default,,0,0,0,,Kochamy się trochę dla zabawy.
+Dialogue: 0,00:54:50.72,00:54:57.72,Default,,0,0,0,,Spójrz, jak się zmieniłeś na twarzy.\nSpróbuj się uśmiechnąć!
+Dialogue: 0,00:54:57.72,00:55:01.72,Default,,0,0,0,,O tak!\nTeraz się uśmiechasz.
+Dialogue: 0,00:55:01.72,00:55:04.72,Default,,0,0,0,,Ale to boli.
+Dialogue: 0,00:55:04.72,00:55:09.72,Default,,0,0,0,,Ty, emerytowany profesor,\npowinieneś wiedzieć, dlaczego to boli.
+Dialogue: 0,00:55:09.72,00:55:12.72,Default,,0,0,0,,Ale nie wiesz.
+Dialogue: 0,00:55:12.72,00:55:18.72,Default,,0,0,0,,Mimo, że wiesz tak dużo,\nwłaściwie nie wiesz nic.
+Dialogue: 0,00:55:18.72,00:55:19.72,Default,,0,0,0,,Muszę iść.
+Dialogue: 0,00:55:19.72,00:55:52.72,Default,,0,0,0,,Przyrzekłam Brigittcie zaopiekować się\njej synkiem, żeby nie płakał.
+Dialogue: 0,00:55:52.72,00:55:55.72,Default,,0,0,0,,Śpij spokojnie,
+Dialogue: 0,00:55:55.72,00:55:59.72,Default,,0,0,0,,mój biedny maleńki.
+Dialogue: 0,00:55:59.72,00:56:01.72,Default,,0,0,0,,Nie bój się wiatru.
+Dialogue: 0,00:56:01.72,00:56:07.72,Default,,0,0,0,,Nie bój się ptaków, ani kawek ani mew
+Dialogue: 0,00:56:07.72,00:56:11.72,Default,,0,0,0,,Nie bój się fal na morzu.
+Dialogue: 0,00:56:11.72,00:56:14.72,Default,,0,0,0,,Jestem przy tobie,\ntulę cię mocno.
+Dialogue: 0,00:56:14.72,00:56:18.72,Default,,0,0,0,,Nie bój się, maleńki.
+Dialogue: 0,00:56:18.72,00:56:21.72,Default,,0,0,0,,Wkrótce wstanie nowy dzień.
+Dialogue: 0,00:56:21.72,00:56:23.72,Default,,0,0,0,,Nikt ci nie zrobi krzywdy.
+Dialogue: 0,00:56:23.72,00:59:35.72,Default,,0,0,0,,Jestem przy tobie\ni mocno cię przytulam.
+Dialogue: 0,00:59:35.72,01:00:55.72,Default,,0,0,0,,Proszę wejść, profesorze Borg.
+Dialogue: 0,01:00:55.72,01:00:57.72,Default,,0,0,0,,Niech pan siada.\nMa pan indeks?
+Dialogue: 0,01:00:57.72,01:00:59.72,Default,,0,0,0,,Oczywiście, proszę.
+Dialogue: 0,01:00:59.72,01:01:04.72,Default,,0,0,0,,Dziękuję.
+Dialogue: 0,01:01:04.72,01:01:20.72,Default,,0,0,0,,Proszę określić\ntę kulturę bakterii pod mikroskopem.
+Dialogue: 0,01:01:20.72,01:01:26.72,Default,,0,0,0,,Ten mikroskop jest chyba zepsuty.
+Dialogue: 0,01:01:26.72,01:01:28.72,Default,,0,0,0,,Mikroskop jest w porządku.
+Dialogue: 0,01:01:28.72,01:01:32.72,Default,,0,0,0,,Nic nie mogę dojrzeć.
+Dialogue: 0,01:01:32.72,01:01:49.72,Default,,0,0,0,,Ach tak?\nWobec tego proszę przeczytać ten tekst.
+Dialogue: 0,01:01:49.72,01:01:53.72,Default,,0,0,0,,Co to znaczy?
+Dialogue: 0,01:01:53.72,01:01:56.72,Default,,0,0,0,,Nie wiem.
+Dialogue: 0,01:01:56.72,01:01:57.72,Default,,0,0,0,,Naprawdę?
+Dialogue: 0,01:01:57.72,01:02:02.72,Default,,0,0,0,,Jestem lekarzem,\nnie językoznawcą.
+Dialogue: 0,01:02:02.72,01:02:09.72,Default,,0,0,0,,Pozwoli pan profesorze Borg, na tej tablicy\njest zapisany pierwszy obowiązek lekarza.
+Dialogue: 0,01:02:09.72,01:02:15.72,Default,,0,0,0,,A w ogóle to wie pan co jest\npierwszym obowiązkiem lekarza?
+Dialogue: 0,01:02:15.72,01:02:17.72,Default,,0,0,0,,Tak, jeśli będę się mógł zastanowić.
+Dialogue: 0,01:02:17.72,01:02:20.72,Default,,0,0,0,,Bardzo proszę.
+Dialogue: 0,01:02:20.72,01:02:25.72,Default,,0,0,0,,Pierwszym obowiązkiem lekarza...
+Dialogue: 0,01:02:25.72,01:02:28.72,Default,,0,0,0,,Pierwszym obowiązkiem lekarza...
+Dialogue: 0,01:02:28.72,01:02:30.72,Default,,0,0,0,,Chyba zapomniałem.
+Dialogue: 0,01:02:30.72,01:02:35.72,Default,,0,0,0,,Pierwszym obowiązkiem lekarza\njest prosić o przebaczenie.
+Dialogue: 0,01:02:35.72,01:02:51.72,Default,,0,0,0,,Tak oczywiście, pamiętam!
+Dialogue: 0,01:02:51.72,01:02:57.72,Default,,0,0,0,,- Nadal ponosi pan winę.\n-Jaką winę?
+Dialogue: 0,01:02:57.72,01:03:03.72,Default,,0,0,0,,Notuję sobie,\nże nie zrozumiał pan oskarżenia.
+Dialogue: 0,01:03:03.72,01:03:06.72,Default,,0,0,0,,Czy to mnie obciąża?
+Dialogue: 0,01:03:06.72,01:03:20.72,Default,,0,0,0,,Niestety tak, panie profesorze.
+Dialogue: 0,01:03:20.72,01:03:21.72,Default,,0,0,0,,Mam chore serce.
+Dialogue: 0,01:03:21.72,01:03:24.72,Default,,0,0,0,,Jestem starym człowiekiem.
+Dialogue: 0,01:03:24.72,01:03:27.72,Default,,0,0,0,,Inżynierze Alman,\nzasługuje na szacunek...
+Dialogue: 0,01:03:27.72,01:03:30.72,Default,,0,0,0,,W tych papierach nie ma nic\nna temat pańskiego serca.
+Dialogue: 0,01:03:30.72,01:03:32.72,Default,,0,0,0,,Może chce pan przerwać egzamin?
+Dialogue: 0,01:03:32.72,01:03:41.72,Default,,0,0,0,,Nie, na miłość boską!
+Dialogue: 0,01:03:41.72,01:03:58.72,Default,,0,0,0,,Proszę zbadać te pacjentkę\ni postawić diagnozę.
+Dialogue: 0,01:03:58.72,01:04:23.72,Default,,0,0,0,,Przecież ona nie żyje.
+Dialogue: 0,01:04:23.72,01:04:26.72,Default,,0,0,0,,Można wiedzieć co pan tam pisze?
+Dialogue: 0,01:04:26.72,01:04:29.72,Default,,0,0,0,,- Ocenę.\n- I jak ona brzmi?
+Dialogue: 0,01:04:29.72,01:04:31.72,Default,,0,0,0,,Że jest pan niekompetentny.
+Dialogue: 0,01:04:31.72,01:04:34.72,Default,,0,0,0,,Niekompetentny....
+Dialogue: 0,01:04:34.72,01:04:37.72,Default,,0,0,0,,Poza tym profesorze Borg,\noskarża się pana
+Dialogue: 0,01:04:37.72,01:04:40.72,Default,,0,0,0,,o kilka pomniejszych,\nale równie poważnych wykroczeń.
+Dialogue: 0,01:04:40.72,01:04:46.72,Default,,0,0,0,,Nieczułość, egoizm, bezwzględność...
+Dialogue: 0,01:04:46.72,01:04:49.72,Default,,0,0,0,,Te oskarżenia wniosła pańska zona.
+Dialogue: 0,01:04:49.72,01:04:51.72,Default,,0,0,0,,Skonfrontujemy pana z nią.
+Dialogue: 0,01:04:51.72,01:04:54.72,Default,,0,0,0,,Ale moja żona od wielu lat nie żyje!
+Dialogue: 0,01:04:54.72,01:04:58.72,Default,,0,0,0,,Pan myśli że żartuję?
+Dialogue: 0,01:04:58.72,01:05:01.72,Default,,0,0,0,,Zechce pan pójść dobrowolnie.
+Dialogue: 0,01:05:01.72,01:07:24.72,Default,,0,0,0,,Nie ma pan zresztą wyboru.\nProszę.
+Dialogue: 0,01:07:24.72,01:07:27.72,Default,,0,0,0,,Tylu ludzi zapomina o kobiecie,\nktóra zmarła przed 30 laty.
+Dialogue: 0,01:07:27.72,01:07:31.72,Default,,0,0,0,,Niektórzy zachowują miły\ni coraz bardziej wyblakły jej obraz,
+Dialogue: 0,01:07:31.72,01:07:37.72,Default,,0,0,0,,Pan jednak zapamiętał właśnie te scenę.\nTo dziwne prawda?
+Dialogue: 0,01:07:37.72,01:07:41.72,Default,,0,0,0,,Wtorek, 1-go maja, 1916 roku.
+Dialogue: 0,01:07:41.72,01:07:43.72,Default,,0,0,0,,Pan stał właśnie w tym miejscu
+Dialogue: 0,01:07:43.72,01:08:02.72,Default,,0,0,0,,i dokładnie słyszał i widział\nco ci dwoje mówili i robili.
+Dialogue: 0,01:08:02.72,01:08:07.72,Default,,0,0,0,,Pójdę teraz do domu i powiem o tym Isakowi\nnawet dokładnie wiem jak on na to zareaguje:
+Dialogue: 0,01:08:07.72,01:08:12.72,Default,,0,0,0,,"Moje małe biedactwo,\njakże mi cię żal."
+Dialogue: 0,01:08:12.72,01:08:16.72,Default,,0,0,0,,Jakby był panem bogiem....
+Dialogue: 0,01:08:16.72,01:08:23.72,Default,,0,0,0,,Potem wybuchnę płaczem i powiem\n"czy naprawdę trochę mi współczujesz?"
+Dialogue: 0,01:08:23.72,01:08:28.72,Default,,0,0,0,,A on powie:\n" Współczuję ci bezgranicznie."
+Dialogue: 0,01:08:28.72,01:08:32.72,Default,,0,0,0,,A ja rozpłaczę się jeszcze bardziej i spytam\nczy może mi wybaczyć.
+Dialogue: 0,01:08:32.72,01:08:33.72,Default,,0,0,0,,Wtedy on powie,
+Dialogue: 0,01:08:33.72,01:08:41.72,Default,,0,0,0,,"nie musisz mnie prosić o wybaczenie\nnie mam ci nic do wybaczania."
+Dialogue: 0,01:08:41.72,01:08:46.72,Default,,0,0,0,,Ale on jest nieszczery\nw tym wszystkim co mówi,
+Dialogue: 0,01:08:46.72,01:08:50.72,Default,,0,0,0,,bo jest zimny jak głaz.
+Dialogue: 0,01:08:50.72,01:08:54.72,Default,,0,0,0,,Zrobi się nagle bardzo czuły,
+Dialogue: 0,01:08:54.72,01:08:59.72,Default,,0,0,0,,a ja zacznę krzyczeć,\nże chyba zwariował,
+Dialogue: 0,01:08:59.72,01:09:03.72,Default,,0,0,0,,że taka fałszywa szlachetność\nprzyprawia mnie o mdłości.
+Dialogue: 0,01:09:03.72,01:09:06.72,Default,,0,0,0,,Potem on będzie chciał\nprzynieść mi coś na uspokojenie
+Dialogue: 0,01:09:06.72,01:09:11.72,Default,,0,0,0,,i powie, że doskonale wszystko rozumie.
+Dialogue: 0,01:09:11.72,01:09:15.72,Default,,0,0,0,,Powiem, że to wszystko jego wina\nbo jestem taka jaka jestem.
+Dialogue: 0,01:09:15.72,01:09:21.72,Default,,0,0,0,,Na co on się bardzo zasmuci\ni powie że to jego wina.
+Dialogue: 0,01:09:21.72,01:09:24.72,Default,,0,0,0,,W gruncie rzeczy nic go to nie obchodzi
+Dialogue: 0,01:09:24.72,01:09:50.72,Default,,0,0,0,,bo jest zimny jak głaz.
+Dialogue: 0,01:09:50.72,01:09:52.72,Default,,0,0,0,,Co się z nią stało?
+Dialogue: 0,01:09:52.72,01:09:56.72,Default,,0,0,0,,Dobrze pan wie.\nPoszła sobie, wszyscy sobie poszli.
+Dialogue: 0,01:09:56.72,01:10:01.72,Default,,0,0,0,,Słyszy pan jak tu cicho? wszystko\nzostało usunięte podczas operacji, profesorze.
+Dialogue: 0,01:10:01.72,01:10:04.72,Default,,0,0,0,,Chirurgiczny majstersztyk.
+Dialogue: 0,01:10:04.72,01:10:07.72,Default,,0,0,0,,Bez bólu, bez krwi, bez drgawek.
+Dialogue: 0,01:10:07.72,01:10:10.72,Default,,0,0,0,,Naprawdę jest cicho.
+Dialogue: 0,01:10:10.72,01:10:14.72,Default,,0,0,0,,Doskonałe osiągnięcie\nw swoim rodzaju, profesorze.
+Dialogue: 0,01:10:14.72,01:10:16.72,Default,,0,0,0,,A jaka będzie kara?
+Dialogue: 0,01:10:16.72,01:10:20.72,Default,,0,0,0,,Kara? Nie wiem.\nChyba stara, jak zwykle stara...
+Dialogue: 0,01:10:20.72,01:10:21.72,Default,,0,0,0,,Jak zwykle?
+Dialogue: 0,01:10:21.72,01:10:23.72,Default,,0,0,0,,Tak, samotność.
+Dialogue: 0,01:10:23.72,01:10:26.72,Default,,0,0,0,,Samotność?
+Dialogue: 0,01:10:26.72,01:10:29.72,Default,,0,0,0,,Tak jest, samotność.
+Dialogue: 0,01:10:29.72,01:10:32.72,Default,,0,0,0,,Bez cienia łaski?
+Dialogue: 0,01:10:32.72,01:10:55.72,Default,,0,0,0,,Proszę mnie o to nie pytać.\nNic nie wiem o takich sprawach.
+Dialogue: 0,01:10:55.72,01:10:58.72,Default,,0,0,0,,Co się stało?
+Dialogue: 0,01:10:58.72,01:11:01.72,Default,,0,0,0,,Dzieciaki wysiadły na chwilę,\naby rozprostować nogi.
+Dialogue: 0,01:11:01.72,01:11:04.72,Default,,0,0,0,,Ciągle pada.
+Dialogue: 0,01:11:04.72,01:11:08.72,Default,,0,0,0,,Powiedziałam im o dzisiejszej uroczystości,\nwięc uparli się, że złożą ci hołd.
+Dialogue: 0,01:11:08.72,01:11:09.72,Default,,0,0,0,,O boże!
+Dialogue: 0,01:11:09.72,01:11:11.72,Default,,0,0,0,,Dobrze ci się spało?
+Dialogue: 0,01:11:11.72,01:11:13.72,Default,,0,0,0,,Tak, choć dręczyły mnie sny.
+Dialogue: 0,01:11:13.72,01:11:19.72,Default,,0,0,0,,Wyobraź sobie, w ostatnich miesiącach miałem\nniezwykle dziwne sny. To bardzo śmieszne.
+Dialogue: 0,01:11:19.72,01:11:21.72,Default,,0,0,0,,Co w tym śmiesznego?
+Dialogue: 0,01:11:21.72,01:11:26.72,Default,,0,0,0,,To tak jak bym samemu sobie chciał powiedzieć coś,\nczego nie chciałbym usłyszeć po przebudzeniu.
+Dialogue: 0,01:11:26.72,01:11:28.72,Default,,0,0,0,,Co takiego?
+Dialogue: 0,01:11:28.72,01:11:32.72,Default,,0,0,0,,Że jestem martwy,\nchociaż żyję.
+Dialogue: 0,01:11:32.72,01:11:36.72,Default,,0,0,0,,Czy wiesz, że jesteście z Ewaldem\nbardzo do siebie podobni?
+Dialogue: 0,01:11:36.72,01:11:38.72,Default,,0,0,0,,Już mi to mówiłaś.
+Dialogue: 0,01:11:38.72,01:11:40.72,Default,,0,0,0,,Czy wiesz, że Ewald\npowiedział mi dokładnie to samo?
+Dialogue: 0,01:11:40.72,01:11:43.72,Default,,0,0,0,,O mnie?
+Dialogue: 0,01:11:43.72,01:11:44.72,Default,,0,0,0,,Nie. O sobie.
+Dialogue: 0,01:11:44.72,01:11:48.72,Default,,0,0,0,,Ależ on ma dopiero 38 lat.
+Dialogue: 0,01:11:48.72,01:11:51.72,Default,,0,0,0,,Mogę ci to wszystko opowiedzieć,\nchyba że cię to znudzi.
+Dialogue: 0,01:11:51.72,01:11:57.72,Default,,0,0,0,,Nie. Będę ci za to bardzo wdzięczny.
+Dialogue: 0,01:11:57.72,01:12:01.72,Default,,0,0,0,,Było to parę miesięcy temu.\nPragnęłam porozmawiać z Ewaldem,
+Dialogue: 0,01:12:01.72,01:12:03.72,Default,,0,0,0,,więc pojechaliśmy samochodem nad morze.
+Dialogue: 0,01:12:03.72,01:12:09.72,Default,,0,0,0,,Padał deszcz, tak jak teraz.\nEwald siedział tam gdzie ty.
+Dialogue: 0,01:12:09.72,01:12:14.72,Default,,0,0,0,,A więc zastawiłaś na mnie pułapkę.\nCo chcesz mi powiedzieć?
+Dialogue: 0,01:12:14.72,01:12:18.72,Default,,0,0,0,,Oczywiście coś nieprzyjemnego.
+Dialogue: 0,01:12:18.72,01:12:20.72,Default,,0,0,0,,Pragnęłabym nigdy o tym nie rozmawiać.
+Dialogue: 0,01:12:20.72,01:12:23.72,Default,,0,0,0,,Rozumiem.\nZnalazłaś sobie kogoś innego.
+Dialogue: 0,01:12:23.72,01:12:25.72,Default,,0,0,0,,Nie bądź dziecinny...
+Dialogue: 0,01:12:25.72,01:12:29.72,Default,,0,0,0,,Przychodzisz i oznajmiasz mi grobowym głosem,\nże chcesz ze mną porozmawiać.
+Dialogue: 0,01:12:29.72,01:12:33.72,Default,,0,0,0,,Bierzemy samochód i jedziemy nad morze.\nPada a ty jakoś nie możesz zacząć.
+Dialogue: 0,01:12:33.72,01:12:36.72,Default,,0,0,0,,Na miłość boską, wyrzuć to z siebie!
+Dialogue: 0,01:12:36.72,01:12:39.72,Default,,0,0,0,,To najlepsza chwila do najintymniejszych zwierzeń.\nNie trzymaj mnie w niepewności!
+Dialogue: 0,01:12:39.72,01:12:41.72,Default,,0,0,0,,Zaraz pęknę ze śmiechu.
+Dialogue: 0,01:12:41.72,01:12:43.72,Default,,0,0,0,,Co ty sobie właściwie wyobrażasz?
+Dialogue: 0,01:12:43.72,01:12:47.72,Default,,0,0,0,,Że zamordowałam kogoś\nalbo że dokonałam defraudacji?
+Dialogue: 0,01:12:47.72,01:12:52.72,Default,,0,0,0,,Jestem w ciąży.
+Dialogue: 0,01:12:52.72,01:12:54.72,Default,,0,0,0,,Jesteś tego pewna?
+Dialogue: 0,01:12:54.72,01:12:56.72,Default,,0,0,0,,Wczoraj dostałam wyniki badań.
+Dialogue: 0,01:12:56.72,01:13:01.72,Default,,0,0,0,,Więc to był ten sekret.
+Dialogue: 0,01:13:01.72,01:13:07.72,Default,,0,0,0,,I jedno muszę ci powiedzieć:\nchcę mieć to dziecko!
+Dialogue: 0,01:13:07.72,01:13:26.72,Default,,0,0,0,,- Oto jasne postawienie sprawy.\n- Oczywiście.
+Dialogue: 0,01:13:26.72,01:13:28.72,Default,,0,0,0,,Wiesz, że nie chcę mieć dzieci.
+Dialogue: 0,01:13:28.72,01:13:31.72,Default,,0,0,0,,Wiesz dobrze i to, że teraz musisz wybierać\nmiędzy mną a dzieckiem.
+Dialogue: 0,01:13:31.72,01:13:34.72,Default,,0,0,0,,- Biedaku.\n- Tylko mnie nie żałuj!
+Dialogue: 0,01:13:34.72,01:13:36.72,Default,,0,0,0,,Wystarczającym absurdem jest już\ni tak życie na tym świecie.
+Dialogue: 0,01:13:36.72,01:13:38.72,Default,,0,0,0,,Jeszcze większym,\nzaludnianie go nowymi ofiarami.
+Dialogue: 0,01:13:38.72,01:13:41.72,Default,,0,0,0,,A największym -\nwiara, że będzie im lepiej niż nam.
+Dialogue: 0,01:13:41.72,01:13:45.72,Default,,0,0,0,,- To wykręt.\n- Nazwij to jak chcesz.
+Dialogue: 0,01:13:45.72,01:13:50.72,Default,,0,0,0,,Sam byłem dzieckiem niechcianym w małżeństwie\nprzypominającym zimne odbicie piekła.
+Dialogue: 0,01:13:50.72,01:13:53.72,Default,,0,0,0,,Czy ten ramol ma pewność,\nże jestem jego synem?
+Dialogue: 0,01:13:53.72,01:13:56.72,Default,,0,0,0,,To wszystko jest bardzo wzruszające, ale to jeszcze nie powód,\nżebyś zachowywał się jak szczeniak.
+Dialogue: 0,01:13:56.72,01:13:58.72,Default,,0,0,0,,W szpitalu muszę być o 3,
+Dialogue: 0,01:13:58.72,01:14:03.72,Default,,0,0,0,,więc nie mam ani czasu, ani ochoty\ndłużej z tobą o tym dyskutować.
+Dialogue: 0,01:14:03.72,01:14:05.72,Default,,0,0,0,,Jesteś tchórzem.
+Dialogue: 0,01:14:05.72,01:14:07.72,Default,,0,0,0,,Tak, jestem.
+Dialogue: 0,01:14:07.72,01:14:10.72,Default,,0,0,0,,To życie przyprawia mnie o mdłości.
+Dialogue: 0,01:14:10.72,01:14:11.72,Default,,0,0,0,,Ani myślę podejmować zobowiązań,
+Dialogue: 0,01:14:11.72,01:14:14.72,Default,,0,0,0,,które by mnie zmuszały żyć choć o jeden dzień dłużej\nniż sam tego pragnę.
+Dialogue: 0,01:14:14.72,01:14:16.72,Default,,0,0,0,,Dobrze o tym wiesz.
+Dialogue: 0,01:14:16.72,01:14:32.72,Default,,0,0,0,,Wiesz również, że nie żartuję i że nie ma w tym\nżadnej histerii, jak ci się na początku wydawało.
+Dialogue: 0,01:14:32.72,01:14:34.72,Default,,0,0,0,,wiem, że to błąd.
+Dialogue: 0,01:14:34.72,01:14:36.72,Default,,0,0,0,,Z twojej strony nie istnieje nic takiego\nco by się nazywało racją lub błędem.
+Dialogue: 0,01:14:36.72,01:14:40.72,Default,,0,0,0,,Działamy zgodnie z naszymi potrzebami.
+Dialogue: 0,01:14:40.72,01:14:42.72,Default,,0,0,0,,A jakie są te nasze potrzeby?
+Dialogue: 0,01:14:42.72,01:14:47.72,Default,,0,0,0,,Ty masz w sobie tę cholerną potrzebę życia\ni powoływania do życia.
+Dialogue: 0,01:14:47.72,01:14:49.72,Default,,0,0,0,,A ty?
+Dialogue: 0,01:14:49.72,01:15:06.72,Default,,0,0,0,,Ja chcę być martwy. Całkowicie martwy.\nBez najmniejszego ruchu.
+Dialogue: 0,01:15:06.72,01:15:14.72,Default,,0,0,0,,Zapal sobie, jeżeli masz ochotę.
+Dialogue: 0,01:15:14.72,01:15:19.72,Default,,0,0,0,,Dlaczego mi to wszystko opowiedziałaś?
+Dialogue: 0,01:15:19.72,01:15:27.72,Default,,0,0,0,,Gdy zobaczyłam cię z matką,\nto opanował mnie dziki strach.
+Dialogue: 0,01:15:27.72,01:15:31.72,Default,,0,0,0,,Nie rozumiem.
+Dialogue: 0,01:15:31.72,01:15:36.72,Default,,0,0,0,,Pomyślałam sobie: Oto jego matka.
+Dialogue: 0,01:15:36.72,01:15:41.72,Default,,0,0,0,,Pramatka rodu.\nZimna jak lód.
+Dialogue: 0,01:15:41.72,01:15:46.72,Default,,0,0,0,,W pewnym sensie bardziej\nprzerażająca niż śmierć.
+Dialogue: 0,01:15:46.72,01:15:48.72,Default,,0,0,0,,A oto jej syn,
+Dialogue: 0,01:15:48.72,01:15:53.72,Default,,0,0,0,,oddalony od niej o całe lata świetlne.
+Dialogue: 0,01:15:53.72,01:15:57.72,Default,,0,0,0,,Sam mówi o sobie,\nże jest martwy za życia.
+Dialogue: 0,01:15:57.72,01:16:04.72,Default,,0,0,0,,I Ewald, który stoi już na krawędzi\nsamotności chłodu i śmierci.
+Dialogue: 0,01:16:04.72,01:16:08.72,Default,,0,0,0,,A potem pomyślałam o dziecku,\nktóre noszę pod sercem.
+Dialogue: 0,01:16:08.72,01:16:13.72,Default,,0,0,0,,Pomyślałam, że tu nie ma nic oprócz\nchłodu i śmierci,
+Dialogue: 0,01:16:13.72,01:16:17.72,Default,,0,0,0,,śmierci i samotności.
+Dialogue: 0,01:16:17.72,01:16:20.72,Default,,0,0,0,,I że wreszcie kiedyś musi się to skończyć.
+Dialogue: 0,01:16:20.72,01:16:24.72,Default,,0,0,0,,Ale przecież wracasz do Ewalda!
+Dialogue: 0,01:16:24.72,01:16:28.72,Default,,0,0,0,,Tak. Aby mu powiedzieć,\nże nie przyjmuję jego warunków.
+Dialogue: 0,01:16:28.72,01:16:32.72,Default,,0,0,0,,Chcę tego dziecka.\nNikt mi nie może go zabrać.
+Dialogue: 0,01:16:32.72,01:16:38.72,Default,,0,0,0,,Nawet ten, którego kocham najbardziej.
+Dialogue: 0,01:16:38.72,01:16:40.72,Default,,0,0,0,,Czy mogę ci jakoś pomóc?
+Dialogue: 0,01:16:40.72,01:16:43.72,Default,,0,0,0,,Nikt mi nie może pomóc.
+Dialogue: 0,01:16:43.72,01:16:47.72,Default,,0,0,0,,Mam już swoje lata ojcze,\na sprawy zaszły za daleko.
+Dialogue: 0,01:16:47.72,01:16:50.72,Default,,0,0,0,,A co się stało\npo tej rozmowie w samochodzie?
+Dialogue: 0,01:16:50.72,01:16:53.72,Default,,0,0,0,,Nic.\nOpuściłam go następnego dnia.
+Dialogue: 0,01:16:53.72,01:16:57.72,Default,,0,0,0,,I nie odezwał się przez ten czas?
+Dialogue: 0,01:16:57.72,01:17:00.72,Default,,0,0,0,,Nie chcę, aby moje życie z Ewaldem\nstało się takie jak...
+Dialogue: 0,01:17:00.72,01:17:03.72,Default,,0,0,0,,Co masz na myśli?
+Dialogue: 0,01:17:03.72,01:17:06.72,Default,,0,0,0,,Życie tych dwojga nieszczęśników,\nktórych wyprosiłam z samochodu.
+Dialogue: 0,01:17:06.72,01:17:08.72,Default,,0,0,0,,Jak też oni się nazywali...
+Dialogue: 0,01:17:08.72,01:17:11.72,Default,,0,0,0,,Almanowie, właśnie o nich myślałem.
+Dialogue: 0,01:17:11.72,01:17:15.72,Default,,0,0,0,,Przypomnieli mi moje własne małżeństwo.
+Dialogue: 0,01:17:15.72,01:17:17.72,Default,,0,0,0,,My się jednak kochamy!
+Dialogue: 0,01:17:17.72,01:17:20.72,Default,,0,0,0,,Niech długo żyje!\nNiech długo żyje!
+Dialogue: 0,01:17:20.72,01:17:25.72,Default,,0,0,0,,Niech dożyje stu lat!
+Dialogue: 0,01:17:25.72,01:17:28.72,Default,,0,0,0,,Dowiedzieliśmy się, że dziś pańskie święto.\nChcemy więc wręczyć panu,
+Dialogue: 0,01:17:28.72,01:17:31.72,Default,,0,0,0,,wraz z wyrazami szacunku\nte oto skromne kwiaty.
+Dialogue: 0,01:17:31.72,01:17:34.72,Default,,0,0,0,,Pragniemy też powiedzieć,\nże wywarł pan na nas głębokie wrażenie,
+Dialogue: 0,01:17:34.72,01:17:37.72,Default,,0,0,0,,Bo ma pan już tyle lat\ni przez pół wieku był pan lekarzem.
+Dialogue: 0,01:17:37.72,01:17:41.72,Default,,0,0,0,,Wiemy również, że jest pan\nmądrym i czcigodnym staruszkiem,
+Dialogue: 0,01:17:41.72,01:17:44.72,Default,,0,0,0,,który wszystko wie o życiu
+Dialogue: 0,01:17:44.72,01:17:51.72,Default,,0,0,0,,i zna na pamięć wszelkie życiowe mądrości.
+Dialogue: 0,01:17:51.72,01:17:55.72,Default,,0,0,0,,Bardzo dziękuję,
+Dialogue: 0,01:17:55.72,01:18:27.72,Default,,0,0,0,,ale musimy jechać dalej.\nRobi się późno.
+Dialogue: 0,01:18:27.72,01:18:32.72,Default,,0,0,0,,No wreszcie pan przyjechał!\nStraciliśmy już z Ewaldem nadzieję.
+Dialogue: 0,01:18:32.72,01:18:35.72,Default,,0,0,0,,To praktycznie i wygodnie\npodróżować samochodem, prawda?
+Dialogue: 0,01:18:35.72,01:18:39.72,Default,,0,0,0,,A teraz panie profesorze,\ntrzeba szybko włożyć frak.
+Dialogue: 0,01:18:39.72,01:18:43.72,Default,,0,0,0,,Dzień dobry Marianno.\nJuż uprzedziłam Ewalda o twoim przyjeździe.
+Dialogue: 0,01:18:43.72,01:18:46.72,Default,,0,0,0,,Dziękuję.\nTo dobrze.
+Dialogue: 0,01:18:46.72,01:18:48.72,Default,,0,0,0,,A więc panna Agda jednak przyjechała?
+Dialogue: 0,01:18:48.72,01:18:55.72,Default,,0,0,0,,Uznałam to za swój obowiązek,\nale cała przyjemność została zepsuta. Szkoda gadać.
+Dialogue: 0,01:18:55.72,01:18:58.72,Default,,0,0,0,,Witaj ojcze.
+Dialogue: 0,01:18:58.72,01:19:00.72,Default,,0,0,0,,Dzień dobry.\nJak widzisz zabrałem ze sobą Mariannę.
+Dialogue: 0,01:19:00.72,01:19:03.72,Default,,0,0,0,,Witaj Marianno.\nCzy mogę wnieść na górę swoje rzeczy?
+Dialogue: 0,01:19:03.72,01:19:06.72,Default,,0,0,0,,Ojciec jak zwykle zamieszka w gościnnym.\nOczywiście, bardzo mi to odpowiada.
+Dialogue: 0,01:19:06.72,01:19:08.72,Default,,0,0,0,,Pozwól mi wziąć twoją torbę.\nJest raczej ciężka.
+Dialogue: 0,01:19:08.72,01:19:12.72,Default,,0,0,0,,Zaraz przyjdę.\nMożecie postawić rzeczy tam.
+Dialogue: 0,01:19:12.72,01:19:15.72,Default,,0,0,0,,- Jaką mieliście podróż?\n- Dziękuję, bardzo przyjemną.
+Dialogue: 0,01:19:15.72,01:19:16.72,Default,,0,0,0,,Co to za młodzi ludzie,\nktórzy z wami przyjechali?
+Dialogue: 0,01:19:16.72,01:19:19.72,Default,,0,0,0,,Nie wiem. Jadą do Włoch.\nWydają się sympatyczni.
+Dialogue: 0,01:19:19.72,01:19:22.72,Default,,0,0,0,,Rzeczywiście są bardzo sympatyczni.
+Dialogue: 0,01:19:22.72,01:19:30.72,Default,,0,0,0,,Chcę tylko powiedzieć,\nże jest już kwadrans po czwartej.
+Dialogue: 0,01:19:30.72,01:19:40.72,Default,,0,0,0,,Kupiłam nowe sznurowadła.
+Dialogue: 0,01:19:40.72,01:19:43.72,Default,,0,0,0,,Ależ nie, jutro wyjeżdżam.\nMożesz być spokojny.
+Dialogue: 0,01:19:43.72,01:19:45.72,Default,,0,0,0,,- Zamierzasz dzisiaj nocować w hotelu?\n- Dlaczego?
+Dialogue: 0,01:19:45.72,01:19:49.72,Default,,0,0,0,,Jeżeli nie masz nic przeciwko temu, to chyba możemy\ndzielić sypialnię przez jeszcze jedną noc.
+Dialogue: 0,01:19:49.72,01:19:52.72,Default,,0,0,0,,- Pomóż mi się rozpakować.\n- Miło cię widzieć.
+Dialogue: 0,01:19:52.72,01:19:54.72,Default,,0,0,0,,Taka niespodzianka...
+Dialogue: 0,01:19:54.72,01:19:56.72,Default,,0,0,0,,Mnie też miło.
+Dialogue: 0,01:19:56.72,01:19:59.72,Default,,0,0,0,,Obiad zjemy później, czy masz inne plany?
+Dialogue: 0,01:19:59.72,01:20:11.72,Default,,0,0,0,,Tylko zadzwonię do Stenberga i powiem mu,\nże przyjdę z damą, on już wszystko przygotuje.
+Dialogue: 0,01:20:11.72,01:21:48.72,Default,,0,0,0,,Musimy się spieszyć, panie profesorze!
+Dialogue: 0,01:21:48.72,01:21:53.72,Default,,0,0,0,,Złapałem się na tym, że w czasie ceremonii,
+Dialogue: 0,01:21:53.72,01:21:58.72,Default,,0,0,0,,powróciłem myślami do wydarzeń tego dnia,
+Dialogue: 0,01:21:58.72,01:22:02.72,Default,,0,0,0,,i właśnie wtedy podjąłem decyzję\nby sięgnąć pamięcią wstecz,
+Dialogue: 0,01:22:02.72,01:22:06.72,Default,,0,0,0,,i zapisać wszystko, co się zdarzyło.
+Dialogue: 0,01:22:06.72,01:22:12.72,Default,,0,0,0,,Pomyślałem sobie, że w tym łańcuchu\nprzypadkowych, pogmatwanych wydarzeń,
+Dialogue: 0,01:22:12.72,01:22:42.72,Default,,0,0,0,,prześwitywał jakiś\nbardzo osobliwy związek przyczynowy...
+Dialogue: 0,01:22:42.72,01:22:45.72,Default,,0,0,0,,Czy uroczystość podobała się pannie Agdzie?
+Dialogue: 0,01:22:45.72,01:22:48.72,Default,,0,0,0,,Owszem, dziękuję.
+Dialogue: 0,01:22:48.72,01:22:50.72,Default,,0,0,0,,Czy panna Agda nie jest zmęczona?
+Dialogue: 0,01:22:50.72,01:22:52.72,Default,,0,0,0,,Owszem, nie przeczę.
+Dialogue: 0,01:22:52.72,01:22:57.72,Default,,0,0,0,,Proszę sobie wziąć mój proszek nasenny.\nNie, dziękuję.
+Dialogue: 0,01:22:57.72,01:23:02.72,Default,,0,0,0,,Panno Agdo, przykro mi z powodu\ntego dzisiejszego poranka.
+Dialogue: 0,01:23:02.72,01:23:04.72,Default,,0,0,0,,Czy pan profesor źle się czuje?
+Dialogue: 0,01:23:04.72,01:23:06.72,Default,,0,0,0,,Nie. Dlaczego?
+Dialogue: 0,01:23:06.72,01:23:10.72,Default,,0,0,0,,Nie wiem,\nale zabrzmiało to dość niepokojąco.
+Dialogue: 0,01:23:10.72,01:23:15.72,Default,,0,0,0,,Czy to takie dziwne że przepraszam?
+Dialogue: 0,01:23:15.72,01:23:25.72,Default,,0,0,0,,- Przynieść karafkę z wodą?\n- Nie, dziękuję.
+Dialogue: 0,01:23:25.72,01:23:42.72,Default,,0,0,0,,Pada.
+Dialogue: 0,01:23:42.72,01:23:46.72,Default,,0,0,0,,W każdym razie dziękuję, panie profesorze.\nDobrej nocy.
+Dialogue: 0,01:23:46.72,01:23:50.72,Default,,0,0,0,,No cóż, panno Agdo...\nPan profesor sobie czegoś życzy?
+Dialogue: 0,01:23:50.72,01:23:54.72,Default,,0,0,0,,Czy panna Agda nie sądzi, że my,\nznając się tak dobrze,
+Dialogue: 0,01:23:54.72,01:23:56.72,Default,,0,0,0,,i będąc tak długo przyjaciółmi,
+Dialogue: 0,01:23:56.72,01:24:00.72,Default,,0,0,0,,powinniśmy skończyć z tytułami\ni mówić sobie po imieniu?
+Dialogue: 0,01:24:00.72,01:24:03.72,Default,,0,0,0,,Nie, nie sądzę.
+Dialogue: 0,01:24:03.72,01:24:05.72,Default,,0,0,0,,A dlaczego nie?
+Dialogue: 0,01:24:05.72,01:24:07.72,Default,,0,0,0,,Czy pan profesor mył już zęby?
+Dialogue: 0,01:24:07.72,01:24:11.72,Default,,0,0,0,,- Oczywiście.\n- Więc proszę posłuchać.
+Dialogue: 0,01:24:11.72,01:24:13.72,Default,,0,0,0,,Wypraszam sobie wszelkie poufałości.
+Dialogue: 0,01:24:13.72,01:24:15.72,Default,,0,0,0,,Dobrze jest tak jak jest teraz.
+Dialogue: 0,01:24:15.72,01:24:18.72,Default,,0,0,0,,Ależ droga panno Agdo, teraz mamy już swoje lata.
+Dialogue: 0,01:24:18.72,01:24:24.72,Default,,0,0,0,,Proszę mówić za siebie, panie profesorze.\nKobieta dba o reputację.
+Dialogue: 0,01:24:24.72,01:24:28.72,Default,,0,0,0,,Co by ludzie powiedzieli gdybyśmy nagle\nzaczęli mówić sobie na ty?
+Dialogue: 0,01:24:28.72,01:24:30.72,Default,,0,0,0,,- Tak, co by ludzie powiedzieli...\n- Stroili by sobie żarty.
+Dialogue: 0,01:24:30.72,01:24:33.72,Default,,0,0,0,,Czy panna Agda\nzawsze tak zważała na konwenanse?
+Dialogue: 0,01:24:33.72,01:24:36.72,Default,,0,0,0,,Prawie zawsze.
+Dialogue: 0,01:24:36.72,01:24:48.72,Default,,0,0,0,,W naszym wieku należy wiedzieć jak się zachować,\nprawda panie profesorze?
+Dialogue: 0,01:24:48.72,01:24:52.72,Default,,0,0,0,,Dobranoc, panno Agdo.\nDobranoc panie profesorze. Drzwi będą uchylone.
+Dialogue: 0,01:24:52.72,01:25:42.72,Default,,0,0,0,,W razie czego wie pan gdzie mnie szukać.\nDobranoc.
+Dialogue: 0,01:25:42.72,01:25:46.72,Default,,0,0,0,,Hej papo Isaku!\nFantastycznie wyglądałeś w tej procesji.
+Dialogue: 0,01:25:46.72,01:25:48.72,Default,,0,0,0,,Byliśmy strasznie dumni, że cię znamy.
+Dialogue: 0,01:25:48.72,01:25:52.72,Default,,0,0,0,,Teraz jedziemy dalej. Złapaliśmy bus\ndo samego Hamburga z 50 letnią diakonisą.
+Dialogue: 0,01:25:52.72,01:25:55.72,Default,,0,0,0,,- Anders już się w niej zakochał!\n- Zamknij się.
+Dialogue: 0,01:25:55.72,01:25:57.72,Default,,0,0,0,,Chcemy się jak najszybciej pożegnać.
+Dialogue: 0,01:25:57.72,01:26:01.72,Default,,0,0,0,,Żegnajcie i dziękuję za towarzystwo.
+Dialogue: 0,01:26:01.72,01:26:04.72,Default,,0,0,0,,Do widzenia papo Isaku!\nCzy wiesz, że kocham właśnie ciebie?
+Dialogue: 0,01:26:04.72,01:26:08.72,Default,,0,0,0,,Dzisiaj, jutro i zawsze.
+Dialogue: 0,01:26:08.72,01:26:11.72,Default,,0,0,0,,Zapamiętam to sobie.
+Dialogue: 0,01:26:11.72,01:26:14.72,Default,,0,0,0,,Pospieszcie się!
+Dialogue: 0,01:26:14.72,01:26:16.72,Default,,0,0,0,,Do widzenia, panie profesorze!\nDo widzenia, Wiktor!
+Dialogue: 0,01:26:16.72,01:26:19.72,Default,,0,0,0,,Do widzenia, profesorze!\nŻegnaj, Anders.
+Dialogue: 0,01:26:19.72,01:26:26.72,Default,,0,0,0,,Musimy już lecieć.
+Dialogue: 0,01:26:26.72,01:26:40.72,Default,,0,0,0,,Odezwijcie się kiedyś...
+Dialogue: 0,01:26:40.72,01:26:45.72,Default,,0,0,0,,- Ojciec chyba śpi.\n- Ewald?
+Dialogue: 0,01:26:45.72,01:26:46.72,Default,,0,0,0,,Tak, ojcze?
+Dialogue: 0,01:26:46.72,01:26:49.72,Default,,0,0,0,,Już wróciliście?
+Dialogue: 0,01:26:49.72,01:26:54.72,Default,,0,0,0,,Tak. Marianna musi zmienić pantofle.\nZłamała obcas.
+Dialogue: 0,01:26:54.72,01:26:57.72,Default,,0,0,0,,Więc idziecie na bal?
+Dialogue: 0,01:26:57.72,01:27:00.72,Default,,0,0,0,,Chyba tak.
+Dialogue: 0,01:27:00.72,01:27:03.72,Default,,0,0,0,,- Jak ojciec się czuje?\n- Dziękuję, świetnie.
+Dialogue: 0,01:27:03.72,01:27:08.72,Default,,0,0,0,,- A jak tam serce?\n- Znakomicie.
+Dialogue: 0,01:27:08.72,01:27:12.72,Default,,0,0,0,,No to dobranoc ojcze.\nŚpij dobrze.
+Dialogue: 0,01:27:12.72,01:27:17.72,Default,,0,0,0,,Ewald?\nProszę cię usiądź tu na chwilę.
+Dialogue: 0,01:27:17.72,01:27:20.72,Default,,0,0,0,,Czy to coś poważnego?
+Dialogue: 0,01:27:20.72,01:27:27.72,Default,,0,0,0,,Chciałem się dowiedzieć,\njak się ułoży między tobą a Marianną?
+Dialogue: 0,01:27:27.72,01:27:28.72,Default,,0,0,0,,Wybacz, że o to pytam.
+Dialogue: 0,01:27:28.72,01:27:31.72,Default,,0,0,0,,Sam nie wiem.
+Dialogue: 0,01:27:31.72,01:27:35.72,Default,,0,0,0,,To oczywiście nie moja sprawa, ale...
+Dialogue: 0,01:27:35.72,01:27:38.72,Default,,0,0,0,,-Słucham?\n- Jeśli nie...
+Dialogue: 0,01:27:38.72,01:27:40.72,Default,,0,0,0,,Prosiłem ją, żeby została ze mną.
+Dialogue: 0,01:27:40.72,01:27:43.72,Default,,0,0,0,,Czy nie powinniście...to znaczy...
+Dialogue: 0,01:27:43.72,01:27:47.72,Default,,0,0,0,,- Nie mogę żyć bez niej.\n- To znaczy sam?
+Dialogue: 0,01:27:47.72,01:27:50.72,Default,,0,0,0,,Nie mogę żyć bez niej.\nTo chciałem powiedzieć.
+Dialogue: 0,01:27:50.72,01:27:52.72,Default,,0,0,0,,Ach tak rozumiem.
+Dialogue: 0,01:27:52.72,01:27:54.72,Default,,0,0,0,,Będzie tak, jak ona zechce.
+Dialogue: 0,01:27:54.72,01:27:58.72,Default,,0,0,0,,A ona chce?
+Dialogue: 0,01:27:58.72,01:28:02.72,Default,,0,0,0,,Twierdzi, że musi się nad tym zastanowić.\nNie wiem.
+Dialogue: 0,01:28:02.72,01:28:04.72,Default,,0,0,0,,Co do tej pożyczki...
+Dialogue: 0,01:28:04.72,01:28:06.72,Default,,0,0,0,,Bądź spokojny.\nZwrócę ją w całości.
+Dialogue: 0,01:28:06.72,01:28:11.72,Default,,0,0,0,,- Nie to miałem na myśli.\n- Na pewno ją zwrócę.
+Dialogue: 0,01:28:11.72,01:28:13.72,Default,,0,0,0,,Jak się miewasz ojcze?
+Dialogue: 0,01:28:13.72,01:28:15.72,Default,,0,0,0,,Dziękuję, bardzo dobrze.
+Dialogue: 0,01:28:15.72,01:28:18.72,Default,,0,0,0,,Zgubiłam obcas i musiałam zmienić pantofle.\nCzy mogę pójść w tych?
+Dialogue: 0,01:28:18.72,01:28:23.72,Default,,0,0,0,,Oczywiście. Są bardzo ładne.
+Dialogue: 0,01:28:23.72,01:28:29.72,Default,,0,0,0,,Dziękuję za towarzystwo w podróży.
+Dialogue: 0,01:28:29.72,01:28:32.72,Default,,0,0,0,,To ja dziękuję.\nBardzo cię lubię Marianno.
+Dialogue: 0,01:28:32.72,01:28:43.72,Default,,0,0,0,,Ja ojcze też bardzo cię lubię.
+Dialogue: 0,01:28:43.72,01:28:48.72,Default,,0,0,0,,Kiedy w ciągu dnia\ndręczy mnie niepokój lub smutek,
+Dialogue: 0,01:28:48.72,01:28:54.72,Default,,0,0,0,,wtedy zazwyczaj dla uspokojenia się\nprzywołuje wspomnienia z dzieciństwa.
+Dialogue: 0,01:28:54.72,01:29:08.72,Default,,0,0,0,,Tak było również tego wieczoru.
+Dialogue: 0,01:29:08.72,01:29:13.72,Default,,0,0,0,,Isak, kochanie, tu już nie ma poziomek
+Dialogue: 0,01:29:13.72,01:29:15.72,Default,,0,0,0,,i ciotka prosi byś poszedł poszukać ojca.
+Dialogue: 0,01:29:15.72,01:29:18.72,Default,,0,0,0,,Opłyniemy półwysep i wysadzimy cię\nna tamtym brzegu.
+Dialogue: 0,01:29:18.72,01:29:23.72,Default,,0,0,0,,Już go szukałem, ale nie mogę znaleźć\nani ojca ani matki.
+Dialogue: 0,01:29:23.72,01:29:36.72,Default,,0,0,0,,Pomogę ci.
+Dialogue: 0,01:29:36.72,01:30:47.72,Default,,0,0,0,,Chodź...
+Dialogue: 0,01:30:47.72,01:31:00.22,Default,,0,0,0,,Tłumaczenie: Tadeusz Szczepański, TVP1\nSpisał: orfe
