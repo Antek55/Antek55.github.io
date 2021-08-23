@@ -9,5 +9,6 @@ flags = {
   'it' : 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
   'jp' : 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg',
   'pl' : 'https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg',
+  'ro' : 'https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg',
   'se' : 'https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg',
 }
