@@ -1,11 +1,13 @@
 flags = {
   'at' : 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg',
+  'cn' : 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg',
   'de' : 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
   'dk' : 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg',
   'en' : 'https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg',
   'es' : 'https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg',
   'fr' : 'https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg',
   'fr3': 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg',
+  'gb' : 'https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg',
   'gr' : 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg',
   'ir' : 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg',
   'it' : 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
@@ -15,5 +17,7 @@ flags = {
   'prl': 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Poland_%281928%E2%80%931980%29.svg',
   'ro' : 'https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg',
   'se' : 'https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg',
+  'tr' : 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg',
   'tw' : 'https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg',
+  'us' : 'https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg',
 }
