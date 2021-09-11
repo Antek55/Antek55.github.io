@@ -3,6 +3,7 @@ flags = {
   'cn' : 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg',
   'de' : 'https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg',
   'dk' : 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg',
+  'no' : 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg',
   'en' : 'https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg',
   'es' : 'https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg',
   'fr' : 'https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg',
@@ -20,4 +21,6 @@ flags = {
   'tr' : 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg',
   'tw' : 'https://upload.wikimedia.org/wikipedia/commons/7/72/Flag_of_the_Republic_of_China.svg',
   'us' : 'https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg',
+  'su' : 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg',
+  'wo' : 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/globe-showing-europe-africa_1f30d.png'
 }
