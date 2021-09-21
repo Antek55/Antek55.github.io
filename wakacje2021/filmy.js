@@ -312,11 +312,7 @@ filmy = [
 		"rtRating": "?"
 	},
 	{
-		"flag": [
-			"fr",
-			"be",
-			"de"
-		],
+		"flag": 'wo',
 		"title": "The Young Karl Marx",
 		"originalTitle": "Le jeune Karl Marx",
 		"year": "2017",
