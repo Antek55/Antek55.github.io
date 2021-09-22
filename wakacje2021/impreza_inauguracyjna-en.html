@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Impreza inauguracyjno-urodzinowa</title>
+    <title>Inaugurational-anniversarial party</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="rower-style.css">
@@ -13,36 +13,36 @@
   <body>    
     <div class="testbox">
       <form v-on:submit.prevent="submit">
-          <div class="banner" style='background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,208,237,1) 45%, rgba(121,132,255,1) 100%);; '>
+          <div class="banner" style='background-image: url("gfx/centrum_imprez.png"); background-position: center center; background-size: contain'>
             <h1>{{ title }}</h1>
           </div>
           
           <div class="opis">
-            <p>Najmilisi! Zapraszamy Was na imprezę, na której oblewać będziemy dwie piękne okazje: inaugurację Festarum Centrum Varsoviense przy ul. Woronicza oraz urodziny połówki zespołu organizatorskiego, Grzegorza C.</p>
-            <p>Brak dresscode'u, wybierz swój preferowany strój imprezowy. Dla solenizanta najpiękniejszym darem będzie Twoja obecność, obejdzie się bez prezentów. Mile widziane będą wegańskie przekąski, słodycze czy napoje (procentowe i nie tylko). Zalecane są również: pyszny nastrój oraz mnóstwo dobrej zabawy.</p>
+            <p>Dears! We would love to invite y'all to our party celebrating the inauguration of Woronicza Steet's Festarum Centrum Varsoviense and one of the hosts’, Grzegorz's, birthday.</p>
+            <p>No dress code, pick any outfit that suits you. The birthday boy would value no other gift higher than your attendance, no presents required. Sweets, vegan snacks and drinks (booze or soft) are welcome. Excellent mood and lots of fun are also highly recommended. Be there or be square □</p>
           </div>
           
           <div class="item">
-            <label for="name">Jak się nazywasz?</label>
+            <label for="name">What's your name?</label>
             <div class="item">
-              <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim…" required />
+              <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Your name…" required />
             </div>
           </div>
           
           <div class="question">
-            <label>Czy weźmiesz udział w imprezie?</label>
+            <label>Will you take part?</label>
             <div class="question-answer">
               <div>
                 <input type="radio" value="tak" v-model="taknie" id="radio_1" checked/>
-                <label for="radio_1" class="radio"><span>Tak</span></label>
+                <label for="radio_1" class="radio"><span>Yes</span></label>
               </div>
               <div>
                 <input type="radio" value="nie" v-model="taknie" id="radio_2" />
-                <label for="radio_2" class="radio"><span>Nie</span></label>
+                <label for="radio_2" class="radio"><span>No</span></label>
               </div>
               <div>
                 <input type="radio" value="tozależy" v-model="taknie" id="radio_3" />
-                <label for="radio_3" class="radio"><span>Zobaczymy / to zależy</span></label>
+                <label for="radio_3" class="radio"><span>We'll see / it depends</span></label>
               </div>
             </div>
           </div>
@@ -52,12 +52,12 @@
           </div>
           
           <div class="item">
-              <label for="uwagi">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
+              <label for="uwagi">Do you have any additional information/comments/suggestions/ideas/clarifications/questions/concerns?</label>
               <textarea id="uwagi" rows="3" v-model="uwagi"></textarea>
           </div>
           
           <div class="btn-block">
-            <button>Wyślij</button>
+            <button>Submit</button>
           </div>
         </div>        
       </form>
@@ -66,7 +66,7 @@
   <script>
   function submit_send()
   {
-    $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
+    $("form").html("Please be patient, transfer ongoing…")    
 
     url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
     
@@ -77,18 +77,18 @@
     {
       if (!data.success)
       {
-        $("form").html('<h2 class="red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.</h2>');
+        $("form").html('<h2 class="red">Sending unsuccessful due to unknown error. Please send your response directly.</h2>');
         return false;
       }
       
-      $("form").html("Wysłano odpowiedź.")
+      $("form").html("Your response has been sent.")
     }
   }
 
   var app = new Vue({
     el: "form", 
     data: {
-      title: "Impreza!",
+      title: "Party!",
       form_id: "impreza0",
       name: "",
       taknie: "nie",
