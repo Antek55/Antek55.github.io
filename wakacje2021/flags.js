@@ -1,6 +1,8 @@
 flags = {
   'asu': 'https://i.redd.it/ynqvyg7687o71.png',
   'at' : 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg',
+  'au' : 'https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg',
+  'be' : 'https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Belgium_%28civil%29.svg',
   'ca' : 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg',
   'cn' : 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg',
   'cs' : 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg',
@@ -23,6 +25,7 @@ flags = {
   'pe' : 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg',
   'pl' : 'https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg',
   'prl': 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Poland_%281928%E2%80%931980%29.svg',
+  'pt' : 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg',
   'ro' : 'https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg',
   'se' : 'https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg',
   'su' : 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg',
