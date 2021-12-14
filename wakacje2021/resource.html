@@ -51,11 +51,11 @@
         var title = value.data.match(/<title>(.*)<\/title>/)[1];
         $("title").html(title);
           
-        var color = value.data.match(/background(?:-color)?: (#.{6})/)[1];
-        if (color.length)
-        {
-          $("body").css("background", color);
-        }
+        // var color = value.data.match(/background(?:-color)?: (#.{6})/)[1];
+        // if (color.length)
+        // {
+          // $("body").css("background", color);
+        // }
       }
       
       promise.then((value) => openpgp.decrypt({passwords: key, message: value}).then(done1));
