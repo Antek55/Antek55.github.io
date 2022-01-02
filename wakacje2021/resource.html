@@ -46,7 +46,8 @@
       {
         $("iframe").attr("srcdoc", value.data); 
         $("#loading").hide(); 
-        $("iframe").show(); 
+        $("iframe").show();
+        $("iframe").focus();
         
         var title = value.data.match(/<title>(.*)<\/title>/)[1];
         $("title").html(title);
