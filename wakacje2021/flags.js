@@ -1,5 +1,6 @@
 flags = {
   'asu': 'https://i.redd.it/ynqvyg7687o71.png',
+  'ba' : 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg',
   'at' : 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg',
   'au' : 'https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg',
   'be' : 'https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Belgium_%28civil%29.svg',
