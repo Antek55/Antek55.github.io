@@ -25,7 +25,7 @@ flags = {
   'id' : 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg',
   'ir' : 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg',
   'it' : 'https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg',
-  'jp' : 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg',
+  'jp1870' : 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg',
   'kr' : 'https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg',
   'lv' : 'https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg',
   'mx' : 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg',
