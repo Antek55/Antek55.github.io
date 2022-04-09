@@ -9,10 +9,17 @@ body, div, form, input, textarea, label {
   padding: 0;
   margin: 0;
   outline: none;
-  /* font-family: "Calibri", Arial, sans-serif; */
-  font-family: "Avant Garde", "Avantgarde", "Century Gothic", "CenturyGothic", "AppleGothic", "Calibri", sans-serif;
+  font-family: "Calibri", Arial, sans-serif;
+  /* font-family: "Avant Garde", "Avantgarde", "Century Gothic", "CenturyGothic", "AppleGothic", "Calibri", sans-serif; */
   font-size: 12px;
   line-height: 22px;
+}
+/* b, i { */
+  /* font-family: "Calibri"; */
+  /* font-size: 25px; */
+/* } */
+.mega-link {
+  font-size: 16px;
 }
 input, textarea {
     background-color: beige;
@@ -149,7 +156,7 @@ button:hover {
 }
 .opis {
   padding-top: 20px;
-  font-size: 22px;
+  font-size: 25px;
   /* padding-left: 5px; */
   /* padding-right: 5px; */
   margin: 10px 0;
