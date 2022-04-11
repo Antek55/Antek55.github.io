@@ -200,3 +200,6 @@ td {
 .warnings {
   color: red
 }
+.smallflag {
+  border:lightgrey 1px solid;
+}
