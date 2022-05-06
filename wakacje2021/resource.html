@@ -50,8 +50,10 @@
         
         var title = value.data.match(/<title>(.*)<\/title>/)[1];
         $("title").html(title);
-          
-        if (rid == "j8jx3G3lAPG") {
+        
+        var rids = ["j8jx3G3lAPG", "L6Fu8JtSkRc"]
+        
+        if (rids.includes(rid)) {
           $("body").css("background", "darkgreen");
         }
       }
