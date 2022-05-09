@@ -34,7 +34,7 @@ flags = {
   'no' : 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg',
   'pe' : 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg',
   'pl' : 'https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg',
-  'prl': 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Poland_%281928%E2%80%931980%29.svg',
+  'prl': 'https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_Poland_%281927%E2%80%931980%29.svg',
   'pt' : 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg',
   'ro' : 'https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg',
   'ru' : 'https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg',
