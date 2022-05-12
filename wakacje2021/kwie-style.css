@@ -1,26 +1,33 @@
+/* z wielką pomocą Asi i Kasi! A także zerżnięte z internetu */
 html, body {
   min-height: 100%;
-  background-color: #a7fc0a;
+  background-color: #1abc9c; /*kolor obwódki!!!*/
   color: black;
-  
+
 }
-body, div, form, input, textarea, label { 
+body, div, form, .form, input, textarea, label {
   padding: 0;
   margin: 0;
   outline: none;
-  font-family: "Calibri", Arial, sans-serif;
-  font-size: 14px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;;
+  /* font-family: "Avant Garde", "Avantgarde", "Century Gothic", "CenturyGothic", "AppleGothic", "Calibri", sans-serif; */
+  /* font-size: 12px; */
   line-height: 22px;
 }
+.mega-link {
+  font-size: 16px;
+}
 input, textarea {
-    background-color: darkgrey;
+    background-color: #d3dedc;
 }
 h1 {
   position: absolute;
   margin: 0;
   line-height: 45px;
   font-size: 45px;
-  color: #fff;
+  color: white; /*tutaj kolor nagłowka #f4d03f;*/
+  -webkit-text-stroke: 1px grey;
+  text-stroke: 1px grey;
   z-index: 2;
 }
 .testbox {
@@ -30,11 +37,11 @@ h1 {
   height: inherit;
   padding: 20px;
 }
-form {
+.form {
   width: 100%;
   padding: 20px;
   border-radius: 6px;
-  background: #06a809;
+  background: #e8f8f5 ; /*tutaj kolor wewnętrzny*/
 }
 .banner {
   position: relative;
@@ -48,7 +55,7 @@ form {
 }
 .banner::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4); 
+  background-color: rgba(255, 255, 255, 0.2);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -76,7 +83,7 @@ textarea {
   margin: 10px 0;
 }
 /* input[type=radio]  { */
-  /* display: none; */
+/* display: none; */
 /* } */
 label.radio {
   position: relative;
@@ -126,7 +133,7 @@ button {
   width: 150px;
   padding: 10px;
   border: none;
-  border-radius: 5px; 
+  border-radius: 5px;
   background: #aa1409;
   font-size: 16px;
   color: #fff;
@@ -157,7 +164,7 @@ button:hover {
     text-align: left;
 }
 a {
-  color: lime;
+  color:  #16a085; /*kolor linków*/
 }
 label {
   font-size: 20px;
@@ -166,13 +173,21 @@ label {
   border-bottom: 1px solid gray;
   margin-bottom: 20px;
 }
+
+em
+{
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: normal;
+}
+
 .grey {
   font-size: 12px;
   color: darkgrey;
 }
 
 table, th, tr, td {
-  border-collapse: collapse; 
+  border-collapse: collapse;
   border: 3px solid grey;
   width: 95%;
 }
@@ -181,12 +196,13 @@ td {
   font-size: 19px;
 }
 .dokumentalny {
-  background-color: #5b400d;
+  background-color: #5b400d; /*kolor filmu dokumentalnego*/
 }
 .smallflag {
-  position: relative; 
-  top: 4px; 
+  position: relative;
+  top: 4px;
   width: 30px;
+  border: darkgrey 1px solid;
 }
 .warnings {
   color: red
