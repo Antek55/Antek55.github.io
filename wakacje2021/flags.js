@@ -5,6 +5,7 @@ flags = {
   'au' : 'https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg',
   'ba' : 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Flag_of_Bosnia_and_Herzegovina.svg',
   'be' : 'https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_Belgium_%28civil%29.svg',
+  'bg' : 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Bulgaria.svg',
   'br' : 'https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg',
   'by' : 'https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg',
   'ca' : 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg',
