@@ -22,6 +22,7 @@ flags = {
   'fr3': 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931958%29.svg',
   'gb' : 'https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg',
   'gr' : 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg',
+  'lu' : 'https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg',
   'hk' : 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Flag_of_Hong_Kong.svg',
   'id' : 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg',
   'ir' : 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg',
