@@ -1,5 +1,6 @@
 flags = {
   'ar' : 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg',
+  'cu' : 'https://upload.wikimedia.org/wikipedia/commons/5/58/Flag_of_Cuba_%283-2%29.svg',
   'asu': 'https://i.redd.it/ynqvyg7687o71.png',
   'at' : 'https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg',
   'au' : 'https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg',
