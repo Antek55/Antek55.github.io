@@ -4,7 +4,7 @@
     <title>Formularz kontaktowy</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="rower-style.css">
+    <link rel="stylesheet" href="lip-style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2"></script>
@@ -12,7 +12,7 @@
   </head>
   <body>    
     <div class="testbox">
-      <form v-on:submit.prevent="submit">
+      <form v-on:submit.prevent="submit" class="form">
         <div >
           <div class="banner" style='background-image: url("gfx/kontakt.jpg")'>
             <h1>{{ title }}</h1>
