@@ -62,6 +62,7 @@
       promise.then((value) => openpgp.decrypt({passwords: key, message: value}).then(done1));
   }
   //
-  $.get("https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?v=" + clid)
+  if (clid)
+    $.get("https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?type=v&v=" + clid)
   //
 </script>
