@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2 (1:1.2+202206011327+fc4e4096c5)"
-   sodipodi:docname="puchar logo 5.svg"
+   sodipodi:docname="logo.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.70710678"
-     inkscape:cx="270.11479"
-     inkscape:cy="404.46508"
+     inkscape:cx="707.10678"
+     inkscape:cy="347.89654"
      inkscape:window-width="1600"
      inkscape:window-height="839"
      inkscape:window-x="0"
@@ -628,7 +628,11 @@
        cx="188.43497"
        cy="197.40321"
        rx="9.0440292"
-       ry="9.3639374" /></g><g
+       ry="9.3639374" /><path
+       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m 61.224324,187.7528 50.534926,50.53493 50.51414,-50.51414"
+       id="path515"
+       sodipodi:nodetypes="ccc" /></g><g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="ukryta"
