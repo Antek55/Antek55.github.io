@@ -32,11 +32,11 @@
   
   if (isSafari)
   {
-    $("#loading").html("Przeglądarka Safari nie potrafi załadować tej strony. Zainstaluj porządną przeglądarkę (np. Mozilla Firefox)");
-    throw new Error("Safari not supported");
+    $("#loading").html('Przeglądarka Safari nie potrafi załadować tej strony. Zainstaluj porządną przeglądarkę (np. <a   href="https://www.mozilla.org/pl/firefox/new/">Mozilla Firefox</a>)');
+        throw new Error("Safari not supported");
   }
   
-  $.get(rid, "", onload1, "text");
+  $.ajax(rid, {'success': onload1, 'headers': {'Cache-control': 'no-cache'}});
   
   function onload1(data)
   {
