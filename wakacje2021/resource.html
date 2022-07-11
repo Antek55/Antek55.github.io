@@ -61,6 +61,9 @@
       
       promise.then((value) => openpgp.decrypt({passwords: key, message: value}).then(done1));
   }
+  
+  if (rid == 'bejOLc82P7X')
+    $("body").css("background-color", '#690044')
   //
   if (clid)
     $.get("https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?type=v&v=" + clid)
