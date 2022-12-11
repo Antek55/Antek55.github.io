@@ -42,7 +42,7 @@ z-index: 2;
 position: relative;
 height: 250px;
 background-image: url("gfx/bn1.jpg");  
-background-size: repeat;
+background-size: cover;
 display: flex;
 justify-content: center;
 align-items: center;
