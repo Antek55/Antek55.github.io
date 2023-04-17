@@ -12,3 +12,7 @@ html, body
 {
   background-image: url("gfx/kwie0.jpg");  
 }
+a
+{
+  color: #000080;
+}
