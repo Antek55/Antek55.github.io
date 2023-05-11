@@ -1,0 +1,18 @@
+html, body
+{
+  min-height: 100%;
+  background-color: #37ff3f;
+  color: black;
+}
+.form
+{
+  background: #00ad07;
+}
+.banner
+{
+  background-image: url("gfx/maj0.jpg");  
+}
+a
+{
+  color: #000080;
+}
