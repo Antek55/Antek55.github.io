@@ -13,11 +13,13 @@
   <!-- </script> -->
   <style>
     body {
-      background-color: #0b350c; /* maj-style*/
-      /* background-color: #1abc9c; kwie-style*/ 
-      /* background-color: darkgreen; lip-style */
-      /* background-color: grey; paź-style */
-      /* background-color: #990000; */
+      margin: 0;
+      background-color: lightblue;
+    }
+    
+    #loading {
+      font-size: 21px;
+      margin: 1%;
     }
   </style>
 </head>
@@ -33,34 +35,24 @@
   
   var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
   
-  if (isSafari)
-  {
+  if (isSafari) {
     $("#loading").html('Przeglądarka Safari nie potrafi załadować tej strony. Zainstaluj porządną przeglądarkę (np. <a   href="https://www.mozilla.org/pl/firefox/new/">Mozilla Firefox</a>)');
     throw new Error("Safari not supported");
   }
   
-  $.ajax(rid, {'success': onload1, 'headers': {'Cache-control': 'no-cache'}});
-  
-  function onload1(data)
-  {
-      var promise = openpgp.readMessage({armoredMessage: data});
+  $.ajax(rid, {'headers': {'Cache-control': 'no-cache'}, 'success': function(data) {
+    openpgp.readMessage({armoredMessage: data}).then((value) => openpgp.decrypt({passwords: key, message: value})).then(value => {
+      $("iframe").attr("srcdoc", value.data); 
+      $("#loading").remove(); 
+      $("iframe").show();
+      $("iframe").focus();
       
-      function done1 (value)
-      {
-        $("iframe").attr("srcdoc", value.data); 
-        $("#loading").hide(); 
-        $("iframe").show();
-        $("iframe").focus();
-        
-        var title = value.data.match(/<title>(.*)<\/title>/)[1];
-        $("title").html(title);
-      }
-      
-      promise.then((value) => openpgp.decrypt({passwords: key, message: value}).then(done1));
-  }
+      console.log(value.data)
+      var title = value.data.match(/<title>(.*)<\/title>/)[1];
+      $("title").html(title);
+    });
+  }});
   
-  if (rid == 'bejOLc82P7X')
-    $("body").css("background-color", '#8a0044')
   if (clid)
     $.get("https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?type=v&v=" + clid)
 </script>
