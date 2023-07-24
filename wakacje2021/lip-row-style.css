@@ -1,0 +1,14 @@
+html, body {
+  min-height: 100%;
+  background-color: darkgreen;
+  color: black;
+}
+.form {
+  background: white;
+}
+.banner {
+  background-image: url("gfx/lip-row.jpg");  
+}
+a {
+  color:  #16a085;
+}
