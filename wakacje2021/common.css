@@ -1,0 +1,37 @@
+.nav {
+    font-family: Caladea;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Caladea;
+    font-size: 41px;
+}
+
+body.m10 {
+    background: radial-gradient(#d3d3d3, #e0e0e0);
+}
+
+body.m11 {
+    background: radial-gradient(#522a00, #494949);
+}
+
+body.m12 {
+    background: radial-gradient(red, green);
+}
+
+body.m3 {
+    background: radial-gradient(#e0e0e0, #d3d3d3);
+}
+
+body.m4 {
+    background: radial-gradient(lime, lightgreen);
+}
+
+body.m5 {
+    background-color: darkred;
+}
+
+body.m8, body.m7 {
+    background: darkgreen
+}
