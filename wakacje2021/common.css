@@ -20,6 +20,10 @@ body.m12 {
     background: radial-gradient(red, green);
 }
 
+body.m2, body.m1 {
+    background: radial-gradient(cyan, rgb(182, 255, 255));
+}
+
 body.m3 {
     background: radial-gradient(#e0e0e0, #d3d3d3);
 }
@@ -30,6 +34,10 @@ body.m4 {
 
 body.m5 {
     background-color: darkred;
+}
+
+body.m6 {
+    background: radial-gradient(rgb(255, 199, 46), rgb(211, 117, 9));
 }
 
 body.m8, body.m7 {
