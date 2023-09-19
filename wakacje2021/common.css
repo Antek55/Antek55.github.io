@@ -41,5 +41,5 @@ body.m6 {
 }
 
 body.m8, body.m7 {
-    background: darkgreen
+    background: radial-gradient(darkgreen, rgb(15, 54, 15));
 }
