@@ -1,3 +1,8 @@
+body {
+        height: 100vh;
+        margin: 0px;
+}
+
 .nav {
     font-family: Caladea;
     font-size: 20px;
@@ -6,6 +11,26 @@
 h1 {
     font-family: Caladea;
     font-size: 41px;
+    margin: 0px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px white solid;
+    padding: 2px;
+    text-align: center;
+}
+
+.n, .onday {
+    display: none;
+}
+
+.tippy-box {
+    font-size: 18px;
 }
 
 body.m10 {
