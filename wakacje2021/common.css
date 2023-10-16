@@ -1,15 +1,14 @@
 body {
     height: 100vh;
     margin: 0px;
+    font-family: Caladea;
 }
 
 .nav {
-    font-family: Caladea;
     font-size: 20px;
 }
 
 h1 {
-    font-family: Caladea;
     font-size: 41px;
     margin: 0px;
     padding: 10px;
