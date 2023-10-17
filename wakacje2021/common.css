@@ -32,6 +32,11 @@ td {
     font-size: 18px;
 }
 
+.svgtext {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
 body.m10 {
     background: radial-gradient(#d3d3d3, #e0e0e0);
 }
