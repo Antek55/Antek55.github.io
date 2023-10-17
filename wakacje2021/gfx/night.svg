@@ -1,1 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1336"><defs><linearGradient id="nightgradient"><stop offset="0" style="stop-color:#5a2ca0;stop-opacity:0"/><stop offset="1" style="stop-color:#a09a2c;stop-opacity:1"/></linearGradient><linearGradient xlink:href="#nightgradient" id="nightc" x1="145.105" x2="145.105" y1="350.204" y2="120.458" gradientTransform="matrix(.8959 0 0 1 0 12)" gradientUnits="userSpaceOnUse"/><linearGradient xlink:href="#nightgradient" id="nightb" x1="960" x2="960" y1="246.118" y2="0" gradientTransform="matrix(.78915 0 0 .44694 202.418 0)" gradientUnits="userSpaceOnUse"/></defs><path d="M0 0h1920v1336H0z" style="fill:#000034;stroke-width:21.8365;stroke-miterlimit:34.2;stroke-dashoffset:31.1138;paint-order:stroke markers fill;fill-opacity:1"/><path d="M668.665 0h582.671v110H668.665z" style="fill:url(#nightb);stroke-width:12.9539;stroke-miterlimit:34.2;stroke-dashoffset:31.1138;paint-order:stroke markers fill"/><path d="M0 132.458h260v229.746H0z" style="fill:url(#nightc);fill-opacity:1;stroke-width:10.6055;stroke-miterlimit:34.2;stroke-dashoffset:31.1138;paint-order:stroke markers fill"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1336"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="night.svg"
+   inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.31614583"
+     inkscape:cx="960"
+     inkscape:cy="668.99506"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="nightgradient">
+      <stop
+         offset="0"
+         style="stop-color:#5a2ca0;stop-opacity:0"
+         id="stop1" />
+      <stop
+         offset="1"
+         style="stop-color:#a09a2c;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#nightgradient"
+       id="nightc"
+       x1="145.105"
+       x2="145.105"
+       y1="350.204"
+       y2="120.458"
+       gradientTransform="matrix(0.8959,0,0,1.6138129,0,-61.938677)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#nightgradient"
+       id="nightb"
+       x1="960"
+       x2="960"
+       y1="246.118"
+       y2="0"
+       gradientTransform="matrix(.78915 0 0 .44694 202.418 0)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     d="M0 0h1920v1336H0z"
+     style="fill:#000034;stroke-width:21.8365;stroke-miterlimit:34.2;stroke-dashoffset:31.1138;paint-order:stroke markers fill;fill-opacity:1"
+     id="path2" />
+  <path
+     d="M668.665 0h582.671v110H668.665z"
+     style="fill:url(#nightb);stroke-width:12.9539;stroke-miterlimit:34.2;stroke-dashoffset:31.1138;paint-order:stroke markers fill"
+     id="path3" />
+  <path
+     d="M 0,132.458 H 260 V 503.22506 H 0 Z"
+     style="fill:url(#nightc);fill-opacity:1;stroke-width:13.4728;stroke-miterlimit:34.2;stroke-dashoffset:31.1138;paint-order:stroke markers fill"
+     id="path4" />
+</svg>
