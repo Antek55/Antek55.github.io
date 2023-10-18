@@ -32,6 +32,10 @@ td {
     font-size: 18px;
 }
 
+.white {
+    color: white;
+}
+
 .svgtext {
     text-anchor: middle;
     dominant-baseline: middle;
