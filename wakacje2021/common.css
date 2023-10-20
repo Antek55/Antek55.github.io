@@ -76,3 +76,20 @@ body.m6 {
 body.m8, body.m7 {
     background: radial-gradient(darkgreen, rgb(15, 54, 15));
 }
+
+@keyframes kolor {
+    0% {
+        filter: darkgreen
+    }
+
+    100% {
+        fill: yellow
+    }
+}
+
+.wycieczka>rect {
+    animation-name: kolor;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
