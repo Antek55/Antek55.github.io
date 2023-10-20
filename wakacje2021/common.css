@@ -79,11 +79,10 @@ body.m8, body.m7 {
 
 @keyframes kolor {
     0% {
-        filter: darkgreen
+            fill: yellow
     }
-
     100% {
-        fill: yellow
+        filter: darkgreen
     }
 }
 
