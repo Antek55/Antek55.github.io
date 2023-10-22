@@ -92,3 +92,20 @@ body.m8, body.m7 {
     animation-duration: 1s;
     animation-direction: alternate;
 }
+
+
+@keyframes impreza {
+    0% {
+        filter: hue-rotate(180deg)
+    }
+    100% {
+        filter: none;
+    }
+}
+
+.impreza>rect {
+    animation-name: impreza;
+    animation-iteration-count: infinite;
+    animation-duration: 0.25s;
+    animation-direction: alternate;
+}
