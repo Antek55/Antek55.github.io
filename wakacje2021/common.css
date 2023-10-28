@@ -93,6 +93,9 @@ body.m8, body.m7 {
     animation-direction: alternate;
 }
 
+:root {
+    --num: 0.25s;
+}
 
 @keyframes impreza {
     0% {
