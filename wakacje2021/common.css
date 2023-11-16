@@ -79,10 +79,11 @@ body.m8, body.m7 {
 
 @keyframes kolor {
     0% {
-            fill: yellow
+        fill: yellow;
+        filter: saturate(3)
     }
     100% {
-        filter: darkgreen
+        filter: saturate(1)
     }
 }
 
@@ -111,4 +112,40 @@ body.m8, body.m7 {
     animation-iteration-count: infinite;
     animation-duration: 0.25s;
     animation-direction: alternate;
+}
+
+text {
+    fill: black;
+}
+
+.zdalnie {
+    fill: white;
+}
+.stacjo {
+    fill: lime;
+}
+.none {
+    fill: grey;
+}
+.urodziny {
+    fill: lightpink;
+}
+.wybory {
+    fill: url(#wybory);
+    opacity: 0.8;
+}
+.wspom {
+    fill: #FAD6A5;
+}
+.std {
+    fill: orange;
+}
+.wyjście {
+    fill: violet;
+}
+.wielkie {
+    fill: red;
+}
+.muz {
+    fill: lightblue; 
 }
