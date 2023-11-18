@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="xMidYMid" viewBox="100.14 44.68 184.86 218.32" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink"><script xmlns="">{
+            document.currentScript.dataset.injected = true;
+            const o = JSON.parse(decodeURIComponent(escape(atob('eyJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMDkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMTMuMCIsImFwcFZlcnNpb24iOiI1LjAgKFdpbmRvd3MpIiwicGxhdGZvcm0iOiJXaW5kb3dzIiwidmVuZG9yIjoiIiwicHJvZHVjdCI6IkdlY2tvIiwidXNlckFnZW50RGF0YSI6IltkZWxldGVdIiwib3NjcHUiOiJXaW5kb3dzIDEwIiwicHJvZHVjdFN1YiI6IjIwMTAwMTAxIiwiYnVpbGRJRCI6IjIwMTgxMDAxMDAwMDAwIn0='))));
+
+            if (o.userAgentDataBuilder) {
+              const v = new class NavigatorUAData {
+                #p;
+
+                constructor({p, ua}) {
+                  this.#p = p;
+
+                  const version = p.browser.major;
+                  const name = p.browser.name === 'Chrome' ? 'Google Chrome' : p.browser.name;
+
+                  this.brands = [{
+                    brand: name,
+                    version
+                  }, {
+                    brand: 'Chromium',
+                    version
+                  }, {
+                    brand: 'Not=A?Brand',
+                    version: '24'
+                  }];
+
+                  this.mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+
+                  // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform
+                  this.platform = 'Unknown';
+                  if (p.os &amp;&amp; p.os.name) {
+                    const name = p.os.name.toLowerCase();
+                    if (name.includes('mac')) {
+                      this.platform = 'macOS';
+                    }
+                    else if (name.includes('debian')) {
+                      this.platform = 'Linux';
+                    }
+                    else {
+                      this.platform = p.os.name;
+                    }
+                  }
+                }
+                toJSON() {
+                  return {
+                    brands: this.brands,
+                    mobile: this.mobile,
+                    platform: this.platform
+                  };
+                }
+                getHighEntropyValues(hints) {
+                  if (!hints || Array.isArray(hints) === false) {
+                    return Promise.reject(Error("Failed to execute 'getHighEntropyValues' on 'NavigatorUAData'"));
+                  }
+
+                  const r = this.toJSON();
+
+                  if (hints.includes('architecture')) {
+                    r.architecture = this.#p?.cpu?.architecture || 'x86';
+                  }
+                  if (hints.includes('bitness')) {
+                    r.bitness = '64';
+                  }
+                  if (hints.includes('model')) {
+                    r.model = '';
+                  }
+                  if (hints.includes('platformVersion')) {
+                    r.platformVersion = this.#p?.os?.version || '10.0.0';
+                  }
+                  if (hints.includes('uaFullVersion')) {
+                    r.uaFullVersion = this.brands[0].version;
+                  }
+                  if (hints.includes('fullVersionList')) {
+                    r.fullVersionList = this.brands;
+                  }
+                  return Promise.resolve(r);
+                }
+              }(o.userAgentDataBuilder);
+
+              navigator.__defineGetter__('userAgentData', () =&gt; {
+                return v;
+              });
+            }
+            delete o.userAgentDataBuilder;
+
+            for (const key of Object.keys(o)) {
+              if (o[key] === '[delete]') {
+                delete Object.getPrototypeOf(window.navigator)[key];
+              }
+              else {
+                navigator.__defineGetter__(key, () =&gt; {
+                  if (o[key] === 'empty') {
+                    return '';
+                  }
+                  return o[key];
+                });
+              }
+            }
+          }</script>
+  <defs>
+    <marker id="a" overflow="visible" orient="auto">
+      <path d="M-2.888-1.815L2.028-.007-2.888 1.8c.785-1.067.78-2.527 0-3.615z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".281"/>
+    </marker>
+    <marker id="e" overflow="visible" orient="auto">
+      <path d="M-2.888-1.815L2.028-.007-2.888 1.8c.785-1.067.78-2.527 0-3.615z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".281"/>
+    </marker>
+    <marker id="d" overflow="visible" orient="auto">
+      <path d="M-2.888-1.815L2.028-.007-2.888 1.8c.785-1.067.78-2.527 0-3.615z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".281"/>
+    </marker>
+    <marker id="f" overflow="visible" orient="auto">
+      <path d="M-2.888-1.815L2.028-.007-2.888 1.8c.785-1.067.78-2.527 0-3.615z" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".281"/>
+    </marker>
+  </defs>
+  <path d="M172.65 122.26v-6.3h.855l3.31 4.947v-4.946h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+  <path d="M201.35 122.26v-6.3h.855l3.31 4.947v-4.946h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+  <path d="M198.91 94.41v-6.3h.855l3.31 4.946V88.11h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+  <path d="M170.65 99.4v-6.3h.855l3.31 4.947V93.1h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+  <path d="M160.63 115.96l.39.08.19.45-6.7 12.08-.47.06-.23-.37z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <g stroke="#000">
+    <path d="M153.9 129.05l.14-.42.47-.06 9.44 10.12-.09.47-.32.22z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M164.43 139.32l-.57-.16.09-.47 12.54-5.84.42.23-.02.43z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M198.4 159.1l-9.83-48.833" fill="none" marker-end="url(#a)" stroke-width=".76"/>
+    <path d="M189.5 139.62v.44l-.38.23-12.23-6.78.02-.43.36-.24z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M177.27 132.84l-.36.24-.42-.23-1.1-8.92.39-.05.38-.05z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M174.54 131.77l-.94-7.62" stroke-width=".77"/>
+  </g>
+  <path d="M192.81 134.25l1.058 5.01.887-.532-1.03-5.043z" fill="#fff"/>
+  <g stroke="#000">
+    <path d="M189.89 140.29l-.39-.23v-.44l12.24-6.78.36.24.02.43z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M189.5 137.56l10.56-5.85" stroke-width=".77"/>
+  </g>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M202.12 133.51l-.02-.43.42-.23 12.54 5.84.18.94z" stroke="none"/>
+    <path d="M215.24 139.63l-.18-.94 9.44-10.12.47.06.2.35z" stroke="none"/>
+    <path d="M225.15 128.16l-.18.47-.47-.06-6.71-12.1.2-.43.43-.02z" stroke="none"/>
+  </g>
+  <g stroke="#000">
+    <path d="M223.63 103.03l.88-.08-6.09 13.07-.43.02-.27-.34z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M221.55 103.21l-5.07 10.89" stroke-width=".77"/>
+  </g>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M217.72 115.7l.27.34-.2.43-9.76 1.9-.14-.76z" stroke="none"/>
+    <path d="M202.52 132.85l-.42.23-.36-.24 1.1-9.01.39.05.38.05z" stroke="none"/>
+    <path d="M224.51 102.95l-.88.08-8.02-11.46.2-.38.43-.06z" stroke="none"/>
+    <path d="M216.24 91.13l-.43.06-.27-.39 4.5-13.08.92-.28z" stroke="none"/>
+    <path d="M220.96 77.44l-.92.28-11.05-8.33.01-.48.52-.09z" stroke="none"/>
+    <path d="M208.7 68.65l.3.26-.01.48-11.33 7.93-.45-.15-.06-.43z" stroke="none"/>
+  </g>
+  <g stroke="#000">
+    <path d="M183.67 72.91l-.08-.43.34-.29 13.22 4.55.06.43-.31.3z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M184.02 74.95l11.42 3.93" stroke-width=".77"/>
+    <path d="M196.9 77.47l.31-.3.45.15 2.89 9.75-.37.11-.36.11z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M215.54 90.8l.27.39-.2.38-10.13-.17.01-.39.01-.38z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M214.26 88.98l-8.73-.16" stroke-width=".77"/>
+  </g>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M183.17 72.32l.42.16.08.43-10.88 8.81-.39-.18-.09-.42z" stroke="none"/>
+    <path d="M172.31 81.12l.09.42-.37.3-13.37-3.58-.34-.88z" stroke="none"/>
+    <path d="M158.32 77.38l.34.88-7.53 11.61-.48.02-.16-.46z" stroke="none"/>
+    <path d="M150.44 90.24l.21-.35.48-.02 8.7 10.75-.12.46-.37.15z" stroke="none"/>
+    <path d="M161.38 115.69l-.36.35-.39-.08-1.29-14.73.37-.15.41.26z" stroke="none"/>
+    <path d="M160.12 101.34l-.41-.26.12-.46 9.25-3.55.14.36.13.36z" stroke="none"/>
+  </g>
+  <g stroke="#000">
+    <path d="M172.03 81.84l.37-.3.39.18.51 9.77-.76.04z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M170.3 83.24l.43 8.39" stroke-width=".77"/>
+  </g>
+  <path d="M189.42 105.63l.834.21q-.263 1.027-.946 1.57-.68.536-1.663.536-1.018 0-1.658-.413-.636-.416-.97-1.203-.332-.786-.332-1.688 0-.984.374-1.715.37-.735 1.07-1.113.69-.382 1.52-.382.94 0 1.59.48.64.482.9 1.355l-.82.193q-.22-.687-.64-1t-1.05-.315q-.73 0-1.22.348t-.69.937q-.2.584-.2 1.207 0 .804.23 1.405.232.598.73.894.49.297 1.07.297.7 0 1.182-.404.486-.41.66-1.2z"/>
+  <path d="M190.9 105.56q0-1.268.705-1.878.588-.507 1.435-.507.94 0 1.538.62.597.613.597 1.7 0 .88-.266 1.388-.27.503-.77.782-.51.28-1.1.28-.96 0-1.55-.615-.59-.614-.59-1.77zm.795 0q0 .876.382 1.315.383.434.963.434.576 0 .958-.44t.382-1.34q0-.85-.386-1.28-.383-.44-.954-.44-.58 0-.963.43t-.382 1.31z"/>
+  <path d="M197.16 103.5v-1.296h-1.286v-.54h1.286v-1.287h.548v1.286h1.286v.542h-1.286v1.295z"/>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M183.93 72.19l-.34.29-.42-.16-2.46-13.95.76-.14z" stroke="none"/>
+    <path d="M189.12 140.29l.38-.23.39.23-.01 14.17h-.76z" stroke="none"/>
+    <path d="M214.77 139.23l.76-.14.2.74-.87.17z" stroke="none"/>
+    <path d="M215.03 141.5l1.11-.22.2.75-1.22.24z" stroke="none"/>
+    <path d="M215.29 143.76l1.45-.28.21.74-1.57.31z" stroke="none"/>
+    <path d="M215.55 146.03l1.8-.35.21.74-1.92.37z" stroke="none"/>
+    <path d="M215.81 148.29l2.15-.42.2.75-2.26.44z" stroke="none"/>
+    <path d="M216.07 150.56l2.5-.49.2.75-2.61.5z" stroke="none"/>
+    <path d="M216.33 152.82l2.84-.55.21.74-2.96.58z" stroke="none"/>
+    <path d="M225.17 128.98l-.2-.35.18-.47 13.34-4.71.78 2.92z" stroke="none"/>
+    <path d="M224.7 128.9l.54-.54.59.5-.63.63z" stroke="none"/>
+    <path d="M226.18 130.63l.79-.79.59.5-.88.88z" stroke="none"/>
+    <path d="M227.66 132.36l1.04-1.04.59.5-1.13 1.13z" stroke="none"/>
+    <path d="M229.14 134.1l1.3-1.3.58.5-1.38 1.38z" stroke="none"/>
+    <path d="M230.62 135.83l1.55-1.55.58.5-1.63 1.63z" stroke="none"/>
+    <path d="M232.1 137.56l1.8-1.8.58.5-1.88 1.88z" stroke="none"/>
+    <path d="M233.58 139.29l2.05-2.05.59.5-2.14 2.14z" stroke="none"/>
+    <path d="M163.54 139.38l.32-.22.57.16 7.94 11.56-2.62 1.5z" stroke="none"/>
+    <path d="M163.63 138.85l.46.62-.58.51-.53-.72z" stroke="none"/>
+    <path d="M161.7 140.06l.67.9-.59.51-.74-1z" stroke="none"/>
+    <path d="M159.77 141.27l.88 1.19-.59.5-.95-1.28z" stroke="none"/>
+    <path d="M157.83 142.48l1.09 1.47-.58.51-1.16-1.57z" stroke="none"/>
+    <path d="M155.9 143.69l1.3 1.76-.58.5-1.37-1.85z" stroke="none"/>
+    <path d="M153.97 144.9l1.51 2.04-.58.51-1.58-2.14z" stroke="none"/>
+    <path d="M152.04 146.11l1.72 2.33-.58.5-1.8-2.42z" stroke="none"/>
+    <path d="M151.9 147.77l.76-.08 1.66 14.53-.82-.36z" stroke="none"/>
+    <path d="M153.5 161.86l.82.36-11.57 8.56-.82-.36z" stroke="none"/>
+  </g>
+  <path d="M126.14 165.26q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43-.7-.43-1.06-1.17-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.66.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M142.59 169.94l.72-.53-9.06-3.94-.31.71z" stroke="none"/>
+    <path d="M142.13 172.12l-.1-.88-8.65-3.76-.31.7z" stroke="none"/>
+  </g>
+  <path d="M141.46 188.38v-6.3h.855l3.31 4.946v-4.945h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+  <path d="M147.85 188.38v-6.3h.834v2.587h3.274v-2.586h.833v6.3h-.83v-2.97h-3.27v2.97z"/>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M141.93 170.42l.82.36 1.1 9.7-.76.08z" stroke="none"/>
+    <path d="M139.99 187.37l.46.62-7.65 5.66-.82-.36z" stroke="none"/>
+    <path d="M131.98 193.29l.82.36 1.58 13.87-.72.52z" stroke="none"/>
+  </g>
+  <path d="M144.23 213.93q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43-.7-.43-1.06-1.17-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.67.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <path d="M133.66 208.04l.72-.52 8.72 3.78-.16.36-.15.35z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M133.79 207.47l.46.62-.58.51-.53-.72z" stroke="none"/>
+    <path d="M131.86 208.68l.67.9-.58.51-.74-1z" stroke="none"/>
+    <path d="M129.93 209.89l.88 1.19-.58.5-.95-1.28z" stroke="none"/>
+    <path d="M128 211.1l1.09 1.47-.58.51-1.17-1.57z" stroke="none"/>
+    <path d="M126.07 212.31l1.3 1.76-.58.5-1.38-1.85z" stroke="none"/>
+    <path d="M124.14 213.52l1.51 2.04-.58.51-1.59-2.14z" stroke="none"/>
+    <path d="M122.21 214.73l1.72 2.32-.58.51-1.8-2.42z" stroke="none"/>
+  </g>
+  <path d="M146.61 231.31v-6.3h2.376q.628 0 .958.06.464.078.778.297.314.215.503.606.193.39.193.86 0 .803-.51 1.362-.512.554-1.85.554h-1.614v2.56zm.834-3.304h1.628q.808 0 1.147-.3.34-.302.34-.848 0-.395-.21-.674-.2-.284-.53-.374-.21-.056-.78-.056h-1.61z"/>
+  <path d="M147.45 218.82l.76-.08.54 4.74-.76.08z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <path d="M153.06 240.71q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43t-1.06-1.17q-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.67.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <path d="M159.59 237.94h3.384v.32h-3.384z"/>
+  <path d="M151.38 232.97l.34-.19.33-.2 1.99 3.45-.33.19-.34.2z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <path d="M159.77 224.51q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43-.7-.43-1.06-1.17-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.66.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <path d="M153.14 227.08l-.2-.74 5.22-1.4.2.74z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <path d="M131.95 231.96q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43t-1.06-1.17q-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.67.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M145.01 228.26l-.19-.74-5.63 1.51.2.74z" stroke="none"/>
+    <path d="M145.51 230.12l-.2-.74-5.62 1.51.19.74z" stroke="none"/>
+  </g>
+  <path d="M167.93 222.86l-.75-1.3-.76-1.31 8.46-3.6.36.25.04.44z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <path d="M195.03 212.47q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43t-1.06-1.17q-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.67.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M175.28 217.34l-.04-.44.41-.24 12.64 5.63.2.94z" stroke="none"/>
+    <path d="M188.49 223.23l-.2-.94 5.96-6.61.29.26.28.26z" stroke="none"/>
+    <path d="M196.03 207.83l-.33.19-.33.2-4.73-8.2.19-.43.44-.01z" stroke="none"/>
+    <path d="M190.54 199.26l.29.33-.19.43-13.55 2.88-.35-.32.13-.42z" stroke="none"/>
+    <path d="M176.33 202.75l.41-.17.35.32-1.44 13.76-.41.24-.36-.25z" stroke="none"/>
+  </g>
+  <path d="M156.97 196.42v-6.3h.834v2.587h3.274v-2.586h.833v6.3h-.83v-2.97h-3.27v2.97z"/>
+  <path d="M163.05 193.35q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418t1.06 1.164q.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43t-1.06-1.17q-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.66.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <path d="M176.87 202.16l-.13.42-.41.17-7.06-4.86 2.02-2.24z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <path d="M194.18 189.91v-6.3h.855l3.31 4.946v-4.945h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+  <path d="M191.27 199.58l-.44.01-.29-.33 2.54-8.42 1.37.61 1.38.62z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M188.01 222.84l.76-.16.22.74-.87.19z" stroke="none"/>
+    <path d="M188.31 225.1l1.1-.23.22.74-1.21.26z" stroke="none"/>
+    <path d="M188.61 227.36l1.45-.31.22.74-1.56.34z" stroke="none"/>
+    <path d="M188.91 229.62l1.8-.38.22.74-1.91.4z" stroke="none"/>
+    <path d="M189.21 231.88l2.14-.46.22.74-2.25.48z" stroke="none"/>
+    <path d="M189.51 234.14l2.49-.53.22.74-2.6.55z" stroke="none"/>
+    <path d="M189.81 236.4l2.84-.6.21.74-2.94.62z" stroke="none"/>
+  </g>
+  <path d="M202.09 241.7q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713-.39.76-1.1 1.15-.71.39-1.53.39-.89 0-1.59-.43-.7-.43-1.06-1.17-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.65 1.538.65.94 0 1.547-.66.61-.66.61-1.88 0-.77-.262-1.34-.258-.58-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.6-.63 2.03z"/>
+  <path d="M209.21 244.77v-6.3h.834v2.587h3.274v-2.586h.833v6.3h-.83v-2.97h-3.27v2.97z"/>
+  <path d="M191.27 237.22l.24-.74 9.4 3.06-.12.36-.12.37z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <path d="M196.62 166.74v-6.3h.855l3.31 4.946v-4.945h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+  <g stroke="#000">
+    <path d="M200.84 185.94l-.08-.37-.08-.38 9.74-2.07.35.32-.09.41z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M211.18 183.26l-.41.18-.35-.32 1.45-13.76.41-.24.36.26z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M213.08 182.41l1.24-11.8" stroke-width=".77"/>
+    <path d="M212.28 168.7v.42l-.41.24-8.97-4 .15-.35.16-.35z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M195.35 166.87l.29.26.28.26-5.96 6.62-.94-.1z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M197.07 168.42l-5.21 5.79" stroke-width=".77"/>
+    <path d="M189.02 173.91l.94.1 4.69 8.12-.33.19-.33.2z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M210.68 183.85l.09-.41.41-.18 11.29 8.2-.1.88z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M222.37 192.34l.1-.88 12.75-5.67.36.26-.05.44z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M222.68 189.39l10.85-4.83" stroke-width=".77"/>
+    <path d="M235.99 185.87l-.41.18-.36-.26 1.45-13.88.41-.18.36.26z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M237.13 171.29l-.05.44-.41.18-11.29-8.21.1-.88z" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="none"/>
+    <path d="M234.77 172.76l-9.6-6.99" stroke-width=".77"/>
+  </g>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M225.48 162.82l-.1.88-12.74 5.68-.36-.26v-.42z" stroke="none"/>
+    <path d="M237.44 171.99l-.36-.26.05-.44 12.95-5.77.32.7z" stroke="none"/>
+    <path d="M235.53 186.49l.05-.44.41-.18 11.47 8.33-.46.62z" stroke="none"/>
+    <path d="M158.85 77.68l-.72.28-.33-.7.83-.32z" stroke="none"/>
+    <path d="M158.2 75.5l-1.05.4-.33-.7 1.16-.44z" stroke="none"/>
+    <path d="M157.55 73.31l-1.38.53-.33-.7 1.49-.57z" stroke="none"/>
+    <path d="M156.9 71.13l-1.71.65-.33-.69 1.82-.7z" stroke="none"/>
+    <path d="M156.25 68.94l-2.04.78-.33-.69 2.15-.83z" stroke="none"/>
+    <path d="M155.61 66.76l-2.38.91-.33-.7 2.49-.95z" stroke="none"/>
+    <path d="M154.96 64.57l-2.71 1.04-.33-.7 2.82-1.08z" stroke="none"/>
+    <path d="M153.39 63.99l-.12.76-14.44-2.28.56-.7z" stroke="none"/>
+  </g>
+  <g id="c">
+    <path d="M108.23 52.15v-6.3h.834v2.587h3.274V45.85h.833v6.3h-.83v-2.97h-3.27v2.97z"/>
+    <path d="M117.21 53.582v.558h-3.123q-.01-.21.068-.403.12-.32.38-.63.265-.308.76-.714.77-.632 1.042-1 .27-.37.27-.7 0-.343-.248-.58-.25-.237-.65-.237-.42 0-.67.25-.25.253-.26.697l-.6-.06q.06-.668.46-1.016.4-.35 1.07-.35.68 0 1.07.376t.395.934q0 .284-.117.558-.113.274-.384.577-.264.303-.89.83-.52.44-.67.597-.15.15-.245.31z"/>
+    <path d="M118.23 52.15v-6.3h.855l3.31 4.946V45.85h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+    <path d="M124.35 49.082q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418.7.417 1.06 1.164.37.744.37 1.69 0 .957-.39 1.713t-1.1 1.148q-.71.39-1.53.39-.89 0-1.59-.43-.7-.43-1.06-1.17-.36-.74-.36-1.57zm.86.013q0 1.14.61 1.796.614.66 1.538.66.94 0 1.547-.66.61-.66.61-1.87 0-.77-.262-1.34-.258-.57-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.61-.63 2.03z"/>
+    <path d="M135.93 49.94l.834.212q-.263 1.027-.946 1.568-.68.537-1.663.537-1.018 0-1.658-.412-.636-.417-.97-1.204-.332-.78-.332-1.68 0-.98.374-1.71.37-.73 1.07-1.11.69-.38 1.52-.38.94 0 1.59.48t.9 1.36l-.82.19q-.22-.68-.64-1-.42-.31-1.05-.31-.73 0-1.22.35t-.69.937q-.2.583-.2 1.206 0 .807.23 1.408.233.6.73.897.492.296 1.07.296.7 0 1.183-.406t.66-1.2z"/>
+  </g>
+  <g fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M139.39 61.77l-.56.7-3.32-8.65.36-.14.36-.13z" stroke="none"/>
+    <path d="M150.49 89.43l.16.46-.21.35-14.53-2.7.83-1.37.78-1.32z" stroke="none"/>
+    <path d="M150.38 89.62l.54.54-.5.59-.63-.63z" stroke="none"/>
+    <path d="M148.65 91.1l.79.79-.5.59-.88-.88z" stroke="none"/>
+    <path d="M146.92 92.58l1.04 1.05-.5.58-1.13-1.12z" stroke="none"/>
+    <path d="M145.18 94.07l1.3 1.29-.5.59-1.38-1.38z" stroke="none"/>
+    <path d="M143.45 95.55l1.55 1.54-.5.59-1.63-1.63z" stroke="none"/>
+    <path d="M141.72 97.03l1.8 1.8-.5.58-1.89-1.88z" stroke="none"/>
+    <path d="M139.99 98.51l2.05 2.05-.5.59-2.14-2.14z" stroke="none"/>
+    <path d="M137.52 84.85l-.78 1.32-.83 1.37-5.6 5.61-.28-.27-.27-.28z" stroke="none"/>
+    <path d="M159.57 100.72l.28.72-.69.34-.33-.82z" stroke="none"/>
+    <path d="M157.39 101.41l.42 1.04-.69.35-.46-1.16z" stroke="none"/>
+    <path d="M155.22 102.1l.56 1.37-.7.34-.6-1.48z" stroke="none"/>
+    <path d="M153.05 102.79l.69 1.7-.7.34-.73-1.81z" stroke="none"/>
+    <path d="M150.88 103.47l.82 2.03-.7.35-.86-2.14z" stroke="none"/>
+    <path d="M148.7 104.16l.96 2.36-.7.34-.99-2.47z" stroke="none"/>
+    <path d="M146.53 104.85l1.09 2.68-.69.35-1.14-2.8z" stroke="none"/>
+    <path d="M153.81 128.26l.23.37-.14.42-14.41 2.93.25-1.59.22-1.51z" stroke="none"/>
+    <path d="M139.96 128.88l-.22 1.51-.25 1.59-3.19 7.51-.35-.15-.36-.15z" stroke="none"/>
+    <path d="M217.77 153.66l.26-.72 13.4 4.61.16.88z" stroke="none"/>
+    <path d="M231.59 158.43l-.16-.88 7.02-6.1.5.58z" stroke="none"/>
+    <path d="M220.61 77.95l-.22-.74.72-.28.26.85z" stroke="none"/>
+    <path d="M222.84 77.45l-.33-1.07.72-.28.36 1.19z" stroke="none"/>
+    <path d="M225.06 76.96l-.43-1.42.72-.28.46 1.53z" stroke="none"/>
+    <path d="M227.28 76.46l-.53-1.75.72-.28.57 1.87z" stroke="none"/>
+    <path d="M229.51 75.97l-.64-2.09.72-.28.67 2.2z" stroke="none"/>
+    <path d="M231.73 75.47l-.74-2.43.72-.28.78 2.55z" stroke="none"/>
+    <path d="M233.96 74.98l-.85-2.77.72-.28.88 2.88z" stroke="none"/>
+    <path d="M234.01 73.65l.52-.56 10.38 9.67-.2.86z" stroke="none"/>
+    <path d="M244.71 83.62l.2-.86 9.36-2.86.11.36.11.37z" stroke="none"/>
+    <path d="M209.33 68.72l-.66.38-.44-.63.77-.45z" stroke="none"/>
+    <path d="M208.35 66.66l-.97.56-.44-.63 1.08-.63z" stroke="none"/>
+    <path d="M207.37 64.61l-1.28.74-.44-.64 1.39-.8z" stroke="none"/>
+    <path d="M206.39 62.55l-1.59.92-.44-.64 1.69-.98z" stroke="none"/>
+    <path d="M205.4 60.49l-1.89 1.1-.44-.64 2-1.15z" stroke="none"/>
+    <path d="M204.42 58.44l-2.2 1.27-.44-.64 2.31-1.33z" stroke="none"/>
+    <path d="M203.44 56.38l-2.51 1.45-.44-.64 2.62-1.5z" stroke="none"/>
+    <path d="M209.52 68.82l-.52.09-.3-.26 6.02-12.59 1.48.38 1.56.38z" stroke="none"/>
+  </g>
+  <g id="b">
+    <path d="M232.6 57.7l.834.212q-.263 1.027-.946 1.568-.68.537-1.663.537-1.018 0-1.658-.412-.636-.417-.97-1.204-.332-.78-.332-1.68 0-.98.374-1.71.37-.73 1.07-1.11.69-.38 1.52-.38.94 0 1.59.48.64.49.9 1.36l-.82.19q-.22-.68-.64-1t-1.05-.31q-.73 0-1.22.35t-.69.937q-.2.583-.2 1.206 0 .807.23 1.41.232.595.73.89.49.298 1.07.298.7 0 1.182-.402t.66-1.2z"/>
+    <path d="M234.21 56.842q0-1.568.842-2.454.842-.89 2.174-.89.873 0 1.573.418t1.06 1.164q.37.744.37 1.69 0 .957-.39 1.713-.39.757-1.1 1.148-.71.39-1.53.39-.89 0-1.59-.43-.7-.43-1.06-1.17t-.36-1.57zm.86.013q0 1.14.61 1.796.614.66 1.538.66.94 0 1.547-.66.61-.66.61-1.87 0-.77-.262-1.34-.258-.57-.76-.89-.5-.32-1.122-.32-.88 0-1.52.61-.63.61-.63 2.03z"/>
+    <path d="M241.3 59.91v-6.3h.855l3.31 4.946V53.61h.798v6.3h-.855l-3.31-4.95v4.95z"/>
+    <path d="M247.69 59.91v-6.3h.834v2.587h3.274V53.61h.833v6.3h-.83v-2.97h-3.27v2.97z"/>
+    <path d="M256.67 61.342v.558h-3.123q-.01-.21.068-.403.12-.32.38-.63.265-.308.76-.714.77-.632 1.042-1 .27-.37.27-.7 0-.343-.248-.58-.25-.237-.65-.237-.42 0-.67.25-.25.253-.26.697l-.6-.06q.06-.668.46-1.016.4-.35 1.07-.35.68 0 1.07.376t.4.934q0 .284-.118.558-.117.274-.388.577-.267.303-.89.83-.525.44-.67.597-.15.15-.248.31z"/>
+  </g>
+  <path d="M217.76 56.82l-1.56-.38-1.48-.38h11.59v.77z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <text fill="#000000" font-family="Arial" text-rendering="geometricPrecision">
+    <tspan x="119.5" y="260.5" font-size="8.8"><tspan font-weight="bold">R</tspan> = 5'-deoxyadenosyl, CH</tspan><tspan dy="1.99" font-size="6.6">3</tspan><tspan dy="-1.99" font-size="8.8">, OH, CN</tspan>
+  </text>
+  <path d="M187.81 99.91h-.77v-7.42h.77z" fill-rule="evenodd" shape-rendering="geometricPrecision"/>
+  <path d="M184.89 91.09v-6.3h2.677q1.01 0 1.465.173.46.167.735.6.275.435.275.994 0 .71-.417 1.173-.417.46-1.246.58.41.24.67.528.27.288.72 1.023l.77 1.23h-1.52l-.92-1.37q-.49-.73-.67-.92-.18-.19-.38-.26-.21-.07-.64-.07h-.26v2.63zm1.272-3.635h.94q.916 0 1.144-.077t.356-.267q.13-.18.13-.47 0-.32-.172-.51-.168-.2-.477-.25-.155-.02-.93-.02h-.99z"/>
+  <use transform="translate(27.97,22.54)" width="100%" height="100%" xlink:href="#b"/>
+  <use transform="translate(11.78 92.1)" width="100%" height="100%" xlink:href="#b"/>
+  <use transform="translate(-7.39,47.67)" width="100%" height="100%" xlink:href="#c"/>
+  <use transform="translate(.17 94.97)" width="100%" height="100%" xlink:href="#c"/>
+  <g fill="none" stroke="#000" stroke-width=".76">
+    <path d="M178.63 115.27l5.502-5.846" marker-end="url(#d)"/>
+    <path d="M177.06 98.394l5.88 3.36" marker-end="url(#e)"/>
+    <path d="M200.09 115.67l-8.22-6.582"/>
+    <path d="M197.87 94.958l-6.036 6.068" marker-end="url(#f)"/>
+  </g>
+  <g transform="translate(.0012063 -.021461)" fill-rule="evenodd" shape-rendering="geometricPrecision" stroke="#000" stroke-width="0">
+    <path d="M160.95 116.42l.14-.76.78.07-.18.92z" stroke="none"/>
+    <path d="M163.24 117.13l.24-1.27.78.07-.28 1.43z" stroke="none"/>
+    <path d="M165.53 117.84l.34-1.78.78.07-.38 1.94z" stroke="none"/>
+    <path d="M167.82 118.55l.44-2.29.78.07-.48 2.45z" stroke="none"/>
+    <path d="M170.11 119.26l.55-2.8.77.07-.58 2.96z" stroke="none"/>
+  </g>
+</svg>
