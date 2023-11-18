@@ -118,6 +118,16 @@ text {
     fill: black;
 }
 
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #b8860bcc;
+    text-align: center;
+    font-size: x-large;
+}
+
 .zdalnie {
     fill: white;
 }
