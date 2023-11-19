@@ -132,6 +132,10 @@ text {
     font-size: x-large;
 }
 
+#day1126>.event>rect {
+    fill-opacity: 0.7;
+}
+
 .zdalnie {
     fill: white;
 }
