@@ -190,6 +190,7 @@ button {
     border: none;
     padding: 5px;
     border-radius: 0px;
+    margin: 5px;
 }
 
 button:active {
