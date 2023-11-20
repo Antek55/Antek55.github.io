@@ -167,3 +167,10 @@ text {
 .muz {
     fill: lightblue; 
 }
+
+.plandeleted {
+    background-color: darkred;;
+}
+.planadded {
+    background-color: limegreen;
+}
