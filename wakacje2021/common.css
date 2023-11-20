@@ -174,3 +174,24 @@ text {
 .planadded {
     background-color: limegreen;
 }
+
+.slidetab {
+    color: white;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    margin: 10px;
+}
+
+button {
+    font-size: 17px;
+    background-color: aqua;
+    border: none;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+button:active {
+    background-color: darkmagenta;
+}
