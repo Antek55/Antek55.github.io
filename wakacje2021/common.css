@@ -223,3 +223,7 @@ dialog {
 .today_ramka {
     stroke: lightgreen;
 }
+
+.occlusion {
+    fill: darkgreen
+}
