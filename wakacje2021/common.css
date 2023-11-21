@@ -196,3 +196,24 @@ button {
 button:active {
     background-color: darkmagenta;
 }
+
+::backdrop {
+    opacity: 0.75;
+    background-image: linear-gradient(45deg,
+                magenta,
+                rebeccapurple,
+                dodgerblue,
+                green);
+}
+
+dialog {
+    font-size: 25px;
+}
+
+#error::backdrop {
+    background-image: radial-gradient(#ff0000ff, orange);
+}
+
+#cal2.night {
+    box-shadow: 0 0 100px 5px limegreen;
+}
