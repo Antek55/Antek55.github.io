@@ -150,7 +150,6 @@ text {
 }
 .wybory {
     fill: url(#wybory);
-    opacity: 0.8;
 }
 .wspom {
     fill: #FAD6A5;
@@ -214,9 +213,8 @@ dialog {
     background-image: radial-gradient(#ff0000ff, orange);
 }
 
-#cal2.night  {
+#cal2  {
     box-shadow: 0 0 100px 5px limegreen;
-
     /*#DA3287*/
 }
 
@@ -226,4 +224,13 @@ dialog {
 
 .occlusion {
     fill: darkgreen
+}
+
+.ytIframe {
+    box-shadow: 0 0 100px 5px purple;
+}
+
+#path4-2 {
+    stroke: white;
+    stop-color: white;
 }
