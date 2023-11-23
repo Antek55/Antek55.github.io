@@ -78,10 +78,6 @@ body.m8, body.m7 {
     background: radial-gradient(darkgreen, rgb(15, 54, 15));
 }
 
-body {
-    background: linear-gradient(60deg, #E50000,#FF8D00, #FFEE00, #028121, #004CFF, #770088 );
-}
-
 @keyframes kolor {
     0% {
         fill: yellow;
