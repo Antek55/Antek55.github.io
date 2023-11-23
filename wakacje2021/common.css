@@ -213,22 +213,15 @@ dialog {
     background-image: radial-gradient(#ff0000ff, orange);
 }
 
-#cal2  {
-    box-shadow: 0 0 100px 5px limegreen;
-    /*#DA3287*/
-}
-
-.today_ramka {
-    stroke: lightgreen;
-}
-
-.occlusion {
-    fill: darkgreen
-}
-
 .ytIframe {
     box-shadow: 0 0 100px 5px purple;
 }
+
+#cal2  {
+    /* box-shadow: 0 0 100px 5px limegreen; */
+    /*#DA3287*/
+}
+
 
 #path4-2 {
     stroke: white;
