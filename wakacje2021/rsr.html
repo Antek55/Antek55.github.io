@@ -39,6 +39,10 @@
     $("#loading").html('Przeglądarka Safari nie potrafi załadować tej strony. Zainstaluj porządną przeglądarkę (np. <a   href="https://www.mozilla.org/pl/firefox/new/">Mozilla Firefox</a>)');
     throw new Error("Safari not supported");
   }
+
+  const shared = {}
+  window.addEventListener('focus', () => {console.log('zewwn focus'); shared.focus()})
+  window.addEventListener('blur', shared.blur)
   
   function put(data) {
     data = data.data[0].content
@@ -60,8 +64,4 @@
   
   if (clid)
     $.get("https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?type=v&v=" + clid)
-  
-  const shared = {}
-  window.addEventListener('focus', () => {console.log('zewwn focus'); shared.focus()})
-  window.addEventListener('blur', shared.blur)
 </script>
