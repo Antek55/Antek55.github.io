@@ -41,7 +41,7 @@
   }
 
   window.shared = {}
-  window.addEventListener('focus', () => {console.log('zewwn focus'); shared.focus()})
+  window.addEventListener('focus', () => {console.log('zewwn focus'); if (typeof shared.focus =="function") shared.focus()})
   window.addEventListener('blur', shared.blur)
   
   function put(data) {
