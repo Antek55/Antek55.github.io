@@ -40,7 +40,7 @@
     throw new Error("Safari not supported");
   }
 
-  const shared = {}
+  window.shared = {}
   window.addEventListener('focus', () => {console.log('zewwn focus'); shared.focus()})
   window.addEventListener('blur', shared.blur)
   
