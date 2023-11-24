@@ -62,6 +62,6 @@
     $.get("https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?type=v&v=" + clid)
   
   const shared = {}
-  window.addEventListener('focus', shared.focus)
+  window.addEventListener('focus', () => {console.log('zewwn focus'); shared.focus()})
   window.addEventListener('blur', shared.blur)
 </script>
