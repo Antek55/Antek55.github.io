@@ -638,3 +638,7 @@ dialog {
     stroke: white;
     stop-color: white;
 }
+
+.today_ramka {
+    stroke: url('#adwentramka')
+}
