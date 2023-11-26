@@ -51,7 +51,7 @@ body.m11 {
 }
 
 body.m12 {
-    background: radial-gradient(red, green);
+    background: darkblue;
 }
 
 body.m2, body.m1 {
@@ -218,9 +218,419 @@ dialog {
     box-shadow: 0 0 100px 5px purple;
 }
 
+@keyframes stokolorow {
+0% {
+        box-shadow: 0 0 100px 5px #688abf;
+    }
+
+    1% {
+        box-shadow: 0 0 100px 5px #e0e93d;
+    }
+
+    2% {
+        box-shadow: 0 0 100px 5px #792c3e;
+    }
+
+    3% {
+        box-shadow: 0 0 100px 5px #a75f9f;
+    }
+
+    4% {
+        box-shadow: 0 0 100px 5px #e6719f;
+    }
+
+    5% {
+        box-shadow: 0 0 100px 5px #2c2ac4;
+    }
+
+    6% {
+        box-shadow: 0 0 100px 5px #b5cdb2;
+    }
+
+    7% {
+        box-shadow: 0 0 100px 5px #101d03;
+    }
+
+    8% {
+        box-shadow: 0 0 100px 5px #bcaaa0;
+    }
+
+    9% {
+        box-shadow: 0 0 100px 5px #afcc28;
+    }
+
+    10% {
+        box-shadow: 0 0 100px 5px #cbed5a;
+    }
+
+    11% {
+        box-shadow: 0 0 100px 5px #6586ab;
+    }
+
+    12% {
+        box-shadow: 0 0 100px 5px #da6686;
+    }
+
+    13% {
+        box-shadow: 0 0 100px 5px #d4658f;
+    }
+
+    14% {
+        box-shadow: 0 0 100px 5px #72d36c;
+    }
+
+    15% {
+        box-shadow: 0 0 100px 5px #b334ca;
+    }
+
+    16% {
+        box-shadow: 0 0 100px 5px #8931c2;
+    }
+
+    17% {
+        box-shadow: 0 0 100px 5px #d45fa0;
+    }
+
+    18% {
+        box-shadow: 0 0 100px 5px #22accf;
+    }
+
+    19% {
+        box-shadow: 0 0 100px 5px #e4e824;
+    }
+
+    20% {
+        box-shadow: 0 0 100px 5px #626c1d;
+    }
+
+    21% {
+        box-shadow: 0 0 100px 5px #118552;
+    }
+
+    22% {
+        box-shadow: 0 0 100px 5px #a23eef;
+    }
+
+    23% {
+        box-shadow: 0 0 100px 5px #6b5611;
+    }
+
+    24% {
+        box-shadow: 0 0 100px 5px #2e812a;
+    }
+
+    25% {
+        box-shadow: 0 0 100px 5px #beeebc;
+    }
+
+    26% {
+        box-shadow: 0 0 100px 5px #cb6008;
+    }
+
+    27% {
+        box-shadow: 0 0 100px 5px #550691;
+    }
+
+    28% {
+        box-shadow: 0 0 100px 5px #c62243;
+    }
+
+    29% {
+        box-shadow: 0 0 100px 5px #37a60d;
+    }
+
+    30% {
+        box-shadow: 0 0 100px 5px #4fe3f2;
+    }
+
+    31% {
+        box-shadow: 0 0 100px 5px #118c83;
+    }
+
+    32% {
+        box-shadow: 0 0 100px 5px #6f753b;
+    }
+
+    33% {
+        box-shadow: 0 0 100px 5px #faa8d2;
+    }
+
+    34% {
+        box-shadow: 0 0 100px 5px #f55f39;
+    }
+
+    35% {
+        box-shadow: 0 0 100px 5px #078420;
+    }
+
+    36% {
+        box-shadow: 0 0 100px 5px #f205ef;
+    }
+
+    37% {
+        box-shadow: 0 0 100px 5px #5625ca;
+    }
+
+    38% {
+        box-shadow: 0 0 100px 5px #34eb49;
+    }
+
+    39% {
+        box-shadow: 0 0 100px 5px #79111a;
+    }
+
+    40% {
+        box-shadow: 0 0 100px 5px #03980a;
+    }
+
+    41% {
+        box-shadow: 0 0 100px 5px #e84ad6;
+    }
+
+    42% {
+        box-shadow: 0 0 100px 5px #b587a8;
+    }
+
+    43% {
+        box-shadow: 0 0 100px 5px #34fe23;
+    }
+
+    44% {
+        box-shadow: 0 0 100px 5px #c6de38;
+    }
+
+    45% {
+        box-shadow: 0 0 100px 5px #f77850;
+    }
+
+    46% {
+        box-shadow: 0 0 100px 5px #cce5c7;
+    }
+
+    47% {
+        box-shadow: 0 0 100px 5px #8fb434;
+    }
+
+    48% {
+        box-shadow: 0 0 100px 5px #74523f;
+    }
+
+    49% {
+        box-shadow: 0 0 100px 5px #64598e;
+    }
+
+    50% {
+        box-shadow: 0 0 100px 5px #16783d;
+    }
+
+    51% {
+        box-shadow: 0 0 100px 5px #17bb1c;
+    }
+
+    52% {
+        box-shadow: 0 0 100px 5px #dff3d1;
+    }
+
+    53% {
+        box-shadow: 0 0 100px 5px #1c13ac;
+    }
+
+    54% {
+        box-shadow: 0 0 100px 5px #56199c;
+    }
+
+    55% {
+        box-shadow: 0 0 100px 5px #48fb8c;
+    }
+
+    56% {
+        box-shadow: 0 0 100px 5px #2c7123;
+    }
+
+    57% {
+        box-shadow: 0 0 100px 5px #4e86fb;
+    }
+
+    58% {
+        box-shadow: 0 0 100px 5px #df8091;
+    }
+
+    59% {
+        box-shadow: 0 0 100px 5px #b0044c;
+    }
+
+    60% {
+        box-shadow: 0 0 100px 5px #f42fef;
+    }
+
+    61% {
+        box-shadow: 0 0 100px 5px #03cf97;
+    }
+
+    62% {
+        box-shadow: 0 0 100px 5px #a4bc57;
+    }
+
+    63% {
+        box-shadow: 0 0 100px 5px #a5b675;
+    }
+
+    64% {
+        box-shadow: 0 0 100px 5px #35ddb1;
+    }
+
+    65% {
+        box-shadow: 0 0 100px 5px #6792d1;
+    }
+
+    66% {
+        box-shadow: 0 0 100px 5px #30257e;
+    }
+
+    67% {
+        box-shadow: 0 0 100px 5px #3afe5a;
+    }
+
+    68% {
+        box-shadow: 0 0 100px 5px #13577a;
+    }
+
+    69% {
+        box-shadow: 0 0 100px 5px #cb5d4e;
+    }
+
+    70% {
+        box-shadow: 0 0 100px 5px #3f91a4;
+    }
+
+    71% {
+        box-shadow: 0 0 100px 5px #a18ce2;
+    }
+
+    72% {
+        box-shadow: 0 0 100px 5px #ca19d3;
+    }
+
+    73% {
+        box-shadow: 0 0 100px 5px #6fddb1;
+    }
+
+    74% {
+        box-shadow: 0 0 100px 5px #5152da;
+    }
+
+    75% {
+        box-shadow: 0 0 100px 5px #da650b;
+    }
+
+    76% {
+        box-shadow: 0 0 100px 5px #5ed9a9;
+    }
+
+    77% {
+        box-shadow: 0 0 100px 5px #35a6aa;
+    }
+
+    78% {
+        box-shadow: 0 0 100px 5px #b8cb71;
+    }
+
+    79% {
+        box-shadow: 0 0 100px 5px #3a5595;
+    }
+
+    80% {
+        box-shadow: 0 0 100px 5px #0c4c12;
+    }
+
+    81% {
+        box-shadow: 0 0 100px 5px #a8163f;
+    }
+
+    82% {
+        box-shadow: 0 0 100px 5px #0599fb;
+    }
+
+    83% {
+        box-shadow: 0 0 100px 5px #5db3b8;
+    }
+
+    84% {
+        box-shadow: 0 0 100px 5px #cb310e;
+    }
+
+    85% {
+        box-shadow: 0 0 100px 5px #5c1c4f;
+    }
+
+    86% {
+        box-shadow: 0 0 100px 5px #63d6e1;
+    }
+
+    87% {
+        box-shadow: 0 0 100px 5px #9026d8;
+    }
+
+    88% {
+        box-shadow: 0 0 100px 5px #07d01f;
+    }
+
+    89% {
+        box-shadow: 0 0 100px 5px #ff90a7;
+    }
+
+    90% {
+        box-shadow: 0 0 100px 5px #5fa421;
+    }
+
+    91% {
+        box-shadow: 0 0 100px 5px #436148;
+    }
+
+    92% {
+        box-shadow: 0 0 100px 5px #f522e7;
+    }
+
+    93% {
+        box-shadow: 0 0 100px 5px #3e4189;
+    }
+
+    94% {
+        box-shadow: 0 0 100px 5px #52d70b;
+    }
+
+    95% {
+        box-shadow: 0 0 100px 5px #712ea8;
+    }
+
+    96% {
+        box-shadow: 0 0 100px 5px #231e1d;
+    }
+
+    97% {
+        box-shadow: 0 0 100px 5px #240a95;
+    }
+
+    98% {
+        box-shadow: 0 0 100px 5px #7ad00f;
+    }
+
+    99% {
+        box-shadow: 0 0 100px 5px #554317;
+    }
+}
+
+@keyframes miganie {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+}
+
 #cal2  {
-    /* box-shadow: 0 0 100px 5px limegreen; */
-    /*#DA3287*/
+    animation: stokolorow infinite 2000s alternate; /*, miganie infinite 5s alternate -5s;*/
 }
 
 
