@@ -2,7 +2,7 @@ body {
     height: 100%;
     /* height: 100vh; */
     margin: 0px;
-    font-family: Caladea;
+    font-family: 'Caladea';
 }
 
 .nav {
@@ -12,6 +12,8 @@ h1 {
     font-size: 41px;
     margin: 0px;
     padding: 10px;
+    font-family: 'Caladea';
+    font-weight: normal;
     /*font-family: 'Whitney'*/
 }
 
