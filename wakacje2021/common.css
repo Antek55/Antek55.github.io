@@ -644,3 +644,7 @@ dialog {
 .today_ramka {
     stroke: url('#adwentramka')
 }
+
+.flame {
+    animation: miganie infinite 1s alternate;
+}
