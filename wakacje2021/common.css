@@ -645,6 +645,21 @@ dialog {
     stroke: url('#adwentramka')
 }
 
+@keyframes flame {
+    0% {
+        fill: yellow;
+    }
+    40% {
+        fill: orange;
+    }
+    60% {
+        fill: gold;
+    }
+    100% {
+        fill: red;
+    }
+}
+
 .flame {
-    animation: miganie infinite 1s alternate;
+    animation: flame infinite 2s alternate;
 }
