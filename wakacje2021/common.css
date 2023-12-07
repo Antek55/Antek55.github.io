@@ -648,19 +648,22 @@ dialog {
 @keyframes flame {
     0% {
         fill: yellow;
+        filter: drop-shadow(0 0 2px red) blur(2px)
     }
     40% {
         fill: orange;
+        filter: drop-shadow(0 0 2px gold) blur(1px)
     }
     60% {
         fill: gold;
+        filter: drop-shadow(0 0 2px orange) blur(1.5px)
     }
     100% {
         fill: red;
+        filter: drop-shadow(0 0 2px yellow) blur(2px)
     }
 }
 
 .flame {
-    animation: flame infinite 2s alternate;
-    filter: drop-shadow(0 0 2px gold)
+    animation: flame infinite 2s alternate; 
 }
