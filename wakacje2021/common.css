@@ -260,3 +260,7 @@ dialog {
 .flame {
     animation: flame infinite 2s alternate; 
 }
+
+.nightly {
+    display: none;
+}
