@@ -272,3 +272,15 @@ dialog {
 .nightly {
     display: none;
 }
+
+.aoc-2 {
+    fill: #ffff66;
+}
+
+.aoc-1 {
+    fill: #9999cc;
+}
+
+.aoc-0 {
+    fill: #666666;
+}
