@@ -308,14 +308,17 @@ dialog {
 @keyframes lampka_anim {
     0% {
         filter: url(#rozm);
+        transform: translate(0px, 0px);
     }
 
-    /* 50% {
+    50% {
         filter: url(#rozm) hue-rotate(180deg);
-    } */
+        transform: translate(-5px, 0px);
+    }
 
     100% {
         filter: url(#rozm) hue-rotate(360deg);
+        transform: translate(0px, 0px);
     }
 }
 
