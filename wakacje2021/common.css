@@ -284,3 +284,41 @@ dialog {
 .aoc-0 {
     fill: #666666;
 }
+
+.lampka0 {
+    fill: magenta;
+}
+
+.lampka1 {
+    fill: blue;
+}
+
+.lampka2 {
+    fill: green;
+}
+
+.lampka3 {
+    fill: red;
+}
+
+.lampka4 {
+    fill: #C2EABA;
+}
+
+@keyframes lampka_anim {
+    0% {
+        filter: url(#rozm);
+    }
+
+    /* 50% {
+        filter: url(#rozm) hue-rotate(180deg);
+    } */
+
+    100% {
+        filter: url(#rozm) hue-rotate(360deg);
+    }
+}
+
+.lampka {
+    animation: miganie 2s infinite alternate, lampka_anim 1s infinite normal;
+}
