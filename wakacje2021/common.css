@@ -311,10 +311,10 @@ dialog {
         /* transform: translate(0px, 0px); */
     }
 
-    50% {
-        filter: url(#rozm) hue-rotate(180deg);
+    /* 50% { */
+        /* filter: url(#rozm) hue-rotate(180deg); */
         /* transform: translate(-5px, 0px); */
-    }
+    /* } */
 
     100% {
         filter: url(#rozm) hue-rotate(360deg);
