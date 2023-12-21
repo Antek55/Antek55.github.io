@@ -94,15 +94,11 @@ body.c1226 {
     }
 }
 
-.wycieczka>rect {
+.wycieczka  >rect {
     animation-name: kolor;
     animation-iteration-count: infinite;
     animation-duration: 1s;
     animation-direction: alternate;
-}
-
-:root {
-    --num: 0.25s;
 }
 
 @keyframes impreza {
@@ -139,7 +135,7 @@ text {
     font-size: x-large;
 }
 
-#day1126>.event>rect , #day1203>.event>rect , #day1210>.event>rect {
+#day1126>.event>rect , #day1203>.event>rect , #day1210>.event>rect, #day1226>.event>rect {
     fill-opacity: 0.7;
 }
 
