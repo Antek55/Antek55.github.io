@@ -323,5 +323,6 @@ dialog {
 }
 
 .lampka {
-    animation: miganie 2s infinite alternate, lampka_anim 1s infinite normal;
+    animation: miganie 2s infinite alternate;/*, lampka_anim 1s infinite normal;*/
+    filter: blur(3px);
 }
