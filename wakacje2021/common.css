@@ -117,6 +117,10 @@ body.c1226 {
     animation-direction: alternate;
 }
 
+.muzX > text {
+    fill: white;
+}
+
 text {
     fill: black;
 }
