@@ -115,15 +115,20 @@ body.c1226 {
 }
 
 .impreza>rect {
+    fill: url(#impreza);
     animation-name: impreza;
     animation-iteration-count: infinite;
     animation-duration: 0.25s;
     animation-direction: alternate;
 }
 
-.muzX > text {
+.muz_ > text {
     fill: white;
 }
+.muz_ > rect {
+    fill: blue;
+}
+
 
 text {
     fill: black;
@@ -147,34 +152,34 @@ text {
     fill-opacity: 0.7;
 }
 
-.zdalnie {
+.zdalnie >rect {
     fill: white;
 }
-.stacjo {
+.stacjo >rect {
     fill: lime;
 }
-.none {
+.none >rect {
     fill: grey;
 }
-.urodziny {
+.urodziny >rect {
     fill: lightpink;
 }
-.wybory {
+.wybory >rect {
     fill: lightgreen;
 }
-.wspom {
+.wspom >rect {
     fill: #FAD6A5;
 }
-.std {
+.std >rect{
     fill: orange;
 }
-.wyjście {
+.wyjście > rect {
     fill: violet;
 }
-.wielkie {
+.wielkie > rect {
     fill: red;
 }
-.muz {
+.muz > rect {
     fill: lightblue; 
 }
 .global > rect {
