@@ -57,7 +57,8 @@ body.m12 {
 }
 
 body.m2, body.m1 {
-    background: radial-gradient(cyan, rgb(182, 255, 255));
+    /* background: radial-gradient(cyan, rgb(182, 255, 255)); */
+    background: radial-gradient(#33c2d9ff, #bdc2d9ff)
 }
 
 body.m3 {
