@@ -186,6 +186,9 @@ text {
 .global > rect {
     fill: url('#gradient_global');
 }
+.spec >rect {
+    fill: yellow;
+}
 
 .plandeleted {
     background-color: darkred;;
