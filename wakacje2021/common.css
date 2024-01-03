@@ -177,6 +177,9 @@ text {
 .muz {
     fill: lightblue; 
 }
+.global > rect {
+    fill: url('#gradient_global');
+}
 
 .plandeleted {
     background-color: darkred;;
