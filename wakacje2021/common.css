@@ -99,7 +99,8 @@ body.c1226 {
     }
 }
 
-.wycieczka  >rect {
+.wycieczka >rect {
+    fill: darkgreen;
     animation-name: kolor;
     animation-iteration-count: infinite;
     animation-duration: 1s;
