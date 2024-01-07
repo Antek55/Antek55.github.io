@@ -107,6 +107,10 @@ body.c1226 {
     animation-direction: alternate;
 }
 
+.test >rect {
+    fill: url('#gradtest')
+}
+
 @keyframes impreza {
     0% {
         filter: hue-rotate(180deg)
@@ -189,6 +193,9 @@ text {
 }
 .spec >rect {
     fill: yellow;
+}
+.tbd >rect {
+    fill: url('#gradient_tbd');
 }
 
 .plandeleted {
