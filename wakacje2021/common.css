@@ -197,6 +197,12 @@ text {
 .tbd >rect {
     fill: url('#gradient_tbd');
 }
+.tajemnica_bolesna >rect {
+    fill: url('#gradient_tajemnica_bolesna');
+}
+.tajemnica_bolesna >text {
+    fill: white;
+}
 
 .plandeleted {
     background-color: darkred;;
