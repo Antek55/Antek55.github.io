@@ -107,6 +107,9 @@ body.c1226 {
     animation-duration: 1s;
     animation-direction: alternate;
 }
+tr.wycieczka {
+    background-color: darkgreen;
+}
 
 .test >rect {
     fill: url('#gradtest')
@@ -162,8 +165,15 @@ text {
 .zdalnie >rect {
     fill: white;
 }
+tr.zdalnie {
+    background-color: white;
+    color: black;
+}
 .stacjo >rect {
     fill: lime;
+}
+tr.stacjo {
+    background-color: lime;
 }
 .none >rect {
     fill: grey;
@@ -182,6 +192,9 @@ text {
 }
 .wyjście > rect {
     fill: violet;
+}
+tr.wyjście {
+    background-color: violet;
 }
 .wielkie > rect {
     fill: red;
