@@ -90,19 +90,23 @@ body.c1226 {
     background-color: #a6130d;
 }
 
-@keyframes kolor {
+.event > rect {
+    stroke: black;
+    stroke-width: 0.5px;
+}
+
+@keyframes wycieczka_anim {
     0% {
         fill: yellow;
-        filter: saturate(3)
     }
     100% {
-        filter: saturate(1)
+        fill: initial;
     }
 }
 
 .wycieczka >rect {
     fill: darkgreen;
-    animation-name: kolor;
+    animation-name: wycieczka_anim;
     animation-iteration-count: infinite;
     animation-duration: 1s;
     animation-direction: alternate;
