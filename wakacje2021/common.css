@@ -4,10 +4,6 @@ body {
     margin: 0px;
     font-family: 'Caladea';
 }
-
-.nav {
-    font-size: 20px;
-}
 h1 {
     font-size: 41px;
     margin: 0px;
@@ -15,6 +11,10 @@ h1 {
     font-family: 'Caladea';
     font-weight: normal;
     /*font-family: 'Whitney'*/
+}
+
+.nav {
+    font-size: 20px;
 }
 
 table {
