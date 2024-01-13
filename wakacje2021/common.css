@@ -382,10 +382,3 @@ dialog {
     animation: miganie 2s infinite alternate;/*, lampka_anim 1s infinite normal;*/
     filter: blur(3px);
 }
-
-#cal2 {
-    animation-name: impreza;
-    animation-iteration-count: infinite;
-    animation-duration: 0.25s;
-    animation-direction: alternate;
-}
