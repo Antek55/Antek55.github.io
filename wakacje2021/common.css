@@ -120,6 +120,7 @@ body.c1226 {
 }
 
 .event > rect {
+    fill: darkgrey;
     stroke: black;
     stroke-width: 0.5px;
 }
