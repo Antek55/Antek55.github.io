@@ -44,7 +44,7 @@
   function put(data) {
     data = data.data[0].content
     openpgp.readMessage({armoredMessage: data}).then((value) => openpgp.decrypt({passwords: key, message: value})).then(value => {
-      document.querySelector("html").innerHTML = value;
+      document.querySelector("html").innerHTML = value.data;
     });
   }
 
