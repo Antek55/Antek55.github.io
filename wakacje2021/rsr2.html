@@ -3,6 +3,25 @@
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://unpkg.com/openpgp@5.0.0-3/dist/openpgp.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+function setInnerHTML(elm, html) {
+  elm.innerHTML = html;
+  
+  Array.from(elm.querySelectorAll("script"))
+    .forEach( oldScriptEl => {
+      const newScriptEl = document.createElement("script");
+      
+      Array.from(oldScriptEl.attributes).forEach( attr => {
+        newScriptEl.setAttribute(attr.name, attr.value) 
+      });
+      
+      const scriptText = document.createTextNode(oldScriptEl.innerHTML);
+      newScriptEl.appendChild(scriptText);
+      
+      oldScriptEl.parentNode.replaceChild(newScriptEl, oldScriptEl);
+  });
+}
+</script>
 <head>
   <title>Lato 2021</title>
   <link rel="icon" href="gfx/favicon.ico">
@@ -44,7 +63,8 @@
   function put(data) {
     data = data.data[0].content
     openpgp.readMessage({armoredMessage: data}).then((value) => openpgp.decrypt({passwords: key, message: value})).then(value => {
-      document.querySelector("html").innerHTML = value.data;
+      setInnerHTML(document.querySelector("html"), value.data)
+      //document.querySelector("html").innerHTML = value.data;
     });
   }
 
