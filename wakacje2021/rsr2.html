@@ -5,6 +5,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 function setInnerHTML(elm, html) {
+  //via https://stackoverflow.com/questions/2592092/executing-script-elements-inserted-with-innerhtml
+  // można poprawić dzięki: https://stackoverflow.com/questions/2592092/executing-script-elements-inserted-with-innerhtml
   elm.innerHTML = html;
   
   Array.from(elm.querySelectorAll("script"))

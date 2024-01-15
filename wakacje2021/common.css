@@ -328,10 +328,6 @@ dialog {
     stop-color: white;
 }
 
-.today_ramka {
-    stroke: url('#adwentramka')
-}
-
 @keyframes flame {
     0% {
         fill: yellow;
