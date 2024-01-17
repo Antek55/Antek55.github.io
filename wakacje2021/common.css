@@ -354,3 +354,15 @@ dialog {
 .nightly {
     display: none;
 }
+.bg-lightgrey {
+    background: lightgrey;
+    background-color: lightgrey;
+}
+.bg-lime {
+    background: lime;
+    background-color: lime;
+}
+.bg-cyan {
+    background: cyan;
+    background-color: cyan;
+}
