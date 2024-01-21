@@ -366,3 +366,6 @@ dialog {
     background: cyan;
     background-color: cyan;
 }
+.event>rect:hover{
+    stroke: white;
+}
