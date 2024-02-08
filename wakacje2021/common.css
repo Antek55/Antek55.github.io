@@ -366,6 +366,11 @@ dialog {
     background: cyan;
     background-color: cyan;
 }
+.bg-orange {
+    background: orange;
+    background-color: orange;
+}
+
 .private > text {
     fill: red;
 }
