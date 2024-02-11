@@ -374,3 +374,7 @@ dialog {
 .private > text {
     fill: red;
 }
+
+.manylinks {
+    cursor: pointer;
+}
