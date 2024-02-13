@@ -141,9 +141,6 @@ body.c1226 {
     animation-duration: 1s;
     animation-direction: alternate;
 }
-tr.wycieczka {
-    background-color: darkgreen;
-}
 
 .test >rect {
     fill: url('#gradtest')
@@ -161,6 +158,23 @@ tr.wycieczka {
 .impreza>rect {
     fill: url(#impreza);
     animation-name: impreza;
+    animation-iteration-count: infinite;
+    animation-duration: 0.25s;
+    animation-direction: alternate;
+}
+
+@keyframes flash {
+    0% {
+        fill: red;
+    }
+
+    100% {
+        filter: hue-rotate(180deg)
+    }
+}
+
+.flash>rect {
+    animation-name: flash;
     animation-iteration-count: infinite;
     animation-duration: 0.25s;
     animation-direction: alternate;
