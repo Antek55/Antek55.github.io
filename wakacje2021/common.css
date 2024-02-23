@@ -391,3 +391,7 @@ dialog {
 .manylinks {
     cursor: pointer;
 }
+
+.dr_icon:hover {
+    filter: saturate(0.5);
+}
