@@ -15,7 +15,7 @@ flags = {
   'co' : 'https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg',
   'cs' : 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg',
   'cz' : 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg',
-  'de' : 'https://upload.wikimedia.org/wikipedia/commons/8/86/Flag_of_Germany_%283-2_aspect_ratio%29.svg',
+  'de' : 'https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Germany_%283-2%29.svg',
   'dk' : 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg',
   'en' : 'https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg',
   'es' : 'https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg',
