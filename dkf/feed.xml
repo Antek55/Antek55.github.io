@@ -2,10 +2,15 @@
 <rss version="2.0">
 <channel>
  <title>ALHKS :: Bezdyskusyjny Klub Filmowy</title>
- <description>This is an example of an RSS feed</description>
+ <description>ALHKS :: Bezdyskusyjny Klub Filmowy</description>
  <link>https://www.static.jwodzinski.org.pl/dkf/</link>
- <lastBuildDate>2024-02-28T17:58:23.572498</lastBuildDate>
- <pubDate>2024-02-28T17:58:23.572498</pubDate>
+ <lastBuildDate>2024-02-28T18:07:36.378074</lastBuildDate>
+ <pubDate>2024-02-28T18:07:36.378074</pubDate>
+ <image>
+    <url>https://www.static.jwodzinski.org.pl/wakacje2021/gfx/tż2.svg</url>
+    <title>ALHKS :: Bezdyskusyjny Klub Filmowy</title>
+    <link>https://www.static.jwodzinski.org.pl/dkf/</link>
+    </image>
  
  <item>
          <title>DKF 49 :: nominacje</title>
