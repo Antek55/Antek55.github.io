@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>ALHKS :: Bezdyskusyjny Klub Filmowy</title>
+ <description>This is an example of an RSS feed</description>
+ <link>https://www.static.jwodzinski.org.pl/dkf/</link>
+ <lastBuildDate>2024-02-28T17:54:32.070128</lastBuildDate>
+ <pubDate>2024-02-28T17:54:32.070128</pubDate>
+ 
+ <item>
+         <title>DKF 49 :: nominacje</title>
+         <description>49. spotkanie DKFu między 3-cim a 9-tym marca, dzień oraz film do określenia w głosowaniu, krok pierwszy z dwóch: nominacje otwarte do jutra g. 22:05 pod adresem: https://www.static.jwodzinski.org.pl/wakacje2021/resource.html?k=axlBimnjRbL8zyfmqkIqstM99&r=TOZLmvHy0ZZ</description>
+         <link>https://www.static.jwodzinski.org.pl/wakacje2021/resource.html?k=axlBimnjRbL8zyfmqkIqstM99&r=TOZLmvHy0ZZ</link>
+         <guid isPermaLink="false">https://www.static.jwodzinski.org.pl/wakacje2021/resource.html?k=axlBimnjRbL8zyfmqkIqstM99&r=TOZLmvHy0ZZ</guid>
+         <pubDate>2024-02-26</pubDate>
+         </item>
+</channel></rss>
