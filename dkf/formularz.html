@@ -6,6 +6,9 @@
     <link href="dkf-base.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="filmy.js"></script>
 </head>
 <body>
     <center>
@@ -14,10 +17,271 @@
       </div>
         <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
         <div class="card">
-          Hello World
+          
+          <form v-on:submit.prevent="submit" class="form">
+            <div v-if="Date.now() > Date.parse(closing)">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
+            <div v-else>
+            
+              <div class="banner">
+                <h1>[[ title ]]</h1>
+              </div>
+              
+              <div class="opis">
+                <p>
+                  Możesz oddać <em>dwa</em> głosy dodatnie oraz <em>jeden</em> głos ujemny.
+                  Tak jak było zawsze, <em>nie wolno głosować na filmy nominowane przez siebie</em>!
+                  Nową opcją jest oznaczenie dowolnej liczby filmów jako "<i>Nie przyjdę jeśli zwycięży</i>" – te informacje nie mają żadnego wpływu na głosowanie, ale będą pomocne przy wyznaczaniu terminu spotkania (w przypadku wygrania takiego filmu Twoja dostępność nie będzie brana pod uwagę).
+                </p>
+                <!-- <p>Filmy dokumentalno oznaczono <span style="color: rgb(91, 64, 13)">kolorem brązowym</span></p> -->
+                <p>Formularz zamyka się <span class="red">[[ closing ]]</span>.</p>
+              </div>
+              
+              <div class="item">
+                <label for="name">Jak się nazywasz?</label>
+                <div class="item">
+                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim…" required />
+                </div>
+              </div>
+              
+                <div>
+                  <table>
+                    <tr>
+                      <th>Tytuł filmu</th>
+                      <th>Reżyseria</th>
+                      <th>Zwiastun</th>
+                      <th><a href="https://www.imdb.com" target="_blank"><img src="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png" title="IMDb"></th>
+                      <th><a href="https://rateyourmusic.com/" target="_blank"><img src="https://e.snmc.io/3.0/img/logo/cinemos-512.png" width="32px" title="Rate Your Music"></a></th>
+                      <th>Głos dodatni</th>
+                      <th>Głos ujemny</th>
+                      <th>Nie przyjdę</th>
+                    </tr>
+                    
+                    <tr v-for="f in filmy" :style="styling(f.title, f.isDocu)">
+                      <td :id="f.imdbId">
+                        <span>
+                          <img v-for="fl in f.flag" :src="flags[fl.toLowerCase()]" :title="country_codes[fl]" class="smallflag" style="margin-right: 5px; max-height: 20px">
+                        </span>
+                        <span v-if="f.originalTitle && f.originalTitle != f.titleLocal">[[f.originalTitle]] (<i>[[f.titleLocal]]</i>)</span>
+                        <span v-else-if="f.originalTitle">[[f.originalTitle]]</span>
+                        <span v-else-if="f.title != f.titleLocal">[[f.title]] (<i>[[f.titleLocal]]</i>)</span>
+                        <span v-else>[[f.title]]</span> ([[f.year]])
+                        
+                        <a :href="f.url + '/parentalguide#advisory-violence'" v-if="f.warning1" target="_blank" style="float:right; text-decoration: none">⚠️</a>
+                        <a :href="f.url + '/parentalguide#advisory-frightening'" v-if="f.warning2" target="_blank" target="_blank" style="float:right; text-decoration: none">⚠️</a>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Info_black.png" style="margin: 0px; height: 30px; float:right" v-if="f.info" v-on:click="alert(f.info)" :id="f.imdbId + '-info'">
+                        
+                      </td>
+                      <td>
+                        <span :id="f.imdbId + '-director'" v-on:click="window.open('https://en.wikipedia.org/wiki/' + f.directors)">
+                          <span v-for="d in f.directors">[[d]] </span>
+                        </span>
+                      </td>
+                      <td style="text-align: center">
+                            <span class="playicon" v-if="f.yttrailer.videoId" v-on:click='trailer(f.yttrailer.videoId, $event)'>
+                              <img width="32px" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Play_rood.png">
+                            </span>
+                      </td>
+                      <td><a :href="f.url" target="_blank">[[f.imdbRating]]</td>
+                      <td><a :href="f.rymUrl" target="_blank">[[f.rymRating]]</a></td>
+                      <td><input type="checkbox" v-model="g[f.title]"></td>
+                      <td><input type="checkbox" v-model="w[f.title]"></td>
+                      <td><input type="checkbox" v-model="np[f.title]"></td>
+                      <!-- <td><input type="checkbox" v-model="z1[f.title]"></td> -->
+                      <!-- <td><input type="checkbox" v-model="z2[f.title]"></td> -->
+                    </tr>
+                    
+                  </table>
+              </div>
+              
+              <div class="autogenerated-checkbox-list">
+               <label>
+                Które z poniższych terminów Ci odpowiadają?
+               </label>
+               <center>
+                <table style="text-align:center; margin: 5px; padding: 10px">
+                 <tr>
+                  <th>
+                   Data
+                  </th>
+                  <th>
+                   Pasuje
+                  </th>
+                  <th>
+                   Mniej chętnie
+                  </th>
+                  <th>
+                   Nie pasuje
+                  </th>
+                  <th>
+                   Jeszcze niejasne
+                  </th>
+                 </tr>
+                 <tr v-for="[key, value] of Object.entries(terminy)">
+                  <td>
+                   [[key]]
+                  </td>
+                  <td v-bind:style='"background-color:" + (terminy[key] == "tak" ? "green" : "initial")' v-on:click="clicked">
+                   <input :id="key" :name="key" type="radio" v-model="terminy[key]" value="tak"/>
+                  </td>
+                  <td v-bind:style='"background-color:" + (terminy[key] == "mniej" ? "#a5e04c " : "initial")' v-on:click="clicked">
+                   <input :id="key" :name="key" type="radio" v-model="terminy[key]" value="mniej"/>
+                  </td>
+                  <td v-bind:style='"background-color:" + (!terminy[key] ? "red" : "initial")' v-on:click="clicked">
+                   <input :id="key" :name="key" :value="false" type="radio" v-model="terminy[key]"/>
+                  </td>
+                  <td v-bind:style='"background-color:" + (terminy[key] == "brakwiedzy" ? "grey" : "initial")' v-on:click="clicked">
+                   <input :id="key" :name="key" type="radio" v-model="terminy[key]" value="brakwiedzy"/>
+                  </td>
+                 </tr>
+                </table>
+                <button v-on:click.prevent="odznacz">
+                 Odznacz wszystkie
+                </button>
+               </center>
+              </div>
+
+              
+              <div class="item" style="padding-top: 30px; padding-bottom: 30px;">
+                  <label for="uwagi">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
+                  <textarea id="uwagi" rows="3" v-model="uwagi"></textarea>
+              </div>
+
+              <div id="warnings" class="warnings" style="font-weight: bold; font-size: 20px">
+                <p v-if="_.some( Object.entries(filmy_dict).map( ([a,b]) => g[a] && w[a] ) )">⚠️ Głosujesz na film jednocześnie dodatnio i ujemnie! </p>
+                <p v-if="max2()">⚠️ Możesz oddać tylko dwa głosy dodatnie.</p>
+                <p v-if="max1neg()">⚠️ Możesz oddać tylko jeden głos ujemny.</p>
+              </div>
+              
+              <div class="btn-block">
+                <button :style="max2() || max1neg() ? 'background-color: grey' : ''">Wyślij</button>
+              </div>
+            </div>   
+          </form>
+          
         </div>
     </center>
     <script>
       $("a").attr("target", "_blank")
     </script>
+    <script src="flags.js"></script>
+    <script>
+    function submit_send()
+    {
+      if (app.max2() || app.max1neg())
+      {
+        return false;
+      }
+      
+      $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
+
+      url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
+      
+      delete (app.$data.flags)
+      delete (app.$data.country_codes)
+      
+      var wynik = encodeURIComponent(JSON.stringify(app.$data));
+      $.get(url + wynik, on_success);
+      
+      function on_success(data)
+      {
+        if (!data.success)
+        {
+          $("form").html('<h2 class="red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.</h2>');
+          return false;
+        }
+        
+        $("form").html("Wysłano odpowiedź.")
+      }
+    }
+
+    filmy_dict = {}
+    filmy.forEach(function(f) { filmy_dict[f.title] = false } )
+    filmy = _.shuffle(filmy)
+    
+    var app = new Vue({
+      el: "form", 
+      data: {
+        form_id: "dkf-głosowanie-1",
+        title: "DKF głosowanie",
+        closing: "2024-02-29 22:05",
+        name: '',
+        uwagi: "",
+        g: _.cloneDeep(filmy_dict),
+        w: _.cloneDeep(filmy_dict),
+        np: _.cloneDeep(filmy_dict),
+        flags: flags,
+        country_codes: country_codes,
+        terminy: {'nd, 3 marca': 'tak', 'pn, 4 marca': 'tak', 'wt, 5 marca': 'tak', 'śr, 6 marca': 'tak', 'cz, 7 marca': 'tak', 'pt, 8 marca': 'tak', 'sb, 9 marca': 'tak'},
+      }, 
+      methods: 
+      {
+        max2: function() {return _.filter(Object.entries(this.g), ([a,b]) => b ).map(p => p[0]).length > 2},
+        max1neg: function() {return _.filter(Object.entries(this.w), ([a,b]) => b ).map(p => p[0]).length > 1},
+        styling: function(key, isDocu) {
+            
+          if (this.w[key])
+          {
+            return 'background-color: red; text-decoration: line-through'
+          }
+          if (this.g[key] && !this.max2())
+          {
+            return 'background-color: darkgreen';
+          }
+          if(isDocu)
+          {
+            return "background-color: #5b400d;"
+          }
+        },
+        trailer: function(code, event) {
+          // $(".player").html("")
+          var iframe = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + code + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+          
+          $(".playicon").find("iframe").remove()
+          $(".playicon").find("img").show()
+          
+          var span = $(event.target).parent()
+          $(span).find("img").hide()
+          $(span).append(iframe)
+          
+        },
+        submit: submit_send,
+        clicked: function(a) { var radio = $(a.target).children("input")[0]; var value = radio.value; if (value == "false") value = false; this.$data.terminy[radio.id] = value},
+        odznacz() {for (var k in this.terminy){this.terminy[k] = false}},
+      },
+      delimiters: ['[[', ']]'],
+    })
+
+  </script>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <link href="https://unpkg.com/tippy.js@5.0.3/animations/shift-away-extreme.css" rel="stylesheet">
+  <script>
+    filmy.forEach((k) => { 
+      tippy('#' + k.imdbId, {
+        content: '<img src="' + k.rymCoverartImg + '" style="width: 300px">',
+        // animation: "shift-away-extreme",
+        allowHTML: true,
+        followCursor: "horizontal", 
+        placement: 'right',
+        });
+      
+      if (k.info) 
+          tippy('#' + k.imdbId + '-info', {
+            content: k.info,
+            // animation: "shift-away-extreme",
+            followCursor: "horizontal",
+            // placement: 'bottom',
+          });
+      
+      if (k['popup-director'])
+        tippy('#' + k.imdbId + '-director', {
+          content: k['popup-director'],
+          // animation: "shift-away-extreme",
+          allowHTML: true,
+          // followCursor: "horizontal",
+          placement: 'left-start'
+        });
+      })
+  </script>
 </body>
