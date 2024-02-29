@@ -76,8 +76,16 @@ td, th {
   padding: 0.5vh;
   text-align: center;
 }
-
 textarea {
   width: calc(100% - 12px);
   padding: 5px;
+}
+.smallflag {
+  position: relative; 
+  top: 4px; 
+  width: 30px;
+  border: lightgrey 1px solid;
+}
+.warnings {
+  color: red
 }
