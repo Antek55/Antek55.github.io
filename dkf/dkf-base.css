@@ -103,4 +103,6 @@ popup-director-photo {
 .tippy-content {
   text-align: justify;
 }
-
+input[type="radio"] {
+  width: 40px;
+}

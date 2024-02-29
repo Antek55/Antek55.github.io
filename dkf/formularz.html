@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
-    <link href="https://unpkg.com/tippy.js@5.0.3/animations/shift-away-extreme.css" rel="stylesheet">
+    <link href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css" rel="stylesheet">
     <script src="flags.js"></script>
     <script src="filmy.js"></script>
     <style>
@@ -48,7 +48,7 @@
               <div class="item">
                 <label for="name">Jak się nazywasz?</label>
                 <div class="item">
-                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim…" required />
+                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim" required />
                 </div>
               </div>
               
@@ -264,7 +264,7 @@
     filmy.forEach((k) => { 
       tippy('#' + k.imdbId, {
         content: '<img src="' + k.rymCoverartImg + '" style="width: 300px">',
-        // animation: "shift-away-extreme",
+        animation: "shift-away-extreme",
         allowHTML: true,
         followCursor: "horizontal", 
         placement: 'right',
@@ -273,7 +273,7 @@
       if (k.info) 
           tippy('#' + k.imdbId + '-info', {
             content: k.info,
-            // animation: "shift-away-extreme",
+            animation: "shift-away-extreme",
             followCursor: "horizontal",
             // placement: 'bottom',
           });
@@ -281,9 +281,9 @@
       if (k['popup-director'])
         tippy('#' + k.imdbId + '-director', {
           content: k['popup-director'],
-          // animation: "shift-away-extreme",
+          animation: "shift-away-extreme",
           allowHTML: true,
-          // followCursor: "horizontal",
+          followCursor: "horizontal",
           placement: 'left-start'
         });
       })
