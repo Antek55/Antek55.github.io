@@ -8,7 +8,16 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <link href="https://unpkg.com/tippy.js@5.0.3/animations/shift-away-extreme.css" rel="stylesheet">
+    <script src="flags.js"></script>
     <script src="filmy.js"></script>
+    <style>
+      .title {
+        text-align: left;
+      }
+    </style>
 </head>
 <body>
     <center>
@@ -26,14 +35,14 @@
                 <h1>[[ title ]]</h1>
               </div>
               
-              <div class="opis">
+              <div class="opis" style="text-align: justify">
                 <p>
                   Możesz oddać <em>dwa</em> głosy dodatnie oraz <em>jeden</em> głos ujemny.
                   Tak jak było zawsze, <em>nie wolno głosować na filmy nominowane przez siebie</em>!
                   Nową opcją jest oznaczenie dowolnej liczby filmów jako "<i>Nie przyjdę jeśli zwycięży</i>" – te informacje nie mają żadnego wpływu na głosowanie, ale będą pomocne przy wyznaczaniu terminu spotkania (w przypadku wygrania takiego filmu Twoja dostępność nie będzie brana pod uwagę).
                 </p>
                 <!-- <p>Filmy dokumentalno oznaczono <span style="color: rgb(91, 64, 13)">kolorem brązowym</span></p> -->
-                <p>Formularz zamyka się <span class="red">[[ closing ]]</span>.</p>
+                <p>Formularz zamyka się <em><span class="red">[[ closing ]]</span></em>.</p>
               </div>
               
               <div class="item">
@@ -57,14 +66,14 @@
                     </tr>
                     
                     <tr v-for="f in filmy" :style="styling(f.title, f.isDocu)">
-                      <td :id="f.imdbId">
+                      <td :id="f.imdbId" class="title">
                         <span>
                           <img v-for="fl in f.flag" :src="flags[fl.toLowerCase()]" :title="country_codes[fl]" class="smallflag" style="margin-right: 5px; max-height: 20px">
                         </span>
-                        <span v-if="f.originalTitle && f.originalTitle != f.titleLocal">[[f.originalTitle]] (<i>[[f.titleLocal]]</i>)</span>
-                        <span v-else-if="f.originalTitle">[[f.originalTitle]]</span>
-                        <span v-else-if="f.title != f.titleLocal">[[f.title]] (<i>[[f.titleLocal]]</i>)</span>
-                        <span v-else>[[f.title]]</span> ([[f.year]])
+                        <span v-if="f.originalTitle && f.originalTitle != f.titleLocal"><b>[[f.originalTitle]]</b> (<i>[[f.titleLocal]]</i>)</span>
+                        <span v-else-if="f.originalTitle"><b>[[f.originalTitle]]</b></span>
+                        <span v-else-if="f.title != f.titleLocal"><b>[[f.title]]</b> (<i>[[f.titleLocal]]</i>)</span>
+                        <span v-else><b>[[f.title]]</b></span> ([[f.year]])
                         
                         <a :href="f.url + '/parentalguide#advisory-violence'" v-if="f.warning1" target="_blank" style="float:right; text-decoration: none">⚠️</a>
                         <a :href="f.url + '/parentalguide#advisory-frightening'" v-if="f.warning2" target="_blank" target="_blank" style="float:right; text-decoration: none">⚠️</a>
@@ -163,7 +172,6 @@
     <script>
       $("a").attr("target", "_blank")
     </script>
-    <script src="flags.js"></script>
     <script>
     function submit_send()
     {
@@ -203,8 +211,8 @@
       data: {
         form_id: "dkf-głosowanie-1",
         title: "DKF głosowanie",
-        closing: "2024-02-29 22:05",
-        name: '',
+        closing: "2024-03-30 22:05",
+        name: localStorage.getItem('name'),
         uwagi: "",
         g: _.cloneDeep(filmy_dict),
         w: _.cloneDeep(filmy_dict),
@@ -252,10 +260,6 @@
     })
 
   </script>
-
-  <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script src="https://unpkg.com/tippy.js@6"></script>
-  <link href="https://unpkg.com/tippy.js@5.0.3/animations/shift-away-extreme.css" rel="stylesheet">
   <script>
     filmy.forEach((k) => { 
       tippy('#' + k.imdbId, {
