@@ -253,5 +253,57 @@ filmy = [
 	"rymCoverartImg": "https://e.snmc.io/i/300/s/82a2109bcade03a34804a3edd5f69a3a/11002828",
 	"rtUrl": "",
 	"rtRating": ""
+},
+{
+	"flag": [
+		"US"
+	],
+	"title": "The Graduate",
+	"originalTitle": "",
+	"titleLocal": "Absolwent",
+	"year": 1967,
+	"url": "https://www.imdb.com/title/tt0061722",
+	"imdbId": "tt0061722",
+	"imdbRating": 8,
+	"directors": [
+		"Mike Nichols"
+	],
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mike_Nichols.jpg/320px-Mike_Nichols.jpg\" class=\"popup-director-photo\"></center> <p><b>Mike Nichols</b> was an American film and theatre director. He worked across a range of genres and had an aptitude for getting the best out of actors regardless of their experience. He is one of 18 people to have won all four of the major American entertainment awards: Emmy, Grammy, Oscar, and Tony (EGOT). His other honors included three BAFTA Awards, the Lincoln Center Gala Tribute in 1999, the National Medal of Arts in 2001, the Kennedy Center Honors in 2003 and the AFI Life Achievement Award in 2010. His films received a total of 42 Academy Award nominations, and seven wins. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"isDocu": false,
+	"yttrailer": {
+		"videoId": "6cKafIqhEvk"
+	},
+	"rymUrl": "https://rateyourmusic.com/film/the_graduate/",
+	"rymRating": "3.79",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/90512547dadefda0048aa058cb1b9af6/7834650",
+	"rtUrl": "",
+	"rtRating": ""
+},
+{
+	"flag": [
+		"GB",
+		"US"
+	],
+	"title": "The Private Life of Sherlock Holmes",
+	"originalTitle": "",
+	"titleLocal": "Prywatne \u017cycie Sherlocka Holmesa",
+	"year": 1970,
+	"url": "https://www.imdb.com/title/tt0066249",
+	"imdbId": "tt0066249",
+	"imdbRating": 7,
+	"directors": [
+		"Billy Wilder"
+	],
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d0/Billy_Wilder.jpg\" class=\"popup-director-photo\"></center> <p><b>Billy Wilder</b> was an Austrian-born filmmaker and screenwriter. His career in Hollywood spanned five decades, and he is regarded as one of the most brilliant and versatile filmmakers of Classic Hollywood cinema. He received seven Academy Awards, a BAFTA Award, the Cannes Film Festival\\'s Palme d\\'Or and two Golden Globe Awards. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"isDocu": false,
+	"yttrailer": {
+		"videoId": "yO22pJ8GdeA"
+	},
+	"rymUrl": "https://rateyourmusic.com/film/the_private_life_of_sherlock_holmes/",
+	"rymRating": "3.47",
+	"rymCoverartImg": "https://m.media-amazon.com/images/M/MV5BNTg2ODQyOGQtNWVhMi00MDI2LTg3OTktZjA4MTJmYzQwYTFjXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+	"rtUrl": "",
+	"rtRating": ""
 }
+
 ]
