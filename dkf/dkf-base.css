@@ -1,0 +1,11 @@
+body {
+    /* height: 100%; */
+    height: 100vh;
+    margin: 0px;
+    font-family: 'Caladea';
+}
+h1 {
+    font-size: 41px;
+    font-family: 'Caladea';
+    font-weight: normal;
+}

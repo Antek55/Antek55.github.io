@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" version="1.0">
+  <defs>
+    <linearGradient id="a" x1="-344.15" x2="-395.85" y1="274.71" y2="425.4" gradientTransform="matrix(-.59146 0 0 .59146 210.02 142.23)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-373.64 -318.34)">
+    <rect width="235.01" height="234.99" x="-619.15" y="328.85" fill="#ececeb" fill-rule="evenodd" stroke="#bdbdbd" stroke-linecap="square" stroke-width="6" rx="35.488" ry="35.488" transform="scale(-1 1)"/>
+    <path fill="url(#a)" fill-rule="evenodd" d="M557.06 338.9H446.23c-29.34 0-52.96 23.8-52.96 53.38v108.13c.95 23.08 4.6 8.49 11.56-17.08 8.08-29.71 34.39-55.68 66.44-75.14 24.46-14.86 51.84-24.34 101.68-25.25 28.27-.51 25.77-36.68-15.89-44.04z"/>
+    <path fill="none" stroke="#bdbdbd" stroke-width="6" d="m385.069 374.34 107.14 112.14c6.96 3.2 13.28 2.51 19.29 0l107.14-115"/>
+    <path fill="none" stroke="#cdcece" stroke-width="6" d="m457.926 488.63-60 62.85M549.35 487.2l62.86 64.28"/>
+  </g>
+<script xmlns="">{
+            document.currentScript.dataset.injected = true;
+            const o = JSON.parse(decodeURIComponent(escape(atob('eyJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMDkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMTMuMCIsImFwcFZlcnNpb24iOiI1LjAgKFdpbmRvd3MpIiwicGxhdGZvcm0iOiJXaW5kb3dzIiwidmVuZG9yIjoiIiwicHJvZHVjdCI6IkdlY2tvIiwidXNlckFnZW50RGF0YSI6IltkZWxldGVdIiwib3NjcHUiOiJXaW5kb3dzIDEwIiwicHJvZHVjdFN1YiI6IjIwMTAwMTAxIiwiYnVpbGRJRCI6IjIwMTgxMDAxMDAwMDAwIn0='))));
+
+            if (o.userAgentDataBuilder) {
+              const v = new class NavigatorUAData {
+                #p;
+
+                constructor({p, ua}) {
+                  this.#p = p;
+
+                  const version = p.browser.major;
+                  const name = p.browser.name === 'Chrome' ? 'Google Chrome' : p.browser.name;
+
+                  this.brands = [{
+                    brand: name,
+                    version
+                  }, {
+                    brand: 'Chromium',
+                    version
+                  }, {
+                    brand: 'Not=A?Brand',
+                    version: '24'
+                  }];
+
+                  this.mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+
+                  // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform
+                  this.platform = 'Unknown';
+                  if (p.os &amp;&amp; p.os.name) {
+                    const name = p.os.name.toLowerCase();
+                    if (name.includes('mac')) {
+                      this.platform = 'macOS';
+                    }
+                    else if (name.includes('debian')) {
+                      this.platform = 'Linux';
+                    }
+                    else {
+                      this.platform = p.os.name;
+                    }
+                  }
+                }
+                toJSON() {
+                  return {
+                    brands: this.brands,
+                    mobile: this.mobile,
+                    platform: this.platform
+                  };
+                }
+                getHighEntropyValues(hints) {
+                  if (!hints || Array.isArray(hints) === false) {
+                    return Promise.reject(Error("Failed to execute 'getHighEntropyValues' on 'NavigatorUAData'"));
+                  }
+
+                  const r = this.toJSON();
+
+                  if (hints.includes('architecture')) {
+                    r.architecture = this.#p?.cpu?.architecture || 'x86';
+                  }
+                  if (hints.includes('bitness')) {
+                    r.bitness = '64';
+                  }
+                  if (hints.includes('model')) {
+                    r.model = '';
+                  }
+                  if (hints.includes('platformVersion')) {
+                    r.platformVersion = this.#p?.os?.version || '10.0.0';
+                  }
+                  if (hints.includes('uaFullVersion')) {
+                    r.uaFullVersion = this.brands[0].version;
+                  }
+                  if (hints.includes('fullVersionList')) {
+                    r.fullVersionList = this.brands;
+                  }
+                  return Promise.resolve(r);
+                }
+              }(o.userAgentDataBuilder);
+
+              navigator.__defineGetter__('userAgentData', () =&gt; {
+                return v;
+              });
+            }
+            delete o.userAgentDataBuilder;
+
+            for (const key of Object.keys(o)) {
+              if (o[key] === '[delete]') {
+                delete Object.getPrototypeOf(window.navigator)[key];
+              }
+              else {
+                navigator.__defineGetter__(key, () =&gt; {
+                  if (o[key] === 'empty') {
+                    return '';
+                  }
+                  return o[key];
+                });
+              }
+            }
+          }</script></svg>

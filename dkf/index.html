@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>ALHKS :: DKF</title>
+    <link href="dkf-base.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <style>
+    body {
+      background-image: linear-gradient(26deg, #F09E54, #F52876);
+      color: brown;
+      font-size: 25px;
+    }
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    
+    .card {
+      border: 1px gold solid;
+      border-radius: 5px;
+      display: block;
+      max-width: 80%;
+      background: #ffffff55;
+      padding: 1%;
+    }
+    div {
+      margin: 1%;
+    }
+    em {
+      font-weight: bold;
+      font-style: italic;
+    }
+    .grid>img {
+      width: 50%;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    input {
+      background-color: #aaaaaa55;
+      border: 3px gold solid;
+      border-radius: 5px;
+      width: 50%;
+      height: 5vh;
+      font-size: 20px;
+    }
+    button {
+      background-color: pink;
+      color: brown;
+      font-size: 17px;
+      padding: 15px;
+      border-radius: 0px;
+      /* margin: 5px; */
+      border: 3px gold solid;
+    }
+    button:active {
+      background-color: darkmagenta;
+    }
+    </style>
+</head>
+<body>
+    <center>
+      <div>
+        <img src="tż2.webp" style="max-height: 25vh"/>
+      </div>
+      
+        <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
+        
+        <div class="card">
+          <div>
+            <em>Co robimy?</em>
+            Spotykamy się na Wyględowie (Mokotów) lub w internecie na oglądanie filmu & dyskusję o nim
+          </div>
+          <div>
+            <em>Jakie filmy oglądamy?</em>
+            Wszelkiego rodzaju, lista dotychczasowych pozycji dostępna <a href="lista.html">tutaj</a>
+          </div>
+          <div>
+            <em>Jak wziąć udział?</em>
+            Zasubskrybować newsletter, zapowiedzieć się na spotkanie i wpaść
+          </div>
+          <div>
+            <em>Jak zasubskrybować newsletter?</em>
+            Wybierz jedną z opcji:
+            <div class="wrapper">
+              <div class="grid" onclick=showForm()>
+                <img src="messenger.svg" />
+                <div>Zostaw link do swojego profilu, by zostać dodanym do grupy</div>
+              </div>
+              <div class="grid" onclick="showForm()">
+                <img src="email.svg" />
+                <div>Zostaw swój adres e-mail</div>
+              </div>
+              <a href="feed.xml">
+                <div class="grid">
+                  <img src="rss.svg" />
+                  <div>Link RSS</div>
+                </div>
+              </a>
+            </div>
+            
+            <div id="formDiv" style="display: none">
+              <input type="text" onkeydown="keydown(event)">
+              <button onclick="send()">Prześlij</button>
+            </div>
+          </div>
+        </div>
+    </center>
+    <script>
+    function showForm() {
+      $("#formDiv").fadeIn()
+      document.querySelector("input").value = ''
+      document.querySelector("input").focus()
+      window.scrollTo(0, document.body.scrollHeight);
+    }
+    function send() {
+      const value = document.querySelector("input").value
+      $("#formDiv").html("Proszę o cierpliwość, trwa przesyłanie…")
+      const url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
+      var wynik = encodeURIComponent(
+        JSON.stringify({form: 'dkf-main', value})
+      );
+      $.get(url + wynik, on_finished);
+      
+      function on_finished(data) {
+        if (!data.success) {
+          $("#formDiv").html('<h2 style="color: red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.</h2>');
+          return false;
+        }
+        $("#formDiv").html("Wysłano odpowiedź ✓ Do zobaczenia!")
+      }
+    }
+    function keydown(ev) {
+      if (event.key == "Enter")
+        send()
+    }
+    $("a").attr("taget", "_blank")
+    </script>
+</body>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <link href="dkf-base.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <title>ALHKS :: DKF</title>
+    <style>
+    body {
+      background-image: linear-gradient(26deg, #F09E54, #F52876);
+      color: brown;
+      font-size: 25px;
+    }
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      /* animation: rotate 1s linear infinite; */
+    }
+    .card {
+      border: 1px gold solid;
+      border-radius: 5px;
+      display: block;
+      max-width: 80%;
+      background: #ffffff55;
+      padding: 1%;
+    }
+    div {
+      margin: 1%;
+    }
+    em {
+      font-weight: bold;
+      font-style: italic;
+    }
+    .grid>img {
+      width: 50%;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    input {
+      background-color: #aaaaaa55;
+      border: 3px gold solid;
+      border-radius: 5px;
+      width: 50%;
+      height: 5vh;
+      font-size: 20px;
+    }
+    button {
+      background-color: pink;
+      color: brown;
+      font-size: 17px;
+      padding: 15px;
+      border-radius: 0px;
+      /* margin: 5px; */
+      border: 3px gold solid;
+    }
+    button:active {
+      background-color: darkmagenta;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      border: 3px gold solid;
+      border-radius: 15px;
+      padding: 0.5vh;
+    }
+    </style>
+</head>
+<body>
+    <center>
+      <div>
+        <img src="tż2.webp" style="max-height: 15vh"/>
+      </div>
+      
+        <h1>Dotychczasowe pozycje</h1>
+        <div class="card">
+          <table>
+            <th></th>
+            <tr>
+              <td>48.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/d1358f52a34e2d840cd4bb75205eb84d/7630345" height="300px"></center></td>
+              <td>🇪🇸 Dolor y gloria (Ból i blask) (2019)</td>
+              <td>Pedro Almodóvar</td>
+            </tr>
+            <tr>
+              <td>47.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/1b60c26269469a3a37b0eea24582af90/4498376" height="300px"></center></td>
+              <td>🇯🇵 風立ちぬ (The Wind Rises) (2013)</td>
+              <td>Hayao Miyazaki</td>
+            </tr>
+            <tr>
+              <td>46.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/25ea7e80cf8e672c5d2be82596d2a9fd/11155080" height="300px"></center></td>
+              <td>🇺🇸 Dune: Part One</td>
+              <td>Denis Villeneuve</td>
+            </tr>
+            <tr>
+              <td>45.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/4f458774e383b0d89e7d4c0d953b7177/4878891" height="300px"></center></td>
+              <td>🇺🇸 Adaptation. (2002)</td>
+              <td>Spike Jonze</td>
+            </tr>
+            <tr>
+              <td>44.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/3b04b44177731c0ae0389aa495be3935/4532543" height="300px"></center></td>
+              <td>🇺🇸 Django Unchained (2012)</td>
+              <td>Quentin Tarantino</td>
+            </tr>
+            <tr>
+              <td>43.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/7eef8e351fb0d278fcf0c364b9898e61/6107217" height="300px"></center></td>
+              <td>🇺🇸 The Departed (2006)</td>
+              <td>Martin Scorsese</td>
+            </tr>
+            <tr>
+              <td>42.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/fa432709e5c472bd56f77071c4e20d65/7403493" height="300px"></center></td>
+              <td>🇫🇷 Citizen Kane (1941)</td>
+              <td>Jacques Audiard</td>
+            </tr>
+            <tr>
+              <td>41.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/6bed32af9ed83a61f50fff0d78459f78/10241490" height="300px"></center></td>
+              <td>🇩🇪🇺🇸🇬🇧 Im Westen nichts Neues (Na Zachodzie bez zmian) (2022)</td>
+              <td>Edward Berger</td>
+            </tr>
+            <tr>
+              <td>40.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/99b7e59681c55198751c35eeb1b3a4c5/6207381" height="300px"></center></td>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_the_Soviet_Union_%28dark_version%2C_3-2%29.svg" height="20px"/> Октябрь (Październik) (1927)</td>
+              <td>Siergiej Eisenstein</td>
+            </tr>
+            <tr>
+              <td>39.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/5624aa72a22ca36172a668e4b8d06cf2/6436714" height="300px"></center></td>
+              <td>🇺🇸 The Godfather: Part II (1974)</td>
+              <td>Francis Ford Coppola</td>
+            </tr>
+            <tr>
+              <td>38.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/a990758267b1c12863c538ee033b525c/5908468" height="300px"></center></td>
+              <td>🇺🇸 The Godfather (1972)</td>
+              <td>Francis Ford Coppola</td>
+            </tr>
+            <tr>
+              <td>37.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/db04544b254d517777d80b3aaaa8c04d/7285424" height="300px"></center></td>
+              <td>🇺🇸 Rain Man (1988)</td>
+              <td>Barry Levinson</td>
+            </tr>
+            <tr>
+              <td>36.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/c155e12ad71172bedc8bf3fb1dd1a0c6/5601723" height="300px"></center></td>
+              <td>🇺🇸 2001: A Space Odyssey (1968)</td>
+              <td>Stanley Kubrick</td>
+            </tr>
+            <tr>
+              <td>35.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/19d5587456c9c0c248e8ab3af504eae6/8183742" height="300px"></center></td>
+              <td>🇺🇸 Hamilton (2020)</td>
+              <td>Thomas Kail</td>
+            </tr>
+            <tr>
+              <td>34.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/7190727769a2e25b3b7537623b9aeabf/5051638" height="300px"></center></td>
+              <td>🇺🇸 Spartacus</td>
+              <td>Stanley Kubrick</td>
+            </tr>
+            <tr>
+              <td>33.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/dc4080053f0d6163d1c1376ac8c602d1/4417977" height="300px"></center></td>
+              <td>🇬🇧🇺🇸🇫🇷🇦🇷🇵🇪🇨🇱🇩🇪 Diarios de motocicleta (Dzienniki motocyclowe) (2004)</td>
+              <td>Walter Salles</td>
+            </tr>
+            <tr>
+              <td>32.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/d74f575cb1231d062160ed3842010e0f/5061456" height="300px"></center></td>
+              <td>🇩🇪 Der Himmel über Berlin (Niebo nad Berlinem)</td>
+              <td>Wim Wenders</td>
+            </tr>
+            <tr>
+              <td>31.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/4cf4b5924693bae8e9045f3f33751acf/9200093" height="300px"></center></td>
+              <td>🇫🇷 Les Olympiades (Paryż 13 dzielnica)</td>
+              <td>Jacques Audiard</td>
+            </tr>
+            <tr>
+              <td>30.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/c5aab059e848849421055e41505e81b4/6111313" height="300px"></center></td>
+              <td>🇺🇸 Malcolm X (1992)</td>
+              <td>Spike Lee</td>
+            </tr>
+            <tr>
+              <td>29.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BMjk0Mjg3MWEtNjYwOC00Nzk5LWIzYTktMWUxMDAxYTExMmVmXkEyXkFqcGdeQXVyMjI3NDAyNg@@._V1_.jpg" height="300px"></center></td>
+              <td>🇩🇪 Fabian oder der Gang vor die Hunde (Fabian albo świat schodzi na psy) (2021)</td>
+              <td>Dominik Graf</td>
+            </tr>
+            <tr>
+              <td>28.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/be28a0296899c17c23dddc00df9b46bc/8392464" height="300px"></center></td>
+              <td>🇬🇧 Lawrence of Arabia (1962)</td>
+              <td>David Lean</td>
+            </tr>
+            <tr>
+              <td>27.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BMTkxMDMxODQ0M15BMl5BanBnXkFtZTgwNDYzMjkwMTE@._V1_.jpg" height="300px"></center></td>
+              <td>🇺🇸 Kramer vs. Kramer (1979)</td>
+              <td>Robert Benton</td>
+            </tr>
+            <tr>
+              <td>26.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BYmY0NWVjNmUtMzFiNC00N2ViLWIxYTctOWZlMzkxZjY4ZmVkXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg" height="300px"></center></td>
+              <td>🇬🇧 Belfast (2021)</td>
+              <td>Kenneth Branagh</td>
+            </tr>
+            <tr>
+              <td>25.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BYjQyZTgzNmEtMzk1My00NDZjLTllZTUtN2IzNGY1YjUxNjUyXkEyXkFqcGdeQXVyMzIzNDU1NTY@._V1_.jpg" height="300px"></center></td>
+              <td>🇦🇹 Der siebente Kontinent (Siódmy kontynent) (1989)</td>
+              <td>Michael Haneke</td>
+            </tr>
+            <tr>
+              <td>24.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/7a87d049c9270cb88a05081b5055e36d/7139689" height="300px"></center></td>
+              <td>🇮🇪🇬🇧🇺🇸 The Favourite (2018)</td>
+              <td>Yorgos Lanthimos</td>
+            </tr>
+            <tr>
+              <td>23.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/6e582203b62a6db642ab728229a88380/5020155" height="300px"></center></td>
+              <td>🇷🇴 Moartea domnului Lăzărescu (Śmierć pana Lazarescu) (2005)</td>
+              <td>Cristi Puiu</td>
+            </tr>
+            <tr>
+              <td>22.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/909856b1e48247f0f0a6c0ea3834907b/9976485" height="300px"></center></td>
+              <td>🇺🇸 GoodFellas (1990)</td>
+              <td>Martin Scorsese</td>
+            </tr>
+            <tr>
+              <td>21.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/76031d1c27e81dd088b0b7118955987e/8934744" height="300px"></center></td>
+              <td>🇯🇵 ドライブ・マイ・カー (Drive My Car) (2021)</td>
+              <td>Ryusuke Hamaguchi</td>
+            </tr>
+            <tr>
+              <td>20.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/9b420e3e9b00df63de6c947ffac0e744/4859626" height="300px"></center></td>
+              <td>🇺🇸 Twelve Years a Slave (2013)</td>
+              <td>Steve McQueen</td>
+            </tr>
+            <tr>
+              <td>19.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/58dd984b7e49dccf85fd2f480f947e97/7858528" height="300px"></center></td>
+              <td>🇫🇷🇦🇹🇩🇪🇮🇹 Caché (Ukryte) (2005)</td>
+              <td>Michael Haneke</td>
+            </tr>
+            <tr>
+              <td>18.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/0ffa0749b0b345daf1746ebc06195077/7699275" height="300px"></center></td>
+              <td>🇺🇸 The Virgin Suicides (1999)</td>
+              <td>Sofia Coppola</td>
+            </tr>
+            <tr>
+              <td>17.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/d06267fcef79852ef92f2b5df029e782/7531575" height="300px"></center></td>
+              <td>🇬🇧🇩🇪🇺🇸 Kingdom of Heaven (2005)</td>
+              <td>Ridley Scott</td>
+            </tr>
+            <tr>
+              <td>16.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/ed265f68dd03eb69d0f1b41f2a432b93/2849529" height="300px"></center></td>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_the_Soviet_Union_%28dark_version%2C_3-2%29.svg" height="20px"/> Андрей Рублёв (Andrzej Rublow) (1966)</td>
+              <td>Werner Herzog</td>
+            </tr>
+            <tr>
+              <td>15.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/d9682398e88a8e4ad44ae92b408eaa78/8853988" height="300px"></center></td>
+              <td>🇸🇪 Nattvardsgästerna (Goście Wieczerzy Pańskiej) (1963)</td>
+              <td>Ingmar Bergman</td>
+            </tr>
+            <tr>
+              <td>14.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/363f79e1068f1322fef883445eaffbf6/6044703" height="300px"></center></td>
+              <td>🇮🇹 8½ (1963)</td>
+              <td>Federico Fellini</td>
+            </tr>
+            <tr>
+              <td>13.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/ec01fc6f5c741d085dad4d12f6b031a1/3994763" height="300px"></center></td>
+              <td>🇩🇪 Das Leben der Anderen (Życie na podsłuchu) (2006)</td>
+              <td>Florian Henckel von Donnersmarck</td>
+            </tr>
+            <tr>
+              <td>12.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/29fd7573a221cafe0017552e6e42eec9/5920660" height="300px"></center></td>
+              <td>🇮🇹 Il buono, il brutto, il cattivo (Dobry, zły i brzydki) (1966)</td>
+              <td>Sergio Leone</td>
+            </tr>
+            <tr>
+              <td>11.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/b758f6bd337780340a0d120bb0a7a6b2/5506106" height="300px"></center></td>
+              <td>🇭🇰 花樣年華 (In the Mood for Love) (2000)</td>
+              <td>Wong Kar-wai</td>
+            </tr>
+            <tr>
+              <td>10.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/93653e27f5363cce67a9d2e71a673e4c/5517183" height="300px"></center></td>
+              <td>🇺🇸 The Elephant Man (1980)</td>
+              <td>David Lynch</td>
+            </tr>
+            <tr>
+              <td>9.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/814b263d3199fa33242f8378a4eae547/6137560" height="300px"></center></td>              
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_the_Soviet_Union_%28dark_version%2C_3-2%29.svg" height="20px"/> Зеркало (Zwierciadło) (1975)</td>
+              <td>Andrzej Tarkowski</td>
+            </tr>
+            <tr>
+              <td>8.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/b3a3935c1cf8a6456544e8c949f81cae/10172070" height="300px"></center></td>
+              <td>🇬🇧 Barry Lyndon (1975)</td>
+              <td>Stanley Kubrick</td>
+            </tr>
+            <tr>
+              <td>7.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/1fc24e1754971507428d719d5681cc15/4714707" height="300px"></center></td>
+              <td>🇯🇵 七人の侍 (Siedmiu Samurajów) (1954)</td>
+              <td>Akira Kurosawa</td>
+            </tr>
+            <tr>
+              <td>6.</td>
+              <td><center><img src="https://e.snmc.io/i/300/w/89a77251a1f01e5679e75d0c2bba8c8e/8916809" height="300px"></center></td>
+              <td>🇸🇪 Persona (1966)</td>
+              <td>Ingmar Bergman</td>
+            </tr>
+            <tr>
+              <td>5.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BMzBlNDhiMmMtNDVlNy00NjQ5LWJlYjEtYjc4ZTVjZjM4ZWIxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" height="300px"></center></td>
+              <td>🇪🇸 Hable con ella (Porozmawiaj z nią) (2002)</td>
+              <td>Pedro Almodóvar</td>
+            </tr>
+            <tr>
+              <td>4.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BMTk2NDY5MDg4OV5BMl5BanBnXkFtZTgwNTQ0MjkwMTE@._V1_.jpg" height="300px"></center></td>
+              <td>🇸🇪 Smultronstället (Tam, gdzie rosną poziomki) (1957)</td>
+              <td>Ingmar Bergman</td>
+            </tr>
+            <tr>
+              <td>3.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BYTAzZmEzZjEtNmIzMS00MzlhLWE0Y2ItNDRlNTQwN2E0MDE4XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg" height="300px"></center></td>
+              <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_the_Soviet_Union_%28dark_version%2C_3-2%29.svg" height="20px"/> Сталкер (Stalker) (1979)</td>
+              <td>Andrzej Tarkowski</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BYzZmMjI1MTctOTNkMS00ZTViLWFhMWEtODI5ZWIwMWUxNGIzXkEyXkFqcGdeQXVyMjI4MjA5MzA@._V1_.jpg" height="300px"></center></td>
+              <td>🇵🇱 Rękopis znaleziony w Saragossie (1965)</td>
+              <td>Wojciech Jerzy Has</td>
+            </tr>
+            <tr>
+              <td>1.</td>
+              <td><center><img src="https://m.media-amazon.com/images/M/MV5BYjIzNTYxMTctZjAwNS00YzI3LWExMGMtMGQxNGM5ZTc1NzhlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg" height="300px"></center></td>
+              <td>🇩🇪 Fitzcarraldo (1982)</td>
+              <td>Werner Herzog</td>
+            </tr>
+          </table>
+        </div>
+    </center>
+    
+    <script>
+      $("a").attr("taget", "_blank")
+    </script>
+</body>
