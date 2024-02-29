@@ -22,7 +22,7 @@
 <body>
     <center>
       <div>
-        <img src="tż2.webp" style="max-height: 25vh"/>
+        <img src="tż2.webp" style="max-height: 10vh"/>
       </div>
         <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
         <div class="card">
@@ -68,7 +68,7 @@
                     <tr v-for="f in filmy" :style="styling(f.title, f.isDocu)">
                       <td :id="f.imdbId" class="title">
                         <span>
-                          <img v-for="fl in f.flag" :src="flags[fl.toLowerCase()]" :title="country_codes[fl]" class="smallflag" style="margin-right: 5px; max-height: 20px">
+                          <img v-for="fl in f.flag" :src="flags[fl.toLowerCase()]" :title="country_codes[fl]" class="smallflag">
                         </span>
                         <span v-if="f.originalTitle && f.originalTitle != f.titleLocal"><b>[[f.originalTitle]]</b> (<i>[[f.titleLocal]]</i>)</span>
                         <span v-else-if="f.originalTitle"><b>[[f.originalTitle]]</b></span>
