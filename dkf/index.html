@@ -115,6 +115,7 @@
         </div>
     </center>
     <script>
+    $("a").attr("target", "_blank")
     function showForm() {
       $("#formDiv").fadeIn()
       document.querySelector("input").value = ''
@@ -142,6 +143,5 @@
       if (event.key == "Enter")
         send()
     }
-    $("a").attr("taget", "_blank")
     </script>
 </body>
