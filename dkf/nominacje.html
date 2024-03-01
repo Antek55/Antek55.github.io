@@ -42,7 +42,7 @@
               <div class="item">
                 <label for="name">Jak się nazywasz?</label>
                 <div class="item">
-                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim…" required />
+                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim" required />
                 </div>
               </div>
               
@@ -69,7 +69,7 @@
       {
         $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
 
-        localStorage.set("name", app.$data.name);
+        localStorage.setItem("name", app.$data.name);
         url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
         
         var wynik = encodeURIComponent(JSON.stringify(app.$data));
@@ -91,9 +91,9 @@
         el: "form", 
         data: {
           form_id: "dkf-nominacje",
-          title: 'DKF XLIX :: nominacje'
+          title: 'DKF XLIX :: nominacje',
           closing: "2024-02-29 22:05",
-          name: localStorage.get('name'),
+          name: localStorage.getItem('name'),
           nominacje1:"",
           uwagi: "",
         }, 
