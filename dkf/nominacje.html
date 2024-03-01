@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <title>ALHKS :: DKF</title>
+    <link href="dkf-base.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <link href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css" rel="stylesheet">
+    <script src="flags.js"></script>
+    <script src="filmy.js"></script>
+    <style>
+      .title {
+        text-align: left;
+      }
+    </style>
+</head>
+<body>
+    <center>
+      <div>
+        <img src="tż2.webp" style="max-height: 10vh"/>
+      </div>
+        <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
+        <div class="card">
+          <form class="form" v-on:submit.prevent="submit">
+            <div v-if="Date.now() > Date.parse(closing)">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
+            
+            <div v-else>
+            
+              <div class="banner">
+                <h1>{{ title }}</h1>
+              </div>
+              
+              <div class="opis">
+                <p>Formularz zamyka się <span class="red">{{ closing }}</span>.</p>
+              </div>
+              
+              <div class="item">
+                <label for="name">Jak się nazywasz?</label>
+                <div class="item">
+                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim…" required />
+                </div>
+              </div>
+              
+              <div class="item">
+                  <label for="nominacje1">Zapisz proszę poniżej <em>co najwyżej trzy</em> filmy, które chesz nominować do plebiscytu. Kolejność nie ma znaczenia</label>
+                  <textarea id="nominacje1" rows="3" v-model="nominacje1"></textarea>
+              </div>
+              
+              <div class="item">
+                  <label for="uwagi">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
+                  <textarea id="uwagi" rows="3" v-model="uwagi"></textarea>
+              </div>
+              
+              <div class="btn-block">
+                <button>Wyślij</button>
+              </div>
+            </div>        
+          </form>
+        </div>
+      </center>
+      
+      <script>
+      function submit_send()
+      {
+        $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
+
+        Cookies.set("name", app.$data.name, { expires: 365 });
+        url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
+        
+        var wynik = encodeURIComponent(JSON.stringify(app.$data));
+        $.get(url + wynik, on_success);
+        
+        function on_success(data)
+        {
+          if (!data.success)
+          {
+            $("form").html('<h2 class="red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.</h2>');
+            return false;
+          }
+          
+          $("form").html("Wysłano odpowiedź.")
+        }
+      }
+
+      var app = new Vue({
+        el: "form", 
+        data: {
+          form_id: "dkf-nominacje",
+          closing: "2024-02-29 22:05",
+          name: Cookies.get("name"),
+          nominacje1:"",
+          uwagi: "",
+        }, 
+        methods: 
+        {
+          submit: submit_send,
+        } 
+      })
+
+    </script>
+</body>
