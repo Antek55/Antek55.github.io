@@ -69,7 +69,7 @@
       {
         $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
 
-        Cookies.set("name", app.$data.name, { expires: 365 });
+        localStorage.set("name", app.$data.name);
         url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
         
         var wynik = encodeURIComponent(JSON.stringify(app.$data));
@@ -93,7 +93,7 @@
           form_id: "dkf-nominacje",
           title: 'DKF XLIX :: nominacje'
           closing: "2024-02-29 22:05",
-          name: Cookies.get("name"),
+          name: localStorage.get('name'),
           nominacje1:"",
           uwagi: "",
         }, 
