@@ -1,154 +1,51 @@
 filmy = [
   {
+  	"flag": [
+  		"US"
+  	],
+  	"title": "American Fiction",
+  	"originalTitle": "",
+  	"titleLocal": "Ameryka\u0144ska fikcja",
+  	"year": 2023,
+  	"url": "https://www.imdb.com/title/tt23561236",
+  	"imdbId": "tt23561236",
+  	"imdbRating": 7.6,
+  	"directors": [
+  		"Cord Jefferson"
+  	],
+  	"popup-director": "<p><b>Cord Jefferson</b> is an American writer and director. After studying at the College of William &amp; Mary he started a career in journalism where he wrote for numerous publications before becoming an editor at <i>Gawker</i> until 2016. <i class=\"fab fa-wikipedia-w\"></i></p>",
+  	"isDocu": false,
+  	"yttrailer": {
+  		"videoId": "i0MbLCpYJPA"
+  	},
+  	"rymUrl": "https://rateyourmusic.com/film/american_fiction/",
+  	"rymRating": "3.39",
+  	"rymCoverartImg": "https://e.snmc.io/i/300/s/4953d089124d9453f57d1a92389a0006/11427309",
+  	"rtUrl": "",
+  	"rtRating": ""
+  },
+  {
 	"flag": [
-		"US"
+		"FR"
 	],
-	"title": "Casablanca",
-	"originalTitle": "",
-	"titleLocal": "Casablanca",
-	"year": 1943,
-	"url": "https://www.imdb.com/title/tt0034583",
-	"imdbId": "tt0034583",
-	"imdbRating": 8.5,
-	"directors": [
-		"Michael Curtiz"
-	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Curtiz_1928_portrait.jpg/320px-Curtiz_1928_portrait.jpg\" class=\"popup-director-photo\"></center> <p><b>Michael Curtiz</b> was a Hungarian-American film director, recognized as one of the most prolific directors in history. He directed classic films from the silent era and numerous others during\nHollywood\\'s Golden Age, when the studio system was prevalent. <i class=\"fab fa-wikipedia-w\"></i></p>",
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "MF7JH_54d8c"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/casablanca/",
-	"rymRating": "3.99",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/3fb5c075be6430dfae3386f85f2fd45a/7215504",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"AT",
-		"DE"
-	],
-	"title": "71 Fragments of a Chronology of Chance",
-	"originalTitle": "71 Fragmente einer Chronologie des Zufalls",
-	"titleLocal": "71 fragment\u00f3w",
-	"year": 1995,
-	"url": "https://www.imdb.com/title/tt0109020",
-	"imdbId": "tt0109020",
-	"imdbRating": 7.2,
-	"directors": [
-		"Michael Haneke"
-	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Michael_Haneke_2009.jpg/320px-Michael_Haneke_2009.jpg\" class=\"popup-director-photo\"></center> <p><b>Michael Haneke</b> is an Austrian film director and screenwriter. His work often examines social issues and depicts the feelings of estrangement experienced by individuals in modern society. Haneke has made films in French, German, and English and has worked in television and theatre, as well as cinema. He also teaches film direction at the Film Academy Vienna. <i class=\"fab fa-wikipedia-w\"></i></p>",
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "qjqyWOMXwrg"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/71_fragmente_einer_chronologie_des_zufalls/",
-	"rymRating": "3.41",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/9990620a44e7606fb3a1969a198ef869/4749935",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"US"
-	],
-	"title": "Judas and the Black Messiah",
-	"originalTitle": "",
-	"titleLocal": "Judasz i Czarny Mesjasz",
-	"year": 2021,
-	"url": "https://www.imdb.com/title/tt9784798",
-	"imdbId": "tt9784798",
-	"imdbRating": 7.4,
-	"directors": [
-		"Shaka King"
-	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Shaka_King_at_Sundance_Festival.jpg/320px-Shaka_King_at_Sundance_Festival.jpg\" class=\"popup-director-photo\"></center> <p><b>Shaka King</b> is an American film director, screenwriter, and film producer. He is best known for directing and co-writing the 2021 biopic <i>Judas and the Black Messiah</i>. <i class=\"fab fa-wikipedia-w\"></i></p>",
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "sSjtGqRXQ9Y"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/judas_and_the_black_messiah/",
-	"rymRating": "3.59",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/01444a4f1053f090d406d75fd09ba94a/8752383",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"US",
-		"JP"
-	],
-	"title": "Get Out",
-	"originalTitle": "",
-	"titleLocal": "Uciekaj!",
-	"year": 2017,
-	"url": "https://www.imdb.com/title/tt5052448",
-	"imdbId": "tt5052448",
+	"title": "Anatomy of a Fall",
+	"originalTitle": "Anatomie d'une chute",
+	"titleLocal": "Anatomia upadku",
+	"year": 2024,
+	"url": "https://www.imdb.com/title/tt17009710",
+	"imdbId": "tt17009710",
 	"imdbRating": 7.8,
 	"directors": [
-		"Jordan Peele"
+		"Justine Triet"
 	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jordan_Peele_Peabody_2014_%28cropped%29.jpg/320px-Jordan_Peele_Peabody_2014_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Jordan Haworth Peele</b> is an American actor, comedian, and filmmaker. He is known for his film and television work in the comedy and horror genres. Peele started his career in sketch comedy before transitioning his career to a writer and director of psychological horror and satirical films. In 2017, Peele was included on the annual <span><i>Time</i> 100</span> list of the most influential people in the world. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Justine_Triet_2017.jpg/320px-Justine_Triet_2017.jpg\" class=\"popup-director-photo\"></center> <p><b>Justine Triet</b> is a French film director, screenwriter and editor. <i class=\"fab fa-wikipedia-w\"></i></p>",
 	"isDocu": false,
 	"yttrailer": {
-		"videoId": "koQKnuQb7zQ"
+		"videoId": "FUXawkH-ONM"
 	},
-	"rymUrl": "https://rateyourmusic.com/film/get_out_f1/",
-	"rymRating": "3.69",
-	"rymCoverartImg": "https://e.snmc.io/i/300/w/6e83d84c5b2373602b8a35be330620f1/6518493",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"GB",
-		"US"
-	],
-	"title": "Trainspotting",
-	"originalTitle": "",
-	"titleLocal": "Trainspotting",
-	"year": 1996,
-	"url": "https://www.imdb.com/title/tt0117951",
-	"imdbId": "tt0117951",
-	"imdbRating": 8.1,
-	"directors": [
-		"Danny Boyle"
-	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Danny_Boyle_May_2019.jpg/320px-Danny_Boyle_May_2019.jpg\" class=\"popup-director-photo\"></center> <p><b>Daniel Francis Boyle</b> is an English director and producer. He is known for his work on films including <i>Shallow Grave</i>, <i>Trainspotting</i> and its sequel <i>T2 Trainspotting</i>, <i>The Beach</i>, <i>28 Days Later</i>, <i>Sunshine</i>, <i>Slumdog Millionaire</i>, <i>127 Hours</i>, <i>Steve Jobs</i>, and <i>Yesterday</i>. <i class=\"fab fa-wikipedia-w\"></i></p>",
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "8LuxOYIpu-I"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/trainspotting/",
-	"rymRating": "3.93",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/815c3ad48909dd386ce196b2439de6c7/6073476",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"JP"
-	],
-	"title": "Paprika",
-	"originalTitle": "\u30d1\u30d7\u30ea\u30ab",
-	"titleLocal": "Paprika",
-	"year": 2007,
-	"url": "https://www.imdb.com/title/tt0851578",
-	"imdbId": "tt0851578",
-	"imdbRating": 7.7,
-	"directors": [
-		"Satoshi Kon"
-	],
-	"popup-director": "<p><b>Satoshi Kon</b><span style=\"font-weight:normal\"> </span> was a Japanese film director, animator, screenwriter and manga artist from Sapporo, Hokkaido, and a member of the Japanese Animation Creators Association (JAniCA). He was a graduate of the Graphic Design department of the Musashino Art University. He is best known for his acclaimed anime films <i>Perfect Blue</i> (1997), <i>Millennium Actress</i> (2001), <i>Tokyo Godfathers</i> (2003), and <i>Paprika</i> (2006), and the TV series <i>Paranoia Agent</i> (2004).\nHe died of pancreatic cancer at the age of 46 on August 24, 2010. <i class=\"fab fa-wikipedia-w\"></i></p>",
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "PIUqozzyW2k"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/\u30d1\u30d7\u30ea\u30ab/",
-	"rymRating": "3.72",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/6397a525dbc8cd1be807ba5a7d370d40/5139652",
+	"rymUrl": "https://rateyourmusic.com/film/anatomie_dune_chute/",
+	"rymRating": "3.82",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/6e1024589d7c97dc63dd2fd17622b702/11062748",
 	"rtUrl": "",
 	"rtRating": ""
 },
@@ -156,50 +53,24 @@ filmy = [
 	"flag": [
 		"US"
 	],
-	"title": "The Whale",
+	"title": "Killers of the Flower Moon",
 	"originalTitle": "",
-	"titleLocal": "Wieloryb",
-	"year": 2022,
-	"url": "https://www.imdb.com/title/tt13833688",
-	"imdbId": "tt13833688",
+	"titleLocal": "Czas krwawego ksi\u0119\u017cyca",
+	"year": 2023,
+	"url": "https://www.imdb.com/title/tt5537002",
+	"imdbId": "tt5537002",
 	"imdbRating": 7.7,
 	"directors": [
-		"Darren Aronofsky"
+		"Martin Scorsese"
 	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/OIFF_2015-07-17_193547_-_Darren_Aronofsky.jpg/320px-OIFF_2015-07-17_193547_-_Darren_Aronofsky.jpg\" class=\"popup-director-photo\"></center> <p><b>Darren Aronofsky</b> is an American filmmaker. His films are noted for their surreal, melodramatic, and often disturbing elements, frequently in the form of psychological fiction. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Martin_Scorsese_at_Berlinale_2024-6_Ausschnitt.jpg/320px-Martin_Scorsese_at_Berlinale_2024-6_Ausschnitt.jpg\" class=\"popup-director-photo\"></center> <p><b>Martin Charles Scorsese</b> is an American filmmaker. He emerged as one of the major figures of the New Hollywood era. Scorsese has received many accolades, including an Academy Award, four BAFTA Awards, three Emmy Awards, a Grammy Award, three Golden Globe Awards, and two Directors Guild of America Awards. He has been honored with the AFI Life Achievement Award in 1997, the Film Society of Lincoln Center tribute in 1998, the Kennedy Center Honor in 2007, the Cecil B. DeMille Award in 2010, and the BAFTA Fellowship in 2012. Five of his films have been inducted into the National Film Registry by the Library of Congress as \"culturally, historically or aesthetically significant\". <i class=\"fab fa-wikipedia-w\"></i></p>",
 	"isDocu": false,
 	"yttrailer": {
-		"videoId": "nWiQodhMvz4"
+		"videoId": "EP34Yoxs3FQ"
 	},
-	"rymUrl": "https://rateyourmusic.com/film/the_whale_f2/",
-	"rymRating": "3.28",
-	"rymCoverartImg": "https://e.snmc.io/i/300/w/032ccb1cdf78af04287ab9ae9821e3ff/10511361",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"US",
-		"GB"
-	],
-	"title": "Gods and Monsters",
-	"originalTitle": "",
-	"titleLocal": "Bogowie i potwory",
-	"year": 1998,
-	"url": "https://www.imdb.com/title/tt0120684",
-	"imdbId": "tt0120684",
-	"imdbRating": 7.3,
-	"directors": [
-		"Bill Condon"
-	],
-	"popup-director": "<p><b>William Condon</b> is an American director and screenwriter. Condon is known for writing and/or directing numerous successful and acclaimed films including <i>Gods and Monsters</i>, <i>Chicago</i>, <i>Kinsey</i>, <i>Dreamgirls</i>, <i>The Twilight Saga: Breaking Dawn \u2013 Part 1</i>, <i>The Twilight Saga: Breaking Dawn \u2013 Part 2</i>, and <i>Beauty and the Beast</i>. He has received two nominations for the Academy Award for Best Adapted Screenplay, <i>Gods and Monsters</i> and <i>Chicago</i>, winning for the former. <i class=\"fab fa-wikipedia-w\"></i></p>",
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "Nn2G6YrvibM"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/gods_and_monsters/",
-	"rymRating": "3.38",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/d59fc25aaecc5ece6006764ceb8d49e9/2911640",
+	"rymUrl": "https://rateyourmusic.com/film/killers_of_the_flower_moon/",
+	"rymRating": "3.86",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/6e5c818760be72fd20fd8c0b9db64901/11418372",
 	"rtUrl": "",
 	"rtRating": ""
 },
@@ -207,24 +78,24 @@ filmy = [
 	"flag": [
 		"US"
 	],
-	"title": "As Good as It Gets",
+	"title": "Maestro",
 	"originalTitle": "",
-	"titleLocal": "Lepiej by\u0107 nie mo\u017ce",
-	"year": 1997,
-	"url": "https://www.imdb.com/title/tt0119822",
-	"imdbId": "tt0119822",
-	"imdbRating": 7.7,
+	"titleLocal": "Maestro",
+	"year": 2023,
+	"url": "https://www.imdb.com/title/tt5535276",
+	"imdbId": "tt5535276",
+	"imdbRating": 6.6,
 	"directors": [
-		"James L. Brooks"
+		"Bradley Cooper"
 	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/7/79/Jameslbrooks.jpg\" class=\"popup-director-photo\"></center> <p><b>James Lawrence Brooks</b> is an American director, producer, screenwriter and co-founder of Gracie Films. He co-created the sitcoms <i>The Mary Tyler Moore Show</i>, <i>Taxi</i>, and <i>The Simpsons</i> and directed the films <i>Terms of Endearment</i> (1983), <i>Broadcast News</i> (1987), and <i>As Good as It Gets</i> (1997). He received numerous accolades including three Academy Awards, 21 Emmy Awards, and a Golden Globe Award. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bradley_Cooper_2023_%28cropped%29.jpg/320px-Bradley_Cooper_2023_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Bradley Charles Cooper</b> is an American actor and filmmaker. He is the recipient of various accolades, including a British Academy Film Award and two Grammy Awards, in addition to nominations for twelve Academy Awards, six Golden Globe Awards, and a Tony Award. Cooper appeared on the <span><i>Forbes</i> Celebrity 100</span> three times and on <i>Time</i><span class=\"nowrap\">\\'</span>s list of the 100 most influential people in the world in 2015. His films have grossed $13<span class=\"nowrap\">\u00a0</span>billion worldwide and he has placed four times in annual rankings of the world\\'s highest-paid actors. <i class=\"fab fa-wikipedia-w\"></i></p>",
 	"isDocu": false,
 	"yttrailer": {
-		"videoId": "t2d89afgtqg"
+		"videoId": "gJP2QblqLA0"
 	},
-	"rymUrl": "https://rateyourmusic.com/film/as_good_as_it_gets/",
-	"rymRating": "3.21",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/d40d8a7def7891258a26e77215df8586/7526093",
+	"rymUrl": "https://rateyourmusic.com/film/maestro_f4/",
+	"rymRating": "2.70",
+	"rymCoverartImg": "https://e.snmc.io/i/300/w/52617b0c0f1904b911d1c0b5cddcbafa/11489597",
 	"rtUrl": "",
 	"rtRating": ""
 },
@@ -256,52 +127,188 @@ filmy = [
 },
 {
 	"flag": [
-		"US"
+		"IE",
+		"GB",
+		"US",
+		"HU"
 	],
-	"title": "The Graduate",
+	"title": "Poor Things",
 	"originalTitle": "",
-	"titleLocal": "Absolwent",
-	"year": 1967,
-	"url": "https://www.imdb.com/title/tt0061722",
-	"imdbId": "tt0061722",
-	"imdbRating": 8,
+	"titleLocal": "Biedne istoty",
+	"year": 2024,
+	"url": "https://www.imdb.com/title/tt14230458",
+	"imdbId": "tt14230458",
+	"imdbRating": 8.3,
 	"directors": [
-		"Mike Nichols"
+		"Yorgos Lanthimos"
 	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mike_Nichols.jpg/320px-Mike_Nichols.jpg\" class=\"popup-director-photo\"></center> <p><b>Mike Nichols</b> was an American film and theatre director. He worked across a range of genres and had an aptitude for getting the best out of actors regardless of their experience. He is one of 18 people to have won all four of the major American entertainment awards: Emmy, Grammy, Oscar, and Tony (EGOT). His other honors included three BAFTA Awards, the Lincoln Center Gala Tribute in 1999, the National Medal of Arts in 2001, the Kennedy Center Honors in 2003 and the AFI Life Achievement Award in 2010. His films received a total of 42 Academy Award nominations, and seven wins. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Yorgos_Lanthimos_2023_%28cropped%29.jpg/320px-Yorgos_Lanthimos_2023_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Georgios</b> \"<b>Yorgos</b>\" <b>Lanthimos</b> is a Greek filmmaker. He has received numerous accolades, including a BAFTA Film Award and a Golden Globe Award as well as nominations for six Academy Awards. <i class=\"fab fa-wikipedia-w\"></i></p>",
 	"isDocu": false,
 	"yttrailer": {
-		"videoId": "6cKafIqhEvk"
+		"videoId": "S5KiC0GgED0"
 	},
-	"rymUrl": "https://rateyourmusic.com/film/the_graduate/",
-	"rymRating": "3.79",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/90512547dadefda0048aa058cb1b9af6/7834650",
+	"rymUrl": "https://rateyourmusic.com/film/poor_things/",
+	"rymRating": "3.91",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/e2d6f74c77251238bc4f316bf29465b4/11281044",
 	"rtUrl": "",
 	"rtRating": ""
 },
 {
 	"flag": [
+		"US",
 		"GB",
-		"US"
+		"PL"
 	],
-	"title": "The Private Life of Sherlock Holmes",
+	"title": "The Zone of Interest",
 	"originalTitle": "",
-	"titleLocal": "Prywatne \u017cycie Sherlocka Holmesa",
-	"year": 1970,
-	"url": "https://www.imdb.com/title/tt0066249",
-	"imdbId": "tt0066249",
-	"imdbRating": 7,
+	"titleLocal": "Strefa interes\u00f3w",
+	"year": 2024,
+	"url": "https://www.imdb.com/title/tt7160372",
+	"imdbId": "tt7160372",
+	"imdbRating": 7.6,
 	"directors": [
-		"Billy Wilder"
+		"Jonathan Glazer"
 	],
-	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d0/Billy_Wilder.jpg\" class=\"popup-director-photo\"></center> <p><b>Billy Wilder</b> was an Austrian-born filmmaker and screenwriter. His career in Hollywood spanned five decades, and he is regarded as one of the most brilliant and versatile filmmakers of Classic Hollywood cinema. He received seven Academy Awards, a BAFTA Award, the Cannes Film Festival\\'s Palme d\\'Or and two Golden Globe Awards. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ZoneIntrestBFILFF121023_%287_of_31%29_%2853255110321%29_%28cropped%29_2.jpg/320px-ZoneIntrestBFILFF121023_%287_of_31%29_%2853255110321%29_%28cropped%29_2.jpg\" class=\"popup-director-photo\"></center> <p><b>Jonathan Glazer</b> is an English film director and screenwriter. He began his career in theatre before transitioning into film, directing the features <i>Sexy Beast</i> (2000), <i>Birth</i> (2004), <i>Under the Skin</i> (2013), and <i>The Zone of Interest</i> (2023). <i class=\"fab fa-wikipedia-w\"></i></p>",
 	"isDocu": false,
 	"yttrailer": {
-		"videoId": "yO22pJ8GdeA"
+		"videoId": "r-vfg3KkV54"
 	},
-	"rymUrl": "https://rateyourmusic.com/film/the_private_life_of_sherlock_holmes/",
-	"rymRating": "3.47",
-	"rymCoverartImg": "https://m.media-amazon.com/images/M/MV5BNTg2ODQyOGQtNWVhMi00MDI2LTg3OTktZjA4MTJmYzQwYTFjXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_.jpg",
+	"rymUrl": "https://rateyourmusic.com/film/the_zone_of_interest/",
+	"rymRating": "3.77",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/4b7f4102b70141ba7c277ff7fbbfe476/11422337",
+	"rtUrl": "",
+	"rtRating": ""
+},
+{
+	"flag": [
+		"US",
+		"GB"
+	],
+	"title": "Oppenheimer",
+	"originalTitle": "",
+	"titleLocal": "Oppenheimer",
+	"year": 2023,
+	"url": "https://www.imdb.com/title/tt15398776",
+	"imdbId": "tt15398776",
+	"imdbRating": 8.4,
+	"directors": [
+		"Christopher Nolan"
+	],
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Christopher_Nolan_Cannes_2018.jpg/320px-Christopher_Nolan_Cannes_2018.jpg\" class=\"popup-director-photo\"></center> <p><b>Christopher Edward Nolan</b> is a British and American filmmaker. Known for his Hollywood blockbusters with complex storytelling, Nolan is considered a leading filmmaker of the 21st century. He has received many accolades and his films have grossed more than $6\u00a0billion worldwide, ranking him among the highest-grossing directors. In 2015, he was listed as one of the 100 most influential people in the world by <i>Time</i>, and in 2024, he was honoured with the British Film Institute Fellowship. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"isDocu": false,
+	"yttrailer": {
+		"videoId": "uYPbbksJxIg"
+	},
+	"rymUrl": "https://rateyourmusic.com/film/oppenheimer/",
+	"rymRating": "3.70",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/029868d60b041f5fcfaa42e9a26e8885/10512973",
+	"rtUrl": "",
+	"rtRating": ""
+},
+{
+	"flag": [
+		"IT",
+		"BE",
+		"FR"
+	],
+	"title": "Io Capitano",
+	"originalTitle": "Io capitano",
+	"titleLocal": "Ja, kapitan",
+	"year": 2024,
+	"url": "https://www.imdb.com/title/tt14225838",
+	"imdbId": "tt14225838",
+	"imdbRating": 7.6,
+	"directors": [
+		"Matteo Garrone"
+	],
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Matteo_Garrone-5903.jpg/320px-Matteo_Garrone-5903.jpg\" class=\"popup-director-photo\"></center> <p><b>Matteo Garrone</b> is an Italian filmmaker. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"isDocu": false,
+	"yttrailer": {
+		"videoId": "D0j2Y9e3PxI"
+	},
+	"rymUrl": "https://rateyourmusic.com/film/io_capitano/",
+	"rymRating": "3.34",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/baf37c295de5c88c0318c6676c482cae/11170335",
+	"rtUrl": "",
+	"rtRating": ""
+},
+{
+	"flag": [
+		"JP",
+		"DE"
+	],
+	"title": "Perfect Days",
+	"originalTitle": "Perfect Days",
+	"titleLocal": "Perfect Days",
+	"year": 2023,
+	"url": "https://www.imdb.com/title/tt27503384",
+	"imdbId": "tt27503384",
+	"imdbRating": 7.9,
+	"directors": [
+		"Wim Wenders"
+	],
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/MJK30764_Wim_Wenders_%28Berlinale_2017%29.jpg/320px-MJK30764_Wim_Wenders_%28Berlinale_2017%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Ernst Wilhelm</b> \"<b>Wim</b>\" <b>Wenders</b> is a German filmmaker, playwright, author, and photographer. He is a major figure in New German Cinema. Among the honors he has received are prizes from the Cannes, Venice and Berlin film festivals. He has also received a BAFTA Award and been nominated for three Academy Awards and a Grammy Award. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"isDocu": false,
+	"yttrailer": {
+		"videoId": "Iv8YO5BXCAQ"
+	},
+	"rymUrl": "https://rateyourmusic.com/film/perfect_days/",
+	"rymRating": "3.81",
+	"rymCoverartImg": "https://e.snmc.io/i/300/w/87fb70cc5f46ff0e6bdf39d86fec66dd/10982891",
+	"rtUrl": "",
+	"rtRating": ""
+},
+{
+	"flag": [
+		"ES",
+		"CL",
+		"UY",
+		"US"
+	],
+	"title": "Society of the Snow",
+	"originalTitle": "La sociedad de la nieve",
+	"titleLocal": "\u015anie\u017cne bractwo",
+	"year": 2024,
+	"url": "https://www.imdb.com/title/tt16277242",
+	"imdbId": "tt16277242",
+	"imdbRating": 7.8,
+	"directors": [
+		"J.A. Bayona"
+	],
+	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_J._A._Bayona_%28cropped%29_%28cropped%29.jpg/320px-Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_J._A._Bayona_%28cropped%29_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Juan Antonio Garc\u00eda Bayona</b> is a Spanish filmmaker. <i class=\"fab fa-wikipedia-w\"></i></p>",
+	"isDocu": false,
+	"yttrailer": {
+		"videoId": "pDak4qLyF4Q"
+	},
+	"rymUrl": "https://rateyourmusic.com/film/la_sociedad_de_la_nieve/",
+	"rymRating": "3.44",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/1588c7b429ac412a10bcd727a0f20fd0/11275710",
+	"rtUrl": "",
+	"rtRating": ""
+},
+{
+	"flag": [
+		"DE"
+	],
+	"title": "The Teachers' Lounge",
+	"originalTitle": "Das Lehrerzimmer",
+	"titleLocal": "Pok\u00f3j nauczycielski",
+	"year": 2023,
+	"url": "https://www.imdb.com/title/tt26612950",
+	"imdbId": "tt26612950",
+	"imdbRating": 7.5,
+	"directors": [
+		"Ilker \u00c7atak"
+	],
+	"popup-director": "<p><b>İlker Çatak</b> is a German writer and director. He won the Student Academy Award in Gold in 2015 with his graduation film <i>Fidelity</i>. His filmography includes works such as <i>Once Upon a Time... Indianerland</i>, <span><i>I was, I am, I will be</i></span> and <span><i>The Teachers' Lounge</i></span> which received numerous awards including an Academy Award nomination for Best International Film and established him as a versatile and innovative filmmaker.</p>",
+	"isDocu": false,
+	"yttrailer": {
+		"videoId": "6YgQBGqhTcM"
+	},
+	"rymUrl": "https://rateyourmusic.com/film/das_lehrerzimmer/",
+	"rymRating": "3.51",
+	"rymCoverartImg": "https://e.snmc.io/i/300/s/8af65e1f929c7461a7e14ca030f54b42/10702077",
 	"rtUrl": "",
 	"rtRating": ""
 }
