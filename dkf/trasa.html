@@ -9,6 +9,9 @@
     <!-- doc https://github.com/mpetazzoni/leaflet-gpx -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <title>ALHKS :: Towarzystwo Geograficzne</title>
+    <style>body {
+        background-image: linear-gradient(26deg, darkgreen, lime);
+      }</style>
 </head>
 <body>
     <center>
@@ -16,9 +19,8 @@
         <img src="towgeo.webp" style="max-height: 15vh"/>
       </div>
       
-        <h1>Dotychczasowe pozycje</h1>
         <div class="card">
-          <div id="mapid" style="width: 500px; height: 500px"></div>
+          <div id="mapid" style="height: 75vh"></div>
         </div>
     </center>
     
@@ -32,7 +34,7 @@
         maxNativeZoom: 19, 
         maxZoom: 21
       }).addTo(mymap)
-      new L.GPX('https://www.openstreetmap.org/trace/9598464/data.gpx', {
+      new L.GPX(location.hash.substring(1)+'.gpx', {
         async: true,
         marker_options: {startIconUrl: null, endIconUrl: null}
       }).on('loaded', function(e) {
