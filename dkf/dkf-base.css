@@ -106,3 +106,6 @@ popup-director-photo {
 input[type="radio"] {
   width: 40px;
 }
+.poster {
+  height: 300px;
+}

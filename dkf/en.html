@@ -8,57 +8,56 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 <body>
-  <div style="position: absolute; top: 0px; right: 0px">
-    <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
-    <a href="en.html"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_United_Kingdom_%283-2%29.svg" class="smallflag" title="English"></a>
-  </div>
+    <div style="position: absolute; top: 0px; right: 0px">
+      <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
+      <a href="en.html"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_United_Kingdom_%283-2%29.svg" class="smallflag" title="English"></a>
+    </div>
     <center>
       <div>
         <img src="tż2.webp" style="max-height: 25vh"/>
-      </div>
-      
-        <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
+      </div>  
+        <h1>ALHKS :: The Indisputable Film Society</h1>
         
         <div class="card">
           <div>
-            <em>Co robimy?</em>
-            Spotykamy się na Wyględowie (Mokotów) lub w internecie na oglądanie filmu & dyskusję o nim
+            <em>What do we do?</em>
+            We meet in the quarter of Wyględów (Mokotów) or online to watch films & discuss them
           </div>
           <div>
-            <em>Jakie filmy oglądamy?</em>
-            Wszelkiego rodzaju, lista dotychczasowych pozycji dostępna <a href="lista.html">tutaj</a>
+            <em>What type of films do we watch?</em>
+            Of all sorts, the list of films watched to date is available <a href="lista.html">here</a>
           </div>
           <div>
-            <em>Jak wziąć udział?</em>
-            Zasubskrybować newsletter, zapowiedzieć się na spotkanie i wpaść
+            <em>How to take part?</em>
+            Subscribe to the newsletter, give a heads-up and come
           </div>
           <div>
-            <em>Czy klikając do czegoś się zobowiązuję?</em>
-            Nie, po prostu będziesz dostawał wiadomości o spotkaniach i zobaczysz, czy któreś Cię zainteresuje. 
+            <em>Am I obligated to anything by clicking?</em>
+            No, you will simply receive information about meetings and see if any catches your interest
           </div>
           <div>
-            <em>Jak zasubskrybować newsletter?</em>
-            Wybierz jedną z opcji:
+            <em>How to subscribe to the newsletter?</em>
+            Choose one of the options:
             <div class="wrapper">
               <div class="grid" onclick=showForm()>
                 <img src="messenger.svg" />
-                <div>Zostaw link do swojego profilu, by zostać dodanym do grupy</div>
+                <div>Leave a link to your Messenger profile to be added to the group chat</div>
               </div>
               <div class="grid" onclick="showForm()">
                 <img src="email.svg" />
-                <div>Zostaw swój adres e-mail</div>
+                <div>Leave your e-mail</div>
               </div>
               <a href="feed.xml">
                 <div class="grid">
                   <img src="rss.svg" />
-                  <div>Link RSS</div>
+                  <div>RSS feed</div>
                 </div>
               </a>
             </div>
             
             <div id="formDiv" style="display: none">
               <input type="text" onkeydown="keydown(event)">
-              <button onclick="send()">Prześlij</button>
+              <button onclick="send()">Send</button>
             </div>
           </div>
         </div>
@@ -82,10 +81,10 @@
       
       function on_finished(data) {
         if (!data.success) {
-          $("#formDiv").html('<h2 style="color: red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.</h2>');
+          $("#formDiv").html('<h2 style="color: red">Connection failed due to an unknown error. Please try again or contact us directly</h2>');
           return false;
         }
-        $("#formDiv").html("Wysłano odpowiedź ✓ Do zobaczenia!")
+        $("#formDiv").html("Response sent ✓ See you!")
       }
     }
     function keydown(ev) {
