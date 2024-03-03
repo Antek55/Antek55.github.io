@@ -20,25 +20,34 @@
       </div>
       
         <div class="card">
-          <div id="mapid" style="height: 75vh"></div>
+          <p id="dist"></p>
+          <div id="mapid" style="height: 72vh"></div>
         </div>
     </center>
     
     <script>
-      const mymap = L.map('mapid', {
-        center: [52, 21],
-        zoom: 10,
-      })
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
         maxNativeZoom: 19, 
         maxZoom: 21
-      }).addTo(mymap)
+      })
+      const geoportal = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers: 'Raster', maxZoom: 21})
+      const baseMaps = {
+        "OpenStreetMap": osm,
+        "Geoportal Orthofotomapa Standard Resolution": geoportal
+      }
+      const mymap = L.map('mapid', {
+        center: [52, 21],
+        zoom: 10,
+        layers: [osm]
+      })
+      L.control.layers(baseMaps, {}).addTo(mymap)
       new L.GPX(location.hash.substring(1)+'.gpx', {
         async: true,
         marker_options: {startIconUrl: null, endIconUrl: null}
       }).on('loaded', function(e) {
         mymap.fitBounds(e.target.getBounds());
+        $("#dist").html("Łączna długość: " +  (e.target.get_distance()/1000).toFixed(2) + " km")
       }).addTo(mymap);
     </script>
 </body>
