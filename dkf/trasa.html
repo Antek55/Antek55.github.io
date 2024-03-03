@@ -32,9 +32,13 @@
         maxZoom: 21
       })
       const geoportal = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers: 'Raster', maxZoom: 21})
+      const geoportalHighRes = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers: 'Raster', maxZoom: 21}),
+      const OpenTopoMap = L.tileLayer("https://a.tile.opentopomap.org/{z}/{x}/{y}.png")
       const baseMaps = {
         "OpenStreetMap": osm,
-        "Geoportal Orthofotomapa Standard Resolution": geoportal
+        "Geoportal Orthofotomapa Standard Resolution": geoportal,
+        "Geoportal Orthofotomapa High Resolution": geoportalHighRes,
+        OpenTopoMap
       }
       const mymap = L.map('mapid', {
         center: [52, 21],
