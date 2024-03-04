@@ -2,10 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8">
-    <title>ALHKS :: DKF</title>
-    <link href="dkf-base.css" rel="stylesheet">
-    <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <title>ALHKS :: DKF</title>
+  <link href="dkf-base.css" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 <body>
   <div style="position: absolute; top: 0px; right: 0px">
@@ -16,7 +16,6 @@
       <div>
         <img src="tż2.webp" style="max-height: 25vh"/>
       </div>
-      
         <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
         
         <div class="card">
@@ -48,7 +47,7 @@
                 <img src="email.svg" />
                 <div>Zostaw swój adres e-mail</div>
               </div>
-              <a href="feed.xml">
+              <a href="feed.xml" id="a_feed">
                 <div class="grid">
                   <img src="rss.svg" />
                   <div>Link RSS</div>
@@ -57,12 +56,13 @@
             </div>
             
             <div id="formDiv" style="display: none">
-              <input type="text" onkeydown="keydown(event)">
-              <button onclick="send()">Prześlij</button>
+              <input type="text" name="x" onkeydown="keydown(event)">
+              <button onclick="submit_form(this)">Prześlij</button>
             </div>
           </div>
         </div>
     </center>
+    <script src="an.js"></script>
     <script>
     $("a").attr("target", "_blank")
     function showForm() {
@@ -71,26 +71,10 @@
       document.querySelector("input").focus()
       window.scrollTo(0, document.body.scrollHeight);
     }
-    function send() {
-      const value = document.querySelector("input").value
-      $("#formDiv").html("Proszę o cierpliwość, trwa przesyłanie…")
-      const url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
-      var wynik = encodeURIComponent(
-        JSON.stringify({form: 'dkf-main', value})
-      );
-      $.get(url + wynik, on_finished);
-      
-      function on_finished(data) {
-        if (!data.success) {
-          $("#formDiv").html('<h2 style="color: red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.</h2>');
-          return false;
-        }
-        $("#formDiv").html("Wysłano odpowiedź ✓ Do zobaczenia!")
-      }
-    }
     function keydown(ev) {
       if (event.key == "Enter")
-        send()
+        submit_form(ev.target)
     }
+    an_all()
     </script>
 </body>
