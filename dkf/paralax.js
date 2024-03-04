@@ -29,8 +29,8 @@ class Point {
     x;
     velo;
     elem;
-    constructor() {
-        this.x = window.innerWidth
+    constructor(x) {
+        this.x = x || window.innerWidth
         this.iy = Math.random() * 1000
         this.period_nom = uniform(100, 300)
         this.ampl = uniform(20, 60)
@@ -84,6 +84,8 @@ function f() {
 if (window.innerWidth > window.innerHeight) {
   svg = createElement('svg', {width: '100%', height: '100%', viewBox: `0 0 ${window.innerWidth} ${window.innerHeight}`, style: 'position: fixed; z-index: -1'}, {ns: SVGNS})
   document.body.prepend(svg)
+  for (let i = 0; i < 25; i++)
+    pts.push(new Point(uniform(0, window.innerWidth)))
   f()
   // setInterval(f, 1000/24)
 }

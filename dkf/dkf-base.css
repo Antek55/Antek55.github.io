@@ -1,3 +1,32 @@
+@font-face {
+    font-family: caladea;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Caladea'),
+        url(https://fonts.cdnfonts.com/s/46604/Caladea-Regular.woff) format('woff')
+}
+
+@font-face {
+    font-family: caladea;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.cdnfonts.com/s/46604/Caladea-Italic.woff) format('woff')
+}
+
+@font-face {
+    font-family: caladea;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.cdnfonts.com/s/46604/Caladea-Bold.woff) format('woff')
+}
+
+@font-face {
+    font-family: caladea;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.cdnfonts.com/s/46604/Caladea-BoldItalic.woff) format('woff')
+}
+
 body {
     /* height: 100%; */
     height: 100vh;
@@ -108,4 +137,7 @@ input[type="radio"] {
 }
 .poster {
   height: 300px;
+}
+.opis {
+  text-align: justify
 }
