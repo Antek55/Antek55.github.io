@@ -46,5 +46,6 @@ function an_all() {
   send({type: 'visit'})
   for (let a of document.querySelectorAll('a')) {
     a.addEventListener("click", (e) => send({type: 'click', target: e.target.closest("a").id}))
+    a.addEventListener("contextmenu", (e) => send({type: 'rclick', target: e.target.closest("a").id}))
   }
 }
