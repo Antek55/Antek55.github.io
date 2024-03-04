@@ -6,14 +6,46 @@
   <link href="dkf-base.css" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <style>.poster {
+  <style>
+  .poster {
       /* filter: blur(3px) drop-shadow(lightgrey 8px 8px 8px) ; */
       filter: blur(3px);
       margin: 10px;
     }
+    body {
+      overflow: hidden;
+      background-image: none;
+    }
+    
+    /*
+    @keyframes rot {
+      from {
+        gradientTransform: rotate(0);
+      }
+      to {
+        gradientTransform: rotate(180);
+      }
+    }
+    
+    #grad {
+      animation: 3s ease-in 1s infinite reverse both running rot;
+    }*/
   </style>
 </head>
 <body>
+  <svg width="100%" height="100%" style="position: absolute; z-index: -100">
+    <defs>
+      <linearGradient id="grad" gradientTransform="rotate(26)">
+        <!-- <animate attributeName="gradientTransform" dur="1s" values="rotate(0);rotate(360);rotate(0)" repeatCount="indefinite"/> -->
+        <stop stop-color="#F52876" offset="0%">
+          <!-- <animate attributeName="stop-color" dur="1s" values="black;white;black" repeatCount="indefinite"/> -->
+        </stop>
+        <stop stop-color="#F09E54" offset="100%" />
+      </linearGradient>
+    </defs>
+    <rect width="100%" height="100%" fill="url('#grad')"/>
+  </svg>
+  
     <img src="tż2.webp" style="max-height: 25vh; position: absolute; z-index: 3" id="logo"/>
 
   <div style="max-width: 300px; display: flex; position: absolute; z-index: -10" id="posters">
@@ -64,7 +96,7 @@
     <img class="poster" src="https://e.snmc.io/i/300/w/25ea7e80cf8e672c5d2be82596d2a9fd/11155080">
     <img class="poster" src="https://e.snmc.io/i/300/w/1b60c26269469a3a37b0eea24582af90/4498376">
     <img class="poster" src="https://e.snmc.io/i/300/w/d1358f52a34e2d840cd4bb75205eb84d/7630345">
-    <img class="poster" style="z-index: 10; filter: none" src="https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg">
+    <img class="poster" style="z-index: 10; filter: none;" src="https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg">
 </div>
 
     <script src="colors.js"></script>
@@ -83,6 +115,7 @@
     let XVELO = 4
     let YVELO = 2
     let PVELO = 4
+    let rot = 26
     // $(".poster").each((i,e) => $(e).css("position", "relative").css("top", uniform(-15, 15)))
     setInterval(() => {pl = window.innerWidth}, 3*60*1000)
     
@@ -91,6 +124,9 @@
       leftx += XVELO
       img.css("top", topx).css("left", leftx)
       $("#posters").css("left", pl)
+      
+      rot += 0.1
+      // $("linearGradient").attr("gradientTransform", `rotate(${rot})`)
       pl -= PVELO
       let rect = img[0].getBoundingClientRect()
       
@@ -108,14 +144,12 @@
         XVELO *= uniform(0.7, 1.5)
         YVELO *= uniform(0.7, 1.5)
       }
-      if (Math.sqrt(XVELO**2 + YVELO**2) > 15) {
+      while (Math.sqrt(XVELO**2 + YVELO**2) > 15) {
         XVELO *= 0.5
         YVELO *= 0.5
       }
-      
       requestAnimationFrame(g)
     }
-    
     g()
     </script>
 </body>
