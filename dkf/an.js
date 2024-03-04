@@ -42,7 +42,11 @@ async function submit_form(e) {
   form.innerHTML = ok ? SUCCESS : ERR
 }
 
+const urlParams = new URLSearchParams(window.location.search);
+
 function an_all() {
+  if (urlParams.get('track') == 'false')
+    return;
   send({type: 'visit'})
   for (let a of document.querySelectorAll('a')) {
     a.addEventListener("click", (e) => send({type: 'click', target: e.target.closest("a").id}))
