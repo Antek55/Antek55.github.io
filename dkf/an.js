@@ -32,7 +32,7 @@ async function send(data, opts={}) {
 
 async function submit_form(e) {
   const form = e.parentElement
-  const data = {}
+  const data = {type: 'form'}
   for (let i of form.querySelectorAll('input'))
     data[i.getAttribute("name")] = i.value
   form.innerHTML = WAIT
