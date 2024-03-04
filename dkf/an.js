@@ -23,9 +23,7 @@ async function send(data, opts={}) {
     localStorage.setItem('name', data.name)
   
   const url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net'
-  // const enc = encodeURIComponent(JSON.stringify(data))
-  
-  const resp = await fetch(url, {method: 'POST', body: data}).then((d) => d.json())
+  const resp = await fetch(url, {method: 'POST', body: JSON.stringify(data)}).then((d) => d.json())
   if (!resp.success) {
     return false;
   }
