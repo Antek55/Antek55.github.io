@@ -178,9 +178,7 @@
     function submit_send()
     {
       if (app.max2() || app.max1neg())
-      {
         return false;
-      }
       
       $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
 
@@ -188,6 +186,7 @@
       
       delete (app.$data.flags)
       delete (app.$data.country_codes)
+      localStorage.setItem("name", app.$data.name)
       
       var wynik = encodeURIComponent(JSON.stringify(app.$data));
       $.get(url + wynik, on_success);

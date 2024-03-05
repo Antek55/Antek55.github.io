@@ -53,6 +53,9 @@ const pts = []
 
 const FREQ = 20
 let nxt = 0
+function dist(ax, ay, bx, by) {
+  return Math.sqrt((ax-bx)**2 + (ay-by)**2)
+}
 
 function f() {
     const tbd = []
@@ -62,6 +65,7 @@ function f() {
         // p.iy -= VY*p.velo
         // p.elem.setAttribute('cy', p.iy + p.ampl*Math.sin(p.x/p.period_nom))
         // p.elem.setAttribute('cy', p.iy)
+        // const d = dist(p.x, p.iy, topx, leftx)
         p.elem.setAttribute('cx', p.x)
 
         if (p.x < 0)
@@ -83,19 +87,6 @@ function f() {
 
 if (window.innerWidth > window.innerHeight) {
   svg = createElement('svg', {width: '100%', height: '100%', viewBox: `0 0 ${window.innerWidth} ${window.innerHeight}`, style: 'position: fixed; z-index: -1'}, {ns: SVGNS})
-  /*createElement('defs', {}, {
-    parent: svg,
-    ns: SVGNS,
-    children: [
-      createElement('linearGradient', {id: 'grad', gradientTransform: 'rotate(26)'}, {
-        ns: SVGNS,
-        children: [
-          createElement('stop', {"stop-color": '#F52876', offset: '0%'}, {ns:SVGNS}),
-          createElement('stop', {"stop-color": '#F09E54', offset: '100%'}, {ns:SVGNS})
-        ]
-      }
-    )]})*/
-  // createElement('rect', {fill: "url('#grad')", width: "100%", height: '100%'}, {parent: svg, ns: SVGNS})
   document.body.prepend(svg)
   for (let i = 0; i < 25; i++)
     pts.push(new Point(uniform(0, window.innerWidth)))

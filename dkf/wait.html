@@ -98,7 +98,6 @@
     <img class="poster" src="https://e.snmc.io/i/300/w/d1358f52a34e2d840cd4bb75205eb84d/7630345">
     <img class="poster" style="z-index: 10; filter: none;" src="https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg">
 </div>
-
     <script src="colors.js"></script>
     <script src="paralax.js"></script>
     
@@ -110,20 +109,30 @@
     $("#posters").css("top", window.innerHeight/2 - 150 -10)
     
     const img = $("#logo")
-    let topx = uniform(0, window.innerHeight - 500)
-    let leftx = uniform(0, window.innerWidth - 500)
+    var topx = uniform(0, window.innerHeight - 500)
+    var leftx = uniform(0, window.innerWidth - 500)
     let XVELO = 4
     let YVELO = 2
     let PVELO = 4
     let rot = 26
-    // $(".poster").each((i,e) => $(e).css("position", "relative").css("top", uniform(-15, 15)))
     setInterval(() => {pl = window.innerWidth}, 3*60*1000)
+    
+    function elev(e) {
+      const bb = e.getBoundingClientRect()
+      const dist = Math.abs(bb.left + bb.width/2 - window.innerWidth/2)
+      if (dist < 200) {
+        return Math.abs(dist-200)/200
+      }
+      return 0
+    }
     
     function g() {
       topx += YVELO
       leftx += XVELO
       img.css("top", topx).css("left", leftx)
       $("#posters").css("left", pl)
+      // $(".poster").each((i,e) => $(e).css("position", "relative").css("bottom", elev(e)))
+      // $(".poster").each((i,e) => $(e).css("filter", `saturate(${elev(e)})`))
       
       rot += 0.1
       // $("linearGradient").attr("gradientTransform", `rotate(${rot})`)
