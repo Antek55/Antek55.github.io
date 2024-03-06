@@ -17,19 +17,9 @@
       background-image: none;
     }
     
-    /*
-    @keyframes rot {
-      from {
-        gradientTransform: rotate(0);
-      }
-      to {
-        gradientTransform: rotate(180);
-      }
+    .paralax-circle {
+      fill-opacity: 1;
     }
-    
-    #grad {
-      animation: 3s ease-in 1s infinite reverse both running rot;
-    }*/
   </style>
 </head>
 <body>
@@ -43,7 +33,8 @@
         <stop stop-color="#F09E54" offset="100%" />
       </linearGradient>
     </defs>
-    <rect width="100%" height="100%" fill="url('#grad')"/>
+    <rect width="100%" height="100%" fill="url('#grad')" id="bg"/>
+    <rect width="100%" height="100%" fill="black" fill-opacity="0" id="occlu"/>
   </svg>
   
     <img src="tż2.webp" style="max-height: 25vh; position: absolute; z-index: 3" id="logo"/>
@@ -126,6 +117,8 @@
       return 0
     }
     
+    const pyk = new Audio('https://hs.jwodzinski.org.pl/tick.mp3')
+    
     function g() {
       topx += YVELO
       leftx += XVELO
@@ -140,18 +133,30 @@
       let rect = img[0].getBoundingClientRect()
       
       if (rect.bottom >= window.innerHeight || rect.top <= 0) {
+        pyk.currentTime = 0
+        pyk.play()
         YVELO *= -1
         topx = temper(0, window.innerHeight - rect.height, topx)
         
         XVELO *= uniform(0.7, 1.5)
         YVELO *= uniform(0.7, 1.5)
+        if (Math.abs(XVELO) < 0.5)
+          XVELO += 0.3 * Math.sign(XVELO)
+        if (Math.abs(YVELO) < 0.5)
+          YVELO += 0.3 * Math.sign(YVELO)
       }
       if (rect.right >= window.innerWidth || rect.left <= 0) {
+        pyk.currentTime = 0
+        pyk.play()
         XVELO *= -1
         leftx = temper(0, window.innerWidth - rect.width, leftx)
         
         XVELO *= uniform(0.7, 1.5)
         YVELO *= uniform(0.7, 1.5)
+        if (Math.abs(XVELO) < 0.5)
+          XVELO += 0.3 * Math.sign(XVELO)
+        if (Math.abs(YVELO) < 0.5)
+          YVELO += 0.3 * Math.sign(YVELO)
       }
       while (Math.sqrt(XVELO**2 + YVELO**2) > 15) {
         XVELO *= 0.5
@@ -160,5 +165,18 @@
       requestAnimationFrame(g)
     }
     g()
+    
+    const beagle = new Audio('file:///home/antek/blender/pkin/beagle dkf.ogg')
+    beagle.addEventListener("ended", () => {console.log("End"); window.close()})
+    function gong() {
+      setInterval(() => {XVELO *= 0.97; YVELO *= 0.97}, 50)
+      new Audio('https://hs.jwodzinski.org.pl/gong.mp3').play()
+      setTimeout(() => beagle.play(), 1200)
+      beagle.currentTime=35
+      $("#occlu").animate({"fill-opacity": 1}, 6000)
+      $(".poster").fadeOut(6000)
+      // $("#logo").animate({"top": 50, "left": 1000}, 1000)
+    }
+    gong()
     </script>
 </body>
