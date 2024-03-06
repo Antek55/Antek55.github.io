@@ -19,8 +19,8 @@ const TR = {
 }
 
 const SEL = `<div style="position: absolute; top: 0px; right: 0px">
-  <a onclick="gotoLang(event)" lang="pl"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
-  <a onclick="gotoLang(event)" lang="en"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_United_Kingdom_%283-2%29.svg" class="smallflag" title="English"></a>
+  <a onclick="gotoLang(event)" lang="pl" style="cursor: pointer"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
+  <a onclick="gotoLang(event)" lang="en" style="cursor: pointer"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_United_Kingdom_%283-2%29.svg" class="smallflag" title="English"></a>
 </div>`
 document.body.insertAdjacentHTML("afterbegin", SEL)
 
