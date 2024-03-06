@@ -24,7 +24,6 @@ function createElement(tag, attrs={}, otherargs={}) {
 }
 
 let svg
-// const text = svg.querySelector('text')
 class Point {
     x;
     velo;
@@ -39,9 +38,9 @@ class Point {
         elem.setAttribute('cx', this.x)
         elem.setAttribute('cy', this.iy)
         elem.setAttribute('r', 10*Math.random())
-        // elem.setAttribute('fill', random_color())
         elem.setAttribute('fill', gradient("#ffff00", '#FF5733', Math.random()))
         elem.setAttribute('filter', `saturate(${this.velo/10 + 0.1}) blur(${1/(this.velo/10)})`)
+        elem.setAttribute('class', "paralax-circle")
         this.elem = elem
         svg.appendChild(elem)
     }

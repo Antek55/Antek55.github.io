@@ -29,7 +29,7 @@
       <div>
         <img src="tż2.webp" style="max-height: 10vh"/>
       </div>
-        <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
+        <h1 en="ALHKS: The Indisputable Film Society">ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
         <div class="card">
           
           <form v-on:submit.prevent="submit" class="form">
@@ -53,7 +53,7 @@
               <div class="item">
                 <label for="name"><em en="What's your name?">Jak się nazywasz?</em></label>
                 <div class="item">
-                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim/Your name/recognizable pseudonim" required />
+                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim" data-en-placeholder="Your name/recognisable pseudonim" data-i18n required />
                 </div>
               </div>
               
@@ -158,9 +158,9 @@
               </div>
 
               <div id="warnings" class="warnings" style="font-weight: bold; font-size: 20px">
-                <p v-if="_.some( Object.entries(filmy_dict).map( ([a,b]) => g[a] && w[a] ) )">⚠️ Głosujesz na film jednocześnie dodatnio i ujemnie! </p>
-                <p v-if="max2()">⚠️ Możesz oddać tylko dwa głosy dodatnie.</p>
-                <p v-if="max1neg()">⚠️ Możesz oddać tylko jeden głos ujemny.</p>
+                <p v-if="_.some( Object.entries(filmy_dict).map( ([a,b]) => g[a] && w[a] ) )" en="⚠️ You're simultaneously voting positively and negatively for a film!">⚠️ Głosujesz na film jednocześnie dodatnio i ujemnie!</p>
+                <p v-if="max2()" en="⚠️ You can only cast two positive votes.">⚠️ Możesz oddać tylko dwa głosy dodatnie.</p>
+                <p v-if="max1neg()" en="⚠️ You can only cast one negative vote.">⚠️ Możesz oddać tylko jeden głos ujemny.</p>
               </div>
               
               <div class="btn-block">
@@ -173,13 +173,18 @@
     </center>
     <script src="i18n.js"></script>
     <script>
+    const TRANS = {
+      'Proszę o cierpliwość, trwa przesyłanie…': 'Please be patient, sending in progress…',
+      'Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.': 'Sending unsuccessful due to an unknown error. Please try again or contact the organisers directly via a private message',
+      "Wysłano odpowiedź.": 'Response sent.'
+    }
+    
     $("a").not("[target]").attr("target", "_blank")
-    function submit_send()
-    {
+    function submit_send() {
       if (app.max2() || app.max1neg())
         return false;
       
-      $("form").html("Proszę o cierpliwość, trwa przesyłanie… / Please be patient, sending in progress…")    
+      $("form").html(transl("Proszę o cierpliwość, trwa przesyłanie…"))  
 
       url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
       
@@ -192,13 +197,12 @@
       
       function on_success(data)
       {
-        if (!data.success)
-        {
-          $("form").html('<h2 class="red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną. / Sending unsuccessful due to an unknown error. Please try again or contact the organisers directly via a private message</h2>');
+        if (!data.success) {
+          $("form").html('<h2 class="red">' + transl('Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.') + '</h2>');
           return false;
         }
         
-        $("form").html("Wysłano odpowiedź. / Sent.")
+        $("form").html(transl("Wysłano odpowiedź."))
       }
     }
 

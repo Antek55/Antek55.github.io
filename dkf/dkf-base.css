@@ -141,3 +141,6 @@ input[type="radio"] {
 .opis {
   text-align: justify
 }
+.paralax-circle {
+  fill-opacity: 0.5;
+}

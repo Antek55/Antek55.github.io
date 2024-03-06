@@ -3,6 +3,13 @@ const LANG = localStorage.getItem("lang") || "pl"
 if (LANG == "en") {
   for (let t of document.querySelectorAll("[en]"))
     t.innerHTML = t.getAttribute("en")
+  
+  for (let t of document.querySelectorAll("[data-i18n]")) {
+    for (let [k, v] of Object.entries(t.dataset)) {
+      if (k.startsWith(LANG))
+        t.setAttribute(k.substr(2), v)
+    }
+  }
 }
 
 const TR = {
@@ -13,7 +20,18 @@ const TR = {
   pt: 'Fri',
   sb: 'Sat',
   nd: 'Sun',
+  stycznia: 'January',
+  lutego: 'February',
   marca: 'March',
+  kwietnia: 'April',
+  maja: 'May',
+  czerwca: 'June',
+  lipca: 'July',
+  sierpnia: 'August',
+  września: 'September',
+  października: 'October',
+  listopada: 'November',
+  grudnia: 'December',
   
   głosowanie: 'poll',
 }
@@ -34,4 +52,8 @@ function fragm(el) {
     for (let [k, v] of Object.entries(TR))
       el = el.replace(k, v)
   return el
+}
+
+function transl(t) {
+  return LANG == 'en' ? TRANS[t] : t
 }
