@@ -51,6 +51,7 @@ class Point {
 const pts = []
 
 const FREQ = 20
+let VMUL = 1
 let nxt = 0
 function dist(ax, ay, bx, by) {
   return Math.sqrt((ax-bx)**2 + (ay-by)**2)
@@ -60,7 +61,7 @@ function f() {
     const tbd = []
     for (let i = 0; i < pts.length; i++) {
         let p = pts[i]
-        p.x -= p.velo
+        p.x -= p.velo*VMUL
         // p.iy -= VY*p.velo
         // p.elem.setAttribute('cy', p.iy + p.ampl*Math.sin(p.x/p.period_nom))
         p.elem.setAttribute('cy', p.iy)
