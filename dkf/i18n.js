@@ -1,4 +1,4 @@
-const LANG = localStorage.getItem("lang") || "pl"
+const LANG = localStorage.getItem("lang") || (location.pathname.endsWith("en.html") ? "en" : "pl")
 
 if (LANG == "en") {
   for (let t of document.querySelectorAll("[en]"))
@@ -55,5 +55,7 @@ function fragm(el) {
 }
 
 function transl(t) {
-  return LANG == 'en' ? TRANS[t] : t
+  if (LANG == 'en' && TRANS[t])
+    return TRANS[t]
+  return t
 }
