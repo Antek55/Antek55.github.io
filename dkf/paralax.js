@@ -63,7 +63,7 @@ function f() {
         p.x -= p.velo
         // p.iy -= VY*p.velo
         // p.elem.setAttribute('cy', p.iy + p.ampl*Math.sin(p.x/p.period_nom))
-        // p.elem.setAttribute('cy', p.iy)
+        p.elem.setAttribute('cy', p.iy)
         // const d = dist(p.x, p.iy, topx, leftx)
         p.elem.setAttribute('cx', p.x)
 
@@ -90,5 +90,16 @@ if (window.innerWidth > window.innerHeight) {
   for (let i = 0; i < 25; i++)
     pts.push(new Point(uniform(0, window.innerWidth)))
   f()
-  // setInterval(f, 1000/24)
+  document.addEventListener("scroll", () => {
+    const d = window.scrollY - scrollY
+    for (let f of pts) {
+      f.iy -= d
+      if (f.iy < 0)
+        f.iy += window.innerHeight
+      f.iy %= window.innerHeight
+    }
+    scrollY = window.scrollY
+  })
 }
+
+let scrollY = window.scrollY
