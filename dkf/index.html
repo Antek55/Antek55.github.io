@@ -79,4 +79,11 @@
     </script>
     <script src="colors.js"></script>
     <script src="paralax.js"></script>
+    <script>
+    if (window.innerHeight > window.innerWidth) {
+      $(".card").css("maxWidth", "100%").css("padding", "0px").css("margin", "3px")
+      $("table").css("width", "100%").css("padding", "0px").css("margin", "0px")
+      $("body").css("font-size", "50px")
+    }
+  </script>
 </body>
