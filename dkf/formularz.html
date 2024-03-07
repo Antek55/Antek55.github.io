@@ -32,7 +32,7 @@
         <h1 en="ALHKS: The Indisputable Film Society">ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
         <div class="card">
           <form v-on:submit.prevent="submit" class="form">
-            <div v-if="Date.now() > Date.parse(closing)" en="This form is already closed and does not accept answers. Message the organisers of this event directly to see if seats at this event are still available.">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
+            <div v-if="Date.now() > Date.parse(closing)" en="This form is already closed and does not accept answers. Message the organisers of this event directly to see if any seats are still available.">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
             <div v-else>
             
               <div class="banner">
