@@ -163,7 +163,8 @@
               </div>
               
               <div class="btn-block">
-                <button :style="max2() || max1neg() ? 'background-color: grey' : ''" en="Send">Wyślij</button>
+                <!-- <button :style="max2() || max1neg() ? 'background-color: grey' : ''" en="Send">Wyślij</button> -->
+                <button :style="max2() ? 'background-color: grey' : ''" en="Send">Wyślij</button>
               </div>
             </div>   
           </form>
@@ -214,7 +215,7 @@
       data: {
         form_id: "dkf-głosowanie-1",
         title: fragm("DKF :: Oskary :: głosowanie"),
-        closing: "2024-03-06 23:35",
+        closing: "2024-03-01 23:35",
         name: localStorage.getItem('name'),
         uwagi: "",
         g: _.cloneDeep(filmy_dict),
