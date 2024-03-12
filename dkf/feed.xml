@@ -4,8 +4,8 @@
  <title>ALHKS :: Bezdyskusyjny Klub Filmowy</title>
  <description>ALHKS :: Bezdyskusyjny Klub Filmowy</description>
  <link>https://www.static.jwodzinski.org.pl/dkf/</link>
- <lastBuildDate>2024-03-09T15:15:07.555761</lastBuildDate>
- <pubDate>2024-03-09T15:15:07.555761</pubDate>
+ <lastBuildDate>2024-03-12T05:08:58.422496</lastBuildDate>
+ <pubDate>2024-03-12T05:08:58.422496</pubDate>
  <image>
     <url>https://www.static.jwodzinski.org.pl/wakacje2021/gfx/tż2.svg</url>
     <title>ALHKS :: Bezdyskusyjny Klub Filmowy</title>
@@ -13,7 +13,15 @@
     </image>
  
  <item>
-         <title>DKF 50:: Poor Things (2023) March 15th</title>
+         <title>DKF 50 :: Poor Things (2023) &amp; Anniversary Party on Friday at 7 PM</title>
+         <description>50. spotkanie DKFu odbędzie się w najbliższy piątek. Projekcję Poor Things rozpoczniemy o 19:00, a po seansie naszych gości na Woronicza zapraszamy do pozostania na okolicznościowym przyjęciu w celu odpowiedniego uczczenia wielości odbytych kolaudacji. Prosimy o zapowiedź przychodzących zarówno osobiście jak i zdalnie. Do zobaczenia!</description>
+         
+         <guid isPermaLink="false">e3a42084fa80c29ff89674023f5cf1f83cf36f8ecce730cf43122f7281a205b9</guid>
+         <pubDate>2024-03-11</pubDate>
+         
+         </item>
+ <item>
+         <title>DKF 50 :: Poor Things (2023) March 15th</title>
          <description>Thanks you for the record high number of responses, also no winning film has secured such an advantage over others before. We invite you to the 50th-anniversary celebratory party, among whose features will be the film &lt;b&gt;Poor Things&lt;/b&gt;, on &lt;b&gt;next Friday, March 15th&lt;/b&gt;. Due to my resignation from the post of Secretary General more details about this exquisite evening will be announced only after the successor takes over.</description>
          
          <guid isPermaLink="false">f95fbc82d5b6be6bf7622fbc1530adef9e9e78902521cbd8db00ba9428f7a367</guid>
