@@ -29,7 +29,7 @@
       <div>
         <img src="tż2.webp" style="max-height: 10vh"/>
       </div>
-        <h1 en="ALHKS: The Indisputable Film Society">ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
+        <h1 en="ALHKS :: The Indisputable Film Society">ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
         <div class="card">
           <form v-on:submit.prevent="submit" class="form">
             <div v-if="Date.now() > Date.parse(closing)" en="This form is already closed and does not accept answers. Message the organisers of this event directly to see if any seats are still available.">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
@@ -173,12 +173,6 @@
     </center>
     <script src="i18n.js"></script>
     <script>
-    const TRANS = {
-      'Proszę o cierpliwość, trwa przesyłanie…': 'Please be patient, sending in progress…',
-      'Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.': 'Sending unsuccessful due to an unknown error. Please try again or contact the organisers directly via a private message',
-      "Wysłano odpowiedź.": 'Response sent.'
-    }
-    
     $("a").not("[target]").attr("target", "_blank")
     function submit_send() {
       if (app.max2() || app.max1neg())

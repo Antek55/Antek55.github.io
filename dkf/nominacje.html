@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/tippy.js@6"></script>
     <link href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css" rel="stylesheet">
     <script src="flags.js"></script>
-    <script src="filmy.js"></script>
+    <!-- <script src="filmy.js"></script> -->
     <style>
       .title {
         text-align: left;
@@ -24,50 +24,51 @@
       <div>
         <img src="tż2.webp" style="max-height: 10vh"/>
       </div>
-        <h1>ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
+        <h1 en="ALHKS :: The Indisputable Film Society">ALHKS :: Bezdyskusyjny Klub Filmowy</h1>
         <div class="card">
           <form class="form" v-on:submit.prevent="submit">
-            <div v-if="Date.now() > Date.parse(closing)">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
+            <div v-if="Date.now() > Date.parse(closing)" en="This form is already closed and does not accept answers. Message the organisers of this event directly to see if any seats are still available.">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
             
             <div v-else>
             
               <div class="banner">
-                <h1>{{ title }}</h1>
+                <h1>[[ title ]]</h1>
               </div>
               
               <div class="opis">
-                <p>Formularz zamyka się <span class="red">{{ closing }}</span>.</p>
+                <p en="The form closes <em><span class=&quot;red&quot;>[[ closing ]]</span></em>">Formularz zamyka się <em><span class="red">[[ closing ]]</span></em>.</p>
               </div>
               
               <div class="item">
-                <label for="name">Jak się nazywasz?</label>
+                <label for="name"><em en="What's your name?">Jak się nazywasz?</em></label>
                 <div class="item">
-                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim" required />
+                  <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim" data-en-placeholder="Your name/recognisable pseudonym" data-i18n required />
                 </div>
               </div>
               
               <div class="item">
-                  <label for="nominacje1">Zapisz proszę poniżej <em>co najwyżej trzy</em> filmy, które chesz nominować do plebiscytu. Kolejność nie ma znaczenia</label>
+                  <label for="nominacje1" en="Please input here <em>at most three</em> films which will then be voted in the next round. Order matters: in case of numerous responses the bottom of the list will be the first to be struck out.">Zapisz proszę poniżej <em>co najwyżej trzy</em> filmy, które chesz nominować do plebiscytu. Kolejność ma znaczenie: w przypadku licznych zgłoszeń nadmiarowe nominacje będziemy skreślać od końca listy</label>
                   <textarea id="nominacje1" rows="3" v-model="nominacje1"></textarea>
               </div>
               
-              <div class="item">
-                  <label for="uwagi">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
+              <div class="item" style="padding-top: 30px; padding-bottom: 30px;">
+                  <label for="uwagi" en="Do you have any other information/comments/suggestions/ideas/clarifications/questions/concerns?">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
                   <textarea id="uwagi" rows="3" v-model="uwagi"></textarea>
               </div>
               
               <div class="btn-block">
-                <button>Wyślij</button>
+                <button en="Send">Wyślij</button>
               </div>
             </div>        
           </form>
         </div>
       </center>
       
+      <script src="i18n.js"></script>
       <script>
       function submit_send()
       {
-        $("form").html("Proszę o cierpliwość, trwa przesyłanie…")    
+        $("form").html(transl("Proszę o cierpliwość, trwa przesyłanie…"))   
 
         localStorage.setItem("name", app.$data.name);
         url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
@@ -79,11 +80,11 @@
         {
           if (!data.success)
           {
-            $("form").html('<h2 class="red">Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.</h2>');
+            $("form").html('<h2 class="red">' + transl('Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.') + '</h2>');
             return false;
           }
           
-          $("form").html("Wysłano odpowiedź.")
+          $("form").html(transl("Wysłano odpowiedź."))
         }
       }
 
@@ -91,8 +92,8 @@
         el: "form", 
         data: {
           form_id: "dkf-nominacje",
-          title: 'DKF XLIX :: nominacje',
-          closing: "2024-02-29 22:05",
+          title: 'DKF LI :: nominacje',
+          closing: "2024-03-29 22:05",
           name: localStorage.getItem('name'),
           nominacje1:"",
           uwagi: "",
@@ -100,8 +101,18 @@
         methods: 
         {
           submit: submit_send,
-        } 
+        },
+        delimiters: ['[[', ']]']
       })
 
+    </script>
+    <script src="colors.js"></script>
+    <script src="paralax.js"></script>
+    <script src="an.js"></script>
+    <script>
+    if (window.innerHeight > window.innerWidth) {
+      $(".card").css("maxWidth", "100%").css("padding", "0px").css("margin", "3px")
+      $("table").css("width", "100%").css("padding", "0px").css("margin", "0px")
+    }
     </script>
 </body>
