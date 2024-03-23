@@ -50,12 +50,13 @@ function gotoLang(event) {
 const TRANS = {
   'Proszę o cierpliwość, trwa przesyłanie…': 'Please be patient, sending in progress…',
   'Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.': 'Sending unsuccessful due to an unknown error. Please try again or contact the organisers directly via a private message.',
-  "Wysłano odpowiedź.": 'Response sent.'
+  "Wysłano odpowiedź.": 'Response sent.',
+  nominacje: 'nominations',
 }
 
 function fragm(el) {
   if (LANG == 'en')
-    for (let [k, v] of Object.entries(TR))
+    for (let [k, v] of Object.entries(TRANS))
       el = el.replace(k, v)
   return el
 }
