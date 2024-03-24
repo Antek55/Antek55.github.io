@@ -34,6 +34,7 @@ const TR = {
   grudnia: 'December',
   
   głosowanie: 'poll',
+  nominacje: 'nominations',
 }
 
 const SEL = `<div style="position: absolute; top: 0px; right: 0px">
@@ -51,12 +52,11 @@ const TRANS = {
   'Proszę o cierpliwość, trwa przesyłanie…': 'Please be patient, sending in progress…',
   'Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.': 'Sending unsuccessful due to an unknown error. Please try again or contact the organisers directly via a private message.',
   "Wysłano odpowiedź.": 'Response sent.',
-  nominacje: 'nominations',
 }
 
 function fragm(el) {
   if (LANG == 'en')
-    for (let [k, v] of Object.entries(TRANS))
+    for (let [k, v] of Object.entries(TR))
       el = el.replace(k, v)
   return el
 }
