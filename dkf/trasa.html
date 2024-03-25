@@ -22,6 +22,7 @@
         <div class="card">
           <div id="mapid" style="height: 72vh"></div>
           <p id="dist"></p>
+          <button onclick="document.querySelector('#mapid').requestFullscreen()">Pełen ekran</button>
           <a href="" target="_blank" id="gpx_button"><button>Pobierz plik gpx</button></a>
         </div>
     </center>
@@ -35,11 +36,15 @@
       const geoportal = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers: 'Raster', maxZoom: 21})
       const geoportalHighRes = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers: 'Raster', maxZoom: 21})
       const OpenTopoMap = L.tileLayer("https://a.tile.opentopomap.org/{z}/{x}/{y}.png")
+      const bdot500 = L.tileLayer.wms('https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaBazDanychObiektowTopograficznych', {layers: 'BDOT', maxZoom: 21, minZoom: 16})
+      // const bdot10k = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/pub/guest/kompozycja_BDOT10k_WMS/MapServer/WMSServer', {layers: 'BDOT10k', maxZoom: 21})
       const baseMaps = {
         "OpenStreetMap": osm,
         "Geoportal Orthofotomapa Standard Resolution": geoportal,
         "Geoportal Orthofotomapa High Resolution": geoportalHighRes,
-        OpenTopoMap
+        OpenTopoMap,
+        bdot500,
+        
       }
       const mymap = L.map('mapid', {
         center: [52, 21],
