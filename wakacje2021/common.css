@@ -404,3 +404,8 @@ dialog {
 .dr_icon:hover {
     filter: saturate(0.5);
 }
+
+#bokl text {
+    fill: yellow;
+    stroke: grey;
+}
