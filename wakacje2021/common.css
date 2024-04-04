@@ -409,3 +409,7 @@ dialog {
     fill: yellow;
     stroke: grey;
 }
+
+.rot {
+    transform: rotate(180deg)
+}
