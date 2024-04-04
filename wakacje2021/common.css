@@ -33,6 +33,7 @@ body {
     margin: 0px;
     font-family: 'Caladea';
 }
+
 h1 {
     font-size: 41px;
     margin: 0px;
@@ -96,6 +97,10 @@ body.m3 {
 
 body.m4 {
     background: radial-gradient(lime, lightgreen);
+    /* background-image: url(kwie-deplorable.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: contain; */
 }
 
 body.m5 {
@@ -117,6 +122,10 @@ body.m9 {
 
 body.c1226 {
     background-color: #a6130d;
+}
+
+body.c0416 {
+    background-color: blueviolet;
 }
 
 .event > rect {
