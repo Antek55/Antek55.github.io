@@ -40,7 +40,8 @@ h1 {
     padding: 10px;
     font-family: 'Caladea';
     font-weight: normal;
-    /*font-family: 'Whitney'*/
+    /* -webkit-text-stroke: 1px white; */
+    filter: drop-shadow(0px 0px 2px white)
 }
 
 .nav {
