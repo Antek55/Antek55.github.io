@@ -219,6 +219,10 @@ text {
     fill-opacity: 0.7;
 }
 
+.daytype_żałoba>text {
+    fill: lightgrey;
+}
+
 .zdalnie >rect {
     fill: white;
 }
