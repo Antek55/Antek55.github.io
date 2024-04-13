@@ -215,12 +215,25 @@ text {
     font-size: x-large;
 }
 
-#day1126>.event>rect , #day1203>.event>rect , #day1210>.event>rect, #day1226>.event>rect, #day0106>.event>rect, #day0416>.event>rect, #day0509>.event>rect {
+#day1226>.event>rect, #day0106>.event>rect,
+ .daytype_zwiastowanie .event>rect, .daytype_adw2 .event>rect, .daytype_adw3 .event>rect,
+ .daytype_masada .event>rect,
+ .daytype_pobedy .event>rect,
+ .daytype_równości .event>rect,
+ .daytype_corpuschristi .event>rect,
+ .daytype_diademuertos .event>rect,
+ [class*=" daytype_orthodox"] .event>rect,
+ .daytype_karolingowie .event>rect
+{
     fill-opacity: 0.7;
 }
 
-.daytype_żałoba>text {
+.daytype_żałoba>text, .daytype_diademuertos>text, .daytype_epifania>text {
     fill: lightgrey;
+}
+
+.daytype_asalha>text {
+    fill: orange;
 }
 
 .zdalnie >rect {
