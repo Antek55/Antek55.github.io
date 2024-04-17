@@ -114,7 +114,7 @@ body.m6 {
 }
 
 body.m8, body.m7 {
-    background: radial-gradient(darkgreen, rgb(15, 54, 15));
+    background: radial-gradient(#2877F5, darkgreen, rgb(15, 54, 15));
 }
 
 body.m9 {
