@@ -237,6 +237,10 @@ text {
     fill: orange;
 }
 
+.daytype_kwie0>text {
+    fill: black;
+}
+
 .zdalnie >rect {
     fill: white;
 }
