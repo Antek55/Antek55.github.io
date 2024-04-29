@@ -20,10 +20,12 @@
       </div>
       
         <div class="card">
+          <dialog><div>Prześlij następujący link by udostępnić pinezkę</div><code id="dialogUrl"></code></dialog>
           <div id="mapid" style="height: 72vh"></div>
           <p id="dist"></p>
           <button onclick="document.querySelector('#mapid').requestFullscreen()">Pełen ekran</button>
           <a href="" target="_blank" id="gpx_button"><button>Pobierz plik gpx</button></a>
+          <button onclick="pinezka()">Wyślij pinezkę</button>
         </div>
     </center>
     
@@ -52,14 +54,48 @@
         layers: [osm]
       })
       L.control.layers(baseMaps, {}).addTo(mymap)
-      const filename = location.hash.substring(1)+'.gpx'
-      new L.GPX(filename, {
-        async: true,
-        marker_options: {startIconUrl: null, endIconUrl: null}
-      }).on('loaded', function(e) {
-        mymap.fitBounds(e.target.getBounds());
-        $("#dist").html("Łączna długość: " +  (e.target.get_distance()/1000).toFixed(2) + " km")
-      }).addTo(mymap);
-      $("#gpx_button").attr("href", filename)
+      mymap.on('contextmenu', function(event) {
+        window.open(`https://www.google.com/maps/@${event.latlng.lat},${event.latlng.lng},136m/data=!3m1!1e3?entry=ttu/`, '_blank')
+      })
+      
+      const filenames = location.hash.substring(1)
+      let len = 0
+      let bounds = []
+      let layer_no = 0
+      const layers_total = filenames.split(';').length
+      
+      for (let fn of filenames.split(';')) {
+        const filename = fn+'.gpx'
+        new L.GPX(filename, {
+          async: true,
+          marker_options: {startIconUrl: null, endIconUrl: null}
+        }).on('loaded', function(e) {
+          bounds.push(e.target.getBounds())
+          layer_no++
+          if (layer_no == layers_total) {
+            let b = bounds[0]
+            for (let i = 1; i < layers_total; i++) {
+              b.extend(bounds[i])
+            }
+            mymap.fitBounds(b);
+          }
+          len += e.target.get_distance()/1000
+          $("#dist").html("Łączna długość: " + len.toFixed(2) + " km")
+        }).addTo(mymap);
+        
+        if (layers_total == 1)
+          $("#gpx_button").attr("href", filenames)
+        else
+          $("#gpx_button").hide()
+          
+        
+        function pinezka() {
+          mymap.on('click', function(event) {
+            L.marker(event.latlng).addTo(mymap);
+            document.querySelector('#dialogUrl').innerHTML = location+`*${event.latlng.lat},${event.latlng.lng}`; document.querySelector('dialog').showModal();
+            mymap.off('click')
+          })
+        }
+      }
     </script>
 </body>
