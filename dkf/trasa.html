@@ -20,9 +20,12 @@
       </div>
       
         <div class="card">
+          <h1 id="pinezka_help" class="n">Kliknij na mapę w pinezkowym miejscu</h1>
           <dialog><div>Prześlij następujący link by udostępnić pinezkę</div><code id="dialogUrl"></code></dialog>
+          
           <div id="mapid" style="height: 72vh"></div>
           <p id="dist"></p>
+          <p id="date"></p>
           <button onclick="document.querySelector('#mapid').requestFullscreen()">Pełen ekran</button>
           <a href="" target="_blank" id="gpx_button"><button>Pobierz plik gpx</button></a>
           <button onclick="pinezka()">Wyślij pinezkę</button>
@@ -30,6 +33,7 @@
     </center>
     
     <script>
+      const miesiace = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'grudnia']
       const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
         maxNativeZoom: 19, 
@@ -58,7 +62,16 @@
         window.open(`https://www.google.com/maps/@${event.latlng.lat},${event.latlng.lng},136m/data=!3m1!1e3?entry=ttu/`, '_blank')
       })
       
-      const filenames = location.hash.substring(1)
+      const hash = location.hash.substring(1)
+      let filenames = hash.split('*')[0]
+      let is_pinezka = false
+      if (hash.includes('*')) {
+        let pinezka = hash.split('*')[1]
+        let [lat, lng] = pinezka.split(',')
+        L.marker([lat, lng]).addTo(mymap)
+        mymap.setView([lat, lng], 14)
+        is_pinezka = true
+      }
       let len = 0
       let bounds = []
       let layer_no = 0
@@ -72,7 +85,7 @@
         }).on('loaded', function(e) {
           bounds.push(e.target.getBounds())
           layer_no++
-          if (layer_no == layers_total) {
+          if (layer_no == layers_total && !is_pinezka) {
             let b = bounds[0]
             for (let i = 1; i < layers_total; i++) {
               b.extend(bounds[i])
@@ -81,6 +94,11 @@
           }
           len += e.target.get_distance()/1000
           $("#dist").html("Łączna długość: " + len.toFixed(2) + " km")
+          if (e.target.get_start_time() > new Date(2020, 1, 1)) {
+            let st = e.target.get_start_time()
+            $("#date").html(`W dniu ${st.getDate()} ${miesiace[st.getMonth()]} ${st.getFullYear()}. Średnia prędkość: ${e.target.get_total_speed().toFixed(2)} km/h (maks. ${e.target.get_speed_max().toFixed(2)} km/h). Czas trwania ${e.target.get_duration_string_iso(e.target.get_total_time())}`)
+            console.log(e.target)
+          }
         }).addTo(mymap);
         
         if (layers_total == 1)
@@ -90,10 +108,12 @@
           
         
         function pinezka() {
+          $("#pinezka_help").show()
           mymap.on('click', function(event) {
             L.marker(event.latlng).addTo(mymap);
-            document.querySelector('#dialogUrl').innerHTML = location+`*${event.latlng.lat},${event.latlng.lng}`; document.querySelector('dialog').showModal();
+            document.querySelector('#dialogUrl').innerHTML = location.toString().split('*')[0]+`*${event.latlng.lat},${event.latlng.lng}`; document.querySelector('dialog').showModal();
             mymap.off('click')
+            $("#pinezka_help").hide()
           })
         }
       }

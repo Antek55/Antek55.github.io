@@ -144,3 +144,6 @@ input[type="radio"] {
 .paralax-circle {
   fill-opacity: 0.5;
 }
+.n {
+  display: none
+}
