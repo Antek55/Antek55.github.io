@@ -224,7 +224,8 @@ text {
  .daytype_diademuertos .event>rect,
  [class*=" daytype_orthodox"] .event>rect,
  .daytype_karolingowie .event>rect,
- .daytype_asalha .event>rect
+ .daytype_asalha .event>rect,
+ .daytype_marks .event>rect
 {
     fill-opacity: 0.7;
 }
