@@ -285,7 +285,7 @@ tr.wyjście {
 .global > rect {
     fill: url('#gradient_global');
 }
-.spec >rect {
+.spec >rect, .tel >rect {
     fill: yellow;
 }
 .tbd >rect {
