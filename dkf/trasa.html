@@ -55,14 +55,12 @@
         
       }
       const mymap = L.map('mapid', {
-        center: [52, 21],
+        center: [51.4322845, 15.6538632],
         zoom: 10,
         layers: [osm]
       })
       L.control.layers(baseMaps, {}).addTo(mymap)
-      mymap.on('contextmenu', function(event) {
-        window.open(`https://www.google.com/maps/@${event.latlng.lat},${event.latlng.lng},136m/data=!3m1!1e3?entry=ttu/`, '_blank')
-      })
+      mymap.on('contextmenu', gstreetview)
       
       const hash = location.hash.substring(1)
       let filenames = hash.split('*')[0]
@@ -109,15 +107,23 @@
           $("#gpx_button").hide()
           
         
-        function pinezka() {
-          $("#pinezka_help").show()
-          mymap.on('click', function(event) {
-            L.marker(event.latlng).addTo(mymap);
-            document.querySelector('#dialogUrl').innerHTML = location.toString().split('*')[0]+`*${event.latlng.lat},${event.latlng.lng}`; document.querySelector('dialog').showModal();
-            mymap.off('click')
-            $("#pinezka_help").hide()
-          })
-        }
+      }
+      function pinezka() {
+        $("#pinezka_help").show()
+        mymap.on('click', function(event) {
+          L.marker(event.latlng).addTo(mymap);
+          document.querySelector('#dialogUrl').innerHTML = location.toString().split('*')[0]+`*${event.latlng.lat},${event.latlng.lng}`; document.querySelector('dialog').showModal();
+          mymap.off('click')
+          $("#pinezka_help").hide()
+        })
+      }
+      
+      function gstreetview(event) {
+        const url = `https://www.gps-coordinates.net/street-view/@${event.latlng.lat},${event.latlng.lng},h170,p-3,z1`
+        window.open(url, '_blank')
+      }
+      function gmaps(event) {
+        window.open(`https://www.google.com/maps/@${event.latlng.lat},${event.latlng.lng},136m/data=!3m1!1e3?entry=ttu/`, '_blank')
       }
     </script>
 </body>
