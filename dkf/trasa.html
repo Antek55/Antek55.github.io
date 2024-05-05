@@ -61,6 +61,16 @@
       })
       L.control.layers(baseMaps, {}).addTo(mymap)
       mymap.on('contextmenu', gstreetview)
+      document.onkeydown = function (event){
+        if (event.key == 'l') {
+          let currentLayer
+          for (let l of Object.values(baseMaps))
+            if (mymap.hasLayer(l))
+              currentLayer = l
+          mymap.removeLayer(currentLayer)
+          mymap.addLayer(currentLayer == osm ? geoportalHighRes : osm)
+        }
+      }
       
       const hash = location.hash.substring(1)
       let filenames = hash.split('*')[0]
