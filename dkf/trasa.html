@@ -59,6 +59,8 @@
         zoom: 10,
         layers: [osm]
       })
+      let mode = null
+      
       L.control.layers(baseMaps, {}).addTo(mymap)
       mymap.on('contextmenu', gstreetview)
       document.onkeydown = function (event){
@@ -69,6 +71,29 @@
               currentLayer = l
           mymap.removeLayer(currentLayer)
           mymap.addLayer(currentLayer == osm ? geoportalHighRes : osm)
+        }
+        if (event.key == 'm') {
+          if (mode == 'm') {
+            mode = null
+            mymap.off('click')
+          }
+          else {
+            mode = 'm'
+            mymap.on('click', addMeasurePoint)
+          }
+        }
+      }
+      
+      function addMeasurePoint(e) {
+        if (measure_pts.length == 2) {
+          measure_pts = [e.latlng]
+          measure_pln.remove()
+        }
+        else {
+          measure_pts.push(e.latlng)
+          measure_pln = L.polyline(measure_pts)
+          measure_pln.addTo(mymap)
+          alert(`Długość linii to ${(mymap.distance(measure_pts[0], measure_pts[1])/1000).toFixed(2)}`)
         }
       }
       
@@ -86,6 +111,8 @@
       let bounds = []
       let layer_no = 0
       const layers_total = filenames.split(';').length
+      let measure_pts = []
+      let measure_pln = null
       
       for (let fn of filenames.split(';')) {
         const filename = fn+'.gpx'
