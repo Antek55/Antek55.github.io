@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <link href="dkf-base.css" rel="stylesheet">
+    <link rel="icon" href="towgeo_favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script><!-- doc https://github.com/mpetazzoni/leaflet-gpx -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <title>Towarzystwo Geograficzne</title>
+    <style>
+      body {
+        background-image: linear-gradient(26deg, darkgreen, lime);
+      }
+    </style>
+</head>
+<body>
+    <center>
+      <div>
+        <img src="towgeo.webp" style="max-height: 15vh" title="Towarzystwo Geograficzne"/>
+      </div>
+      
+        <div class="card">
+          <h1 id="pinezka_help" class="n">Kliknij na mapę w pinezkowym miejscu</h1>
+          <dialog><div>Prześlij następujący link by udostępnić pinezkę</div><code id="dialogUrl"></code></dialog>
+          
+          <div id="mapid" style="height: 72vh"></div>
+          <p id="dist"></p>
+          <p id="date"></p>
+          <button onclick="document.querySelector('#mapid').requestFullscreen()">Pełen ekran</button>
+          <a href="" target="_blank" id="gpx_button"><button>Pobierz plik gpx</button></a>
+          <button onclick="pinezka()">Udostępnij pinezkę</button>
+        </div>
+    </center>
+    <script>
+    const vis = {"powiat namys\u0142owski": true, "powiat milicki": true, "powiat trzebnicki": true, "powiat wo\u0142owski": true, "powiat g\u00f3rowski": false, "powiat wschowski": false, "Zielona G\u00f3ra": false, "powiat \u017caga\u0144ski": true, "powiat polkowicki": true, "powiat g\u0142ogowski": false, "powiat legnicki": true, "Legnica": true, "powiat jaworski": false, "powiat \u015bwidnicki": true, "powiat wa\u0142brzyski": false, "Wa\u0142brzych": false, "Jelenia G\u00f3ra": true, "powiat karkonoski": true, "powiat lw\u00f3wecki": false, "powiat boles\u0142awiecki": true, "powiat zgorzelecki": true, "powiat \u017carski": false, "powiat kro\u015bnie\u0144ski": false, "powiat sul\u0119ci\u0144ski": false, "powiat s\u0142ubicki": false, "Gorz\u00f3w Wielkopolski": false, "powiat k\u0142odzki": false, "powiat dzier\u017coniowski": false, "Wroc\u0142aw": true, "powiat wroc\u0142awski": true, "powiat strzeli\u0144ski": false, "Opole": false, "powiat opolski": false, "powiat gorzowski": false, "powiat strzelecko-drezdenecki": false, "powiat mi\u0119dzyrzecki": false, "powiat \u015bwiebodzi\u0144ski": false, "powiat strzelecki": false, "powiat krapkowicki": false, "powiat g\u0142ubczycki": false, "powiat prudnicki": false, "powiat nyski": false, "powiat z\u0105bkowicki": true, "powiat \u015bredzki": false, "powiat ole\u015bnicki": true, "powiat o\u0142awski": true, "powiat brzeski": false, "powiat kluczborski": false, "powiat oleski": false, "powiat zielonog\u00f3rski": false, "powiat nowosolski": false, "powiat lubi\u0144ski": false, "powiat kamiennog\u00f3rski": false, "powiat z\u0142otoryjski": false, "powiat luba\u0144ski": false, "powiat k\u0119dzierzy\u0144sko-kozielski": false}
+    </script>
+    
+    <script>
+      const miesiace = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'grudnia']
+      const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+        maxNativeZoom: 19, 
+        maxZoom: 21
+      })
+      const geoportal = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers: 'Raster', maxZoom: 21, attribution: '<a href="https://www.geoportal.gov.pl/">Geoportal</a>'})
+      const geoportalHighRes = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers: 'Raster', maxZoom: 21, attribution: '<a href="https://www.geoportal.gov.pl/">Geoportal</a>'})
+      const OpenTopoMap = L.tileLayer("https://a.tile.opentopomap.org/{z}/{x}/{y}.png")
+      const bdot500 = L.tileLayer.wms('https://integracja.gugik.gov.pl/cgi-bin/KrajowaIntegracjaBazDanychObiektowTopograficznych', {layers: 'BDOT', maxZoom: 21, minZoom: 16})
+      // const bdot10k = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/pub/guest/kompozycja_BDOT10k_WMS/MapServer/WMSServer', {layers: 'BDOT10k', maxZoom: 21})
+      const baseMaps = {
+        "OpenStreetMap": osm,
+        "Geoportal Orthofotomapa Standard Resolution": geoportal,
+        "Geoportal Orthofotomapa High Resolution": geoportalHighRes,
+        OpenTopoMap,
+        bdot500,
+        
+      }
+      const mymap = L.map('mapid', {
+        center: [51.4322845, 15.6538632],
+        zoom: 10,
+        layers: [osm]
+      })
+      let mode = null
+      
+      L.control.layers(baseMaps, {}).addTo(mymap)
+      mymap.on('contextmenu', gstreetview)
+      document.onkeydown = function (event){
+        if (event.key == 'l') {
+          let currentLayer
+          for (let l of Object.values(baseMaps))
+            if (mymap.hasLayer(l))
+              currentLayer = l
+          mymap.removeLayer(currentLayer)
+          mymap.addLayer(currentLayer == osm ? geoportalHighRes : osm)
+        }
+        if (event.key == 'm') {
+          if (mode == 'm') {
+            mode = null
+            mymap.off('click')
+          }
+          else {
+            mode = 'm'
+            mymap.on('click', addMeasurePoint)
+          }
+        }
+      }
+      
+      function addMeasurePoint(e) {
+        if (measure_pts.length == 2) {
+          measure_pts = [e.latlng]
+          measure_pln.remove()
+        }
+        else {
+          measure_pts.push(e.latlng)
+          measure_pln = L.polyline(measure_pts)
+          measure_pln.addTo(mymap)
+          alert(`Długość linii to ${(mymap.distance(measure_pts[0], measure_pts[1])/1000).toFixed(2)}`)
+        }
+      }
+      
+      const hash = location.hash.substring(1)
+      let filenames = hash.split('*')[0]
+      let is_pinezka = false
+      if (hash.includes('*')) {
+        let pinezka = hash.split('*')[1]
+        let [lat, lng] = pinezka.split(',')
+        L.marker([lat, lng]).addTo(mymap)
+        mymap.setView([lat, lng], 14)
+        is_pinezka = true
+      }
+      let len = 0
+      let bounds = []
+      let layer_no = 0
+      const layers_total = filenames.split(';').length
+      let measure_pts = []
+      let measure_pln = null
+      
+      for (let fn of filenames.split(';')) {
+        const filename = fn+'.geojson'
+        fetch(filename).then(t => t.json()).then(t => L.geoJSON(t, {
+          style(feature) {
+            let name = feature.properties.name
+            if (name[0].toLowerCase() == name[0])
+              name = 'powiat ' + name
+            return {
+              fillColor: vis[name] ? 'green' : 'red',
+              fillOpacity: 1,
+              color: 'black',
+              weight: 1,
+            }
+          },
+          onEachFeature(feature, layer) {
+            if (feature.properties.name)
+              layer.bindPopup(feature.properties.name)
+          }
+      }).on('add', function (e) {mymap.fitBounds(e.target.getBounds())}).addTo(mymap))
+        /*new L.geoJSON(filename, {
+          async: true,
+          marker_options: {startIconUrl: null, endIconUrl: null}
+        }).on('loaded', function(e) {
+          bounds.push(e.target.getBounds())
+          layer_no++
+          if (layer_no == layers_total && !is_pinezka) {
+            let b = bounds[0]
+            for (let i = 1; i < layers_total; i++) {
+              b.extend(bounds[i])
+            }
+            mymap.fitBounds(b);
+          }
+          len += e.target.get_distance()/1000
+          $("#dist").html("Łączna długość: " + len.toFixed(2) + " km")
+          if (e.target.get_start_time() > new Date(2020, 1, 1)) {
+            let st = e.target.get_start_time()
+            $("#date").html(`W dniu ${st.getDate()} ${miesiace[st.getMonth()]} ${st.getFullYear()}. Średnia prędkość: ${e.target.get_total_speed().toFixed(2)} km/h (maks. ${e.target.get_speed_max().toFixed(2)} km/h). Czas trwania ${e.target.get_duration_string_iso(e.target.get_total_time())}`)
+            console.log(e.target)
+          }
+        }).addTo(mymap);
+        
+        if (layers_total == 1)
+          $("#gpx_button").attr("href", filenames + '.gpx')
+        else
+          $("#gpx_button").hide()
+        */
+      }
+      function pinezka() {
+        $("#pinezka_help").show()
+        mymap.on('click', function(event) {
+          L.marker(event.latlng).addTo(mymap);
+          document.querySelector('#dialogUrl').innerHTML = location.toString().split('*')[0]+`*${event.latlng.lat},${event.latlng.lng}`; document.querySelector('dialog').showModal();
+          mymap.off('click')
+          $("#pinezka_help").hide()
+        })
+      }
+      
+      function gstreetview(event) {
+        const url = `https://www.gps-coordinates.net/street-view/@${event.latlng.lat},${event.latlng.lng},h170,p-3,z1`
+        window.open(url, '_blank')
+      }
+      function gmaps(event) {
+        window.open(`https://www.google.com/maps/@${event.latlng.lat},${event.latlng.lng},136m/data=!3m1!1e3?entry=ttu/`, '_blank')
+      }
+    </script>
+</body>
