@@ -236,6 +236,11 @@ text {
     fill: lightgrey;
 }
 
+.daytype_żałoba_overlay>text {
+    stroke: white;
+    stroke-width: 1px;
+}
+
 .daytype_asalha>text {
     fill: orange;
 }
