@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2024-05-24T21:52:23.298Z</time>
+  <bounds minlat="51.125694810" minlon="17.060544892" maxlat="51.126576674" maxlon="17.062327411"/>
+  <trk>
+    <name>Mł</name>
+    <trkseg>
+      <trkpt lat="51.126089909" lon="17.060544892">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126192594" lon="17.060675573">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126365553" lon="17.060859711">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126502191" lon="17.061015710">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126576674" lon="17.061105767">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126496012" lon="17.061402739">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126382120" lon="17.061748752">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126308324" lon="17.061976152">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126274332" lon="17.062094081">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126228315" lon="17.062179649">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126183341" lon="17.062259191">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126138838" lon="17.062311882">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126068954" lon="17.062327411">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126017421" lon="17.062307190">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125964415" lon="17.062269088">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125929419" lon="17.062133470">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125896423" lon="17.061898630">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125866691" lon="17.061765573">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125839385" lon="17.061661633">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125694810" lon="17.061446594">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125817002" lon="17.061199457">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.125958443" lon="17.060913133">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126051159" lon="17.060724665">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.126137578" lon="17.060582655">
+        <ele>0.000</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
