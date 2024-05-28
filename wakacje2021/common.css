@@ -108,7 +108,7 @@ body.m5 {
     background: radial-gradient(crimson, darkred);
 }
 
-body.m6 {
+body.m6, body.daytype_corpuschristi {
     /* background: radial-gradient(rgb(255, 199, 46), rgb(211, 117, 9)); */
     background: radial-gradient(rgb(255, 199, 46), #2877F5);
 }
@@ -129,7 +129,7 @@ body.c0416 {
     background-color: blueviolet;
 }
 
-body.c0615, body.c0622 { /*ruchome: (parada równości) */
+body.daytype_równości {
     background: linear-gradient(55deg, red, orange, yellow, green, cyan, blue, violet);
 }
 
