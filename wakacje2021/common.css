@@ -111,8 +111,6 @@ body.m5 {
 body.m6 {
     /* background: radial-gradient(rgb(255, 199, 46), rgb(211, 117, 9)); */
     background: radial-gradient(rgb(255, 199, 46), #2877F5);
-
-    /* background: linear-gradient(55deg, red, orange, yellow, green, cyan, blue, violet); /* (parada równości) */ 
 }
 
 body.m8, body.m7 {
@@ -129,6 +127,10 @@ body.c1226 {
 
 body.c0416 {
     background-color: blueviolet;
+}
+
+body.c0615, body.c0622 { /*ruchome: (parada równości) */
+    background: linear-gradient(55deg, red, orange, yellow, green, cyan, blue, violet);
 }
 
 .event > rect {
