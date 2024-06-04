@@ -1,0 +1,42 @@
+{
+  "title": "Local Chess Tour Reaktywacja",
+  "logo": "puchar_antka.svg",
+  "opis": "Odznacz proszę poniżej pasujące terminy.",
+  "closing_info": true,
+  "closing": "2024-08-06 22:05",
+  "fields": [
+    {
+      "type": "checkbox",
+      "name": "europejskie",
+      "value": true
+    },
+    {
+      "type": "checkbox",
+      "name": "xiangqi (chińskie)",
+      "value": true
+    },
+    {
+      "type": "checkbox",
+      "name": "shogi (japońskie)",
+      "value": true
+    },
+    {
+      "type": "checkbox",
+      "name": "reversi",
+      "value": true
+    },
+    {
+      "type": "terminy",
+      "terminy": {
+        "sb, 8 czerwca": "tak",
+        "nd, 9 czerwca": "tak",
+        "pn, 10 czerwca": "tak",
+        "wt, 11 czerwca": "tak",
+        "śr, 12 czerwca": "tak",
+        "cz, 13 czerwca": "tak",
+        "pt, 14 czerwca": "tak"
+      },
+      "unclear": false
+    }
+  ]
+}
