@@ -130,7 +130,7 @@ body.c0416 {
 }
 
 body.daytype_równości {
-    background: linear-gradient(55deg, red, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(60deg, #E50000, #FF8D00, #FFEE00, #028121, #004CFF, #770088);
 }
 
 .event > rect {

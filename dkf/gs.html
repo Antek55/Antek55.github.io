@@ -117,25 +117,27 @@
       let measure_pts = []
       let measure_pln = null
       
-      for (let fn of filenames.split(';')) {
-        const filename = fn+'.geojson'
-        fetch(filename).then(t => t.json()).then(t => L.geoJSON(t, {
-          style(feature) {
-            let name = feature.properties.name
-            if (name[0].toLowerCase() == name[0])
-              name = 'powiat ' + name
-            return {
-              fillColor: vis[name] ? 'green' : 'red',
-              fillOpacity: 1,
-              color: 'black',
-              weight: 1,
-            }
-          },
-          onEachFeature(feature, layer) {
-            if (feature.properties.name)
-              layer.bindPopup(feature.properties.name)
+      fetch('http://127.0.0.1:8001/WOT').then(t => t.json()).then(t => L.geoJSON(t, {
+        style(feature) {
+          let name = feature.properties.name
+          if (name[0].toLowerCase() == name[0])
+            name = 'powiat ' + name
+          return {
+            fillColor: vis[name] ? 'green' : 'red',
+            fillOpacity: 1,
+            color: 'black',
+            weight: 1,
           }
-      }).on('add', function (e) {mymap.fitBounds(e.target.getBounds())}).addTo(mymap))
+        },
+        onEachFeature(feature, layer) {
+          if (feature.properties.name)
+            layer.bindPopup(feature.properties.name)
+        }
+    }).on('add', function (e) {mymap.fitBounds(e.target.getBounds())}).addTo(mymap))
+      
+      for (let fn of filenames.split(';')) {
+        // const filename = fn+'.geojson'
+        
         /*new L.geoJSON(filename, {
           async: true,
           marker_options: {startIconUrl: null, endIconUrl: null}
