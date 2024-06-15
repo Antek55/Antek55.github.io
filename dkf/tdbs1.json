@@ -1,0 +1,36 @@
+{
+  "title": "Tour de Basse Silésie 1",
+  "logo": "towgeo.webp",
+  "style": "towgeo.css",
+  "favicon": "towgeo_favicon.ico",
+  "opis": "Odznacz proszę poniżej pasujące terminy.",
+  "closing_info": false,
+  "closing": "2024-06-20 22:05",
+  "fields": [
+    {
+      "type": "terminy",
+      "terminy": {
+        "śr, 3 lipca": "tak",
+        "cz, 4 lipca": "tak",
+        "pt, 5 lipca": "tak",
+        "sb, 6 lipca": "tak",
+        "nd, 7 lipca": "tak",
+        "pn, 8 lipca": "tak",
+        "wt, 9 lipca": "tak",
+        "śr, 10 lipca": "tak",
+        "cz, 11 lipca": "tak",
+        "pt, 12 lipca": "tak",
+        "sb, 13 lipca": "tak",
+        "nd, 14 lipca": "tak",
+        "pn, 15 lipca": "tak",
+        "wt, 16 lipca": "tak",
+        "śr, 17 lipca": "tak",
+        "cz, 18 lipca": "tak",
+        "pt, 19 lipca": "tak",
+        "sb, 20 lipca": "tak",
+        "nd, 21 lipca": "tak"
+      },
+      "unclear": true
+    }
+  ]
+}

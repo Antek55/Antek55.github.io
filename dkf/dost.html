@@ -4,7 +4,7 @@
   <meta charset="utf-8">
     <title>DKF</title>
     <link href="dkf-base.css" rel="stylesheet">
-    <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
+    <!-- <link rel="alternate" type="application/rss+xml" href="feed.xml"/> -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
@@ -136,6 +136,22 @@
         $("#logo").attr("src", data.logo)
         delete data.logo
       }
+      if (data.style) {
+        // <link rel="stylesheet" href="towgeo.css">
+        let el = document.createElement("link")
+        el.setAttribute("rel", "stylesheet")
+        el.setAttribute("href", data.style) 
+        document.head.appendChild(el)
+        delete data.style
+      }
+      if (data.favicon) {
+        let el = document.createElement("link")
+        el.setAttribute("rel", "icon")
+        el.setAttribute("href", data.favicon) 
+        document.head.appendChild(el)
+        delete data.favicon
+      }
+      document.title = data.title
       _.extend(app.$data, data)
     })
     

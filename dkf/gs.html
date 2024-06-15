@@ -117,8 +117,8 @@
       let measure_pts = []
       let measure_pln = null
       
-      fetch('http://127.0.0.1:8001/WOT').then(t => t.json()).then(t => L.geoJSON(t, {
-        style(feature) {
+      fetch('gs.geojson').then(t => t.json()).then(t => L.geoJSON(t, {
+        /*style(feature) {
           let name = feature.properties.name
           if (name[0].toLowerCase() == name[0])
             name = 'powiat ' + name
@@ -128,7 +128,7 @@
             color: 'black',
             weight: 1,
           }
-        },
+        },*/
         onEachFeature(feature, layer) {
           if (feature.properties.name)
             layer.bindPopup(feature.properties.name)
