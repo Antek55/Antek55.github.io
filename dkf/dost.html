@@ -10,6 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pl.js"></script>
     <link href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css" rel="stylesheet">
     <style>
       .title {
@@ -150,6 +152,18 @@
         el.setAttribute("href", data.favicon) 
         document.head.appendChild(el)
         delete data.favicon
+      }
+      for (let f of data.fields) {
+        if (f.type == "terminy") {
+          dayjs.locale('pl')
+          let first = dayjs(f.first)
+          let last = dayjs(f.last)
+          f.terminy = {}
+          while (first <= last) {
+            f.terminy[first.format("dd, DD MMMM").toLowerCase()] = 'tak'
+            first = first.add(1, 'day')
+          }
+        }
       }
       document.title = data.title
       _.extend(app.$data, data)
