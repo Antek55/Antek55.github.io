@@ -12,6 +12,7 @@
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pl.js"></script>
+    <script src="https://unpkg.com/openpgp@5.0.0-3/dist/openpgp.min.js"></script>
     <link href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css" rel="stylesheet">
     <style>
       .title {
@@ -110,6 +111,10 @@
     <script src="i18n.js"></script>
     <script>
     $("a").not("[target]").attr("target", "_blank")
+    function decrypt(data, key) {
+      return openpgp.readMessage({armoredMessage: data}).then((value) => openpgp.decrypt({passwords: key, message: value}))
+    }
+    
     function submit_send() {
       $("form").html(transl("Proszę o cierpliwość, trwa przesyłanie…"))  
       url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
@@ -130,10 +135,15 @@
       }
     }
     
-    const name = location.hash.substring(1)
-    fetch(name+'.json').then(t => t.json()).then(function (data) {
-      // app.$data.title = data.title
-      // app.$data.opis = data.opis
+    const [name, key] = location.hash.substring(1).split(';')
+    fetch(name+'.json').then(async function (t) {
+      if (key) {
+        return JSON.parse((await decrypt(await t.text(), key)).data)
+      } else {
+        return t.json()
+      }
+    }).then(function (data) {
+      
       if (data.logo) {
         $("#logo").attr("src", data.logo)
         delete data.logo
@@ -176,7 +186,6 @@
         name: localStorage.getItem('name'),
         uwagi: '',
         title: '',
-        terminy: {},
         closing_info: true,
         opis: '',
         fields: []
