@@ -39,7 +39,8 @@
                 <h1>[[ title ]]</h1>
               </div>
               
-              <div class="opis"> [[opis]]
+              <div class="opis">
+                <div v-html="opis"></div>
                 <p v-if="closing_info" en="The form closes <em><span class=&quot;red&quot;>[[ closing ]]</span></em>">Formularz zamyka się <em><span class="red">[[ closing ]]</span></em>.</p>
               </div>
               
