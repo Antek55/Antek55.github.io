@@ -239,7 +239,8 @@ text {
     fill: lightgrey;
 }
 
-.daytype_żałoba_overlay>text {
+.daytype_żałoba_overlay>text,
+.daytype_us>text {
     stroke: white;
     stroke-width: 1px;
 }
