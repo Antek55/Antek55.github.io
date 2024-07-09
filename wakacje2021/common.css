@@ -156,10 +156,6 @@ body.daytype_równości {
     animation-direction: alternate;
 }
 
-.test >rect {
-    fill: url('#gradtest')
-}
-
 @keyframes impreza {
     0% {
         filter: hue-rotate(180deg)
