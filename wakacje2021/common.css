@@ -244,12 +244,12 @@ text {
     stroke-width: 1px;
 }
 
-.daytype_asalha>text {
-    fill: orange;
-}
-
 .daytype_kwie0>text {
     fill: black;
+}
+
+.daytype_asalha>text {
+    fill: orange;
 }
 
 .daytype_asalha > .dayrect {
@@ -454,4 +454,10 @@ dialog {
 
 .rot {
     transform: rotate(180deg)
+}
+
+.log {
+    fill: grey;
+    fill-opacity: 0.7;
+    display: none;
 }
