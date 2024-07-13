@@ -256,6 +256,10 @@ text {
     fill: url(#asalha_fill);
 }
 
+.daytype_tdbs>.dayrect {
+    fill: url(#tdbs_fill);
+}
+
 .zdalnie >rect {
     fill: white;
 }
