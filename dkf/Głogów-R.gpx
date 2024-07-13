@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2024-07-13T19:04:32.317Z</time>
+  <bounds minlat="51.966076220" minlon="16.241185075" maxlat="52.004035976" maxlon="16.268739548"/>
+  <trk>
+    <name>Głogów Ł 5.5</name>
+    <trkseg>
+      <trkpt lat="51.966076220" lon="16.244659954">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.967670500" lon="16.243912991">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.967870189" lon="16.243548123">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.968446650" lon="16.243540925">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.970561876" lon="16.242652654">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.971220901" lon="16.242469818">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.972293209" lon="16.242741711">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.973141287" lon="16.243782670">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.973719123" lon="16.244739574">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.974580251" lon="16.246903191">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.975774522" lon="16.247344051">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.976182277" lon="16.247403281">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.976624864" lon="16.247161420">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.977184082" lon="16.246397468">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.977766527" lon="16.245219211">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.978401189" lon="16.244089943">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.978756672" lon="16.243125605">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.979597939" lon="16.241970996">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.980260457" lon="16.241547956">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.980946556" lon="16.241185075">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.981782011" lon="16.242048803">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.982897757" lon="16.244028634">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.983996495" lon="16.246487216">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.984918942" lon="16.247623757">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.985546900" lon="16.247907412">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.986565547" lon="16.247516346">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.988244365" lon="16.247380679">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.989608919" lon="16.248816380">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.991186332" lon="16.250502318">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.991943391" lon="16.251108753">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.992202172" lon="16.251754510">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.992809168" lon="16.252140978">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.993258535" lon="16.252789257">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.995324959" lon="16.254759554">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.997844171" lon="16.256807433">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.998721030" lon="16.257993441">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.999468455" lon="16.258442508">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="52.000664908" lon="16.258389298">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="52.001205982" lon="16.258210202">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="52.002825516" lon="16.260017492">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="52.002974717" lon="16.261712690">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="52.003453560" lon="16.265305826">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="52.004035976" lon="16.268739548">
+        <ele>0.000</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

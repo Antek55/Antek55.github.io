@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <link href="dkf-base.css" rel="stylesheet">
+    <link rel="stylesheet" href="towgeo.css">
+
+    <link rel="icon" href="towgeo_favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script><!-- doc https://github.com/mpetazzoni/leaflet-gpx -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+    <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw-src.css">
+    <script src=" https://cdn.jsdelivr.net/npm/leaflet.measurecontrol@1.1.0/leaflet.measurecontrol.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pl.js"></script>
+    <link href="measurecontrol.css" rel="stylesheet">
+    <style>
+      p {
+        text-align: justify;
+        margin: 1%;
+      }
+      .leaflet-tooltip {
+        font-size: 20px;
+        font-family: 'Caladea';
+      }
+    </style>
+    <script src="MapCompo.js"></script>
+    <title>Towarzystwo Geograficzne</title>
+</head>
+<body>
+    <center>
+      <div>
+        <img src="towgeo.webp" style="max-height: 15vh" title="Towarzystwo Geograficzne"/>
+      </div>
+      
+      <div class="card" id="card">
+        <h1>Tour de Basse Silésie :: Brzeg &amp; Opole 2024</h1>
+        <p>Zapraszam bla bla</p>
+        <h2>Godzina i miejsce zbiórki</h2>
+        <h3><u>sobota 20 lipca, g. 8:00, Dworzec PKP Wrocław Główny</u> pod zegarem</h3>
+
+        <h2>Trasa przejazdu</h2>
+        <h1 id="pinezka_help" class="n">Kliknij na mapę w pinezkowym miejscu</h1>
+        <dialog><div>Prześlij następujący link by udostępnić pinezkę</div><code id="dialogUrl"></code></dialog>
+        
+        <map-compo :gpxs="['GłogówA.gpx']"></map-compo>
+      </div>
+    </center>
+    
+    <script>
+      dayjs.locale('pl')
+
+      const app = new Vue({
+        el: "#card", 
+        data: {},
+        components: {
+          'map-compo': MapCompo
+        }
+      })
+
+      let mode = null
+      
+      document.onkeydown = function (event){
+        if (event.key == 'l') {
+          for (let c of app.$children.filter(c => c.$options._componentTag == 'map-compo')) {
+            const mymap = c.mymap
+            let currentLayer
+            for (let l of Object.values(c.baseMaps))
+              if (mymap.hasLayer(l))
+                currentLayer = l
+            mymap.removeLayer(currentLayer)
+            mymap.addLayer(currentLayer == c.baseMaps['OpenStreetMap'] ? c.baseMaps['Geoportal Orthofotomapa High Resolution'] : c.baseMaps['OpenStreetMap'])
+          }
+        }
+      }
+      const TRAIN_ICON = L.icon({iconUrl: '/wakacje2021/gfx/train.png', iconSize: [35, 35]})
+      const MUZ_ICON = L.icon({iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/52/AS-muzeum-icon-black.svg', iconSize: [35, 35]})
+
+      const mymap = app.$children[0].mymap
+      L.marker([51.6636791, 16.0935567], {icon: TRAIN_ICON}).bindTooltip('Dupa').addTo(mymap)
+
+    </script>
+</body>
