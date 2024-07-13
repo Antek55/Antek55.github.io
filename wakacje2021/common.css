@@ -252,6 +252,10 @@ text {
     fill: black;
 }
 
+.daytype_asalha > .dayrect {
+    fill: url(#asalha_fill);
+}
+
 .zdalnie >rect {
     fill: white;
 }
