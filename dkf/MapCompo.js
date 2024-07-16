@@ -1,14 +1,14 @@
 const MapCompo = {
   template: `<div>
 <div class="map" style="height: 72vh"></div>
-<p class="dist"></p>
+<p class="dist" v-if="length"></p>
 <p class="date"></p>
 <button @click="fullscreen">Pełen ekran</button>
 <a :href="gpxs[0]" target="_blank" id="gpx_button" v-if="gpxs?.length == 1"><button>Pobierz plik gpx</button></a>
 <a :href="geojsons[0]" target="_blank" id="geojson_button" v-if="geojsons?.length == 1"><button>Pobierz plik geojson</button></a>
 <!--<button @click="pinezka">Udostępnij pinezkę</button>-->
 </div>`,
-  props: ['gpxs', 'geojsons'],
+  props: ['gpxs', 'geojsons', 'length'],
   methods: {
     bounds_push(bound) {
       this.bounds.push(bound)
