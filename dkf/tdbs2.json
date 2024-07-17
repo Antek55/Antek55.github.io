@@ -1,0 +1,17 @@
+{
+  "title": "Tour de Basse Silésie 2",
+  "logo": "towgeo.webp",
+  "style": "towgeo.css",
+  "favicon": "towgeo_favicon.ico",
+  "opis": "Odznacz proszę poniżej pasujące terminy.",
+  "closing_info": false,
+  "closing": "2024-09-04 22:05",
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2024-07-27",
+      "last": "2024-08-11",
+      "unclear": true
+    }
+  ]
+}
