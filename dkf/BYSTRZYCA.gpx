@@ -2,6 +2,7 @@
 <gpx version="1.1" creator="GDAL 3.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="50.728366999999999" minlon="16.637782000000001" maxlat="51.144601999999999" maxlon="16.875975000000000"/></metadata>                  
 <rte>
+  <name>Bystrzyca</name>
   <rtept lat="51.144602" lon="16.871748">
   </rtept>
   <rtept lat="51.144127" lon="16.872398">
