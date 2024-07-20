@@ -2,7 +2,6 @@
 <gpx version="1.1" creator="GDAL 3.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="50.728366999999999" minlon="16.637782000000001" maxlat="51.144601999999999" maxlon="16.875975000000000"/></metadata>                  
 <rte>
-  <name>Bystrzyca</name>
   <rtept lat="51.144602" lon="16.871748">
   </rtept>
   <rtept lat="51.144127" lon="16.872398">
@@ -107,63 +106,31 @@
   </rtept>
   <rtept lat="51.122137" lon="16.840292">
   </rtept>
-  <rtept lat="51.122006" lon="16.841432">
+  <rtept lat="51.122206" lon="16.840366">
   </rtept>
-  <rtept lat="51.12215" lon="16.84218">
+  <rtept lat="51.12338" lon="16.838356">
   </rtept>
-  <rtept lat="51.12205" lon="16.84177">
+  <rtept lat="51.123676" lon="16.836541">
   </rtept>
-  <rtept lat="51.12202" lon="16.84146">
+  <rtept lat="51.124155" lon="16.83367">
   </rtept>
-  <rtept lat="51.12202" lon="16.84147">
+  <rtept lat="51.122767" lon="16.832518">
   </rtept>
-  <rtept lat="51.12202" lon="16.84144">
+  <rtept lat="51.121891" lon="16.831355">
   </rtept>
-  <rtept lat="51.12164" lon="16.84132">
+  <rtept lat="51.120275" lon="16.82882">
   </rtept>
-  <rtept lat="51.12114" lon="16.84084">
+  <rtept lat="51.114562" lon="16.820107">
   </rtept>
-  <rtept lat="51.12106" lon="16.8408">
+  <rtept lat="51.114948" lon="16.824131">
   </rtept>
-  <rtept lat="51.12081" lon="16.84078">
+  <rtept lat="51.11533" lon="16.827056">
   </rtept>
-  <rtept lat="51.12072" lon="16.84082">
+  <rtept lat="51.115281" lon="16.82767">
   </rtept>
-  <rtept lat="51.1204" lon="16.84106">
+  <rtept lat="51.115134" lon="16.829193">
   </rtept>
-  <rtept lat="51.11989" lon="16.84131">
-  </rtept>
-  <rtept lat="51.11981" lon="16.84121">
-  </rtept>
-  <rtept lat="51.11972" lon="16.84104">
-  </rtept>
-  <rtept lat="51.11963" lon="16.84099">
-  </rtept>
-  <rtept lat="51.11952" lon="16.84099">
-  </rtept>
-  <rtept lat="51.1194" lon="16.84094">
-  </rtept>
-  <rtept lat="51.11928" lon="16.84085">
-  </rtept>
-  <rtept lat="51.11919" lon="16.84072">
-  </rtept>
-  <rtept lat="51.11919" lon="16.840728">
-  </rtept>
-  <rtept lat="51.118647" lon="16.840043">
-  </rtept>
-  <rtept lat="51.118363" lon="16.840023">
-  </rtept>
-  <rtept lat="51.117933" lon="16.839118">
-  </rtept>
-  <rtept lat="51.117402" lon="16.838001">
-  </rtept>
-  <rtept lat="51.117346" lon="16.836974">
-  </rtept>
-  <rtept lat="51.117396" lon="16.835787">
-  </rtept>
-  <rtept lat="51.116155" lon="16.833862">
-  </rtept>
-  <rtept lat="51.115507" lon="16.832865">
+  <rtept lat="51.114965" lon="16.830261">
   </rtept>
   <rtept lat="51.11483" lon="16.83211">
   </rtept>
