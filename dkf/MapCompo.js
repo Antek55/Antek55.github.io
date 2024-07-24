@@ -8,7 +8,12 @@ const MapCompo = {
 <a :href="geojsons[0]" target="_blank" id="geojson_button" v-if="geojsons?.length == 1"><button>Pobierz plik geojson</button></a>
 <!--<button @click="pinezka">Udostępnij pinezkę</button>-->
 </div>`,
-  props: ['gpxs', 'geojsons', 'length'],
+  // props: ['gpxs', 'geojsons', 'length'],
+  props: {
+    gpxs: {},
+    geojson: {},
+    length: {default: true}
+  },
   methods: {
     bounds_push(bound) {
       this.bounds.push(bound)
