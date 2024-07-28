@@ -4,8 +4,8 @@
   "style": "towgeo.css",
   "favicon": "towgeo_favicon.ico",
   "opis": "Wybraną trasą będzie prawdopodobnie <a href=\"https://www.static.jwodzinski.com.pl/towgeo/trasa.html#BiO-a;BiO-b\" target=\"_blank\">Brzeg & Opole</a>. Odznacz proszę poniżej pasujące terminy.",
-  "closing_info": false,
-  "closing": "2024-09-04 22:05",
+  "closing_info": true,
+  "closing": "2024-07-29 16:05",
   "fields": [
     {
       "type": "terminy",

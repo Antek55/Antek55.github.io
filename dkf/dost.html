@@ -133,7 +133,7 @@
           return false;
         }
         
-        $("form").html(transl("Wysłano odpowiedź."))
+        $("form").html(transl("Bardzo dziękuję! Wysłano odpowiedź."))
       }
     }
     
@@ -171,8 +171,11 @@
           let last = dayjs(f.last)
           f.terminy = {}
           while (first <= last) {
-            f.terminy[first.format("dd, DD MMMM").toLowerCase()] = 'tak'
+            if (first > new dayjs()) {
+              f.terminy[first.format("dd, DD MMMM").toLowerCase()] = 'tak'
+            }
             first = first.add(1, 'day')
+            
           }
         }
       }
