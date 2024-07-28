@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
-  <time>2024-07-13T18:56:18.753Z</time>
+  <time>2024-07-28T14:20:04.175Z</time>
   <bounds minlat="50.668903394" minlon="17.921625389" maxlat="50.780772240" maxlon="17.970123384"/>
   <trk>
-    <name>Opole E 15</name>
+    <name>Opole E 14</name>
     <trkseg>
       <trkpt lat="50.780772240" lon="17.970123384">
         <ele>0.000</ele>
@@ -32,34 +32,34 @@
       <trkpt lat="50.748009796" lon="17.959560855">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.747483043" lon="17.960057889">
+      <trkpt lat="50.747544568" lon="17.960009995">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.747501238" lon="17.956362067">
+      <trkpt lat="50.746408227" lon="17.961418769">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.746780725" lon="17.956902979">
+      <trkpt lat="50.745217625" lon="17.962369153">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.745168713" lon="17.956773586">
+      <trkpt lat="50.744054801" lon="17.963126953">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.743692160" lon="17.955905884">
+      <trkpt lat="50.743726446" lon="17.963207644">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.740800480" lon="17.954084540">
+      <trkpt lat="50.743249994" lon="17.963863922">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.740915026" lon="17.952155002">
+      <trkpt lat="50.742591274" lon="17.964031613">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.739288154" lon="17.952244286">
+      <trkpt lat="50.741995192" lon="17.963736694">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.739539992" lon="17.954068430">
+      <trkpt lat="50.740961369" lon="17.963349661">
         <ele>0.000</ele>
       </trkpt>
-      <trkpt lat="50.739059755" lon="17.955768763">
+      <trkpt lat="50.739103434" lon="17.961572210">
         <ele>0.000</ele>
       </trkpt>
       <trkpt lat="50.738502447" lon="17.961220476">
