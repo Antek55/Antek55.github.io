@@ -19,8 +19,12 @@ h2 {
   /* grid-gap: 15px; */
 }
 
-.photogrid img { 
+.photogrid img {
 width: 100%
+}
+
+ul {
+  text-align: left
 }
 
 /* .card {

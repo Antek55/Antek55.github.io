@@ -135,7 +135,7 @@
         <div>
           <h2>Pytania pojawiające się w przeszłości</h2>
           <div><h3>Co powinienem/innam zabrać ze sobą?</h3>
-            <ul style="text-align: left">
+            <ul>
               <li>wodę i/lub napój izotoniczny</li>
               <li>suchy prowiant</li>
               <li>światło rowerowe</li>
@@ -162,6 +162,26 @@
 
             <h3>Czy mogę zabrać znajomych?</h3>
             <p>Serdecznie zapraszamy! Przekaż zainteresowanym adres tej strony. Będę wdzięczny za informację zawczasu o ewentualnych dodatkowych uczestnikach, ponieważ możliwość przewozu rowerów w PKP jest ograniczona i konieczne jest monitorowanie liczby chętnych.</p>
+
+            <h3>W przypadku dodatkowych pytań/chęci zgłoszenia się kontakt z organizatorem</h3>
+
+            <table>
+              <tr>
+                <td>
+                  <a href="https://matrix.to/@jwodzinski:matrix.org#/@jwodzinski:matrix.org"><img src="elem-obw.svg" height="40px"/> @jwodzinski:matrix.org</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://www.facebook.com/janantoni.wodzinski"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" height="40px" /> tutaj</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="tel.svg" height="40px"/> telefon <span id="tel"></span></p>
+                </td>
+              </tr>
+            </table>
         </div>
 
         <h2>Do zobaczenia na szlaku!</h2>
@@ -202,6 +222,10 @@
       L.marker([50.7939653, 18.0467055], {icon: TRAIN_ICON}).bindTooltip('PKP Jełowa').addTo(mymap)
 
     </script>
+    <script src="dianhuahao.js"></script>
     <script src="an.js"></script>
-    <script>an_all()</script>
+    <script>
+      an_all()
+      $("#tel").html(DIANHUAHAO)
+    </script>
 </body>

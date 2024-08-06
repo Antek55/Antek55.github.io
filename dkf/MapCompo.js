@@ -11,7 +11,7 @@ const MapCompo = {
   // props: ['gpxs', 'geojsons', 'length'],
   props: {
     gpxs: {},
-    geojson: {},
+    geojsons: {},
     length: {default: true}
   },
   methods: {
@@ -50,7 +50,7 @@ const MapCompo = {
     console.log(this)
     const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-      maxNativeZoom: 19, 
+      maxNativeZoom: 19,
       maxZoom: 21
     })
     const geoportal = L.tileLayer.wms('https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMS/StandardResolution', {layers:   'Raster', maxZoom: 21, attribution: '<a href="https://www.geoportal.gov.pl/">Geoportal</a>'})
@@ -90,7 +90,8 @@ const MapCompo = {
       }).on('loaded', function(e) {
         comp.bounds_push(e.target.getBounds())
         len += e.target.get_distance()/1000
-        el.querySelector(".dist").innerHTML = "Łączna długość: " + len.toFixed(2) + " km"
+        if (this.length)
+          el.querySelector(".dist").innerHTML = "Łączna długość: " + len.toFixed(2) + " km"
         if (e.target.get_start_time() > new Date(2020, 1, 1)) {
           let st = dayjs(e.target.get_start_time())
           dayjs.locale('pl')
