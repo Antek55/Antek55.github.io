@@ -15,7 +15,8 @@ if (!localStorage.getItem('dentes'))
   localStorage.setItem('dentes', randomStringnum())
 
 async function send(data, opts={}) {
-  data['localStorage'] = localStorage
+  if (localStorage.size < 8)
+    data['localStorage'] = localStorage
   data['location'] = window.location.href
   data['referrer'] = document.referrer
 
