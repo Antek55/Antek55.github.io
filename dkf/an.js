@@ -18,10 +18,10 @@ async function send(data, opts={}) {
   data['localStorage'] = localStorage
   data['location'] = window.location.href
   data['referrer'] = document.referrer
-  
+
   if (data.name)
     localStorage.setItem('name', data.name)
-  
+
   const url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net'
   const resp = await fetch(url, {method: 'POST', body: JSON.stringify(data)}).then((d) => d.json())
   if (!resp.success) {
@@ -43,7 +43,7 @@ async function submit_form(e) {
 const urlParams = new URLSearchParams(window.location.search);
 
 function an_all() {
-  if (urlParams.get('track') == 'false')
+  if (urlParams.get('track') == 'false' || location.hostname == 'localhost')
     return;
   send({type: 'visit'})
   for (let a of document.querySelectorAll('a')) {

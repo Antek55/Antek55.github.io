@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <link href="dkf-base.css" rel="stylesheet">
+    <link rel="stylesheet" href="towgeo.css">
+
+    <link rel="icon" href="towgeo_favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script><!-- doc https://github.com/mpetazzoni/leaflet-gpx -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+    <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw-src.css">
+    <script src=" https://cdn.jsdelivr.net/npm/leaflet.measurecontrol@1.1.0/leaflet.measurecontrol.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pl.js"></script>
+    <link href="measurecontrol.css" rel="stylesheet">
+    <script src="MapCompo.js"></script>
+    <title>Towarzystwo Geograficzne</title>
+</head>
+<body>
+    <center>
+      <div>
+        <img src="towgeo.webp" style="max-height: 15vh" title="Towarzystwo Geograficzne"/>
+      </div>
+
+      <div class="card" id="card">
+        <h1><!--<img src="vajrayana.svg" height="49px">--> Tour de Basse Silésie :: Brzeg &amp; Opole 2024</h1>
+        <p>
+          Zapraszam na regionalną wycieczkę rowerową do Brzegu, podczas której obejrzymy <b>Zamek Królewski w Brzegu</b>, <b>Stobrawski Park Krajobrazowy</b> (i atrakcje takich znajdujących się w nim miejscowości jak Karłowice, Pokój czy Zagwiździe) oraz <b>Opole</b>.
+        </p>
+
+        <p>
+          Łączny dystans pokonywany rowerem to ok. <em>75 km</em>. Będziemy jechać tempem spacerowym i robić przerwy w jeździe, wyjazd ma charakter turystyczno-wypoczynkowy, <em>nie</em> sportowo-wyczynowy.
+        </p>
+
+        <p>
+          Jak widać na załączonej mapce, trasa jest daleka od przebiegania w linii prostej między punktami – jeśli wystąpią trudności lub podróż będzie przebiegała wolniej niż zaplanowano, będzie możliwość złagodzenia krzywej i skrócenia dystansu. Droga wiedzie również w pobliżu stacji kolejowej <b>Jełowa</b> (oznaczona na mapie) co umożliwia awaryjne skrócenie wycieczki w wypadku deszczu lub rezygnacji po przejechaniu <em>66 km</em>, jednak w weekendy jedyny kurs do Wrocławia na który możemy zdążyć (z przesiadką do IC w Opolu) odjeżdża stamtąd o g. <em>20:09</em>, zatem jest to opcja zarezerwowana na ostateczność. (W takim wypadku, ze względu na przesiadkę między przewoźnikami Regio i IC konieczna też jest dwukrotna opłata za rower.)
+        </p>
+
+        <p>
+          Do Brzegu dojeżdżamy prawdopodobnie pociągiem Intercity, w którym miejsca są numerowane. Z tego względu <em>ważniejsza niż zazwyczaj jest informacja zawczasu o udziale</em>, ponieważ może być konieczność zmiany połączenia (i godziny zbiórki) na pociąg PolRegio w przypadku braku miejsc. <em>Nie kupuj zawczasu biletów na przejazd!</em> Aby skorzystać ze zniżek grupowych, bilety kupuje (i rozlicza) organizator.
+        </p>
+
+        <h2>Godzina i miejsce zbiórki</h2>
+        <h3><u>sobota 10 sierpnia, g. 08:25, Dworzec Wrocław Główny</u>, pod zegarem</h3>
+
+        <h2>Trasa przejazdu</h2>
+        <h1 id="pinezka_help" class="n">Kliknij na mapę w pinezkowym miejscu</h1>
+        <dialog><div>Prześlij następujący link by udostępnić pinezkę</div><code id="dialogUrl"></code></dialog>
+
+        <map-compo :gpxs="['BiO-a.gpx', 'BiO-b.gpx']" :length="false"></map-compo>
+
+        <div>
+          <h2>Przejazdy kolejowe</h2>
+          <table>
+            <tr>
+                <th>Przewoźnik</th>
+                <th>Odjazd</th>
+                <th>Stacja odjazdu</th>
+                <th>Przyjazd</th>
+                <th>Stacja przyjazdu</th>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://naratunek.org/wp-content/uploads/2022/08/Logo-w-formie-podstawowej.png" height="30px"/>
+              </td>
+              <td>
+                08:47
+              </td>
+              <td>
+                Wrocław Główny
+              </td>
+              <td>
+                09:15
+              </td>
+              <td>
+                Brzeg
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://arp.pl/media/images/Przewozy-Regionalne-logo_D6c81wM.original.png" height="30px"/>
+              </td>
+              <td>
+                21:19<sup>*</sup>
+              </td>
+              <td>
+                Opole Główne
+              </td>
+              <td>
+                22:35
+              </td>
+              <td>
+                Wrocław Główny
+              </td>
+            </tr>
+          </table>
+          <sup>* Orientacyjnie, w rzeczywistości w zależności od tempa na trasie. Możliwy powrót również IC 20:13, IC 21:38, IC 23:44, IC 23:51</sup>
+        </div>
+
+        <div>
+          <h2>Kilka zdjęć przybliżających formułę wyjazdu</h2>
+            <div class="photogrid">
+              <figure>
+                <img src="https://zamek.brzeg.pl/storage/RFtst91BjX0oZAWO9JbOWJK8Ty8o0T-metaMTE5LmpwZw==-.jpg" />
+                <figcaption>Zamek Piastów w Brzegu</figcaption>
+              </figure>
+              <figure>
+                <img src="https://wachtyrz.eu/wp-content/uploads/2021/12/Swiatynia-Matyldy-na-wyspie-800x445.jpg" />
+                <figcaption>XVIII-wieczny park w Pokoju zakończył w tym roku rewitalizację</figcaption>
+              </figure>
+              <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Stobrawski_Park_Krajobrazowy_-_oczko_wodne.jpg/640px-Stobrawski_Park_Krajobrazowy_-_oczko_wodne.jpg" />
+                <figcaption>Wśród lasów Parku przeważają bory sosnowe </figcaption>
+              </figure>
+              <figure>
+                <img src="https://www.visitopolskie.pl/sites/default/files/styles/max_1300x1300/public/2022-01/stobrawski_park_kup_stawy_hodowlane_Jaros%C5%82aw%20Ma%C5%82kowski%20%28Du%C5%BCy%29_0.jpg?itok=E6SOePem"/>
+                <figcaption>Stawy Stobrawskiego PK</figcaption>
+              </figure>
+              <figure>
+                <img src="https://zabytek.pl/public/upload/objects/mobile/58231c3eab4a3.jpg?v=1676029805,%20/public/upload/objects/mobile_x2/58231c3eab4a3.jpg?v=1676029805%202x"/>
+                <figcaption>Opuszczona huta w Zagwiździu</figcaption>
+              </figure>
+              <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Opole_0001.7_-_widok_na_Stare_Miasto.jpg/640px-Opole_0001.7_-_widok_na_Stare_Miasto.jpg"/>
+                <figcaption>Panorama opolskiego starego miasta</figcaption>
+              </figure>
+            </div>
+        </div>
+
+        <div>
+          <h2>Pytania pojawiające się w przeszłości</h2>
+          <div><h3>Co powinienem/innam zabrać ze sobą?</h3>
+            <ul style="text-align: left">
+              <li>wodę i/lub napój izotoniczny</li>
+              <li>suchy prowiant</li>
+              <li>światło rowerowe</li>
+              <li>
+                gotówkę na bilety wstępu/pamiątki
+              </li>
+              <li>dokument tożsamości, dokument uprawniający do zniżki jeśli masz</li>
+              <li>naładowany powerbank</li>
+              <li>czapkę i krem z filtrem</li>
+              <li>aparat fotograficzny</li>
+              <li>ciemne okulary</li>
+              <li>środek przeciwko komarom</li>
+              <!-- <li>(ręcznik, strój kąpielowy)</li> -->
+              <li>mnóstwo dobrej zabawy!</li>
+            </ul>
+            <h3>Czy będziemy się poruszać po drogach z szybkim ruchem samochodowym?</h3>
+            <p>Trasa jest celowo wytyczana tak, by w miarę możliwości unikać dróg dla samochodów, szczególnie szybkiego ruchu i większość przebiega po ścieżkach nieutwardzonych i leśnych, co możesz zweryfikować na załącznej mapce. Z dróg wojewódzkich przejedziemy ok. 1.3 km drogą <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/DW457-PL.svg" height="30px" style="top: 8px; position: relative"> i 700 m drogą <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/DW461-PL.svg" height="30px" style="top: 8px; position: relative"> (może się zmienić w trakcie w przypadku nieprzejezdności zaplanowanego szlaku.)</p>
+
+            <h3>Czy mój miejski/górski/… rower nadaje się do tej trasy?</h3>
+            <p>Każdy sprawny rower nadaje się do tej trasy. Różnice w klasach między rowerami mogą mieć wpływ na to, jak łatwo będzie Ci się jechać i jaką mógłbyś rozwinąć i utrzymać prędkość, co nie ma znaczenia na rekreacyjnej powolnej wycieczce tego typu.</p>
+
+            <h3>Czy zdążymy? Co w ogóle gwarantuje organizator?</h3>
+            <p><!--Nie wiem! Zobaczymy.-->Pociągi z Opola do Wrocławia odjeżdżają częto i do późna (ostatni o 23:51), więc trudno wyobrazić sobie, byśmy nie zdążyli wrócić, niezależnie od tempa jazdy. W razie konieczności możemy modyfikować/skracać trasę, wszystkie możliwości awaryjnego powrotu zostały opisane wyżej. Jednak organizator <em>nie gwarantuje niczego</em>, jego rola ogranicza się do zaproponowania programu wycieczki i pilotowania, <em>każdy uczestnik uczestniczy na własne ryzyko</em> (ale jak wielkie może być ryzyko takiej wycieczki?). Wyjazd ma charakter eksperymentalny, a zaproponowana trasa nie była wcześniej testowana – może to oznaczać, że miejscami będzie nieprzejezdna i wymagana będzie korekta/improwizacja. </p>
+
+            <h3>Czy mogę zabrać znajomych?</h3>
+            <p>Serdecznie zapraszamy! Przekaż zainteresowanym adres tej strony. Będę wdzięczny za informację zawczasu o ewentualnych dodatkowych uczestnikach, ponieważ możliwość przewozu rowerów w PKP jest ograniczona i konieczne jest monitorowanie liczby chętnych.</p>
+        </div>
+
+        <h2>Do zobaczenia na szlaku!</h2>
+        <div style="text-align: end"><b><i>Jedźmy, nikt nie woła.</i></b> <a href="https://literat.ug.edu.pl/amwiersz/0032.htm">[?]</a></div>
+      </div>
+    </center>
+
+    <script>
+      dayjs.locale('pl')
+
+      const app = new Vue({
+        el: "#card",
+        data: {},
+        components: {
+          'map-compo': MapCompo
+        }
+      })
+
+      let mode = null
+
+      document.onkeydown = function (event){
+        if (event.key == 'l') {
+          for (let c of app.$children.filter(c => c.$options._componentTag == 'map-compo')) {
+            const mymap = c.mymap
+            let currentLayer
+            for (let l of Object.values(c.baseMaps))
+              if (mymap.hasLayer(l))
+                currentLayer = l
+            mymap.removeLayer(currentLayer)
+            mymap.addLayer(currentLayer == c.baseMaps['OpenStreetMap'] ? c.baseMaps['Geoportal Orthofotomapa High Resolution'] : c.baseMaps['OpenStreetMap'])
+          }
+        }
+      }
+      const TRAIN_ICON = L.icon({iconUrl: 'train1.png', iconSize: [35, 35]})
+      const MUZ_ICON = L.icon({iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/52/AS-muzeum-icon-black.svg', iconSize: [35, 35]})
+
+      const mymap = app.$children[0].mymap
+      L.marker([50.7939653, 18.0467055], {icon: TRAIN_ICON}).bindTooltip('PKP Jełowa').addTo(mymap)
+
+    </script>
+    <script src="an.js"></script>
+    <script>an_all()</script>
+</body>
