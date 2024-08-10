@@ -234,9 +234,12 @@ text {
 .daytype_żałoba>text,
 .daytype_diademuertos>text,
 .daytype_epifania>text,
-.daytype_us>text
 {
     fill: lightgrey;
+}
+
+.daytype_us>text {
+  fill: cyan;
 }
 
 .daytype_żałoba_overlay>text {
@@ -298,7 +301,7 @@ tr.wyjście {
     fill: red;
 }
 .muz > rect {
-    fill: lightblue; 
+    fill: lightblue;
 }
 .global > rect {
     fill: url('#gradient_global');
@@ -412,7 +415,7 @@ dialog {
 }
 
 .flame {
-    animation: flame infinite 2s alternate; 
+    animation: flame infinite 2s alternate;
 }
 
 .nightly {
