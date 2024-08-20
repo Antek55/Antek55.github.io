@@ -172,10 +172,13 @@
           f.terminy = {}
           while (first <= last) {
             if (first > new dayjs()) {
-              f.terminy[first.format("dd, DD MMMM").toLowerCase()] = 'tak'
+              if (f.godziny)
+                for (let g of f.godziny)
+                  f.terminy[first.format("dd, DD MMMM").toLowerCase() + ' g. ' + g] = 'tak'
+              else
+                f.terminy[first.format("dd, DD MMMM").toLowerCase()] = 'tak'
             }
             first = first.add(1, 'day')
-            
           }
         }
       }
