@@ -1,6 +1,24 @@
-body {
+/** LATO **/
+/*body {
   background-image: linear-gradient(26deg, darkgreen, lime);
+} */
+body {
+  background-image: url('https://img.freepik.com/premium-photo/vintage-american-flag_196038-27477.jpg');
+  background-repeat: repeat;
+  color: white;
 }
+.card {
+  background-image: linear-gradient(26deg, red, blue);
+}
+
+/** JESIEñ **/
+/*
+body {
+  background-image: linear-gradient(36deg, #cc0000, darkred);
+  color: gold;
+}
+*/
+
 p {
   text-align: justify;
   margin: 1%;
