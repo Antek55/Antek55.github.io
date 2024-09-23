@@ -154,3 +154,62 @@ em {
   text-decoration: underline;
   font-style: normal;
 }
+.banner {
+  width: 100%;
+  border: 1px gold solid;
+  border-radius: 3px;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  body {
+    font-size: 50px;
+  }
+  .card {
+    max-width: 100%;
+    padding: 0px;
+    margin: 3px;
+  }
+  table {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  #logo {
+    max-width: 25vw;
+  }
+  .trailer {
+    display: none;
+  }
+  .directors {
+    display: none;
+  }
+  .imdb {
+    display: none;
+  }
+  .rym {
+    display: none;
+  }
+  
+  td, th {
+    border: 3px gold solid;
+    border-radius: 0px;
+    text-align: center;
+  }
+  .card {
+    border: none;
+  }
+  button {
+    font-size: 60px;
+  }
+}
+
+
+.trailer {
+  text-align: center
+}
+.tippy-poster {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  left: -5px;
+}

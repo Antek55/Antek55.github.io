@@ -4,15 +4,18 @@
   <meta charset="utf-8">
     <title>DKF</title>
     <link href="dkf-base.css" rel="stylesheet">
-    <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
+    <!-- <link rel="alternate" type="application/rss+xml" href="feed.xml"/> -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pl.js"></script>
+    <script src="https://unpkg.com/openpgp@5.0.0-3/dist/openpgp.min.js"></script>
     <link href="https://unpkg.com/tippy.js@6/animations/shift-away-extreme.css" rel="stylesheet">
+    <script src="FilmyCompo.js"></script>
     <script src="flags.js"></script>
-    <script src="filmy.js"></script>
     <style>
       .title {
         text-align: left;
@@ -27,28 +30,22 @@
 <body>
     <center>
       <div>
-        <img src="tż2.webp" style="max-height: 10vh"/>
+        <img src="tż2.webp" style="max-height: 15vh" id="logo"/>
       </div>
-        <h1 en="The Indisputable Film Society">Bezdyskusyjny Klub Filmowy</h1>
         <div class="card">
           <form v-on:submit.prevent="submit" class="form">
-            <div v-if="Date.now() > Date.parse(closing)" en="This form is already closed and does not accept answers. Message the organisers of this event directly to see if any seats are still available.">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
+            <div v-if="Date.now() > Date.parse(true_closing)" en="This form is already closed and does not accept answers. Message the organisers of this event directly to see if any seats are still available.">Ten formularz jest już zamknięty i nie można wysyłać zgłoszeń/odpowiedzi. Napisz bezpośrednio do organizatorów danego zdarzenia / ankiety, żeby dowiedzieć się, czy istnieją wciąż wolne miejsca.</div>
             <div v-else>
             
-              <div class="banner">
+              <div class="">
                 <h1>[[ title ]]</h1>
               </div>
               
+              <img class="banner" src="" display="n">
+              
               <div class="opis">
-                <p en="You can cast <em>two</em> positive votes and <em>one</em> negative. As it's always been, <em>you cannot vote for films nominated by yourself</em>!">
-                  Możesz oddać <em>dwa</em> głosy dodatnie oraz <em>jeden</em> głos ujemny.
-                  Tak jak było zawsze, <em>nie wolno głosować na filmy nominowane przez siebie</em>!
-                </p>
-                <!-- <p en="A new option is now available – you can mark an arbitrary number of films as <i>Will not come if selected</i> – this information will not influence the poll result, but will be helpful to us in selecting the meeting date (if one of these films wins, your availability will not be taken into account)">
-                  Nową opcją jest oznaczenie dowolnej liczby filmów jako "<i>Nie przyjdę jeśli zwycięży</i>" – te informacje nie mają żadnego wpływu na głosowanie, ale będą pomocne przy wyznaczaniu terminu spotkania (w przypadku wygrania takiego filmu Twoja dostępność nie będzie brana pod uwagę).
-                </p>-->
-                <!-- <p>Filmy dokumentalno oznaczono <span style="color: rgb(91, 64, 13)">kolorem brązowym</span></p> -->
-                <p en="The form closes <em><span class=&quot;red&quot;>[[ closing ]]</span></em>">Formularz zamyka się <em><span class="red">[[ closing ]]</span></em>.</p>
+                <p v-html="opis"></p>
+                <p v-if="closing_info" en="The form closes <em><span class=&quot;red&quot;>[[ closing ]]</span></em>">Formularz zamyka się <em><span class="red">[[ closing ]]</span></em>.</p>
               </div>
               
               <div class="item">
@@ -57,101 +54,57 @@
                   <input id="name" v-model="name" class="cl" type="text" name="name" placeholder="Imię i nazwisko/rozpoznawalny pseudonim" data-en-placeholder="Your name/recognisable pseudonym" data-i18n required />
                 </div>
               </div>
-              
-                <div v-if="filmy.length">
+              <div class="item" v-for="f in fields">
+                <div v-if="f.type == 'checkbox'">
+                  <input type="checkbox" :name="f.name" v-model="f.value"><label :for="f.name">[[f.name]]</label>
+                </div>
+                
+                <div v-if="f.type == 'filmy'">
+                  <filmy-compo :field="f" :key="f.filmy"></filmy-compo>
+                </div>
+                
+                <div v-if="f.type == 'textarea'">
+                  <label v-html="f.label" :en="f.label_en"></label>
+                  <textarea rows="3" v-model="f.text"></textarea>
+                </div>
+                
+                <div class="autogenerated-checkbox-list" v-if="f.type == 'terminy'">
+                 <label>
+                  <em en="On which of the dates below would you be available for a meeting?">Które z poniższych terminów Ci odpowiadają?</em>
+                 </label>
+                 <center>
                   <table>
-                    <tr>
-                      <th en="Film title">Tytuł filmu</th>
-                      <th en="Directors">Reżyseria</th>
-                      <th en="Trailer">Zwiastun</th>
-                      <th><a href="https://www.imdb.com" target="_blank"><img src="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png" title="IMDb"></th>
-                      <th><a href="https://rateyourmusic.com/" target="_blank"><img src="https://e.snmc.io/3.0/img/logo/cinemos-512.png" width="32px" title="Rate Your Music"></a></th>
-                      <th en="Positive">Głos dodatni</th>
-                      <th en="Negative">Głos ujemny</th>
-                      <!-- <th en="Won't come">Nie przyjdę</th> -->
-                    </tr>
-                    
-                    <tr v-for="f in filmy" :style="styling(f.title, f.isDocu)">
-                      <td :id="f.imdbId" class="title">
-                        <span>
-                          <img v-for="fl in f.flag" :src="flags[fl.toLowerCase()]" :title="country_codes[fl]" class="smallflag">
-                        </span>
-                        <span v-if="f.originalTitle && f.originalTitle != f.titleLocal"><b>[[f.originalTitle]]</b> (<i>[[f.titleLocal]]</i>)</span>
-                        <span v-else-if="f.originalTitle"><b>[[f.originalTitle]]</b></span>
-                        <span v-else-if="f.title != f.titleLocal"><b>[[f.title]]</b> (<i>[[f.titleLocal]]</i>)</span>
-                        <span v-else><b>[[f.title]]</b></span> ([[f.year]])
-                        
-                        <a :href="f.url + '/parentalguide#advisory-violence'" v-if="f.warning1" target="_blank" style="float:right; text-decoration: none">⚠️</a>
-                        <a :href="f.url + '/parentalguide#advisory-frightening'" v-if="f.warning2" target="_blank" target="_blank" style="float:right; text-decoration: none">⚠️</a>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Info_black.png" style="margin: 0px; height: 30px; float:right" v-if="f.info" v-on:click="alert(f.info)" :id="f.imdbId + '-info'">
-                        
-                      </td>
-                      <td>
-                        <span :id="f.imdbId + '-director'" v-on:click="window.open('https://en.wikipedia.org/wiki/' + f.directors)">
-                          <span v-for="d in f.directors">[[d]] </span>
-                        </span>
-                      </td>
-                      <td style="text-align: center">
-                            <span class="playicon" v-if="f.yttrailer.videoId" v-on:click='trailer(f.yttrailer.videoId, $event)'>
-                              <img width="32px" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Play_rood.png">
-                            </span>
-                      </td>
-                      <td><a :href="f.url" target="_blank">[[f.imdbRating]]</td>
-                      <td><a :href="f.rymUrl" target="_blank">[[f.rymRating]]</a></td>
-                      <td><input type="checkbox" v-model="g[f.title]"></td>
-                      <td><input type="checkbox" v-model="w[f.title]"></td>
-                      <!-- <td><input type="checkbox" v-model="np[f.title]"></td> -->
-                    </tr>
-                    
+                   <tr><th>
+                    </th>
+                    <th en="Available">Pasuje</th>
+                    <th en="Less keenly">Mniej chętnie</th>
+                    <th en="Unavailable">Nie pasuje</th>
+                    <th v-if="f.unclear" en="Yet unclear">Jeszcze niejasne</th>
+                   </tr>
+                   <tr v-for="[key, value] of Object.entries(f.terminy)">
+                    <td>
+                     [[fragm(key)]]
+                    </td>
+                    <td v-bind:style='"background-color:" + (f.terminy[key] == "tak" ? "green" : "initial")' v-on:click="clicked">
+                     <input :id="key" :name="key" type="radio" v-model="f.terminy[key]" value="tak"/>
+                    </td>
+                    <td v-bind:style='"background-color:" + (f.terminy[key] == "mniej" ? "#a5e04c " : "initial")' v-on:click="clicked">
+                     <input :id="key" :name="key" type="radio" v-model="f.terminy[key]" value="mniej"/>
+                    </td>
+                    <td v-bind:style='"background-color:" + (!f.terminy[key] ? "red" : "initial")' v-on:click="clicked">
+                     <input :id="key" :name="key" :value="false" type="radio" v-model="f.terminy[key]"/>
+                    </td>
+                    <td v-bind:style='"background-color:" + (f.terminy[key] == "brakwiedzy" ? "grey" : "initial")' v-on:click="clicked" v-if="f.unclear">
+                     <input :id="key" :name="key" type="radio" v-model="f.terminy[key]" value="brakwiedzy"/>
+                    </td>
+                   </tr>
                   </table>
+                  <button v-on:click.prevent="odznacz" en="Unselect all">
+                   Odznacz wszystkie
+                  </button>
+                 </center>
+                </div>
               </div>
-              
-              <div class="autogenerated-checkbox-list" v-if="Object.keys(terminy).length">
-               <label>
-                <em en="On which of the dates below <u>at 08:05 PM</u> would you be available for a meeting?">Które z poniższych terminów <u>o godzinie 20:05</u> Ci odpowiadają?</em>
-               </label>
-               <center>
-                <table>
-                 <tr>
-                  <th>
-                  </th>
-                  <th en="Available">
-                   Pasuje
-                  </th>
-                  <th en="Less keenly">
-                   Mniej chętnie
-                  </th>
-                  <th en="Unavailable">
-                   Nie pasuje
-                  </th>
-                  <th en="Yet unclear">
-                   Jeszcze niejasne
-                  </th>
-                 </tr>
-                 <tr v-for="[key, value] of Object.entries(terminy)">
-                  <td>
-                   [[fragm(key)]]
-                  </td>
-                  <td v-bind:style='"background-color:" + (terminy[key] == "tak" ? "green" : "initial")' v-on:click="clicked">
-                   <input :id="key" :name="key" type="radio" v-model="terminy[key]" value="tak"/>
-                  </td>
-                  <td v-bind:style='"background-color:" + (terminy[key] == "mniej" ? "#a5e04c " : "initial")' v-on:click="clicked">
-                   <input :id="key" :name="key" type="radio" v-model="terminy[key]" value="mniej"/>
-                  </td>
-                  <td v-bind:style='"background-color:" + (!terminy[key] ? "red" : "initial")' v-on:click="clicked">
-                   <input :id="key" :name="key" :value="false" type="radio" v-model="terminy[key]"/>
-                  </td>
-                  <td v-bind:style='"background-color:" + (terminy[key] == "brakwiedzy" ? "grey" : "initial")' v-on:click="clicked">
-                   <input :id="key" :name="key" type="radio" v-model="terminy[key]" value="brakwiedzy"/>
-                  </td>
-                 </tr>
-                </table>
-                <button v-on:click.prevent="odznacz" en="Unselect all">
-                 Odznacz wszystkie
-                </button>
-               </center>
-              </div>
-
               
               <div class="item" style="padding-top: 30px; padding-bottom: 30px;">
                   <label for="uwagi" en="Do you have any other information/comments/suggestions/ideas/clarifications/questions/concerns?">Czy masz jakieś dodatkowe informacje/uwagi/sugestie/pomysły/objaśnienia/pytania/obawy?</label>
@@ -159,33 +112,28 @@
               </div>
 
               <div id="warnings" class="warnings" style="font-weight: bold; font-size: 20px">
-                <p v-if="_.some( Object.entries(filmy_dict).map( ([a,b]) => g[a] && w[a] ) )" en="⚠️ You're simultaneously voting positively and negatively for a film!">⚠️ Głosujesz na film jednocześnie dodatnio i ujemnie!</p>
-                <p v-if="max2()" en="⚠️ You can only cast two positive votes.">⚠️ Możesz oddać tylko dwa głosy dodatnie.</p>
-                <p v-if="max1neg()" en="⚠️ You can only cast one negative vote.">⚠️ Możesz oddać tylko jeden głos ujemny.</p>
               </div>
               
               <div class="btn-block">
-                <!-- <button :style="max2() || max1neg() ? 'background-color: grey' : ''" en="Send">Wyślij</button> -->
-                <button :style="max2() || max1neg() ? 'background-color: grey' : ''" en="Send">Wyślij</button>
+                <button en="Send">Wyślij</button>
               </div>
             </div>   
           </form>
-          
+          <!-- <img src="fizyczna.webp" style="position: fixed; top: 0px; left: 0px; z-index: -1; height: 100%"> -->
         </div>
+        
     </center>
     <script src="i18n.js"></script>
     <script>
     $("a").not("[target]").attr("target", "_blank")
+    function decrypt(data, key) {
+      return openpgp.readMessage({armoredMessage: data}).then((value) => openpgp.decrypt({passwords: key, message: value}))
+    }
+    
     function submit_send() {
-      if (app.max2() || app.max1neg())
-        return false;
-      
       $("form").html(transl("Proszę o cierpliwość, trwa przesyłanie…"))  
-
       url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
       
-      delete (app.$data.flags)
-      delete (app.$data.country_codes)
       localStorage.setItem("name", app.$data.name)
       
       var wynik = encodeURIComponent(JSON.stringify(app.$data));
@@ -198,102 +146,98 @@
           return false;
         }
         
-        $("form").html(transl("Wysłano odpowiedź."))
+        $("form").html(transl("Bardzo dziękuję! Wysłano odpowiedź."))
       }
     }
-
-    filmy_dict = {}
-    filmy.forEach(function(f) { filmy_dict[f.title] = false } )
-    filmy = _.shuffle(filmy)
+    
+    const [name, key] = location.hash.substring(1).split(';')
+    fetch(name+'.json').then(async function (t) {
+      if (key) {
+        return JSON.parse((await decrypt(await t.text(), key)).data)
+      } else {
+        return t.json()
+      }
+    }).then(function (data) {
+      if (data.logo) {
+        $("#logo").attr("src", data.logo)
+        delete data.logo
+      }
+      if (data.style) {
+        // <link rel="stylesheet" href="towgeo.css">
+        let el = document.createElement("link")
+        el.setAttribute("rel", "stylesheet")
+        el.setAttribute("href", data.style) 
+        document.head.appendChild(el)
+        delete data.style
+      }
+      if (data.favicon) {
+        let el = document.createElement("link")
+        el.setAttribute("rel", "icon")
+        el.setAttribute("href", data.favicon) 
+        document.head.appendChild(el)
+        delete data.favicon
+      }
+      if (data.banner) {
+        $(".banner").show().attr("src", data.banner)
+        delete data.banner
+      }
+      if (!data.true_closing) {
+        data.true_closing = data.closing;
+      }
+      if (data.en_available)
+        insert_flags()
+      for (let f of data.fields) {
+        if (f.type == "terminy") {
+          dayjs.locale('pl')
+          let first = dayjs(f.first)
+          let last = dayjs(f.last)
+          f.terminy = {}
+          while (first <= last) {
+            if (first > new dayjs()) {
+              if (f.godziny)
+                for (let g of f.godziny)
+                  f.terminy[first.format("dd, DD MMMM").toLowerCase() + ' g. ' + g] = 'tak'
+              else
+                f.terminy[first.format("dd, DD MMMM").toLowerCase()] = 'tak'
+            }
+            first = first.add(1, 'day')
+          }
+        }
+      }
+      document.title = data.title
+      _.extend(app.$data, data)
+    })
     
     var app = new Vue({
-      el: "form", 
+      el: "center", 
       data: {
-        form_id: "dkf-głosowanie-1",
-        title: fragm("DKF LII :: głosowanie"),
-        closing: "2024-04-25 16:05",
+        closing: '',
+        true_closing: '',
         name: localStorage.getItem('name'),
-        uwagi: "",
-        g: _.cloneDeep(filmy_dict),
-        w: _.cloneDeep(filmy_dict),
-        np: _.cloneDeep(filmy_dict),
-        flags: flags,
-        country_codes: country_codes,
-        terminy: {
-        },
+        uwagi: '',
+        title: '',
+        closing_info: true,
+        opis: '',
+        fields: [],
       }, 
       methods: 
       {
-        max2: function() {return _.filter(Object.entries(this.g), ([a,b]) => b ).map(p => p[0]).length > 2},
-        max1neg: function() {return _.filter(Object.entries(this.w), ([a,b]) => b ).map(p => p[0]).length > 1},
-        styling: function(key, isDocu) {
-            
-          if (this.w[key]) {
-            return 'background-color: red; text-decoration: line-through'
-          }
-          if (this.g[key] && !this.max2()) {
-            return 'background-color: darkgreen';
-          }
-          if(isDocu) {
-            return "background-color: #5b400d;"
-          }
-        },
-        trailer: function(code, event) {
-          // $(".player").html("")
-          var iframe = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + code + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-          
-          $(".playicon").find("iframe").remove()
-          $(".playicon").find("img").show()
-          
-          var span = $(event.target).parent()
-          $(span).find("img").hide()
-          $(span).append(iframe)
-          
-        },
         submit: submit_send,
         clicked: function(a) { var radio = $(a.target).children("input")[0]; var value = radio.value; if (value == "false") value = false; this.$data.terminy[radio.id] = value},
-        odznacz() {for (var k in this.terminy){this.terminy[k] = false}},
+        odznacz() {
+          const terminy = this.fields.filter(f => f.type == "terminy")[0].terminy
+          for (let k of Object.keys(terminy)){
+            terminy[k] = false
+          }
+        },
         fragm,
       },
+      components: {FilmyCompo},
       delimiters: ['[[', ']]'],
     })
 
   </script>
-  <script>
-    filmy.forEach((k) => { 
-      tippy('#' + k.imdbId, {
-        content: '<img src="' + k.rymCoverartImg + '" style="width: 300px">',
-        animation: "shift-away-extreme",
-        allowHTML: true,
-        followCursor: "horizontal", 
-        placement: 'right',
-        });
-      
-      if (k.info) 
-          tippy('#' + k.imdbId + '-info', {
-            content: k.info,
-            animation: "shift-away-extreme",
-            followCursor: "horizontal",
-            // placement: 'bottom',
-          });
-      
-      if (k['popup-director'])
-        tippy('#' + k.imdbId + '-director', {
-          content: k['popup-director'],
-          animation: "shift-away-extreme",
-          allowHTML: true,
-          followCursor: "horizontal",
-          placement: 'left-start'
-        });
-      })
-  </script>
   <script src="colors.js"></script>
   <script src="paralax.js"></script>
   <script src="an.js"></script>
-  <script>
-  if (window.innerHeight > window.innerWidth) {
-    $(".card").css("maxWidth", "100%").css("padding", "0px").css("margin", "3px")
-    $("table").css("width", "100%").css("padding", "0px").css("margin", "0px")
-  }
-  </script>
 </body>

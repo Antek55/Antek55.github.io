@@ -1,16 +1,24 @@
 const LANG = localStorage.getItem("lang") || (location.pathname.endsWith("en.html") ? "en" : "pl")
 
-if (LANG == "en") {
-  for (let t of document.querySelectorAll("[en]"))
-    t.innerHTML = t.getAttribute("en")
-  
-  for (let t of document.querySelectorAll("[data-i18n]")) {
-    for (let [k, v] of Object.entries(t.dataset)) {
-      if (k.startsWith(LANG))
-        t.setAttribute(k.substr(2), v)
+function translate_all() {
+  if (LANG == "en") {
+    for (let t of document.querySelectorAll("[en]"))
+      t.innerHTML = t.getAttribute("en")
+    
+    for (let t of document.querySelectorAll("*"))
+      if (t.hasAttribute(":en"))
+        t.setAttribute("v-html", t.getAttribute(":en"))
+    
+    for (let t of document.querySelectorAll("[data-i18n]")) {
+      for (let [k, v] of Object.entries(t.dataset)) {
+        if (k.startsWith(LANG))
+          t.setAttribute(k.substr(2), v)
+      }
     }
   }
 }
+
+translate_all()
 
 const TR = {
   pn: 'Mon',
@@ -41,7 +49,10 @@ const SEL = `<div style="position: absolute; top: 0px; right: 0px">
   <a onclick="gotoLang(event)" lang="pl" style="cursor: pointer"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
   <a onclick="gotoLang(event)" lang="en" style="cursor: pointer"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_United_Kingdom_%283-2%29.svg" class="smallflag" title="English"></a>
 </div>`
-document.body.insertAdjacentHTML("afterbegin", SEL)
+
+function insert_flags() {
+  document.body.insertAdjacentHTML("afterbegin", SEL)
+}
 
 function gotoLang(event) {
   localStorage.setItem("lang", event.currentTarget.getAttribute("lang"))

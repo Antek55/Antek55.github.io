@@ -31,7 +31,7 @@
             
             <div v-else>
             
-              <div class="banner">
+              <div class="">
                 <h1>[[ title ]]</h1>
               </div>
               
@@ -93,7 +93,7 @@
         data: {
           form_id: "dkf-nominacje",
           title: fragm('DKF LII :: nominacje'),
-          closing: "2024-03-24 16:05",
+          closing: "2025-03-24 16:05",
           name: localStorage.getItem('name'),
           nominacje1:"",
           uwagi: "",
@@ -108,10 +108,4 @@
     <script src="colors.js"></script>
     <script src="paralax.js"></script>
     <script src="an.js"></script>
-    <script>
-    if (window.innerHeight > window.innerWidth) {
-      $(".card").css("maxWidth", "100%").css("padding", "0px").css("margin", "3px")
-      $("table").css("width", "100%").css("padding", "0px").css("margin", "0px")
-    }
-    </script>
 </body>
