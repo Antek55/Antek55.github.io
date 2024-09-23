@@ -136,7 +136,7 @@ popup-director-photo {
   text-align: justify;
 }
 input[type="radio"] {
-  width: 40px;
+  width: 5vw;
 }
 .poster {
   height: 300px;
