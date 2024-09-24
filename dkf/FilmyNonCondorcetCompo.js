@@ -1,17 +1,14 @@
 const FilmyCompo = {
-  template: `<div>
-  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie liczby 0 oznacza niechęć obojętną co do kolejności. Przycisk "Nast." przydzieli filmowi ostatnie niezerowe miejsce. Możesz wprowadzić zmiany strzałkami w górę w i w dół lub zerując wybory przyciskiem na dole i zaczynając od nowa.
-  <table>
+  template: `<table>
     <tr>
       <th en="Film title">Tytuł filmu</th>
       <th class="directors" en="Directors">Reżyseria</th>
       <th class="trailer" en="Trailer">Zwiastun</th>
       <th  class="imdb"><a href="https://www.imdb.com" target="_blank"><img src="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png" title="IMDb"></th>
       <th class="rym"><a href="https://rateyourmusic.com/" target="_blank"><img src="https://e.snmc.io/3.0/img/logo/cinemos-512.png" width="32px" title="Rate Your Music"></a></th>
-      <th en="Ordering">Kolejność</th>
-      <th en="Next">Nast.</th>
-      <th en="Up">Do góry</th>
-      <th en="Down">W dół</th>
+      <th en="Positive">Głos dodatni</th>
+      <th en="Negative">Głos ujemny</th>
+      <th en="Won't come">Nie przyjdę</th>
     </tr>
     
     <tr v-for="f in field.filmy" :style="styling(f.title, f.isDocu)">
@@ -41,43 +38,36 @@ const FilmyCompo = {
       </td>
       <td class="imdb"><a :href="f.url" target="_blank">[[f.imdbRating]]</td>
       <td class="rym"><a :href="f.rymUrl" target="_blank">[[f.rymRating]]</a></td>
-      <td><input type="number" v-model="con[f.title]"></td>
-      <td><button v-if="Object.values(con).includes(0)" @click.prevent="nxt(f.title)">Nast.</button></td>
-      <td><button v-if="con[f.title] && con[f.title] != 1" @click.prevent="up(f.title)">⬆️</button></td>
-      <td><button v-if="con[f.title] && con[f.title] != Object.keys(con).length" @click.prevent="down(f.title)">⬇️</button></td>
+      <td><input type="checkbox" v-model="f.g"></td>
+      <td><input type="checkbox" v-model="f.w"></td>
+      <td><input type="checkbox" v-model="f.np"></td>
     </tr>
-  </table>
-  <button id="zeruj" @click.prevent="zeruj">Zeruj wszystkie wybory</button></div>`,
-  data() {
-    let con = {}
-    let i = 1
-    for (let f of this.field.filmy) {
-      con[f.title] = 0
-    }
-    return {
-      con
-    }
-  },
+    
+  </table>`,
+  // data() {
+  //   return {
+  //     g: {},
+  //     w: {},
+  //     np: {}
+  //   }
+  // },
   props: {field: {}},
   delimiters: ['[[', ']]'],
   methods: {
+    // max2: function() {return _.filter(Object.entries(this.g), ([a,b]) => b ).map(p => p[0]).length > 2},
+    max2() {return false},
+    // max1neg: function() {return _.filter(Object.entries(this.w), ([a,b]) => b ).map(p => p[0]).length > 1},
+    max1neg() {return false;},
     styling: function(key, isDocu) {
       // if (this.w[key]) {
       //   return 'background-color: red; text-decoration: line-through'
       // }
-      switch(this.con[key]){
-        case 1:
-          return 'background-color: lime'
-        case 2:
-          return 'background-color: darkgreen'
-      }
-      if (this.con[key] != 0 && this.con[key] > this.field.filmy.length/2) {
-        return 'background-color: grey'
-      }
-      
-      if(isDocu)
-        return "background-color: #5b400d;"
-        
+      // if (this.g[key] && !this.max2()) {
+      //   return 'background-color: darkgreen';
+      // }
+      // if(isDocu) {
+      //   return "background-color: #5b400d;"
+      // }
       return ''
     },
     trailer: function(code, event) {
@@ -90,65 +80,17 @@ const FilmyCompo = {
       var span = $(event.target).parent()
       $(span).find("img").hide()
       $(span).append(iframe)
+      
     },
-    nxt(title) {
-      this.con[title] = Math.max.apply(null, Object.values(this.con)) + 1
-    },
-    up(title) {
-      if (this.con[title] == 1)
-        return
-      this.con[title]--
-      for (let k of Object.keys(this.con)) {
-        if (this.con[k] == this.con[title] && k != title)
-          this.con[k]++;
-      }
-    },
-    down(title) {
-      if (this.con[title] == Math.max.apply(null, Object.values(this.con))) {
-        this.con[title] = 0
-        return
-      }
-      this.con[title]++
-      for (let k of Object.keys(this.con)) {
-        if (this.con[k] == this.con[title] && k != title)
-          this.con[k]--;
-      }
-    },
-    zeruj() {
-      for (let k of Object.keys(this.con)) {
-        this.con[k] = 0;
-      }
-    },
-    getData() {
-      this.field.con = this.con
-    }
-  },
-  watch: {
-    con: {
-      handler(old, neww) {        
-        function comp(a, b) {
-          if (neww[a.title] == 0)
-            return true
-          if (neww[b.title] == 0)
-            return false
-            
-          return neww[a.title] > neww[b.title]
-        }
-        
-        this.field.filmy.sort(comp)
-        let i = 1
-        for (let k of this.field.filmy) {
-          if (this.con[k.title] != 0)
-            this.con[k.title] = i++
-        }
-      },
-      deep: true
-    }
   },
   created() {
+    for (let f of this.field.filmy) {
+      f.g = false;
+      f.w = false;
+      f.np = false;
+    }
   },
   mounted() {
-    
     this.field.filmy.forEach((k) => { 
       tippy('#' + k.imdbId, {
         content: '<img class="tippy-poster" src="' + k.rymCoverartImg + '" style="width: 300px">',

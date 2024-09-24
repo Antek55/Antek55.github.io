@@ -136,11 +136,16 @@
       
       localStorage.setItem("name", app.$data.name)
       
+      for (let c of app.$children) {
+        if (c.getData) {
+          c.getData()
+        }
+      }
+      
       var wynik = encodeURIComponent(JSON.stringify(app.$data));
       $.get(url + wynik, on_success);
       
-      function on_success(data)
-      {
+      function on_success(data) {
         if (!data.success) {
           $("form").html('<h2 class="red">' + transl('Nie można przesłać z powodu nieznanego błędu. Spróbuj jeszcze raz lub skontaktuj się osobiście przez wiadomość prywatną.') + '</h2>');
           return false;
