@@ -1,6 +1,6 @@
 const FilmyCompo = {
   template: `<div>
-  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie liczby 0 oznacza niechęć obojętną co do kolejności. Przycisk "Nast." przydzieli filmowi ostatnie niezerowe miejsce. Możesz wprowadzić zmiany strzałkami w górę w i w dół lub zerując wybory przyciskiem na dole i zaczynając od nowa.
+  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie liczby ∞ oznacza niechęć obojętną co do kolejności. Przycisk "Nast." przydzieli filmowi kolejne niezerowe miejsce. Możesz wprowadzić zmiany strzałkami w górę w i w dół lub zerując wybory przyciskiem na dole i zaczynając od nowa.
   <table>
     <tr>
       <th en="Film title">Tytuł filmu</th>
@@ -41,7 +41,8 @@ const FilmyCompo = {
       </td>
       <td class="imdb"><a :href="f.url" target="_blank">[[f.imdbRating]]</td>
       <td class="rym"><a :href="f.rymUrl" target="_blank">[[f.rymRating]]</a></td>
-      <td><input type="number" v-model="con[f.title]"></td>
+      <!--<td><input type="number" v-model="con[f.title]"></td>-->
+      <td><b v-html="con[f.title] ? con[f.title] : '∞'" /></td>
       <td><button v-if="Object.values(con).includes(0)" @click.prevent="nxt(f.title)">Nast.</button></td>
       <td><button v-if="con[f.title] && con[f.title] != 1" @click.prevent="up(f.title)">⬆️</button></td>
       <td><button v-if="con[f.title] && con[f.title] != Object.keys(con).length" @click.prevent="down(f.title)">⬇️</button></td>
@@ -118,9 +119,6 @@ const FilmyCompo = {
       for (let k of Object.keys(this.con)) {
         this.con[k] = 0;
       }
-    },
-    getData() {
-      this.field.con = this.con
     }
   },
   watch: {
@@ -141,6 +139,7 @@ const FilmyCompo = {
           if (this.con[k.title] != 0)
             this.con[k.title] = i++
         }
+        this.field.con = neww
       },
       deep: true
     }

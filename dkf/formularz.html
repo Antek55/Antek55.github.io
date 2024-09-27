@@ -136,12 +136,6 @@
       
       localStorage.setItem("name", app.$data.name)
       
-      for (let c of app.$children) {
-        if (c.getData) {
-          c.getData()
-        }
-      }
-      
       var wynik = encodeURIComponent(JSON.stringify(app.$data));
       $.get(url + wynik, on_success);
       
