@@ -162,7 +162,6 @@
         delete data.logo
       }
       if (data.style) {
-        // <link rel="stylesheet" href="towgeo.css">
         let el = document.createElement("link")
         el.setAttribute("rel", "stylesheet")
         el.setAttribute("href", data.style) 
@@ -210,6 +209,7 @@
     var app = new Vue({
       el: "center", 
       data: {
+        form_id: name,
         closing: '',
         true_closing: '',
         name: localStorage.getItem('name'),

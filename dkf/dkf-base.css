@@ -32,17 +32,17 @@ body {
     height: 100vh;
     margin: 0px;
     font-family: 'Caladea';
+    background-image: linear-gradient(26deg, #F09E54, #F52876);
+    color: brown;
+    font-size: 25px;
+
 }
 h1 {
     font-size: 41px;
     font-family: 'Caladea';
     font-weight: normal;
 }
-body {
-  background-image: linear-gradient(26deg, #F09E54, #F52876);
-  color: brown;
-  font-size: 25px;
-}
+
 html {
   height: 100%;
 }
