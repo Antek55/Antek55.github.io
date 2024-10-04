@@ -1,6 +1,6 @@
 const FilmyCompo = {
   template: `<div>
-  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie liczby ∞ oznacza niechęć obojętną co do kolejności. Przycisk "Nast." przydzieli filmowi kolejne niezerowe miejsce. Możesz wprowadzić zmiany strzałkami w górę w i w dół lub zerując wybory przyciskiem na dole i zaczynając od nowa.
+  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.np"> Zaznaczenie nieprzyjścia w przypadku zwycięstwa filmu nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
   <table>
     <tr>
       <th en="Film title">Tytuł filmu</th>
@@ -12,6 +12,7 @@ const FilmyCompo = {
       <th en="Next">Nast.</th>
       <th en="Up">Do góry</th>
       <th en="Down">W dół</th>
+      <th v-if="field.np" en="Won't come">Nie przyjdę</th>
     </tr>
     
     <tr v-for="f in field.filmy" :style="styling(f.title, f.isDocu)">
@@ -46,17 +47,21 @@ const FilmyCompo = {
       <td><button v-if="Object.values(con).includes(0)" @click.prevent="nxt(f.title)">Nast.</button></td>
       <td><button v-if="con[f.title] && con[f.title] != 1" @click.prevent="up(f.title)">⬆️</button></td>
       <td><button v-if="con[f.title] && con[f.title] != Object.keys(con).length" @click.prevent="down(f.title)">⬇️</button></td>
+      <td v-if="field.np"><input type="checkbox" v-model="np[f.title]"></td>
     </tr>
   </table>
   <button id="zeruj" @click.prevent="zeruj">Zeruj wszystkie wybory</button></div>`,
   data() {
     let con = {}
+    let np = {}
     let i = 1
     for (let f of this.field.filmy) {
       con[f.title] = 0
+      np[f.title] = false
     }
     return {
-      con
+      con,
+      np
     }
   },
   props: {field: {}},
@@ -140,6 +145,12 @@ const FilmyCompo = {
             this.con[k.title] = i++
         }
         this.field.con = neww
+      },
+      deep: true
+    },
+    np: {
+      handler(old, neww) {
+        this.field.np = neww
       },
       deep: true
     }

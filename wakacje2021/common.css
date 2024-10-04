@@ -226,7 +226,8 @@ text {
  .daytype_karolingowie .event>rect,
  .daytype_asalha .event>rect,
  .daytype_marks .event>rect,
- .daytype_tdbs .event>rect
+ .daytype_tdbs .event>rect,
+ .daytype_albania .event>rect
 {
     fill-opacity: 0.7;
 }
