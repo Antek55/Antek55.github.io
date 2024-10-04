@@ -46,7 +46,10 @@ const urlParams = new URLSearchParams(window.location.search);
 function an_all() {
   if (urlParams.get('track') == 'false' || location.hostname == 'localhost')
     return;
+    
   send({type: 'visit'})
+  localStorage.setItem('visits', 1*localStorage.getItem('visits')+1)
+  
   for (let a of document.querySelectorAll('a')) {
     a.addEventListener("click", (e) => send({type: 'click', target: e.target.closest("a").id, currentTarget: e.currentTarget.id}))
     a.addEventListener("contextmenu", (e) => send({type: 'rclick', target: e.target.closest("a").id, currentTarget: e.currentTarget.id}))
