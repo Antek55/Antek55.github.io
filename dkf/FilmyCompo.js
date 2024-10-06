@@ -1,6 +1,6 @@
 const FilmyCompo = {
   template: `<div>
-  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.np"> Zaznaczenie nieprzyjścia w przypadku zwycięstwa filmu nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
+  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.np"> Zaznaczenie "Nie przyjdę jeśli zwycięży" nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
   <table>
     <tr>
       <th en="Film title">Tytuł filmu</th>

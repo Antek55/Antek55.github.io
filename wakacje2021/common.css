@@ -227,14 +227,18 @@ text {
  .daytype_asalha .event>rect,
  .daytype_marks .event>rect,
  .daytype_tdbs .event>rect,
- .daytype_albania .event>rect
+ .daytype_albania .event>rect,
+ .daytype_mokradła .event>rect,
+ .daytype_Snake .event>rect,
+ .daytype_pkin .event>rect
 {
     fill-opacity: 0.7;
 }
 
 .daytype_żałoba>text,
 .daytype_diademuertos>text,
-.daytype_epifania>text
+.daytype_epifania2>text,
+.daytype_Snake>text
 {
     fill: lightgrey;
 }
