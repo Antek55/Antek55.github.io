@@ -2,77 +2,84 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Bezdyskusyjny Klub Filmowy</title>
+  <title fr="Le Ciné-Club Indiscutable" en="The Indisputable Film Society">Bezdyskusyjny Klub Filmowy</title>
   <link href="dkf-base.css" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 <body>
   <div style="position: absolute; top: 0px; right: 0px">
-    <a href="index.html" onclick="localStorage.setItem('lang', 'pl')"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
-    <a href="en.html" onclick="localStorage.setItem('lang', 'en')"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_United_Kingdom_%283-2%29.svg" class="smallflag" title="English"></a>
+    <a href="#" onclick="localStorage.setItem('lang', 'pl')" id="a_flag_pl"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
+    <a href="#" onclick="localStorage.setItem('lang', 'en')" id="a_flag_en"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Flag_of_the_United_Kingdom_%283-2%29.svg" class="smallflag" title="English"></a>
+    <a href="#" onclick="localStorage.setItem('lang', 'fr')" id="a_flag_fr"><img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" class="smallflag" title="Français"></a>
   </div>
     <center>
       <div>
         <img src="tż2.webp" style="max-height: 25vh" id="logo"/>
       </div>
-        <h1>Bezdyskusyjny Klub Filmowy</h1>
+        <h1
+          fr="Le Ciné-Club Indiscutable"
+          en="The Indisputable Film Society"
+        >Bezdyskusyjny Klub Filmowy</h1>
         
         <div class="card">
           <div>
-            <em>Co robimy?</em>
-            Spotykamy się na Wyględowie (Mokotów) lub w internecie na oglądanie filmu & dyskusję o nim
+            <em fr="Que faisons-nous ?" en="What do we do?">Co robimy?</em>
+            <span fr="Nous nous rencontrons à Wyględów (Mokotów) ou en ligne pour regarder un film et en discuter" en="We meet in the quarter of Wyględów (Mokotów) or online to watch films & discuss them">Spotykamy się na Wyględowie (Mokotów) lub w internecie na oglądanie filmu & dyskusję o nim</span>
           </div>
           <div>
-            <em>Jakie filmy oglądamy?</em>
-            Wszelkiego rodzaju, lista dotychczasowych pozycji dostępna <a href="lista.html" id="a_lista">tutaj</a>
+            <em fr="Quels films regardons-nous ?" en="What type of films do we watch?">Jakie filmy oglądamy?</em>
+            <span fr="De toutes sortes, la liste des films visionnés jusqu'à présent est disponible" en="Of all sorts, the list of films watched to date is available">Wszelkiego rodzaju, lista dotychczasowych pozycji dostępna</span> <a href="lista.html" id="a_lista" fr="ici" en="here">tutaj</a>
           </div>
           <div>
-            <em>Jak wziąć udział?</em>
-            Zasubskrybować newsletter, zapowiedzieć się na spotkanie i wpaść
+            <em fr="Comment adhérer ?" en="How to take part?">Jak wziąć udział?</em>
+            <span fr="Abonnez-vous à la newsletter et faites-nous savoir si vous souhaitez venir" en="Subscribe to the newsletter, give us a heads-up and come">Zasubskrybować newsletter, zapowiedzieć się na spotkanie i wpaść</span>
           </div>
           <div>
-            <em>Czy klikając do czegoś się zobowiązuję?</em>
-            Nie, po prostu będziesz dostawał/a wiadomości o spotkaniach i zobaczysz, czy któreś Cię zainteresuje. 
+            <em fr="Est-ce que je m'engage à quelque chose en cliquant ?" en="Will I be obligated to anything after clicking?">Czy klikając do czegoś się zobowiązuję?</em>
+            <span fr="Pas du tout, vous recevrez simplement des informations sur les prochaines réunions et verrez si l'une d'entre elles suscite votre intérêt " en="No, you will simply receive information about upcoming meetings and see if any catches your interest">Nie, po prostu będziesz dostawał/a wiadomości o spotkaniach i zobaczysz, czy któreś Cię zainteresuje.</span>
           </div>
           <!--<div>
             <em>Kiedy następne spotkanie?</em>
             Między 3 a 13 października.
           </div> -->
           <div>
-            <em>Jak zasubskrybować newsletter?</em>
-            Wybierz jedną z opcji:
+            <em fr="Comment s'abonner à la newsletter ?" en="How to subscribe to the newsletter?">Jak zasubskrybować newsletter?</em>
+            <span fr="Sélectionnez l'une des options :" en="Choose one of the options:">Wybierz jedną z opcji:</span>
             <div class="wrapper">
               <div class="grid">
                 <a href="https://m.me/janantoni.wodzinski" id="a_mes"><img src="messenger.svg" /></a>
-                <div><a href="https://m.me/janantoni.wodzinski" id="a_mes2">Napisz do nas</a> na Messengerze, a my dodamy cię do czatu grupowego</div>
+                <div><a href="https://m.me/janantoni.wodzinski" id="a_mes2" fr="Envoyez-nous un message " en="Message us">Napisz do nas</a>
+                  <span fr="sur Messenger, et nous vous ajouterons à la discussion de groupe" en="on Messenger and we'll add you to the group chat"> na Messengerze, a my dodamy cię do czatu grupowego</span>
+                </div>
               </div>
               <a href="https://t.me/alhks_dkf_bot" id="a_telegram">
               <div class="grid">
                 <img src="telegram.svg" />
-                <div>Napisz do naszego bota na Telegramie</div>
+                <div fr="Envoyez un message à notre bot Telegram" en="Message our Telegram bot">Napisz do naszego bota na Telegramie</div>
               </div>
               </a>
               <div class="grid" onclick="showForm()">
                 <img src="email.svg" />
-                <div>Zostaw swój adres e-mail</div>
+                <div fr="Laissez votre email" en="Leave your e-mail">Zostaw swój adres e-mail</div>
               </div>
               <a href="feed.xml" id="a_feed">
                 <div class="grid">
                   <img src="rss.svg" />
-                  <div>Link RSS</div>
+                  <div fr="Flux RSS" en="RSS feed">Link RSS</div>
                 </div>
               </a>
             </div>
             
             <div id="formDiv" style="display: none">
               <input type="text" name="x" onkeydown="keydown(event)">
-              <button onclick="submit_form(this)">Prześlij</button>
+              <button onclick="submit_form(this)" fr="Soumettre">Prześlij</button>
             </div>
           </div>
         </div>
     </center>
     <script src="an.js"></script>
+    <script src="i18n.js"></script>
     <script>
     $("a").attr("target", "_blank")
     function showForm() {
@@ -86,6 +93,7 @@
         submit_form(ev.target)
     }
     an_all()
+    translate_all()
     </script>
     <script src="colors.js"></script>
     <script src="paralax.js"></script>

@@ -44,7 +44,7 @@ async function submit_form(e) {
 const urlParams = new URLSearchParams(window.location.search);
 
 function an_all() {
-  if (urlParams.get('track') == 'false' || location.hostname == 'localhost')
+  if (urlParams.get('track') == 'false' || location.hostname == 'localhost' || location.hostname == "")
     return;
     
   send({type: 'visit'})

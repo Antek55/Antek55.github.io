@@ -1,13 +1,16 @@
-const LANG = localStorage.getItem("lang") || (location.pathname.endsWith("en.html") ? "en" : "pl")
+const LANG = location.hash.substr(1) || localStorage.getItem("lang") || 'pl'
+const LANGS = ["pl", "en", "fr"]
+
+localStorage.setItem('lang', LANG)
 
 function translate_all() {
-  if (LANG == "en") {
-    for (let t of document.querySelectorAll("[en]"))
-      t.innerHTML = t.getAttribute("en")
+  if (LANGS.includes(LANG)) {
+    for (let t of document.querySelectorAll(`[${LANG}]`))
+      t.innerHTML = t.getAttribute(LANG)
     
     for (let t of document.querySelectorAll("*"))
-      if (t.hasAttribute(":en"))
-        t.setAttribute("v-html", t.getAttribute(":en"))
+      if (t.hasAttribute(":"+LANG))
+        t.setAttribute("v-html", t.getAttribute(":"+LANG))
     
     for (let t of document.querySelectorAll("[data-i18n]")) {
       for (let [k, v] of Object.entries(t.dataset)) {
