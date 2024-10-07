@@ -1,5 +1,5 @@
 const LANG = location.hash.substr(1) || localStorage.getItem("lang") || 'pl'
-const LANGS = ["pl", "en", "fr"]
+const LANGS = ["pl", "en", "fr", "ru"]
 
 localStorage.setItem('lang', LANG)
 
@@ -70,7 +70,7 @@ const TRANS = {
 
 function fragm(el) {
   if (LANG == 'en')
-    for (let [k, v] of Object.entries(TR))
+    for (let [k, v] of Object.entries(TRANS))
       el = el.replace(k, v)
   return el
 }

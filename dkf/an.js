@@ -19,6 +19,8 @@ async function send(data, opts={}) {
     data['localStorage'] = localStorage
   data['location'] = window.location.href
   data['referrer'] = document.referrer
+  data['visits'] = localStorage.getItem('visits')
+  data['isMobile'] = window.innerHeight > window.innerWidth
 
   if (data.name)
     localStorage.setItem('name', data.name)
@@ -47,8 +49,8 @@ function an_all() {
   if (urlParams.get('track') == 'false' || location.hostname == 'localhost' || location.hostname == "")
     return;
     
-  send({type: 'visit'})
   localStorage.setItem('visits', 1*localStorage.getItem('visits')+1)
+  send({type: 'visit'})
   
   for (let a of document.querySelectorAll('a')) {
     a.addEventListener("click", (e) => send({type: 'click', target: e.target.closest("a").id, currentTarget: e.currentTarget.id}))
