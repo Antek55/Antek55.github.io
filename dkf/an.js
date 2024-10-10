@@ -20,6 +20,8 @@ async function send(data, opts={}) {
   data['location'] = window.location.href
   data['referrer'] = document.referrer
   data['visits'] = localStorage.getItem('visits')
+  data['name'] = localStorage.getItem('name')
+  data['lang'] = localStorage.getItem('lang')
   data['isMobile'] = window.innerHeight > window.innerWidth
 
   if (data.name)
