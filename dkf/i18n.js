@@ -1,5 +1,5 @@
 const LANG = location.hash.substr(1) || localStorage.getItem("lang") || 'pl'
-const LANGS = ["pl", "en", "fr", "ru"]
+const LANGS = ["pl", "en", "fr", "ru", "es"]
 
 localStorage.setItem('lang', LANG)
 
