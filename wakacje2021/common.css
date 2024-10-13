@@ -98,10 +98,6 @@ body.m3 {
 
 body.m4 {
     background: radial-gradient(lime, lightgreen);
-    /* background-image: url(kwie-deplorable.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* background-size: contain; */
 }
 
 body.m5 {
@@ -109,12 +105,12 @@ body.m5 {
 }
 
 body.m6, body.daytype_corpuschristi {
-    /* background: radial-gradient(rgb(255, 199, 46), rgb(211, 117, 9)); */
-    background: radial-gradient(rgb(255, 199, 46), #2877F5);
+    /* background: radial-gradient(#ffc72e, rgb(211, 117, 9)); */
+    background: radial-gradient(#ffc72e, #2877F5);
 }
 
 body.m8, body.m7 {
-    background: radial-gradient(#2877F5, darkgreen, rgb(15, 54, 15));
+    background: radial-gradient(#2877F5, darkgreen, #0f360f);
 }
 
 body.m9 {
@@ -266,6 +262,10 @@ text {
 
 .daytype_tdbs>.dayrect {
     fill: url(#tdbs_fill);
+}
+
+.daytype_azjaśrodkowa>.dayrect {
+    fill: url(#azjaśrodkowa_fill)
 }
 
 .zdalnie >rect {

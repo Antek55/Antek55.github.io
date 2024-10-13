@@ -74,8 +74,6 @@ const FilmyCompo = {
       switch(this.con[key]){
         case 1:
           return 'background-color: lime'
-        case 2:
-          return 'background-color: darkgreen'
       }
       if (this.con[key] != 0 && this.con[key] > this.field.filmy.length/2) {
         return 'background-color: grey'
@@ -158,6 +156,8 @@ const FilmyCompo = {
   created() {
   },
   mounted() {
+    if (location.hostname == 'localhost' && this.field.filmy.length > 12)
+      alert('Wiele filmów: ' + this.field.filmy.length)
     
     this.field.filmy.forEach((k) => { 
       tippy('#' + k.imdbId, {
