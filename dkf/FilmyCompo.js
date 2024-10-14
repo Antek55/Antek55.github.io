@@ -1,6 +1,6 @@
 const FilmyCompo = {
   template: `<div>
-  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.np"> Zaznaczenie "Nie przyjdę jeśli zwycięży" nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
+  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.is_np"> Zaznaczenie "Nie przyjdę jeśli zwycięży" nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
   <table>
     <tr>
       <th en="Film title">Tytuł filmu</th>
@@ -68,15 +68,12 @@ const FilmyCompo = {
   delimiters: ['[[', ']]'],
   methods: {
     styling: function(key, isDocu) {
-      // if (this.w[key]) {
-      //   return 'background-color: red; text-decoration: line-through'
-      // }
-      switch(this.con[key]){
-        case 1:
+      if (this.con[key] == 1)
           return 'background-color: lime'
-      }
-      if (this.con[key] != 0 && this.con[key] > this.field.filmy.length/2) {
-        return 'background-color: grey'
+      if (this.con[key] != 0) {
+        if (this.con[key] > this.field.filmy.length/2)
+          return 'background-color: grey'
+        return 'background-color: #a5e04c'
       }
       
       if(isDocu)
@@ -159,6 +156,20 @@ const FilmyCompo = {
     if (location.hostname == 'localhost' && this.field.filmy.length > 12)
       alert('Wiele filmów: ' + this.field.filmy.length)
     
+    const filmy = this.field.filmy
+    tippy('.title', {
+      allowHTML: true, 
+      animation: "shift-away-extreme",
+      followCursor: "horizontal",
+      placement: "right",
+      onShow(instance) {
+        // let img = instance.reference.id
+        let img = filmy.filter((i) => i.imdbId == instance.reference.id)[0].rymCoverartImg
+        instance.setContent('<img class="tippy-poster" src="' + img + '" style="width: 300px">')
+      }
+    })
+    
+    /*
     this.field.filmy.forEach((k) => { 
       tippy('#' + k.imdbId, {
         content: '<img class="tippy-poster" src="' + k.rymCoverartImg + '" style="width: 300px">',
@@ -184,6 +195,6 @@ const FilmyCompo = {
           followCursor: "horizontal",
           placement: 'left-start'
         });
-      })
+      })*/
   }
 }
