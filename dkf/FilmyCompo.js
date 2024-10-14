@@ -133,12 +133,12 @@ const FilmyCompo = {
           return neww[a.title] > neww[b.title]
         }
         
-        this.field.filmy.sort(comp)
-        let i = 1
-        for (let k of this.field.filmy) {
-          if (this.con[k.title] != 0)
-            this.con[k.title] = i++
-        }
+        // this.field.filmy.sort(comp)
+        // let i = 1
+        // for (let k of this.field.filmy) {
+        //   if (this.con[k.title] != 0)
+        //     this.con[k.title] = i++
+        // }
         this.field.con = neww
       },
       deep: true

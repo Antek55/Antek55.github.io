@@ -177,6 +177,9 @@ em {
     padding: 0px;
     margin: 0px;
   }
+  tr, td {
+    padding: 0px;
+  }
   #logo {
     max-width: 25vw;
   }
