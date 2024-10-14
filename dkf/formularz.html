@@ -132,12 +132,12 @@
     
     function submit_send() {
       $("form").html(transl("Proszę o cierpliwość, trwa przesyłanie…"))  
-      url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net?odp='
+      url = 'https://ee3bdbc49df06c2b49c9d45c8834f47c.m.pipedream.net'
       
       localStorage.setItem("name", app.$data.name)
       
-      var wynik = encodeURIComponent(JSON.stringify(app.$data));
-      $.get(url + wynik, on_success);
+      // var wynik = encodeURIComponent(JSON.stringify(app.$data));
+      $.post(url, app.$data, on_success)
       
       function on_success(data) {
         if (!data.success) {
