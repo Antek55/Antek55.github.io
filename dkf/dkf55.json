@@ -1,0 +1,245 @@
+{
+  "title": "DKF 55 :: głosowanie 2/2 :: film & termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "closing_info": true,
+  "closing": "2024-10-15 22:05",
+  "fields": [
+    {
+      "type": "filmy",
+      "np": true,
+      "filmy": [
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Gone with the Wind",
+          "originalTitle": "",
+          "titleLocal": "Przeminęło z wiatrem",
+          "year": 1940,
+          "url": "https://www.imdb.com/title/tt0031381",
+          "imdbId": "tt0031381",
+          "imdbRating": 8.2,
+          "directors": [
+            "Victor Fleming"
+          ],
+          "popup-director": "…",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "0X94oZgJis4"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/gone-with-the-wind/",
+          "rymRating": "3.49",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/a9e28f8f4e6a434f0a09f3b6a42bf26e/4778005",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Some Like It Hot",
+          "originalTitle": "",
+          "titleLocal": "Pół żartem, pół serio",
+          "year": 1959,
+          "url": "https://www.imdb.com/title/tt0053291",
+          "imdbId": "tt0053291",
+          "imdbRating": 8.2,
+          "directors": [
+            "Billy Wilder"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d0/Billy_Wilder.jpg\" class=\"popup-director-photo\"></center> <p><b>Billy Wilder</b> was an Austrian-born filmmaker and screenwriter. His career in Hollywood spanned five decades, and he is regarded as one of the most brilliant and versatile filmmakers of Classic Hollywood cinema. He received seven Academy Awards, a BAFTA Award, the Cannes Film Festival\\'s Palme d\\'Or and two Golden Globe Awards. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "rI_lUHOCcbc"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/some-like-it-hot/",
+          "rymRating": "3.90",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/bf253f20ae91218cf228aa7a3ee02ee4/6732608",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "The Roaring Twenties",
+          "originalTitle": "",
+          "titleLocal": "Burzliwe lata dwudzieste",
+          "year": 1939,
+          "url": "https://www.imdb.com/title/tt0031867",
+          "imdbId": "tt0031867",
+          "imdbRating": 7.9,
+          "directors": [
+            "Raoul Walsh"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Raoul_Walsh.jpg/320px-Raoul_Walsh.jpg\" class=\"popup-director-photo\"></center> <p><b>Raoul Walsh</b> was an American film director, actor, founding member of the Academy of Motion Picture Arts and Sciences (AMPAS), and the brother of silent screen actor George Walsh. He was known for portraying John Wilkes Booth in the silent film <i>The Birth of a Nation</i> (1915) and for directing such films as the widescreen epic <i>The Big Trail</i> (1930) starring John Wayne in his first leading role, <i>The Roaring Twenties</i> starring James Cagney and Humphrey Bogart, <i>High Sierra</i> (1941) starring Ida Lupino and Humphrey Bogart, and <i>White Heat</i> (1949) starring James Cagney and Edmond O\\'Brien. He directed his last film in 1964. His work has been noted as influences on directors such as Rainer Werner Fassbinder, Jack Hill, and Martin Scorsese. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "uqawk8rGaGo"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/the-roaring-twenties/",
+          "rymRating": "3.73",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/02dd7d8b90f6faff0bd9855777f8cce5/7561187",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "The Graduate",
+          "originalTitle": "",
+          "titleLocal": "Absolwent",
+          "year": 1967,
+          "url": "https://www.imdb.com/title/tt0061722",
+          "imdbId": "tt0061722",
+          "imdbRating": 8,
+          "directors": [
+            "Mike Nichols"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mike_Nichols.jpg/320px-Mike_Nichols.jpg\" class=\"popup-director-photo\"></center> <p><b>Mike Nichols</b> was an American film and theatre director. He worked across a range of genres and had an aptitude for getting the best out of actors regardless of their experience. He is one of 18 people to have won all four of the major American entertainment awards: Emmy, Grammy, Oscar, and Tony (EGOT). His other honors included three BAFTA Awards, the Lincoln Center Gala Tribute in 1999, the National Medal of Arts in 2001, the Kennedy Center Honors in 2003 and the AFI Life Achievement Award in 2010. His films received a total of 42 Academy Award nominations, and seven wins. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "W_1TIITlm8M"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/the-graduate/",
+          "rymRating": "3.79",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/2430383ad7b3ee84b8b1fee2573e933c/7834650",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "North by Northwest",
+          "originalTitle": "",
+          "titleLocal": "Północ - północny zachód",
+          "year": 1959,
+          "url": "https://www.imdb.com/title/tt0053125",
+          "imdbId": "tt0053125",
+          "imdbRating": 8.3,
+          "directors": [
+            "Alfred Hitchcock"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hitchcock%2C_Alfred_02.jpg/320px-Hitchcock%2C_Alfred_02.jpg\" class=\"popup-director-photo\"></center> <p><b>Sir Alfred Joseph Hitchcock</b> <small></small> was an English film director. He is widely regarded as one of the most influential figures in the history of cinema. In a career spanning six decades, he directed over 50 feature films, many of which are still widely watched and studied today. Known as the \"Master of Suspense\", he became as well known as any of his actors thanks to his many interviews, his cameo roles in most of his films, and his hosting and producing the television anthology <i>Alfred Hitchcock Presents</i> (1955–65). His films garnered 46 Academy Award nominations, including six wins, although he never won the award for Best Director, despite five nominations. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "ek7T9Gyl_J4"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/north-by-northwest/",
+          "rymRating": "3.99",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/343883bfc044e6e7fb5c892a0200486a/5587151",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Dial M for Murder",
+          "originalTitle": "",
+          "titleLocal": "M jak morderstwo",
+          "year": 1954,
+          "url": "https://www.imdb.com/title/tt0046912",
+          "imdbId": "tt0046912",
+          "imdbRating": 8.2,
+          "directors": [
+            "Alfred Hitchcock"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hitchcock%2C_Alfred_02.jpg/320px-Hitchcock%2C_Alfred_02.jpg\" class=\"popup-director-photo\"></center> <p><b>Sir Alfred Joseph Hitchcock</b> <small></small> was an English film director. He is widely regarded as one of the most influential figures in the history of cinema. In a career spanning six decades, he directed over 50 feature films, many of which are still widely watched and studied today. Known as the \"Master of Suspense\", he became as well known as any of his actors thanks to his many interviews, his cameo roles in most of his films, and his hosting and producing the television anthology <i>Alfred Hitchcock Presents</i> (1955–65). His films garnered 46 Academy Award nominations, including six wins, although he never won the award for Best Director, despite five nominations. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "JWP_hrNHSN4"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/dial-m-for-murder/",
+          "rymRating": "3.81",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/afa935a31e211bdf4d3d5b00aa0aa5bd/9119652",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "A Streetcar Named Desire",
+          "originalTitle": "",
+          "titleLocal": "Tramwaj zwany pożądaniem",
+          "year": 1951,
+          "url": "https://www.imdb.com/title/tt0044081",
+          "imdbId": "tt0044081",
+          "imdbRating": 7.9,
+          "directors": [
+            "Elia Kazan"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Elia_Kazan.JPG/320px-Elia_Kazan.JPG\" class=\"popup-director-photo\"></center> <p><b>Elias Kazantzoglou</b>, known as <b>Elia Kazan</b>, was an American film and theatre director, producer, screenwriter and actor, described by <i>The New York Times</i> as \"one of the most honored and influential directors in Broadway and Hollywood history\". <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "u9YgJjSCT08"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/a-streetcar-named-desire/",
+          "rymRating": "3.75",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/e1605ccbc1912df0dbb63fd8415a48b1/4995427",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Rebel Without a Cause",
+          "originalTitle": "",
+          "titleLocal": "Buntownik bez powodu",
+          "year": 1955,
+          "url": "https://www.imdb.com/title/tt0048545",
+          "imdbId": "tt0048545",
+          "imdbRating": 7.6,
+          "directors": [
+            "Nicholas Ray"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/en/5/55/Nicholas_Ray.jpg\" class=\"popup-director-photo\"></center> <p><b>Nicholas Ray</b> was an American film director, screenwriter, and actor. Described by the Harvard Film Archive as \"Hollywood\\'s last romantic\" and \"one of postwar American cinema’s supremely gifted and ultimately tragic filmmakers,\" Ray was considered an iconoclastic auteur director who often clashed with the Hollywood studio system of the time, but would prove highly influential to future generations of filmmakers. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "HWHH5TwEwtI"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/rebel-without-a-cause/",
+          "rymRating": "3.61",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/db09d8091cbb7bcaba34bcacafea477f/3778887",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US",
+            "GB"
+          ],
+          "title": "Lolita",
+          "originalTitle": "",
+          "titleLocal": "Lolita",
+          "year": 1962,
+          "url": "https://www.imdb.com/title/tt0056193",
+          "imdbId": "tt0056193",
+          "imdbRating": 7.5,
+          "directors": [
+            "Stanley Kubrick"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29_crop.jpg/320px-Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29_crop.jpg\" class=\"popup-director-photo\"></center> <p><b>Stanley Kubrick</b> was an American film director, screenwriter, producer, and photographer. Widely considered one of the greatest filmmakers of all time, his films were nearly all adaptations of novels or short stories, spanning a number of genres and gaining recognition for their intense attention to detail, innovative cinematography, extensive set design, and dark humor. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "Zvnhg1dja1E"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/lolita/",
+          "rymRating": "3.44",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/bfd244ecabf0c34311b964e9678b1c95/11712753",
+          "rtUrl": "",
+          "rtRating": ""
+        }
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "2024-10-17",
+      "last": "2024-10-23"
+    }
+  ]
+}
