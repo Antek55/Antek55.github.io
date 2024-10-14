@@ -12,7 +12,7 @@ const FilmyCompo = {
       <th en="Next">Nast.</th>
       <th en="Up">Do góry</th>
       <th en="Down">W dół</th>
-      <th v-if="field.np" en="Won't come">Nie przyjdę</th>
+      <th v-if="field.is_np" en="Won't come">Nie przyjdę</th>
     </tr>
     
     <tr v-for="f in field.filmy" :style="styling(f.title, f.isDocu)">
@@ -47,7 +47,7 @@ const FilmyCompo = {
       <td><button v-if="Object.values(con).includes(0)" @click.prevent="nxt(f.title)">Nast.</button></td>
       <td><button v-if="con[f.title] && con[f.title] != 1" @click.prevent="up(f.title)">⬆️</button></td>
       <td><button v-if="con[f.title] && con[f.title] != Object.keys(con).length" @click.prevent="down(f.title)">⬇️</button></td>
-      <td v-if="field.np"><input type="checkbox" v-model="np[f.title]"></td>
+      <td v-if="field.is_np"><input type="checkbox" v-model="np[f.title]"></td>
     </tr>
   </table>
   <button id="zeruj" @click.prevent="zeruj">Zeruj wszystkie wybory</button></div>`,

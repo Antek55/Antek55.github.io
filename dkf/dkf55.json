@@ -6,7 +6,7 @@
   "fields": [
     {
       "type": "filmy",
-      "np": true,
+      "is_np": true,
       "filmy": [
         {
           "flag": [
