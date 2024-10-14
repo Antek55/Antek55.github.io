@@ -137,7 +137,8 @@
       localStorage.setItem("name", app.$data.name)
       
       // var wynik = encodeURIComponent(JSON.stringify(app.$data));
-      $.post(url, app.$data, on_success)
+      // $.post(url, app.$data, on_success)
+      fetch(url, {method: 'post', body: JSON.stringify(app.$data)}).then(t => t.json()).then(on_success)
       
       function on_success(data) {
         if (!data.success) {
