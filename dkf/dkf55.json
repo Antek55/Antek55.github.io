@@ -235,80 +235,80 @@
           "rtRating": ""
         },
         {
-	"flag": [
-    "US",
-		"IT"
-	],
-	"title": "The Last Man on Earth",
-	"originalTitle": "",
-	"titleLocal": "Ostatni cz\u0142owiek na Ziemi",
-	"year": 1964,
-	"url": "https://www.imdb.com/title/tt0058700",
-	"imdbId": "tt0058700",
-	"imdbRating": 6.7,
-	"directors": [
-		"Ubaldo Ragona",
-		"Sidney Salkow"
-	],
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "-biQK8le1wI"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/the-last-man-on-earth/",
-	"rymRating": "3.32",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/a255fce4621f0d9f1564f899a86e23c1/7771421",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"US"
-	],
-	"title": "The Blob",
-	"originalTitle": "",
-	"titleLocal": "The Blob",
-	"year": 1958,
-	"url": "https://www.imdb.com/title/tt0051418",
-	"imdbId": "tt0051418",
-	"imdbRating": 6.3,
-	"directors": [
-		"Irvin S. Yeaworth Jr.",
-		"Russell S. Doughten Jr."
-	],
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "vq0our4mceQ"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/the-blob/",
-	"rymRating": "2.87",
-	"rymCoverartImg": "https://e.snmc.io/i/300/w/82712ec4de125611f9e8354597edb812/7118504",
-	"rtUrl": "",
-	"rtRating": ""
-},
-{
-	"flag": [
-		"US"
-	],
-	"title": "Tarantula",
-	"originalTitle": "",
-	"titleLocal": "Tarantula",
-	"year": 1956,
-	"url": "https://www.imdb.com/title/tt0048696",
-	"imdbId": "tt0048696",
-	"imdbRating": 6.4,
-	"directors": [
-		"Jack Arnold"
-	],
-	"isDocu": false,
-	"yttrailer": {
-		"videoId": "WtU1YYxQXJw"
-	},
-	"rymUrl": "https://rateyourmusic.com/film/tarantula/",
-	"rymRating": "3.01",
-	"rymCoverartImg": "https://e.snmc.io/i/300/s/fc12f86891bec77f67d6efe77b9a7244/2810193",
-	"rtUrl": "",
-	"rtRating": ""
-}
+          "flag": [
+            "US",
+            "IT"
+          ],
+          "title": "The Last Man on Earth",
+          "originalTitle": "",
+          "titleLocal": "Ostatni człowiek na Ziemi",
+          "year": 1964,
+          "url": "https://www.imdb.com/title/tt0058700",
+          "imdbId": "tt0058700",
+          "imdbRating": 6.7,
+          "directors": [
+            "Ubaldo Ragona",
+            "Sidney Salkow"
+          ],
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "-biQK8le1wI"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/the-last-man-on-earth/",
+          "rymRating": "3.32",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/a255fce4621f0d9f1564f899a86e23c1/7771421",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "The Blob",
+          "originalTitle": "",
+          "titleLocal": "The Blob",
+          "year": 1958,
+          "url": "https://www.imdb.com/title/tt0051418",
+          "imdbId": "tt0051418",
+          "imdbRating": 6.3,
+          "directors": [
+            "Irvin S. Yeaworth Jr.",
+            "Russell S. Doughten Jr."
+          ],
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "vq0our4mceQ"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/the-blob/",
+          "rymRating": "2.87",
+          "rymCoverartImg": "https://e.snmc.io/i/300/w/82712ec4de125611f9e8354597edb812/7118504",
+          "rtUrl": "",
+          "rtRating": ""
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Tarantula",
+          "originalTitle": "",
+          "titleLocal": "Tarantula",
+          "year": 1956,
+          "url": "https://www.imdb.com/title/tt0048696",
+          "imdbId": "tt0048696",
+          "imdbRating": 6.4,
+          "directors": [
+            "Jack Arnold"
+          ],
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "WtU1YYxQXJw"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/tarantula/",
+          "rymRating": "3.01",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/fc12f86891bec77f67d6efe77b9a7244/2810193",
+          "rtUrl": "",
+          "rtRating": ""
+        }
       ]
     },
     {
