@@ -68,12 +68,17 @@ const FilmyCompo = {
   delimiters: ['[[', ']]'],
   methods: {
     styling: function(key, isDocu) {
+      if (this.np[key]) {
+        return 'background-color: red; text-decoration: line-through'
+      }
+      
       if (this.con[key] == 1)
           return 'background-color: lime'
       if (this.con[key] != 0) {
         if (this.con[key] > this.field.filmy.length/2)
           return 'background-color: grey'
-        return 'background-color: #a5e04c'
+        // return 'background-color: #a5e04c'
+        return `background-color: ${gradient('#00ff00', '#ffff00', this.con[key]/this.field.filmy.length*2)}`
       }
       
       if(isDocu)
@@ -124,21 +129,24 @@ const FilmyCompo = {
   watch: {
     con: {
       handler(old, neww) {        
-        function comp(a, b) {
-          if (neww[a.title] == 0)
-            return true
-          if (neww[b.title] == 0)
-            return false
-            
-          return neww[a.title] > neww[b.title]
-        }
-        
+        // function comp(a, b) {
+        //   if (neww[a.title] == 0)
+        //     return true
+        //   if (neww[b.title] == 0)
+        //     return false
+        // 
+        //   return neww[a.title] > neww[b.title]
+        // }
         // this.field.filmy.sort(comp)
         // let i = 1
         // for (let k of this.field.filmy) {
         //   if (this.con[k.title] != 0)
         //     this.con[k.title] = i++
         // }
+        for (let k of this.field.filmy) {
+          while(!Object.values(neww).includes(neww[k.title]-1) && neww[k.title] > 1)
+            neww[k.title]--
+        }
         this.field.con = neww
       },
       deep: true
