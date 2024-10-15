@@ -3,6 +3,7 @@
   "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
   "closing_info": true,
   "closing": "2024-10-15 22:05",
+  "true_closing": "2024-10-15 22:35", 
   "fields": [
     {
       "type": "filmy",
