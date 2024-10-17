@@ -90,7 +90,7 @@ const MapCompo = {
       }).on('loaded', function(e) {
         comp.bounds_push(e.target.getBounds())
         len += e.target.get_distance()/1000
-        if (this.length)
+        if (comp.length)
           el.querySelector(".dist").innerHTML = "Łączna długość: " + len.toFixed(2) + " km"
         if (e.target.get_start_time() > new Date(2020, 1, 1)) {
           let st = dayjs(e.target.get_start_time())

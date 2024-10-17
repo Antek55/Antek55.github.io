@@ -118,15 +118,40 @@ body.m9 {
 }
 
 body.c1226 {
+    background: none;
     background-color: #a6130d;
 }
 
-body.c0416 {
+body.daytype_post {
+    background: none;
     background-color: blueviolet;
 }
 
 body.daytype_równości {
     background: linear-gradient(60deg, #E50000, #FF8D00, #FFEE00, #028121, #004CFF, #770088);
+}
+
+body.daytype_albania {
+  background: none;
+  background-color: #ae1100;
+}
+
+body.daytype_diademuertos {
+  background: none;
+  background-color: black;
+}
+
+body.daytype_islamu #cal2 {
+    box-shadow: 0 0 100px 5px limegreen;
+    /*#DA3287*/
+}
+
+body.daytype_islamu .today_ramka {
+    stroke: lightgreen;
+}
+
+body.daytype_islamu .occlusion {
+    fill: darkgreen
 }
 
 .event > rect {
@@ -264,10 +289,19 @@ text {
     fill: url(#tdbs_fill);
 }
 
-.daytype_azjaśrodkowa>.dayrect {
-    fill: url(#azjaśrodkowa_fill)
+@keyframes rotation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
 
+.daytype_diademuertos .petals  {
+    animation: 2s infinite alternate rotation;
+}
+    
 .zdalnie >rect {
     fill: white;
 }
@@ -320,8 +354,14 @@ tr.wyjście {
 .tajemnica_bolesna >rect {
     fill: url('#gradient_tajemnica_bolesna');
 }
-.tajemnica_bolesna >text {
+.tajemnica_bolesna >text,
+.daytype_bach>text {
     fill: white;
+}
+
+.daytype_adw2 >text,
+.daytype_adw3 >text {
+    fill: lime;
 }
 
 .plandeleted {
