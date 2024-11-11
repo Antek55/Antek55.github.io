@@ -1,6 +1,5 @@
 const FilmyCompo = {
-  template: `<div><b>To premierowy formularz w wersji Condorceta – będę wdzięczny za wiadomość gdyby coś nie działało/mogło działać lepiej</b> &amp; przepraszam za potencjalne utrudnienia.
-  Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.is_np"> Zaznaczenie "Nie przyjdę jeśli zwycięży" nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
+  template: `<div>Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.is_np"> Zaznaczenie "Nie przyjdę jeśli zwycięży" nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
   <table>
     <tr>
       <th en="Film title">Tytuł filmu</th>
