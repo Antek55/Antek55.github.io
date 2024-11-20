@@ -1,8 +1,8 @@
 const FilmyCompo = {
-  template: `<div>Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.is_np"> Zaznaczenie "Nie przyjdę jeśli zwycięży" nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.
+  template: `<div><div v-html="LANG == 'en' ? opis_en : opis"></div>
   <table>
     <tr>
-      <th en="Film title">Tytuł filmu</th>
+      <th en="Title">Tytuł filmu</th>
       <th class="directors" en="Directors">Reżyseria</th>
       <th class="trailer" en="Trailer">Zwiastun</th>
       <th  class="imdb"><a href="https://www.imdb.com" target="_blank"><img src="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png" title="IMDb"></th>
@@ -60,7 +60,9 @@ const FilmyCompo = {
     }
     return {
       con,
-      np
+      np,
+      opis: 'Uporządkuj zaproponowane filmy w kolejności chęci obejrzenia, lub ich część – pozostawienie <b>∞</b> oznacza niezróżnicowaną niechęć. Przycisk "Nast." przydzieli filmowi kolejne miejsce. Możesz wprowadzić zmiany strzałkami lub zerując wybory przyciskiem na dole i zaczynając od nowa. <span v-if="field.is_np"> Zaznaczenie "Nie przyjdę jeśli zwycięży" nie ma wpływu na wynik głosowania, ale jest dla nas cenną informacją przy planowaniu terminu spotkania.</span> Nie ma restrykcji co do głosowania na filmy nominowane przez siebie.',
+      opis_en: 'Please put the proposed films in order of your preference, all or a part of them – leaving <b>∞</b> means undifferentiated unwillingness. The button "Nast." will assign the next unassigned number to the film. You can change the order using arrows or clearing all choices using the button below and starting over. <span v-if="field.is_np">Choosing "Won\' come if selected" has no influence on the result of the vote, but is very useful to us for scheduling. There are no restrictions on voting for films nominated by yourself.</span>'
     }
   },
   props: {field: {}},
@@ -160,7 +162,7 @@ const FilmyCompo = {
   },
   mounted() {
     if (location.hostname == 'localhost' && this.field.filmy.length > 12)
-      alert('Wiele filmów: ' + this.field.filmy.length)
+      ;// alert('Wiele filmów: ' + this.field.filmy.length)
     
     const filmy = this.field.filmy
     tippy('.title', {
@@ -202,5 +204,10 @@ const FilmyCompo = {
           placement: 'left-start'
         });
       })*/
+    
+    if (LANG == "en")
+      for (let e of this.$el.querySelectorAll("[en]")) {
+        e.innerHTML = e.getAttribute("en")
+      }
   }
 }

@@ -1,5 +1,5 @@
-const LANG = location.hash.substr(1) || localStorage.getItem("lang") || 'pl'
 const LANGS = ["pl", "en", "fr", "ru", "es", "de"]
+const LANG = (LANGS.includes(location.hash.substr(1)) && location.hash.substr(1)) || localStorage.getItem("lang") || 'pl'
 
 localStorage.setItem('lang', LANG)
 
@@ -20,8 +20,6 @@ function translate_all() {
     }
   }
 }
-
-translate_all()
 
 const TR = {
   pn: 'Mon',

@@ -60,7 +60,7 @@
                 </div>
                 
                 <div v-if="f.type == 'filmy'">
-                  <filmy-compo :field="f" :key="f.filmy"></filmy-compo>
+                  <filmy-compo :field="f" :key="f.filmy" :lang="LANG"></filmy-compo>
                 </div>
                 
                 <div v-if="f.type == 'textarea'">
@@ -125,6 +125,7 @@
     </center>
     <script src="i18n.js"></script>
     <script>
+    translate_all()
     $("a").not("[target]").attr("target", "_blank")
     function decrypt(data, key) {
       return openpgp.readMessage({armoredMessage: data}).then((value) => openpgp.decrypt({passwords: key, message: value}))
@@ -183,8 +184,11 @@
       if (!data.true_closing) {
         data.true_closing = data.closing;
       }
-      if (data.en_available)
+      if (data.en_available) {
+        if (LANG == "en")
+          data.opis = data.opis_en
         insert_flags()
+      }
       for (let f of data.fields) {
         if (f.type == "terminy") {
           dayjs.locale('pl')
@@ -235,7 +239,6 @@
       components: {FilmyCompo},
       delimiters: ['[[', ']]'],
     })
-
   </script>
   <script src="colors.js"></script>
   <script src="paralax.js"></script>

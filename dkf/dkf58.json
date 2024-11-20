@@ -1,8 +1,10 @@
 {
   "title": "DKF 58 :: film & termin",
   "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "opis_en": "Please input your preferences regarding the film and date of the next meeting in the form below",
   "closing_info": true,
-  "closing": "2024-11-15 22:05",
+  "closing": "2024-11-20 22:05",
+  "en_available": true,
   "fields": [
     {
       "type": "filmy",

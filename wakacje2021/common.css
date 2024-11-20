@@ -252,7 +252,8 @@ text {
  .daytype_mokradła .event>rect,
  .daytype_Snake .event>rect,
  .daytype_pkin .event>rect,
- .daytype_bach .event>rect
+ .daytype_bach .event>rect,
+ .daytype_świdnica1 .event>rect
 {
     fill-opacity: 0.7;
 }
