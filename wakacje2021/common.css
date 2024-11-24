@@ -362,7 +362,8 @@ tr.wyjście {
 }
 
 .daytype_adw2 >text,
-.daytype_adw3 >text {
+.daytype_adw3 >text,
+.daytype_adw4 > text {
     fill: lime;
 }
 
