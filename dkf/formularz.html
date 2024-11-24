@@ -191,7 +191,7 @@
       }
       for (let f of data.fields) {
         if (f.type == "terminy") {
-          dayjs.locale('pl')
+          dayjs.locale(LANG)
           let first = dayjs(f.first)
           let last = dayjs(f.last)
           f.terminy = {}
