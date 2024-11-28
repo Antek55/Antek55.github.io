@@ -237,7 +237,7 @@ text {
 }
 
 #day1226>.event>rect, #day0106>.event>rect,
- .daytype_zwiastowanie .event>rect, .daytype_adw2 .event>rect, .daytype_adw3 .event>rect, .daytype_adw4 .event>rect,
+ .daytype_adw1 .event>rect, .daytype_adw2 .event>rect, .daytype_adw3 .event>rect, .daytype_adw4 .event>rect,
  .daytype_masada .event>rect,
  .daytype_pobedy .event>rect,
  .daytype_równości .event>rect,
@@ -361,8 +361,9 @@ tr.wyjście {
     fill: white;
 }
 
-.daytype_adw2 >text,
-.daytype_adw3 >text,
+.daytype_adw1 > text,
+.daytype_adw2 > text,
+.daytype_adw3 > text,
 .daytype_adw4 > text {
     fill: lime;
 }

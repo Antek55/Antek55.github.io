@@ -29,6 +29,7 @@
 
 body {
     /* height: 100%; */
+    filter: grayscale(1);
     height: 100vh;
     margin: 0px;
     font-family: 'Caladea';
