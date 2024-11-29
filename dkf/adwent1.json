@@ -1,0 +1,16 @@
+{
+  "title": "DKF 59 :: głosowanie :: termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do terminu następnego spotkania",
+  "opis_en": "Please input your preferences regarding the date of the next meeting in the form below",
+  "closing_info": true,
+  "closing": "2024-11-29 22:05",
+  "banner": "banners/adw1.jpg",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2024-12-01",
+      "last": "2024-12-06"
+    }
+  ]
+}
