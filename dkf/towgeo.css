@@ -16,7 +16,6 @@ body {
 **/
 
 /** JESIEñ
-**/
 body {
   background-image: linear-gradient(36deg, #cc0000, darkred);
   color: gold;
@@ -25,12 +24,13 @@ body {
 #godło {
   content:url(towgeo-jesien.webp);
 }
+**/
 
 /** ZIMA 
+**/
 body {
   background-image: linear-gradient(36deg, #33c2d9ff, #bdc2d9ff)
 }
-**/
 
 p {
   text-align: justify;
