@@ -30,7 +30,7 @@
 <body>
     <center>
       <div>
-        <img src="tż2.webp" style="max-height: 15vh" id="logo"/>
+        <img src="tż2.webp" style="max-height: 15vh" id="godło"/>
       </div>
         <div class="card">
           <form v-on:submit.prevent="submit" class="form">
@@ -159,9 +159,9 @@
         return t.json()
       }
     }).then(function (data) {
-      if (data.logo) {
-        $("#logo").attr("src", data.logo)
-        delete data.logo
+      if (data.godło) {
+        $("#godło").attr("src", data.godło)
+        delete data.godło
       }
       if (data.style) {
         let el = document.createElement("link")

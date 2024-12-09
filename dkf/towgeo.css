@@ -33,6 +33,10 @@ body {
   color: #555;
 }
 
+#godło {
+  content: url('towgeo.webp')
+}
+
 p {
   text-align: justify;
   margin: 1%;
