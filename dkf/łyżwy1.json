@@ -6,6 +6,8 @@
   "closing": "2024-12-10 22:05",
   "en_available": true,
   "banner": "banners/łyżwy.jpg",
+  "style": "towgeo.css",
+  "logo": "towgeo.webp",
   "fields": [
     {
       "type": "terminy",
