@@ -1,0 +1,28 @@
+{
+  "title": "DKF 61 & 62 :: termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do terminu następnych dwóch spotkań",
+  "opis_en": "Please input your preferences regarding the date of the next meetings in the form below",
+  "closing_info": true,
+  "closing": "2024-12-12 22:05",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2024-12-14",
+      "last": "2024-12-19",
+      "time": "(o g. 20:35, start filmu ok. 21:05)"
+    },
+    {
+      "type": "checkbox",
+      "opis": "Na który/e z filmów chciałbyś przyjść?",
+      "opis_en": "Which of the following movies would you be willing to see?",
+      "name": "Eyes Wide Shut",
+      "value": true
+    },
+    {
+      "type": "checkbox",
+      "name": "Die Hard",
+      "value": true
+    }
+  ]
+}
