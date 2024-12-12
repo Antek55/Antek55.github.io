@@ -4,6 +4,7 @@
   "opis_en": "Please input your preferences regarding the date of the next meetings in the form below",
   "closing_info": true,
   "closing": "2024-12-12 22:05",
+  "true_closing": "2024-12-12 22:15",
   "en_available": true,
   "fields": [
     {
