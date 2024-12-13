@@ -1,0 +1,18 @@
+{
+  "title": "Łyżwy",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do terminu wyjścia na łyżwy",
+  "opis_en": "Please input your preferences regarding the date in the form below",
+  "closing_info": true,
+  "closing": "2024-12-14 22:05",
+  "en_available": true,
+  "banner": "banners/łyżwy.jpg",
+  "style": "towgeo.css",
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2024-12-16",
+      "last": "2024-12-21",
+      "time": "(po południu 16-20 pora do ustalenia)"
+    }
+  ]
+}
