@@ -1,0 +1,19 @@
+{
+  "title": "DKF 57 :: głosowanie 2/2 :: film & termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "closing_info": true,
+  "closing": "2024-11-03 22:05",
+  "fields": [
+    {
+      "type": "filmy",
+      "is_np": true,
+      "filmy": [
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "2024-11-05",
+      "last": "2024-11-11"
+    }
+  ]
+}
