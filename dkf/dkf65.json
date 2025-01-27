@@ -1,0 +1,182 @@
+{
+  "title": "DKF 65 :: głosowanie :: film & termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2025-01-29 22:05",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "filmy",
+      "is_np": true,
+      "filmy": [{
+      	"flag": [
+      		"JP"
+      	],
+      	"title": "Porco Rosso",
+      	"originalTitle": "\u7d05\u306e\u8c5a",
+      	"titleLocal": "Szkar\u0142atny pilot",
+      	"year": 1994,
+      	"url": "https://www.imdb.com/title/tt0104652",
+      	"imdbId": "tt0104652",
+      	"imdbRating": 7.7,
+      	"directors": [
+      		"Hayao Miyazaki"
+      	],
+      	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg/257px-Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg\" class=\"popup-director-photo\"></center> <p><b>Hayao Miyazaki</b><span style=\"font-weight:normal\"> </span> is a Japanese animator, director, producer, screenwriter, author, and manga artist. A co-founder of Studio Ghibli, he has attained international acclaim as a masterful storyteller and creator of Japanese animated feature films, and is widely regarded as one of the most accomplished filmmakers in the history of animation. <i class=\"fab fa-wikipedia-w\"></i></p>",
+      	"isDocu": false,
+      	"yttrailer": {
+      		"videoId": "awEC-aLDzjs"
+      	},
+      	"rymUrl": "https://rateyourmusic.com/film/\u7d05\u306e\u8c5a/",
+      	"rymRating": "3.74",
+      	"rymCoverartImg": "https://e.snmc.io/i/300/s/e3aa07e92720f7662cbdcb06081b139a/7735553"
+      },
+      {
+      	"flag": [
+      		"JP"
+      	],
+      	"title": "Castle in the Sky",
+      	"originalTitle": "\u5929\u7a7a\u306e\u57ce\u30e9\u30d4\u30e5\u30bf",
+      	"titleLocal": "Laputa - podniebny zamek",
+      	"year": 1991,
+      	"url": "https://www.imdb.com/title/tt0092067",
+      	"imdbId": "tt0092067",
+      	"imdbRating": 8,
+      	"directors": [
+      		"Hayao Miyazaki"
+      	],
+      	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg/320px-Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg\" class=\"popup-director-photo\"></center> <p><b>Hayao Miyazaki</b><span style=\"font-weight:normal\"> </span> is a Japanese animator, filmmaker, and manga artist. A co-founder of Studio Ghibli, he has attained international acclaim as a masterful storyteller and creator of Japanese animated feature films, and is widely regarded as one of the most accomplished filmmakers in the history of animation. <i class=\"fab fa-wikipedia-w\"></i></p>",
+      	"isDocu": false,
+      	"yttrailer": {
+      		"videoId": "8ykEy-yPBFc"
+      	},
+      	"rymUrl": "https://rateyourmusic.com/film/\u5929\u7a7a\u306e\u57ce\u30e9\u30d4\u30e5\u30bf/",
+      	"rymRating": "3.85",
+      	"rymCoverartImg": "https://e.snmc.io/i/300/s/f5e3344500f532a60ac6193f22103656/4791674"
+      },
+      {
+      	"flag": [
+      		"JP"
+      	],
+      	"title": "My Neighbor Totoro",
+      	"originalTitle": "\u3068\u306a\u308a\u306e\u30c8\u30c8\u30ed",
+      	"titleLocal": "M\u00f3j s\u0105siad Totoro",
+      	"year": 1990,
+      	"url": "https://www.imdb.com/title/tt0096283",
+      	"imdbId": "tt0096283",
+      	"imdbRating": 8.1,
+      	"directors": [
+      		"Hayao Miyazaki"
+      	],
+      	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg/320px-Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg\" class=\"popup-director-photo\"></center> <p><b>Hayao Miyazaki</b><span style=\"font-weight:normal\"> </span> is a Japanese animator, filmmaker, and manga artist. A co-founder of Studio Ghibli, he has attained international acclaim as a masterful storyteller and creator of Japanese animated feature films, and is widely regarded as one of the most accomplished filmmakers in the history of animation. <i class=\"fab fa-wikipedia-w\"></i></p>",
+      	"isDocu": false,
+      	"yttrailer": {
+      		"videoId": "92a7Hj0ijLs"
+      	},
+      	"rymUrl": "https://rateyourmusic.com/film/\u3068\u306a\u308a\u306e\u30c8\u30c8\u30ed/",
+      	"rymRating": "3.92",
+      	"rymCoverartImg": "https://e.snmc.io/i/300/s/a94e59caa5d51399a4579b34c270b5aa/6632800"
+      },
+      {
+      	"flag": [
+      		"JP"
+      	],
+      	"title": "Kiki's Delivery Service",
+      	"originalTitle": "\u9b54\u5973\u306e\u5b85\u6025\u4fbf",
+      	"titleLocal": "Podniebna poczta Kiki",
+      	"year": 1990,
+      	"url": "https://www.imdb.com/title/tt0097814",
+      	"imdbId": "tt0097814",
+      	"imdbRating": 7.8,
+      	"directors": [
+      		"Hayao Miyazaki"
+      	],
+      	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg/320px-Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg\" class=\"popup-director-photo\"></center> <p><b>Hayao Miyazaki</b><span style=\"font-weight:normal\"> </span> is a Japanese animator, filmmaker, and manga artist. A co-founder of Studio Ghibli, he has attained international acclaim as a masterful storyteller and creator of Japanese animated feature films, and is widely regarded as one of the most accomplished filmmakers in the history of animation. <i class=\"fab fa-wikipedia-w\"></i></p>",
+      	"isDocu": false,
+      	"yttrailer": {
+      		"videoId": "4bG17OYs-GA"
+      	},
+      	"rymUrl": "https://rateyourmusic.com/film/\u9b54\u5973\u306e\u5b85\u6025\u4fbf/",
+      	"rymRating": "3.83",
+      	"rymCoverartImg": "https://e.snmc.io/i/300/s/b882e6c53e5c1ff36adec5bb54b31176/2964851"
+      },
+      {
+      	"flag": [
+      		"JP"
+      	],
+      	"title": "The Boy and the Heron",
+      	"originalTitle": "\u541b\u305f\u3061\u306f\u3069\u3046\u751f\u304d\u308b\u304b",
+      	"titleLocal": "Ch\u0142opiec i czapla",
+      	"year": 2023,
+      	"url": "https://www.imdb.com/title/tt6587046",
+      	"imdbId": "tt6587046",
+      	"imdbRating": 7.6,
+      	"directors": [
+      		"Hayao Miyazaki"
+      	],
+      	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg/320px-Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg\" class=\"popup-director-photo\"></center> <p><b>Hayao Miyazaki</b><span style=\"font-weight:normal\"> </span> is a Japanese animator, filmmaker, and manga artist. A co-founder of Studio Ghibli, he has attained international acclaim as a masterful storyteller and creator of Japanese animated feature films, and is widely regarded as one of the most accomplished filmmakers in the history of animation. <i class=\"fab fa-wikipedia-w\"></i></p>",
+      	"isDocu": false,
+      	"yttrailer": {
+      		"videoId": "t5khm-VjEu4"
+      	},
+      	"rymUrl": "https://rateyourmusic.com/film/\u541b\u305f\u3061\u306f\u3069\u3046\u751f\u304d\u308b\u304b/",
+      	"rymRating": "3.77",
+      	"rymCoverartImg": "https://e.snmc.io/i/300/s/ef6e9f03192e6fb7a36e59a297ca6fd1/10509055"
+      },
+      {
+      	"flag": [
+      		"JP"
+      	],
+      	"title": "Whisper of the Heart",
+      	"originalTitle": "\u8033\u3092\u3059\u307e\u305b\u3070",
+      	"titleLocal": "Szept serca",
+      	"year": 1996,
+      	"url": "https://www.imdb.com/title/tt0113824",
+      	"imdbId": "tt0113824",
+      	"imdbRating": 7.8,
+      	"directors": [
+      		"Yoshifumi Kond\u00f4"
+      	],
+      	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/en/9/9f/Yoshifumi_kondo.jpg\" class=\"popup-director-photo\"></center> <p><b>Yoshifumi Kond\u014d</b><span style=\"font-weight:normal\"> </span> was a Japanese animator who worked for Studio Ghibli in his last years. He was born in Gosen, Niigata Prefecture, Japan. He worked as an animation director on <i>Anne of Green Gables</i>, <i>Sherlock Hound</i>, <i>Kiki\\'s Delivery Service</i>, <i>Only Yesterday</i> and <i>Princess Mononoke</i>. Kond\u014d directed the animated film <i>Whisper of the Heart</i>, and was expected to become one of the top directors at Studio Ghibli, alongside Hayao Miyazaki and Isao Takahata, and to become their eventual successor. <i class=\"fab fa-wikipedia-w\"></i></p>",
+      	"isDocu": false,
+      	"yttrailer": {
+      		"videoId": "0pVkiod6V0U"
+      	},
+      	"rymUrl": "https://rateyourmusic.com/film/\u8033\u3092\u3059\u307e\u305b\u3070/",
+      	"rymRating": "3.79",
+      	"rymCoverartImg": "https://e.snmc.io/i/300/s/4adc1c49d7fc5a7f77fdffd03d588b6a/4677971"
+      },
+      {
+      	"flag": [
+      		"JP",
+      		"US"
+      	],
+      	"title": "Howl's Moving Castle",
+      	"originalTitle": "ハウルの動く城",
+      	"titleLocal": "Ruchomy zamek Hauru",
+      	"year": 2005,
+      	"url": "https://www.imdb.com/title/tt0347149",
+      	"imdbId": "tt0347149",
+      	"imdbRating": 8.2,
+      	"directors": [
+      		"Hayao Miyazaki"
+      	],
+      	"popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg/320px-Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg\" class=\"popup-director-photo\"></center> <p><b>Hayao Miyazaki</b><span style=\"font-weight:normal\"> </span> is a Japanese animator, filmmaker, and manga artist. A co-founder of Studio Ghibli, he has attained international acclaim as a masterful storyteller and creator of Japanese animated feature films, and is widely regarded as one of the most accomplished filmmakers in the history of animation. <i class=\"fab fa-wikipedia-w\"></i></p>",
+      	"isDocu": false,
+      	"yttrailer": {
+      		"videoId": "iwROgK94zcM"
+      	},
+      	"rymUrl": "https://rateyourmusic.com/film/%E3%83%8F%E3%82%A6%E3%83%AB%E3%81%AE%E5%8B%95%E3%81%8F%E5%9F%8E/",
+      	"rymRating": "3.78",
+      	"rymCoverartImg": "https://e.snmc.io/i/300/s/145012a8a8388636ff52f33d55d81d73/10133315"
+      }
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "2025-01-31",
+      "last": "2025-02-08"
+    }
+  ]
+}
