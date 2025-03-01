@@ -1,1 +1,297 @@
-{"title": "DKF 66 :: g\u0142osowanie 2/2 :: film & termin", "opis": "Oznacz prosz\u0119 poni\u017cej swoje preferencje co do filmu i terminu nast\u0119pnego spotkania", "opis_en": "Please input below your preferences concerning the film and date", "closing_info": true, "closing": "2025-02-07 22:05", "en_available": true, "fields": [{"type": "filmy", "is_np": true, "filmy": [{"flag": ["US", "CA"], "title": "Mean Girls", "originalTitle": null, "titleLocal": "Wredne dziewczyny", "year": 2004, "url": "https://www.imdb.com/title/tt0377092", "imdbId": "tt0377092", "imdbRating": 7.1, "directors": ["Mark Waters"], "popup-director": "<p><b>Mark Stephen Waters</b> is an American director. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "oDU84nmSDZY"}, "rymUrl": "https://rateyourmusic.com/film/mean-girls/", "rymRating": "3.30", "rymCoverartImg": "https://e.snmc.io/i/300/s/872846dde094657cfd2bc164aebfb9ca/6007817"}, {"flag": ["PL"], "title": "Lawa. Opowie\u015b\u0107 o \"Dziadach\" Adama Mickiewicza", "originalTitle": null, "titleLocal": "Lawa. Opowie\u015b\u0107 o \"Dziadach\" Adama Mickiewicza", "year": 1989, "url": "https://www.imdb.com/title/tt0097721", "imdbId": "tt0097721", "imdbRating": 6.8, "directors": ["Tadeusz Konwicki"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Tadeusz_Konwicki_Kancelaria_Senatu_01.jpg/320px-Tadeusz_Konwicki_Kancelaria_Senatu_01.jpg\" class=\"popup-director-photo\"></center> <p><b>Tadeusz Konwicki</b> was a Polish writer and film director, as well as a member of the Polish Language Council. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "rO0D9PYmYaw"}, "rymUrl": "https://rateyourmusic.com/film/lawa/", "rymRating": "3.27", "rymCoverartImg": "https://e.snmc.io/i/300/s/ce93d3290bfc51d65ab9f43255eab777/3002739"}, {"flag": ["DK", "SE", "NL", "FR", "DE", "GB", "IT", "US"], "title": "Manderlay", "originalTitle": null, "titleLocal": "Manderlay", "year": 2005, "url": "https://www.imdb.com/title/tt0342735", "imdbId": "tt0342735", "imdbRating": 7.2, "directors": ["Lars von Trier"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Lars_von_Trier_2014_%28cropped%29.jpg/320px-Lars_von_Trier_2014_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Lars von Trier</b> is a Danish film director and screenwriter. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "vFk2Vy1bWHQ"}, "rymUrl": "https://rateyourmusic.com/film/manderlay/", "rymRating": "3.28", "rymCoverartImg": "https://e.snmc.io/i/300/s/0e004a00d96cbab10c9f711a6b0b3c6e/7581783"}, {"flag": ["FR", "US", "GB"], "title": "Basic Instinct", "originalTitle": null, "titleLocal": "Nagi instynkt", "year": 1992, "url": "https://www.imdb.com/title/tt0103772", "imdbId": "tt0103772", "imdbRating": 7.1, "directors": ["Paul Verhoeven"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Paul_Verhoeven_Cannes_2016.jpg/320px-Paul_Verhoeven_Cannes_2016.jpg\" class=\"popup-director-photo\"></center> <p><b>Paul Verhoeven</b> is a Dutch film director. His films are known for their graphic violence and sexual content, combined with social satire. After receiving attention for the TV series <i>Floris</i> in his native Netherlands, Verhoeven\\'s breakthrough film was the romantic drama <i>Turkish Delight</i> (1973), starring frequent collaborator Rutger Hauer. Verhoeven later directed successful Dutch films including the period drama <i>Keetje Tippel</i> (1975), the war film <i>Soldier of Orange</i> (1977), the teen drama <i>Spetters</i> (1980) and the psychological thriller <i>The Fourth Man</i> (1983). <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "Jh6JwQ8XPK0"}, "rymUrl": "https://rateyourmusic.com/film/basic-instinct/", "rymRating": "3.19", "rymCoverartImg": "https://e.snmc.io/i/300/s/e4f9a9e9be0815a3a16de1fffd1d8b64/5364194"}, {"flag": ["GB", "US"], "title": "Bram Stoker's Dracula", "originalTitle": null, "titleLocal": "Bram Stoker's Dracula", "year": 1992, "url": "https://www.imdb.com/title/tt0103874", "imdbId": "tt0103874", "imdbRating": 7.4, "directors": ["Francis Ford Coppola"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Francis_Ford_Coppola_on_December_8%2C_2024_in_the_White_House_Oval_Office_%28cropped%29.jpg/320px-Francis_Ford_Coppola_on_December_8%2C_2024_in_the_White_House_Oval_Office_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Francis Ford Coppola</b> is an American filmmaker. He is considered one of the leading figures of the New Hollywood and one of the greatest directors of all time. Coppola is the recipient of five Academy Awards, six Golden Globe Awards, two Palmes d\\'Or and a BAFTA Award. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "fgFPIh5mvNc"}, "rymUrl": "https://rateyourmusic.com/film/bram-stokers-dracula/", "rymRating": "3.30", "rymCoverartImg": "https://e.snmc.io/i/300/s/b3de22eb75d21a4875785b3352448dbe/4697851"}, {"flag": ["US"], "title": "Cabaret", "originalTitle": null, "titleLocal": "Kabaret", "year": 1972, "url": "https://www.imdb.com/title/tt0068327", "imdbId": "tt0068327", "imdbRating": 7.8, "directors": ["Bob Fosse"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Bob_Fosse_1963_%28cropped%29.jpg/320px-Bob_Fosse_1963_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Robert Louis Fosse</b> was an American choreographer, dancer, filmmaker, and stage director. Known for his work on stage and screen, he is arguably the most influential figure in the field of jazz dance in the twentieth century. He received numerous accolades including an Academy Award, a BAFTA Award, three Primetime Emmy Awards, nine Tony Awards, and the Palme d\\'Or. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "EfL1J4QVhSM"}, "rymUrl": "https://rateyourmusic.com/film/cabaret/", "rymRating": "3.71", "rymCoverartImg": "https://e.snmc.io/i/300/s/ac89f2cd37846d2c15342ab1bbeb6e48/4727772"}, {"flag": ["AU"], "title": "The Everlasting Secret Family", "originalTitle": null, "titleLocal": "The Everlasting Secret Family", "year": 1989, "url": "https://www.imdb.com/title/tt0095117", "imdbId": "tt0095117", "imdbRating": 5.5, "directors": ["Michael Thornhill"], "popup-director": "<p><b>Michael Thornhill</b> was a film producer, screenwriter, and director. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "EwYW5ZylXnA"}, "rymUrl": "https://rateyourmusic.com/film/the-everlasting-secret-family/", "rymRating": "3.20", "rymCoverartImg": "https://m.media-amazon.com/images/M/MV5BMjI2ODI3NjAxOF5BMl5BanBnXkFtZTgwNDg1ODk1MDE@._V1_.jpg"}, {"flag": ["AU"], "title": "The Boys", "originalTitle": null, "titleLocal": "Ch\u0142opcy", "year": 1998, "url": "https://www.imdb.com/title/tt0139898", "imdbId": "tt0139898", "imdbRating": 6.9, "directors": ["Rowan Woods"], "popup-director": "<p><b>Rowan Woods</b> is an Australian AACTA Award-winning film and television director, best known for the 1998 film <i>The Boys</i> and the 2016 television drama series <i>The Kettering Incident</i>. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "_SaYWSKoncg"}, "rymUrl": "https://rateyourmusic.com/film/the-boys/", "rymRating": "3.52", "rymCoverartImg": "https://e.snmc.io/i/300/s/0b8d59e4dc226032c044c1d1d9ca79f1/1024370"}]}, {"type": "terminy", "first": "2025-02-09", "last": "2025-02-18"}]}
+{
+  "title": "DKF 66 :: głosowanie :: film & termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2025-03-02 22:05",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "filmy",
+      "is_np": true,
+      "filmy": [
+        {
+          "flag": [
+            "US",
+            "GB",
+            "CA"
+          ],
+          "title": "The Brutalist",
+          "originalTitle": null,
+          "titleLocal": "Brutalista",
+          "year": 2025,
+          "url": "https://www.imdb.com/title/tt8999762",
+          "imdbId": "tt8999762",
+          "imdbRating": 8.1,
+          "directors": [
+            "Brady Corbet"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Brady_Corbet_at_Berlinale_2024.jpg/320px-Brady_Corbet_at_Berlinale_2024.jpg\" class=\"popup-director-photo\"></center> <p><b>Brady James Monson Corbet</b> is an American actor and filmmaker. Corbet started his career acting in films such as <i>Thirteen</i> (2003), <i>Mysterious Skin</i> (2004), <i>Funny Games</i> (2007), <i>Martha Marcy May Marlene</i> (2011), <i>Melancholia</i> (2011), and <i>Clouds of Sils Maria</i> (2014). He also acted in the fifth season of the action series <i>24</i> (2006) and the HBO miniseries <i>Olive Kitteridge</i> (2014). <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "GdRXPAHIEW4"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/the-brutalist/",
+          "rymRating": "3.91",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/fa9e170efd2cca6446a1b374de33d635/12924230"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "A Complete Unknown",
+          "originalTitle": null,
+          "titleLocal": "Kompletnie nieznany",
+          "year": 2024,
+          "url": "https://www.imdb.com/title/tt11563598",
+          "imdbId": "tt11563598",
+          "imdbRating": 7.7,
+          "directors": [
+            "James Mangold"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/James_Mangold_Press_Conference_Logan_Berlinale_2017_03.jpg/320px-James_Mangold_Press_Conference_Logan_Berlinale_2017_03.jpg\" class=\"popup-director-photo\"></center> <p><b>James Allen Mangold</b> is an American film director, producer and screenwriter. Noted for his versatility in tackling a range of genres, Mangold made his debut as a film director with <i>Heavy</i> (1995), and is best known for the films <i>Cop Land</i> (1997), <i>Girl, Interrupted</i> (1999), <i>Identity</i> (2003), <i>Walk the Line</i> (2005), <i>3:10 to Yuma</i> (2007), and two films in the <span><i>X-Men</i> franchise</span> with <i>The Wolverine</i> (2013) and <i>Logan</i> (2017), the latter of which earned him a nomination for the Academy Award for Best Adapted Screenplay. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "FdV-Cs5o8mc"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/a-complete-unknown/",
+          "rymRating": "3.40",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/a3e5a926bf085821c45e63eec0a6da10/12469990"
+        },
+        {
+          "flag": [
+            "US",
+            "CA",
+            "AE",
+            "HU",
+            "IT",
+            "NZ",
+            "JO",
+            "GM"
+          ],
+          "title": "Dune: Part Two",
+          "originalTitle": null,
+          "titleLocal": "Diuna: Część druga",
+          "year": 2024,
+          "url": "https://www.imdb.com/title/tt15239678",
+          "imdbId": "tt15239678",
+          "imdbRating": 8.5,
+          "directors": [
+            "Denis Villeneuve"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Denis_Villeneuve_by_Gage_Skidmore.jpg/320px-Denis_Villeneuve_by_Gage_Skidmore.jpg\" class=\"popup-director-photo\"></center> <p><b>Denis Villeneuve</b> <small>OAL</small> is a Canadian filmmaker. He has received seven Canadian Screen Awards as well as nominations for three Academy Awards, five BAFTA Awards, and two Golden Globe Awards. Villeneuve\\'s films have grossed more than $1.8 billion worldwide. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "Way9Dexny3w"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/dune-part-two/",
+          "rymRating": "3.81",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/c79159c2495c213aeb35423dce5cd8b6/11927920"
+        },
+        {
+          "flag": [
+            "FR",
+            "BE",
+            "MX",
+            "US"
+          ],
+          "title": "Emilia Pérez",
+          "originalTitle": null,
+          "titleLocal": "Emilia Pérez",
+          "year": 2024,
+          "url": "https://www.imdb.com/title/tt20221436",
+          "imdbId": "tt20221436",
+          "imdbRating": 6.4,
+          "directors": [
+            "Jacques Audiard"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Jacques_Audiard_Cannes_2017.jpg/320px-Jacques_Audiard_Cannes_2017.jpg\" class=\"popup-director-photo\"></center> <p><b>Jacques Audiard</b> is a French film director, producer, and screenwriter. Over the course of his career, he has received numerous accolades including two British Academy Film Awards, three Golden Globes, ten Cesar Awards and four prizes from the Cannes Film Festival. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "Qlbr7gJgBus"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/emilia-perez/",
+          "rymRating": "2.57",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/0c931115eba41a03ccbabbdf8a1cb34b/12425124"
+        },
+        {
+          "flag": [
+            "BR",
+            "FR"
+          ],
+          "title": "I'm Still Here",
+          "originalTitle": null,
+          "titleLocal": "Wciąż tu jestem",
+          "year": 2025,
+          "url": "https://www.imdb.com/title/tt14961016",
+          "imdbId": "tt14961016",
+          "imdbRating": 8.9,
+          "directors": [
+            "Walter Salles"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Walter_Salles_in_2024.jpg/320px-Walter_Salles_in_2024.jpg\" class=\"popup-director-photo\"></center> <p><b>Walter Moreira Salles Júnior</b> is a Brazilian filmmaker and film editor. He is most known for his Golden Globe, BAFTA and Golden Bear-winning film <i>Central Station</i> (1998). He also known for his award winning films: <i>The Motorcycle Diaries</i> (2004), <i>On the Road</i> (2012), and <i>I\\'m Still Here</i> (2024). <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "gDunV808Yf4"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/im-still-here/",
+          "rymRating": "3.03",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/ef9266609bff1fb620735b5729c8c20e/3260312"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Nickel Boys",
+          "originalTitle": null,
+          "titleLocal": "Nickel Boys",
+          "year": 2025,
+          "url": "https://www.imdb.com/title/tt23055660",
+          "imdbId": "tt23055660",
+          "imdbRating": 7.7,
+          "directors": [
+            "RaMell Ross"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/RaMell_Ross_2018_%28cropped%29.jpg/320px-RaMell_Ross_2018_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>RaMell Ross</b> is an American filmmaker, photographer, academic, and writer. His directorial debut, <i>Hale County This Morning, This Evening</i> (2018), earned him a Peabody Award, and nominations for the Academy Award for Best Documentary Feature and the Primetime Emmy Award for Exceptional Merit in Documentary Filmmaking. Ross directed and co-wrote the screenplay for the 2024 film adaptation of the novel <i>The Nickel Boys</i> (2019), for which he won the New York Film Critics Circle Award for Best Director, and received a nomination for the Academy Award for Best Adapted Screenplay. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "-2qZ429rUZw"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/nickel-boys/",
+          "rymRating": "4.13",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/fcd31500dd5f202387b273d3b347ee42/12488973"
+        },
+        {
+          "flag": [
+            "GB",
+            "FR"
+          ],
+          "title": "The Substance",
+          "originalTitle": null,
+          "titleLocal": "Substancja",
+          "year": 2024,
+          "url": "https://www.imdb.com/title/tt17526714",
+          "imdbId": "tt17526714",
+          "imdbRating": 7.3,
+          "directors": [
+            "Coralie Fargeat"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Coralie_Fargeat_at_the_2024_Toronto_International_Film_Festival.jpg/320px-Coralie_Fargeat_at_the_2024_Toronto_International_Film_Festival.jpg\" class=\"popup-director-photo\"></center> <p><b>Coralie Fargeat</b> is a French filmmaker. She gained recognition with her 2017 debut feature film <span><i>Revenge</i></span>, for which she received awards from several independent film festivals. Her follow-up feature, <i>The Substance</i> (2024), a satirical body horror film, won her the Cannes Film Festival Award for Best Screenplay and earned her accolades worldwide, including three Academy Award nominations for Best Picture, Best Director, and Best Original Screenplay, as well as three Golden Globe nominations and two BAFTA nominations. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "LNlrGhBpYjc"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/the-substance/",
+          "rymRating": "3.58",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/b780a59270768780bd2fe0e91c241a88/12486677"
+        },
+        {
+          "flag": [
+            "US",
+            "JP",
+            "CA",
+            "IS",
+            "GB"
+          ],
+          "title": "Wicked",
+          "originalTitle": null,
+          "titleLocal": "Wicked",
+          "year": 2024,
+          "url": "https://www.imdb.com/title/tt1262426",
+          "imdbId": "tt1262426",
+          "imdbRating": 7.7,
+          "directors": [
+            "Jon M. Chu"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fb/Jon_M._Chu_2013.jpg\" class=\"popup-director-photo\"></center> <p><b>Jonathan Murray Chu</b> is an American film director, producer, and screenwriter. He is known for directing the romantic comedy <i>Crazy Rich Asians</i> (2018) and the musical fantasy <i>Wicked</i> (2024), the former being one of the first films by a major Hollywood studio to feature a majority cast of Asian descent. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "6COmYeLsz4c"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/wicked-2/",
+          "rymRating": "3.23",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/93c29b0a21a89db00b9c069c3bdd31ed/12486261"
+        },
+        {
+          "flag": [
+            "LV",
+            "BE",
+            "FR"
+          ],
+          "title": "Flow",
+          "originalTitle": null,
+          "titleLocal": "Flow",
+          "year": 2024,
+          "url": "https://www.imdb.com/title/tt4772188",
+          "imdbId": "tt4772188",
+          "imdbRating": 7.9,
+          "directors": [
+            "Gints Zilbalodis"
+          ],
+          "popup-director": "<p><b>Gints Zilbalodis</b> is a Latvian filmmaker. He is best known for the animated features <i>Away</i> (2019) and <i>Flow</i> (2024), the latter was nominated Best International Feature Film and Best Animated Feature at the 97th Academy Awards, making it the first Latvian film to earn multiple nominations. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "82WW9dVbglI"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/flow-7/",
+          "rymRating": "3.74",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/5179f88b9cd9092cef95c4db0843a679/12159623"
+        },
+        {
+          "flag": [
+            "DK",
+            "PL",
+            "SE"
+          ],
+          "title": "The Girl with the Needle",
+          "originalTitle": null,
+          "titleLocal": "Dziewczyna z igłą",
+          "year": 2025,
+          "url": "https://www.imdb.com/title/tt10236164",
+          "imdbId": "tt10236164",
+          "imdbRating": 7.5,
+          "directors": [
+            "Magnus von Horn"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Magnus_von_Horn_in_2015.jpg/320px-Magnus_von_Horn_in_2015.jpg\" class=\"popup-director-photo\"></center> <p><b>Magnus von Horn</b>,, is a Swedish-Polish film director and screenwriter. He graduated from the National Film School in Łódź in 2013. A few months after he arrived in Poland he was brutally robbed, which resulted in him becoming interested in violent people. His first film was a short documentary about a young Polish criminal. His 2011 short film <i>Without Snow</i> was nominated for the Guldbagge Award for Best Short Film. His debut feature, <i>The Here After</i>, premiered in the Directors\\' Fortnight of the 2015 Cannes Film Festival. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "Mo8VcGW7qvs"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/pigen-med-nalen/",
+          "rymRating": "3.40",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/7dab5e94eab10c8ec31db6b356d9994d/12124105"
+        },
+        {
+          "flag": [
+            "FR",
+            "DE"
+          ],
+          "title": "The Seed of the Sacred Fig",
+          "originalTitle": null,
+          "titleLocal": "Nasienie świętej figi",
+          "year": 2025,
+          "url": "https://www.imdb.com/title/tt32178949",
+          "imdbId": "tt32178949",
+          "imdbRating": 7.6,
+          "directors": [
+            "Mohammad Rasoulof"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Mohammad_Rasoulof_at_2024_Cannes_Film_Festival_%28The_Seed_of_the_Sacred_Fig_director%29.jpg/320px-Mohammad_Rasoulof_at_2024_Cannes_Film_Festival_%28The_Seed_of_the_Sacred_Fig_director%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Mohammad Rasoulof</b> is an Iranian independent filmmaker who lives in exile in Europe. He is known for several award-winning films, including <i>The Twilight</i> (2002), <i>Iron Island</i> (2005), <i>Goodbye</i> (2011)<i>,</i> <i>Manuscripts Don\\'t Burn</i> (2013), <i>A Man of Integrity</i> (2017) and <i>There Is No Evil</i> (2020). For the latter, he won the Golden Bear at the 2020 Berlin Film Festival. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "TV3Sk2zwqK4"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/%D8%AF%D8%A7%D9%86%D9%87-%D8%A7%D9%86%D8%AC%DB%8C%D8%B1-%D9%85%D9%82%D8%AF%D8%B3/",
+          "rymRating": "3.60",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/b23fcca46617a204c9d80d5c4a92773d/12664724"
+        }
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "2025-03-04",
+      "last": "2025-03-10"
+    }
+  ]
+}
