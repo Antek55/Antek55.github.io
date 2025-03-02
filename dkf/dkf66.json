@@ -163,30 +163,6 @@
         },
         {
           "flag": [
-            "GB",
-            "FR"
-          ],
-          "title": "The Substance",
-          "originalTitle": null,
-          "titleLocal": "Substancja",
-          "year": 2024,
-          "url": "https://www.imdb.com/title/tt17526714",
-          "imdbId": "tt17526714",
-          "imdbRating": 7.3,
-          "directors": [
-            "Coralie Fargeat"
-          ],
-          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Coralie_Fargeat_at_the_2024_Toronto_International_Film_Festival.jpg/320px-Coralie_Fargeat_at_the_2024_Toronto_International_Film_Festival.jpg\" class=\"popup-director-photo\"></center> <p><b>Coralie Fargeat</b> is a French filmmaker. She gained recognition with her 2017 debut feature film <span><i>Revenge</i></span>, for which she received awards from several independent film festivals. Her follow-up feature, <i>The Substance</i> (2024), a satirical body horror film, won her the Cannes Film Festival Award for Best Screenplay and earned her accolades worldwide, including three Academy Award nominations for Best Picture, Best Director, and Best Original Screenplay, as well as three Golden Globe nominations and two BAFTA nominations. <i class=\"fab fa-wikipedia-w\"></i></p>",
-          "isDocu": false,
-          "yttrailer": {
-            "videoId": "LNlrGhBpYjc"
-          },
-          "rymUrl": "https://rateyourmusic.com/film/the-substance/",
-          "rymRating": "3.58",
-          "rymCoverartImg": "https://e.snmc.io/i/300/s/b780a59270768780bd2fe0e91c241a88/12486677"
-        },
-        {
-          "flag": [
             "US",
             "JP",
             "CA",
