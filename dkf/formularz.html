@@ -140,6 +140,11 @@
       
       // var wynik = encodeURIComponent(JSON.stringify(app.$data));
       // $.post(url, app.$data, on_success)
+      for (let i of app.$data.fields) {
+        if (i.type == "filmy")
+          delete i.filmy
+      }
+
       fetch(url, {method: 'post', body: JSON.stringify(app.$data)}).then(t => t.json()).then(on_success)
       
       function on_success(data) {
