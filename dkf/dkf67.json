@@ -1,0 +1,15 @@
+{
+  "title": "DKF 67 :: La Commune (Paris, 1871) :: termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2025-03-26 22:05",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2025-03-28",
+      "last": "2025-04-06"
+    }
+  ]
+}
