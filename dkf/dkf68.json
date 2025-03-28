@@ -1,0 +1,41 @@
+{
+  "title": "DKF 68 & 69 :: głosowanie :: film & terminy",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2025-03-30 22:05",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "checkbox",
+      "opis": "Na który/e z wydarzeń chciałbyś przyjść?",
+    	"opis_en": "To which of the following events would you be willing to come?",
+      "options": [
+        {
+          "name": "ord",
+          "label": "zwykłe spotkanie z filmami spośród poniższych",
+          "label_en": "ordinary meeting with a film from the propsed below",
+          "value": true
+        },
+        {
+          "name": "maraton",
+          "label": "maraton Piratów z Karaibów (1-3)",
+          "label_en": "Pirates of the Caribbean (1-3) marathon",
+          "value": true
+        }
+      ]
+    },
+    {
+      "type": "filmy",
+      "is_np": true,
+      "filmy": [
+        
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "2025-04-01",
+      "last": "2025-04-15"
+    }
+  ]
+}

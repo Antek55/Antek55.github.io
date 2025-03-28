@@ -57,7 +57,7 @@
               <div class="item" v-for="f in fields">
                 <div v-if="f.type == 'checkbox'">
                   <div><em v-html="f.opis" v-if="f.opis" :en="f.opis_en"></em></div>
-                  <input type="checkbox" :name="f.name" v-model="f.value"><label :for="f.name">[[f.name]]</label>
+                  <div v-for="o in f.options"><input type="checkbox" v-model="o.value" name="p.name"> <label :for="o.name" :en="o.label_en">[[o.label]]</label></div>
                 </div>
                 
                 <div v-if="f.type == 'filmy'">
