@@ -9,7 +9,7 @@
     {
       "type": "checkbox",
       "opis": "Na który/e z wydarzeń chciałbyś przyjść?",
-    	"opis_en": "To which of the following events would you be willing to come?",
+      "opis_en": "To which of the following events would you be willing to come?",
       "options": [
         {
           "name": "ord",
@@ -29,7 +29,126 @@
       "type": "filmy",
       "is_np": true,
       "filmy": [
-        
+        {
+          "flag": [
+            "PL"
+          ],
+          "title": "Nie ma róży bez ognia",
+          "year": 1974,
+          "director": "Stanisław Bareja",
+          "imdbId": "tt0071908",
+          "imdbRating": 7.4,
+          "rymUrl": "https://rateyourmusic.com/film/nie-ma-rozy-bez-ognia/",
+          "rymRating": 3.59,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/79ee4f86bb2deddaed84d43e65918d3f/4231439"
+        },
+        {
+          "flag": [
+            "IT"
+          ],
+          "title": "Il bell'Antonio",
+          "director": "Mauro Bolognini",
+          "year": 1960,
+          "imdbId": "tt0053643",
+          "imdbRating": 7.3,
+          "rymUrl": "https://rateyourmusic.com/film/il-bellantonio/",
+          "rymRating": 3.43,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/a7193c9e2c8d8c8cd9b072c1ab7be869/2908681"
+        },
+        {
+          "flag": [
+            "FR"
+          ],
+          "title": "La Commune (Paris, 1871) część 2/2",
+          "director": "Peter Watkins",
+          "year": 2000,
+          "imdbId": "tt0257497",
+          "imdbRating": 8,
+          "rymUrl": "https://rateyourmusic.com/film/la-commune-paris-1871/",
+          "rymRating": 3.89,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/fc33e1fa299265ba0bf56c284be465b7/1002761"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Inception",
+          "director": "Christopher Nolan",
+          "year": 2010,
+          "imdbId": "tt1375666",
+          "imdbRating": 8.8,
+          "rymUrl": "https://rateyourmusic.com/film/inception/",
+          "rymRating": 3.58,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/6d1244f1fdc156a53c0278da664abb4f/7589847"
+        },
+        {
+          "flag": [
+            "PL"
+          ],
+          "title": "Lawa. Opowieść o \"Dziadach\" Adama Mickiewicza",
+          "director": "Tadeusz Konwicki",
+          "year": 1989,
+          "imdbId": "tt0097721",
+          "imdbRating": 6.8,
+          "rymUrl": "https://rateyourmusic.com/film/lawa/",
+          "rymRating": 3.27,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/ce93d3290bfc51d65ab9f43255eab777/3002739"
+        },
+        {
+          "flag": [
+            "FR",
+            "LI",
+            "GB"
+          ],
+          "title": "Little Buddha",
+          "director": "Bernardo Bertolucci",
+          "year": 1993,
+          "imdbId": "tt0107426",
+          "imdbRating": 6.1,
+          "rymUrl": "https://rateyourmusic.com/film/little-buddha/",
+          "rymRating": 2.65,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/b2fa0c79530523f1ecf3566aa07a6a30/1049503"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "The Royal Tennenbaums",
+          "director": "Wes Anderson",
+          "year": 2001,
+          "imdbId": "tt0265666",
+          "imdbRating": 7.6,
+          "rymUrl": "https://rateyourmusic.com/film/the-royal-tenenbaums/",
+          "rymRating": 3.76,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/f5f7c961cd917ac8365a758718b090d5/3250655"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "West Side Story",
+          "director": "Jerome Robbins, Robert Wise",
+          "year": 1961,
+          "imdbId": "tt0055614",
+          "imdbRating": 7.6,
+          "rymUrl": "https://rateyourmusic.com/film/west-side-story/",
+          "rymRating": 3.44,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/9f1644fee96b76af41ef0495cfade5af/8775954"
+        },
+        {
+          "flag": [
+            "AU",
+            "GB"
+          ],
+          "title": "The Everlasting Secret Family",
+          "director": "Michael Thornhill",
+          "year": 1988,
+          "imdbId": "tt0095117",
+          "imdbRating": 5.5,
+          "rymUrl": "https://rateyourmusic.com/film/the-everlasting-secret-family/",
+          "rymRating": 3.12,
+          "rymCoverartImg": "https://m.media-amazon.com/images/M/MV5BMjI2ODI3NjAxOF5BMl5BanBnXkFtZTgwNDg1ODk1MDE@._V1_.jpg"
+        }
       ]
     },
     {

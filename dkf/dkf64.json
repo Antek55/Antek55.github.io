@@ -1,1 +1,189 @@
-{"title": "DKF 64 :: g\u0142osowanie 2/2 :: film & termin", "opis": "Oznacz prosz\u0119 poni\u017cej swoje preferencje co do filmu i terminu nast\u0119pnego spotkania", "opis_en": "Please input below your preferences concerning the film and date", "closing_info": true, "closing": "2025-01-16 22:05", "en_available": true, "fields": [{"type": "filmy", "is_np": true, "filmy": [{"flag": ["US", "FR"], "title": "Casino", "originalTitle": null, "titleLocal": "Kasyno", "year": 1995, "url": "https://www.imdb.com/title/tt0112641", "imdbId": "tt0112641", "imdbRating": 8.2, "directors": ["Martin Scorsese"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Martin_Scorsese_at_Berlinale_2024-6_Ausschnitt.jpg/320px-Martin_Scorsese_at_Berlinale_2024-6_Ausschnitt.jpg\" class=\"popup-director-photo\"></center> <p><b>Martin Charles Scorsese</b> is an American filmmaker. He emerged as one of the major figures of the New Hollywood era. Scorsese has received many accolades, including an Academy Award, four BAFTA Awards, three Emmy Awards, a Grammy Award, three Golden Globe Awards, and two Directors Guild of America Awards. He has been honored with the AFI Life Achievement Award in 1997, the Film Society of Lincoln Center tribute in 1998, the Kennedy Center Honor in 2007, the Cecil B. DeMille Award in 2010, and the BAFTA Fellowship in 2012. Five of his films have been inducted into the National Film Registry by the Library of Congress as \"culturally, historically or aesthetically significant\". <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "EJXDMwGWhoA"}, "rymUrl": "https://rateyourmusic.com/film/casino/", "rymRating": "3.84", "rymCoverartImg": "https://e.snmc.io/i/300/s/30d171796a0e2f52783a68e1614bc93d/5477416"}, {"flag": ["GB", "US"], "title": "Bram Stoker's Dracula", "originalTitle": null, "titleLocal": "Bram Stoker's Dracula", "year": 1992, "url": "https://www.imdb.com/title/tt0103874", "imdbId": "tt0103874", "imdbRating": 7.4, "directors": ["Francis Ford Coppola"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Francis_Ford_Coppola_on_December_8%2C_2024_in_the_White_House_Oval_Office_%28cropped%29.jpg/320px-Francis_Ford_Coppola_on_December_8%2C_2024_in_the_White_House_Oval_Office_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Francis Ford Coppola</b> is an American filmmaker. He is considered one of the leading figures of the New Hollywood and one of the greatest directors of all time. Coppola is the recipient of five Academy Awards, six Golden Globe Awards, two Palmes d\\'Or and a BAFTA Award. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "fgFPIh5mvNc"}, "rymUrl": "https://rateyourmusic.com/film/bram-stokers-dracula/", "rymRating": "3.30", "rymCoverartImg": "https://e.snmc.io/i/300/s/b3de22eb75d21a4875785b3352448dbe/4697851"}, {"flag": ["FR", "ES"], "title": "That Obscure Object of Desire", "originalTitle": "Cet obscur objet du d\u00e9sir", "titleLocal": "Mroczny przedmiot po\u017c\u0105dania", "year": 1977, "url": "https://www.imdb.com/title/tt0075824", "imdbId": "tt0075824", "imdbRating": 7.8, "directors": ["Luis Bu\u00f1uel"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/LuisBu%C3%B1uel1929.jpg/320px-LuisBu%C3%B1uel1929.jpg\" class=\"popup-director-photo\"></center> <p><b>Luis Bu\u00f1uel Portol\u00e9s</b> was a Spanish filmmaker who worked in France, Mexico and Spain. He has been widely considered by many film critics, historians and directors to be one of the greatest and most influential filmmakers of all time. Bu\u00f1uel\\'s works were known for their avant-garde surrealism which were also infused with political commentary. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "vBTy2_XMpbE"}, "rymUrl": "https://rateyourmusic.com/film/cet-obscur-objet-du-desir/", "rymRating": "3.74", "rymCoverartImg": "https://e.snmc.io/i/300/s/2cfcb17e7cdcf9b23cb1ea78848482ea/9776874"}, {"flag": ["FR", "US"], "title": "Mulholland Drive", "originalTitle": null, "titleLocal": "Mulholland Drive", "year": 2001, "url": "https://www.imdb.com/title/tt0166924", "imdbId": "tt0166924", "imdbRating": 7.9, "directors": ["David Lynch"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/David_Lynch_Cannes_2017.jpg/320px-David_Lynch_Cannes_2017.jpg\" class=\"popup-director-photo\"></center> <p><b>David Keith Lynch</b> is an American filmmaker, visual artist, musician and actor. He has received critical acclaim for his films, which are often distinguished by their surrealist, dreamlike qualities. Lynch has received numerous accolades, including the Golden Lion for Lifetime Achievement in 2006 and an Honorary Academy Award in 2019. In 2007, a panel of critics convened by <i>The Guardian</i> announced that \"after all the discussion, no one could fault the conclusion that David Lynch is the most important film-maker of the current era.\" <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "jbZJ487oJlY"}, "rymUrl": "https://rateyourmusic.com/film/mulholland-dr/", "rymRating": "4.25", "rymCoverartImg": "https://e.snmc.io/i/300/s/a1fca373e0d8227917c36efea4a18a10/3396926"}, {"flag": ["AU"], "title": "The Boys", "originalTitle": null, "titleLocal": "Ch\u0142opcy", "year": 1998, "url": "https://www.imdb.com/title/tt0139898", "imdbId": "tt0139898", "imdbRating": 6.9, "directors": ["Rowan Woods"], "popup-director": "<p><b>Rowan Woods</b> is an Australian AACTA Award-winning film and television director, best known for the 1998 film <i>The Boys</i> and the 2016 television drama series <i>The Kettering Incident</i>. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "_SaYWSKoncg"}, "rymUrl": "https://rateyourmusic.com/film/the-boys/", "rymRating": "3.52", "rymCoverartImg": "https://e.snmc.io/i/300/s/0b8d59e4dc226032c044c1d1d9ca79f1/1024370"}, {"flag": ["GB", "US"], "title": "A Clockwork Orange", "originalTitle": null, "titleLocal": "Mechaniczna pomara\u0144cza", "year": 1972, "url": "https://www.imdb.com/title/tt0066921", "imdbId": "tt0066921", "imdbRating": 8.2, "directors": ["Stanley Kubrick"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29_crop.jpg/320px-Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29_crop.jpg\" class=\"popup-director-photo\"></center> <p><b>Stanley Kubrick</b> was an American film director, screenwriter, producer, and photographer. Widely considered one of the greatest filmmakers of all time, his films were nearly all adaptations of novels or short stories, spanning a number of genres and gaining recognition for their intense attention to detail, innovative cinematography, extensive set design, and dark humor. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "T54uZPI4Z8A"}, "rymUrl": "https://rateyourmusic.com/film/a-clockwork-orange/", "rymRating": "4.18", "rymCoverartImg": "https://e.snmc.io/i/300/s/c7938b3599920da534f02d27c35b875d/3022455"}, {"flag": ["FR", "IT", "ES"], "title": "The Discreet Charm of the Bourgeoisie", "originalTitle": "Le charme discret de la bourgeoisie", "titleLocal": "Dyskretny urok bur\u017cuazji", "year": 1972, "url": "https://www.imdb.com/title/tt0068361", "imdbId": "tt0068361", "imdbRating": 7.8, "directors": ["Luis Bu\u00f1uel"], "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/LuisBu%C3%B1uel1929.jpg/320px-LuisBu%C3%B1uel1929.jpg\" class=\"popup-director-photo\"></center> <p><b>Luis Bu\u00f1uel Portol\u00e9s</b> was a Spanish filmmaker who worked in France, Mexico and Spain. He has been widely considered by many film critics, historians and directors to be one of the greatest and most influential filmmakers of all time. Bu\u00f1uel\\'s works were known for their avant-garde surrealism which were also infused with political commentary. <i class=\"fab fa-wikipedia-w\"></i></p>", "isDocu": false, "yttrailer": {"videoId": "T7XNFYdQ8S8"}, "rymUrl": "https://rateyourmusic.com/film/le-charme-discret-de-la-bourgeoisie/", "rymRating": "3.82", "rymCoverartImg": "https://e.snmc.io/i/300/s/892f25bb8cf00e94349a2fa5555f8a94/5135134"}]}, {"type": "terminy", "first": "2025-01-18", "last": "2025-01-24"}]}
+{
+  "title": "DKF 64 :: głosowanie 2/2 :: film & termin",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2025-01-16 22:05",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "filmy",
+      "is_np": true,
+      "filmy": [
+        {
+          "flag": [
+            "US",
+            "FR"
+          ],
+          "title": "Casino",
+          "originalTitle": null,
+          "titleLocal": "Kasyno",
+          "year": 1995,
+          "url": "https://www.imdb.com/title/tt0112641",
+          "imdbId": "tt0112641",
+          "imdbRating": 8.2,
+          "directors": [
+            "Martin Scorsese"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Martin_Scorsese_at_Berlinale_2024-6_Ausschnitt.jpg/320px-Martin_Scorsese_at_Berlinale_2024-6_Ausschnitt.jpg\" class=\"popup-director-photo\"></center> <p><b>Martin Charles Scorsese</b> is an American filmmaker. He emerged as one of the major figures of the New Hollywood era. Scorsese has received many accolades, including an Academy Award, four BAFTA Awards, three Emmy Awards, a Grammy Award, three Golden Globe Awards, and two Directors Guild of America Awards. He has been honored with the AFI Life Achievement Award in 1997, the Film Society of Lincoln Center tribute in 1998, the Kennedy Center Honor in 2007, the Cecil B. DeMille Award in 2010, and the BAFTA Fellowship in 2012. Five of his films have been inducted into the National Film Registry by the Library of Congress as \"culturally, historically or aesthetically significant\". <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "EJXDMwGWhoA"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/casino/",
+          "rymRating": "3.84",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/30d171796a0e2f52783a68e1614bc93d/5477416"
+        },
+        {
+          "flag": [
+            "GB",
+            "US"
+          ],
+          "title": "Bram Stoker's Dracula",
+          "originalTitle": null,
+          "titleLocal": "Bram Stoker's Dracula",
+          "year": 1992,
+          "url": "https://www.imdb.com/title/tt0103874",
+          "imdbId": "tt0103874",
+          "imdbRating": 7.4,
+          "directors": [
+            "Francis Ford Coppola"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Francis_Ford_Coppola_on_December_8%2C_2024_in_the_White_House_Oval_Office_%28cropped%29.jpg/320px-Francis_Ford_Coppola_on_December_8%2C_2024_in_the_White_House_Oval_Office_%28cropped%29.jpg\" class=\"popup-director-photo\"></center> <p><b>Francis Ford Coppola</b> is an American filmmaker. He is considered one of the leading figures of the New Hollywood and one of the greatest directors of all time. Coppola is the recipient of five Academy Awards, six Golden Globe Awards, two Palmes d\\'Or and a BAFTA Award. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "fgFPIh5mvNc"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/bram-stokers-dracula/",
+          "rymRating": "3.30",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/b3de22eb75d21a4875785b3352448dbe/4697851"
+        },
+        {
+          "flag": [
+            "FR",
+            "ES"
+          ],
+          "title": "That Obscure Object of Desire",
+          "originalTitle": "Cet obscur objet du désir",
+          "titleLocal": "Mroczny przedmiot pożądania",
+          "year": 1977,
+          "url": "https://www.imdb.com/title/tt0075824",
+          "imdbId": "tt0075824",
+          "imdbRating": 7.8,
+          "directors": [
+            "Luis Buñuel"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/LuisBu%C3%B1uel1929.jpg/320px-LuisBu%C3%B1uel1929.jpg\" class=\"popup-director-photo\"></center> <p><b>Luis Buñuel Portolés</b> was a Spanish filmmaker who worked in France, Mexico and Spain. He has been widely considered by many film critics, historians and directors to be one of the greatest and most influential filmmakers of all time. Buñuel\\'s works were known for their avant-garde surrealism which were also infused with political commentary. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "vBTy2_XMpbE"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/cet-obscur-objet-du-desir/",
+          "rymRating": "3.74",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/2cfcb17e7cdcf9b23cb1ea78848482ea/9776874"
+        },
+        {
+          "flag": [
+            "FR",
+            "US"
+          ],
+          "title": "Mulholland Drive",
+          "originalTitle": null,
+          "titleLocal": "Mulholland Drive",
+          "year": 2001,
+          "url": "https://www.imdb.com/title/tt0166924",
+          "imdbId": "tt0166924",
+          "imdbRating": 7.9,
+          "directors": [
+            "David Lynch"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/David_Lynch_Cannes_2017.jpg/320px-David_Lynch_Cannes_2017.jpg\" class=\"popup-director-photo\"></center> <p><b>David Keith Lynch</b> is an American filmmaker, visual artist, musician and actor. He has received critical acclaim for his films, which are often distinguished by their surrealist, dreamlike qualities. Lynch has received numerous accolades, including the Golden Lion for Lifetime Achievement in 2006 and an Honorary Academy Award in 2019. In 2007, a panel of critics convened by <i>The Guardian</i> announced that \"after all the discussion, no one could fault the conclusion that David Lynch is the most important film-maker of the current era.\" <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "jbZJ487oJlY"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/mulholland-dr/",
+          "rymRating": "4.25",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/a1fca373e0d8227917c36efea4a18a10/3396926"
+        },
+        {
+          "flag": [
+            "AU"
+          ],
+          "title": "The Boys",
+          "originalTitle": null,
+          "titleLocal": "Chłopcy",
+          "year": 1998,
+          "url": "https://www.imdb.com/title/tt0139898",
+          "imdbId": "tt0139898",
+          "imdbRating": 6.9,
+          "directors": [
+            "Rowan Woods"
+          ],
+          "popup-director": "<p><b>Rowan Woods</b> is an Australian AACTA Award-winning film and television director, best known for the 1998 film <i>The Boys</i> and the 2016 television drama series <i>The Kettering Incident</i>. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "_SaYWSKoncg"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/the-boys/",
+          "rymRating": "3.52",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/0b8d59e4dc226032c044c1d1d9ca79f1/1024370"
+        },
+        {
+          "flag": [
+            "GB",
+            "US"
+          ],
+          "title": "A Clockwork Orange",
+          "originalTitle": null,
+          "titleLocal": "Mechaniczna pomarańcza",
+          "year": 1972,
+          "url": "https://www.imdb.com/title/tt0066921",
+          "imdbId": "tt0066921",
+          "imdbRating": 8.2,
+          "directors": [
+            "Stanley Kubrick"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29_crop.jpg/320px-Kubrick_on_the_set_of_Barry_Lyndon_%281975_publicity_photo%29_crop.jpg\" class=\"popup-director-photo\"></center> <p><b>Stanley Kubrick</b> was an American film director, screenwriter, producer, and photographer. Widely considered one of the greatest filmmakers of all time, his films were nearly all adaptations of novels or short stories, spanning a number of genres and gaining recognition for their intense attention to detail, innovative cinematography, extensive set design, and dark humor. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "T54uZPI4Z8A"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/a-clockwork-orange/",
+          "rymRating": "4.18",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/c7938b3599920da534f02d27c35b875d/3022455"
+        },
+        {
+          "flag": [
+            "FR",
+            "IT",
+            "ES"
+          ],
+          "title": "The Discreet Charm of the Bourgeoisie",
+          "originalTitle": "Le charme discret de la bourgeoisie",
+          "titleLocal": "Dyskretny urok burżuazji",
+          "year": 1972,
+          "url": "https://www.imdb.com/title/tt0068361",
+          "imdbId": "tt0068361",
+          "imdbRating": 7.8,
+          "directors": [
+            "Luis Buñuel"
+          ],
+          "popup-director": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/LuisBu%C3%B1uel1929.jpg/320px-LuisBu%C3%B1uel1929.jpg\" class=\"popup-director-photo\"></center> <p><b>Luis Buñuel Portolés</b> was a Spanish filmmaker who worked in France, Mexico and Spain. He has been widely considered by many film critics, historians and directors to be one of the greatest and most influential filmmakers of all time. Buñuel\\'s works were known for their avant-garde surrealism which were also infused with political commentary. <i class=\"fab fa-wikipedia-w\"></i></p>",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "T7XNFYdQ8S8"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/le-charme-discret-de-la-bourgeoisie/",
+          "rymRating": "3.82",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/892f25bb8cf00e94349a2fa5555f8a94/5135134"
+        }
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "2025-01-18",
+      "last": "2025-01-24"
+    }
+  ]
+}

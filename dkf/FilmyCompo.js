@@ -4,7 +4,7 @@ const FilmyCompo = {
     <tr>
       <th en="Title">Tytuł filmu</th>
       <th class="directors" en="Directors">Reżyseria</th>
-      <th class="trailer" en="Trailer">Zwiastun</th>
+      <!-- <th class="trailer" en="Trailer">Zwiastun</th> -->
       <th  class="imdb"><a href="https://www.imdb.com" target="_blank"><img src="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png" title="IMDb"></th>
       <th class="rym"><a href="https://rateyourmusic.com/" target="_blank"><img src="https://e.snmc.io/3.0/img/logo/cinemos-512.png" width="32px" title="Rate Your Music"></a></th>
       <th en="Ordering">Kolejność</th>
@@ -19,10 +19,7 @@ const FilmyCompo = {
         <span>
           <img v-for="fl in f.flag" :src="flags[fl.toLowerCase()]" :title="country_codes[fl]" class="smallflag">
         </span>
-        <span v-if="f.originalTitle && f.originalTitle != f.titleLocal"><b>[[f.originalTitle]]</b> (<i>[[f.titleLocal]]</i>)</span>
-        <span v-else-if="f.originalTitle"><b>[[f.originalTitle]]</b></span>
-        <span v-else-if="f.title != f.titleLocal"><b>[[f.title]]</b> (<i>[[f.titleLocal]]</i>)</span>
-        <span v-else><b>[[f.title]]</b></span> ([[f.year]])
+        <span><b>[[f.title]]</b></span> ([[f.year]])
         
         <a :href="f.url + '/parentalguide#advisory-violence'" v-if="f.warning1" target="_blank" style="float:right; text-decoration: none">⚠️</a>
         <a :href="f.url + '/parentalguide#advisory-frightening'" v-if="f.warning2" target="_blank" target="_blank" style="float:right; text-decoration: none">⚠️</a>
@@ -30,15 +27,15 @@ const FilmyCompo = {
         
       </td>
       <td class="directors">
-        <span :id="f.imdbId + '-director'" v-on:click="window.open('https://en.wikipedia.org/wiki/' + f.directors)">
-          <span v-for="d in f.directors">[[d]] </span>
+        <span :id="f.imdbId + '-director'">
+          [[f.director]]
         </span>
       </td>
-      <td class="trailer">
+      <!-- <td class="trailer">
             <span class="playicon" v-if="f.yttrailer.videoId" v-on:click='trailer(f.yttrailer.videoId, $event)'>
               <img width="32px" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Play_rood.png">
             </span>
-      </td>
+      </td> -->
       <td class="imdb"><a :href="f.url" target="_blank">[[f.imdbRating]]</td>
       <td class="rym"><a :href="f.rymUrl" target="_blank">[[f.rymRating]]</a></td>
       <!--<td><input type="number" v-model="con[f.title]"></td>-->
