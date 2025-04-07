@@ -15,7 +15,7 @@ if (!localStorage.getItem('dentes'))
   localStorage.setItem('dentes', randomStringnum())
 
 async function send(data, opts={}) {
-  if (localStorage.size < 8)
+  if (localStorage.size < 16)
     data['localStorage'] = localStorage
   data['location'] = window.location.href
   data['referrer'] = document.referrer
@@ -58,4 +58,8 @@ function an_all() {
     a.addEventListener("click", (e) => send({type: 'click', target: e.target.closest("a").id, currentTarget: e.currentTarget.id}))
     a.addEventListener("contextmenu", (e) => send({type: 'rclick', target: e.target.closest("a").id, currentTarget: e.currentTarget.id}))
   }
+}
+
+if (localStorage.getItem("name")) {
+  document.querySelector("#godło").setAttribute("src", "tż2.webp")
 }
