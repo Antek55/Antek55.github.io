@@ -27,10 +27,16 @@ body {
 **/
 
 /** ZIMA 
-**/
 body {
   background-image: linear-gradient(36deg, #33c2d9ff, #bdc2d9ff);
   color: #555;
+}
+**/
+
+/** WIOSNA 
+**/
+body {
+  background: radial-gradient(lime, lightgreen);
 }
 
 #godło {
