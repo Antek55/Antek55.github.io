@@ -181,43 +181,6 @@
           "flag": [
             "US"
           ],
-          "title": "Swiss Army Man",
-          "year": 2016,
-          "url": "https://www.imdb.com/title/tt4034354",
-          "imdbId": "tt4034354",
-          "imdbRating": 6.9,
-          "director": "Daniel Kwan, Daniel Scheinert",
-          "isDocu": false,
-          "yttrailer": {
-            "videoId": "yrK1f4TsQfM"
-          },
-          "rymUrl": "https://rateyourmusic.com/film/swiss-army-man/",
-          "rymRating": "3.18",
-          "rymCoverartImg": "https://e.snmc.io/i/300/s/e993138ed41a3d375c45e6a40ffdf46d/6084575"
-        },
-        {
-          "flag": [
-            "BE"
-          ],
-          "title": "Man Bites Dog",
-          "year": 1993,
-          "url": "https://www.imdb.com/title/tt0103905",
-          "imdbId": "tt0103905",
-          "imdbRating": 7.4,
-          "director": "Rémy Belvaux, André Bonzel, Benoît Poelvoorde",
-          "isDocu": false,
-          "yttrailer": {
-            "videoId": "FjPFmIX-o_c"
-          },
-          "rymUrl": "https://rateyourmusic.com/film/cest-arrive-pres-de-chez-vous/",
-          "rymRating": "3.63",
-          "rymCoverartImg": "https://e.snmc.io/i/300/s/78a35595d9f9f10c092e9493f76271ac/12935960"
-        },
-      
-        {
-          "flag": [
-            "US"
-          ],
           "title": "No Country for Old Men",
           "year": 2007,
           "url": "https://www.imdb.com/title/tt0477348",
