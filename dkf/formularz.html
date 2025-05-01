@@ -198,7 +198,11 @@
       for (let f of data.fields) {
         if (f.type == "terminy") {
           dayjs.locale(LANG)
-          let first = dayjs(f.first)
+          let first
+          if (f.first == 'auto')
+            first = dayjs(data.closing).add(2, 'days')
+          else
+            first = dayjs(f.first)
           let last = dayjs(f.last)
           f.terminy = {}
           while (first <= last) {
