@@ -36,7 +36,7 @@ const FilmyCompo = {
               <img width="32px" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Play_rood.png">
             </span>
       </td> -->
-      <td class="imdb"><a :href="f.url" target="_blank">[[f.imdbRating]]</td>
+      <td class="imdb"><a :href="'https://www.imdb.com/title/' + f.imdbId" target="_blank">[[f.imdbRating]]</td>
       <td class="rym"><a :href="f.rymUrl" target="_blank">[[f.rymRating]]</a></td>
       <!--<td><input type="number" v-model="con[f.title]"></td>-->
       <td><b v-html="con[f.title] ? con[f.title] : '∞'" /></td>
