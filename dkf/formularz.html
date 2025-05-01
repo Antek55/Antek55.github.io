@@ -200,7 +200,7 @@
           dayjs.locale(LANG)
           let first
           if (f.first == 'auto')
-            first = dayjs(data.closing).add(2, 'days')
+            first = dayjs(data.closing.split(" ")[0]).add(2, 'days')
           else
             first = dayjs(f.first)
           let last = dayjs(f.last)
