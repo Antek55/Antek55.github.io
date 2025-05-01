@@ -40,13 +40,13 @@ const FilmyCompo = {
       <td class="rym"><a :href="f.rymUrl" target="_blank">[[f.rymRating]]</a></td>
       <!--<td><input type="number" v-model="con[f.title]"></td>-->
       <td><b v-html="con[f.title] ? con[f.title] : '∞'" /></td>
-      <td><button v-if="Object.values(con).includes(0)" @click.prevent="nxt(f.title)">Nast.</button></td>
+      <td><button v-if="Object.values(con).includes(0)" @click.prevent="nxt(f.title)" en="Next">Nast.</button></td>
       <td><button v-if="con[f.title] && con[f.title] != 1" @click.prevent="up(f.title)">⬆️</button></td>
       <td><button v-if="con[f.title] && con[f.title] != Object.keys(con).length" @click.prevent="down(f.title)">⬇️</button></td>
       <td v-if="field.is_np"><input type="checkbox" v-model="np[f.title]"></td>
     </tr>
   </table>
-  <button id="zeruj" @click.prevent="zeruj">Zeruj wszystkie wybory</button></div>`,
+  <button id="zeruj" @click.prevent="zeruj" en="Clear all choices">Zeruj wszystkie wybory</button></div>`,
   data() {
     let con = {}
     let np = {}
@@ -159,7 +159,7 @@ const FilmyCompo = {
   },
   mounted() {
     if (location.hostname == 'localhost' && this.field.filmy.length > 12)
-      ;// alert('Wiele filmów: ' + this.field.filmy.length)
+       alert('Wiele filmów: ' + this.field.filmy.length)
     
     const filmy = this.field.filmy
     tippy('.title', {
