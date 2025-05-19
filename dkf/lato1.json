@@ -1,0 +1,14 @@
+{
+  "title": "Tour de Basse Silésie :: turnus I :: terminy",
+  "opis": "Oznacz proszę poniżej swoją dostępność na ewentualny/e wyjazd/y rowerowe",
+  "closing": "2025-06-20 22:05",
+  "style": "towgeo.css",
+  "en_available": false,
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2025-06-02",
+      "last": "2025-06-22"
+    }
+  ]
+}
