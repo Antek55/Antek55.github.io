@@ -3,6 +3,7 @@
   "opis": "Oznacz proszę poniżej swoją dostępność na ewentualny/e wyjazd/y rowerowe",
   "closing": "2025-06-20 22:05",
   "style": "towgeo.css",
+  "banner": "gfx/db-banner.jpg",
   "en_available": false,
   "fields": [
     {
