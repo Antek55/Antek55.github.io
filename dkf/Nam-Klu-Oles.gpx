@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2025-06-11T15:03:38.878Z</time>
+  <bounds minlat="50.883997113" minlon="17.558270060" maxlat="51.074866134" maxlon="18.425657328"/>
+  <trk>
+    <name>Nam-Klu-Oles</name>
+    <trkseg>
+      <trkpt lat="50.981061101" lon="17.558270060">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="51.074866134" lon="17.719694928">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="50.967822221" lon="18.205307225">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="50.883997113" lon="18.425657328">
+        <ele>0.000</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

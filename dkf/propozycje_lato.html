@@ -19,7 +19,9 @@
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pl.js"></script>
     <link href="measurecontrol.css" rel="stylesheet">
     <style>
-
+      img {
+        filter: drop-shadow(0px 0px 10px orange)
+      }
     </style>
     <script src="MapCompo.js"></script>
     <title>Towarzystwo Geograficzne</title>
@@ -36,36 +38,42 @@
 
         <div>
           <div>
-            <h3>→ <em>Głogów, Dalkowskie Jary, Przemkowskie Bagno, Przemkowski Park Krajobrazowy, Cietrzewiowe Wrzosowisko, Pstrąże, Pustynia Kozłowska, Poradzieckie Składy Amunicji, Torfowisko Borówki</em></h3>
-            <!-- <a href="https://www.static.jwodzinski.com.pl/towgeo/trasa.html#Gg" target="_blank"><img src="world_map.svg" width="50px"></a> -->
-            <p>najdłuższa trasa i przyznam że może trochę za długa, ale napełniona wyśmienitymi wrażeniami (to nie jest oferta handlowa w rozumieniu Kodeksu Cywilnego). Istnieje kilka możliwości wcześniejszego wycofania się z pominięciem różnej liczby atrakcji, najwcześniej po 50 km.</p>
-            <map-compo :gpxs="['Gg.gpx']"></map-compo>
+            <h3>1. →Wzgórze Maślickie, Środa Śląska, <em>Lubiąż</em>, Kraina Odrzańskich Łęgów, Park Krajobrazowy Dolina Jezierzycy, Wołów</h3>
+            <img src="https://niezlasztuka.net/wp-content/uploads/2024/01/Lubiaz-Depositphotos_75418977_L.jpg" width="25%">
+            <p>Po 6 latach można wrócić i zobaczyć znowu turystyczną perłę regionu, Lubiąż. Możliwość wycofania się w Środzie, Malczycach, Orzeszkowie (pod Ścinawą)</p>
+            <map-compo :gpxs="['LeśŚro.gpx', 'ŚroMal.gpx', 'MalWoł.gpx']"></map-compo>
           </div>
           <div>
-            <h3>→ <em>Bardo, Ząbkowice, Pałac Marianny Orańskiej w Kamieńcu, Paczków ("polskie Carcasonne"), Otmuchów, Nysa</em></h3>
-            <!-- <a href="https://www.static.jwodzinski.com.pl/towgeo/trasa.html#BN" target="_blank"><img src="world_map.svg" width="50px"></a> -->
+            <h3>2. → <em> Bardo, Ząbkowice, Pałac Marianny Orańskiej w Kamieńcu, Paczków ("polskie Carcasonne"), Otmuchów, Nysa</em></h3>
+            <img src="https://www.aktywniwpodrozy.pl/wp-content/uploads/2024/12/nysa-co-zobaczyc-14_bg.webp" width="25%">
             <p>trasa zachacza o tereny górskie, ale jeśli wyruszymy z Barda to będzie wiodła w większości w dół</p>
             <map-compo :gpxs="['BN.gpx']"></map-compo>
+          </div>
+          <div>
+            <h3>3. → <em>Głogów, Dalkowskie Jary, Przemkowskie Bagno, Przemkowski Park Krajobrazowy, Cietrzewiowe Wrzosowisko, Pstrąże, Pustynia Kozłowska, Poradzieckie Składy Amunicji, Torfowisko Borówki</em></h3>
+            <img src="gfx/pustynia1.jpg" width="25%">
+            <p>najdłuższa ale napełniona wyśmienitymi wrażeniami trasa jednodniowa. Istnieje kilka możliwości wcześniejszego wycofania się z pominięciem różnej liczby atrakcji, najwcześniej po 50 km.</p>
+            <map-compo :gpxs="['Gg.gpx']"></map-compo>
+          </div>
 
+          <div>
+            <h3>(4). → Ostpolitik 1: <em>Borucicie, Namysłow, Kluczbork, Olesno</em></h3>
+            <img src="https://www.tripsk.pl/wp-content/uploads/2017/05/Atrakcje-Kluczborka-Rynek.jpg" width="25%">
+            <p>Szczegółowa trasa w przygotowaniu</p>
+            <map-compo :gpxs="['Nam-Klu-Oles.gpx']"></map-compo>
+          </div>
+
+          <div>
+            <h3>(5). → Ostpolitik 2: <em>Namysłow, Kluczbork, Opole</em></h3>
+            <img src="https://zamkowymlyn.pl/wp-content/uploads/2021/02/co-zwiedac-w-opolu11.jpg" width="25%">
+            <p>Szczegółowa trasa w przygotowaniu</p>
+            <map-compo :gpxs="['Nam-Klu-Op.gpx']"></map-compo>
           </div>
         </div>
 
         <div style="color: auto">
           <h2>Propozycje archiwalne</h2>
           <p>Takie lub podobne trasy były już przejeżdżane w różnych składach, ale można je kiedyś powtórzyć.
-
-            <div>
-              <h3>→ <em>Lubiąż, Kraina Odrzańskich Łęgów, Wołów, Park Krajobrazowy Dolina Jezierzycy, Oborniki Śląskie, Trzebnica</em></h3>
-              <p>możliwość wcześniejszego wycofania się w Orzeszkowie (pod Ścinawą), w Wołowie oraz w Obornikach</p>
-              <map-compo :gpxs="['Lubiąż.gpx']"></map-compo>
-            </div>
-
-            <div>
-              <h3>→ <em>Lubiąż, Kraina Odrzańskich Łęgów, Wołów, Park Krajobrazowy Dolina Jezierzycy, Oborniki Śląskie, Trzebnica</em></h3>
-              <p>inna opcja lubiąska, mniej jazdy pociągiem (wyjazd z Leśnicy zamiast dojazdu do Malczyc) i Środa Śląska zamiast Obornik, Trzebnicy. Możliwość wycofania się w Środzie, Malczycach, Orzeszkowie (pod Ścinawą)</p>
-              <map-compo :gpxs="['LeśŚro.gpx', 'ŚroMal.gpx', 'MalWoł.gpx']"></map-compo>
-            </div>
-
             <div>
               <h3>→ <em>Żmigród, Park Krajobrazowy Doliny Baryczy, Milicz, Stawy Milickie</em></h3>
               <map-compo :gpxs="['Milicz.gpx', 'Milicz-suppl.gpx']"></map-compo>

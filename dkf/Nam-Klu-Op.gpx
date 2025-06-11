@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2025-06-11T15:05:19.790Z</time>
+  <bounds minlat="50.664383393" minlon="17.719694928" maxlat="51.074866134" maxlon="18.205307225"/>
+  <trk>
+    <name>Nam-Klu-Op</name>
+    <trkseg>
+      <trkpt lat="51.074866134" lon="17.719694928">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="50.967822221" lon="18.205307225">
+        <ele>0.000</ele>
+      </trkpt>
+      <trkpt lat="50.664383393" lon="17.924067310">
+        <ele>0.000</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
