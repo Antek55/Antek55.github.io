@@ -1,0 +1,207 @@
+{
+  "godło": "/vite.svg",
+  "title": "DKF 73 :: głosowanie :: film & terminy",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2030-05-02 22:05",
+  "en_available": true,
+  "fields": [
+    {
+      "type": "FilmyCompo",
+      "is_np": true,
+      "filmy": [
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Judas and the Black Messiah",
+          "year": 2021,
+          "url": "https://www.imdb.com/title/tt9784798",
+          "imdbId": "tt9784798",
+          "imdbRating": 7.4,
+          "director": "Shaka King",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "sSjtGqRXQ9Y"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/judas-and-the-black-messiah/",
+          "rymRating": "3.60",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/4dd0a03539f1f1665b3425ee7ed4125e/8752383"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "A Woman Under the Influence",
+          "director": "John Cassavetes",
+          "year": 1974,
+          "imdbId": "tt0072417",
+          "imdbRating": "8",
+          "rymUrl": "https://rateyourmusic.com/film/a-woman-under-the-influence/",
+          "rymRating": 4.15,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/6fa5c9f032b213545c059e7af5283b68/2804790"
+        },
+        {
+          "flag": [
+            "US",
+            "GB",
+            "FR"
+          ],
+          "title": "Thelma & Louise",
+          "director": "Ridley Scott",
+          "year": 1991,
+          "imdbId": "tt0103074",
+          "imdbRating": 7.6,
+          "rymUrl": "https://rateyourmusic.com/film/thelma-and-louise/",
+          "rymRating": 3.42,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/0e98f295e176cb69da815bc50160d45b/5468577"
+        },
+        {
+          "flag": [
+            "PL"
+          ],
+          "title": "Chłopaki nie płaczą",
+          "year": 2000,
+          "url": "https://www.imdb.com/title/tt0238119",
+          "imdbId": "tt0238119",
+          "imdbRating": 7.6,
+          "director": "Olaf Lubaszenko",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "Ar9wGSd7KVQ"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/chlopaki-nie-placza/",
+          "rymRating": "3.20",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/dd73e463419022136888b6856f86f6db/1010485"
+        },
+        {
+          "flag": [
+            "PL",
+            "CZ"
+          ],
+          "title": "Wieża. Jasny dzień",
+          "year": 2018,
+          "url": "https://www.imdb.com/title/tt7419360",
+          "imdbId": "tt7419360",
+          "imdbRating": 6.1,
+          "director": "Jagoda Szelc",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "D25uqvZ2S5g"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/wieza-jasny-dzien/",
+          "rymRating": "3.29",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/97ef9db69bda46c7b3a18832a690c203/7166375"
+        },
+        {
+          "flag": [
+            "US",
+            "GB",
+            "MT",
+            "MA"
+          ],
+          "title": "Gladiator",
+          "year": 2000,
+          "url": "https://www.imdb.com/title/tt0172495",
+          "imdbId": "tt0172495",
+          "imdbRating": 8.5,
+          "director": "Ridley Scott",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "P5ieIbInFpg"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/gladiator/",
+          "rymRating": "3.31",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/64082e9389583142ab926de604618d2c/7441480"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "The Royal Tennenbaums",
+          "director": "Wes Anderson",
+          "year": 2001,
+          "imdbId": "tt0265666",
+          "imdbRating": 7.6,
+          "rymUrl": "https://rateyourmusic.com/film/the-royal-tenenbaums/",
+          "rymRating": 3.76,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/f5f7c961cd917ac8365a758718b090d5/3250655"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "Another Woman",
+          "director": "Woody Allen",
+          "year": 1988,
+          "imdbId": "tt0094663",
+          "imdbRating": 7.2,
+          "rymUrl": "https://rateyourmusic.com/film/another-woman/",
+          "rymRating": 3.53,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/b7d8220df272b0fdf889599fafe6956b/4959272"
+        },
+        {
+          "flag": [
+            "GB",
+            "IT"
+          ],
+          "title": "Blow-Up",
+          "year": 1967,
+          "url": "https://www.imdb.com/title/tt0060176",
+          "imdbId": "tt0060176",
+          "imdbRating": 7.4,
+          "director": "Michelangelo Antonioni",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "YCNTLWCFcQs"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/blowup/",
+          "rymRating": "3.78",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/8ff30294864bb6861f664b4589ee41fc/7457239"
+        },
+        {
+          "flag": [
+            "PL"
+          ],
+          "title": "Plac Zbawiciela",
+          "year": 2006,
+          "url": "https://www.imdb.com/title/tt0488027",
+          "imdbId": "tt0488027",
+          "imdbRating": 7.4,
+          "director": "Joanna Kos-Krauze, Krzysztof Krauze",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "AAAy7S098OU"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/plac-zbawiciela/",
+          "rymRating": "3.17",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/4b800f17fc3006ea47e69404d854777f/5163048"
+        },
+        {
+          "flag": [
+            "US"
+          ],
+          "title": "No Country for Old Men",
+          "year": 2007,
+          "url": "https://www.imdb.com/title/tt0477348",
+          "imdbId": "tt0477348",
+          "imdbRating": 8.2,
+          "director": "Ethan Coen, Joel Coen",
+          "isDocu": false,
+          "yttrailer": {
+            "videoId": "38A__WT3-o0"
+          },
+          "rymUrl": "https://rateyourmusic.com/film/no-country-for-old-men/",
+          "rymRating": "4.11",
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/687c1769e7fc06d78275e382dcd90952/5973806"
+        }
+      ]
+    },
+    {
+      "type": "TerminyCompo",
+      "first": "2025-05-06",
+      "last": "2025-05-08"
+    }
+  ]
+}
