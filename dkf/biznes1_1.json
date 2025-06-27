@@ -1,0 +1,13 @@
+{
+  "title": "Business meeting na szybko",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do terminu spotkania",
+  "closing_info": false,
+  "closing": "2025-06-29 22:05",
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2025-06-28",
+      "last": "2025-07-02"
+    }
+  ]
+}
