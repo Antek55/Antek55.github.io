@@ -1,0 +1,98 @@
+{
+  "title": "DKF 78 :: film & terminy",
+  "opis": "Oznacz proszę poniżej preferencje co do tytułu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2025-07-12 22:05",
+  "en_available": false,
+  "fields": [
+    {
+      "type": "filmy",
+      "filmy": [
+        {
+          "flag": [
+            "fr"
+          ],
+          "title": "Le Samourai",
+          "year": 1967,
+          "director": "Jean-Pierre Melville",
+          "imdbId": "tt0062229",
+          "imdbRating": 8,
+          "rymUrl": "https://rateyourmusic.com/film/le-samourai/",
+          "rymRating": 3.92,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/de244c34ab8d1eb541f7f36314826b26/5193504"
+        },
+        {
+          "flag": [
+            "fr"
+          ],
+          "title": "Playtime",
+          "year": 1967,
+          "imdbId": "tt0062136",
+          "imdbRating": 7.8,
+          "director": "Jacques Tati",
+          "rymUrl": "https://www.rateyourmusic.com/film/playtime",
+          "rymRating": 3.98,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/6552f8a340cf2aa2428cee4c639505e9/3195736"
+        },
+        {
+          "flag": [
+            "fr"
+          ],
+          "title": "Pierrot le Fou",
+          "year": 1965,
+          "director": "Jean-Luc Godard",
+          "imdbId": "tt0059592",
+          "imdbRating": 7.4,
+          "rymUrl": "https://rateyourmusic.com/film/pierrot-le-fou/",
+          "rymRating": 3.84,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/9c54b857bc131aa29cb2996a3d60a18d/6725351"
+        },
+        {
+          "flag": [
+            "fr"
+          ],
+          "title": "L'Age d'Or",
+          "year": 1930,
+          "director": "Luis Buñuel",
+          "imdbId": "tt0021577",
+          "imdbRating": 7.2,
+          "rymUrl": "https://rateyourmusic.com/film/l-age-dor/",
+          "rymRating": 3.47,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/42fa00df88248cf804a7ddc8098ea887/5558963"
+        },
+        {
+          "flag": [
+            "fr"
+          ],
+          "title": "Contempt",
+          "year": 1963,
+          "director": "Jean-Luc Godard",
+          "imdbId": "tt0057345",
+          "imdbRating": 7.4,
+          "rymUrl": "https://rateyourmusic.com/film/le-mepris/",
+          "rymRating": 3.65,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/f14355aff0ef366136283001f7483495/5086864"
+        },
+        {
+          "flag": [
+            "FR"
+          ],
+          "title": "La Haine",
+          "year": 1995,
+          "director": "Mathieu Kassovitz",
+          "imdbId": "tt0113247",
+          "imdbRating": 8.1,
+          "rymUrl": "https://rateyourmusic.com/film/la-haine/",
+          "rymRating": 3.98,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/293064fb3896f762913f98113708c34a/5102187"
+        }
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "auto",
+      "last": "2025-07-20"
+    }
+  ]
+}
