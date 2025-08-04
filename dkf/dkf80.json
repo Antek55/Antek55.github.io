@@ -1,0 +1,98 @@
+{
+  "title": "DKF 80 :: film & terminy",
+  "opis": "Oznacz proszę poniżej preferencje co do tytułu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
+  "closing_info": true,
+  "closing": "2025-08-05 22:05",
+  "en_available": false,
+  "fields": [
+    {
+      "type": "filmy",
+      "filmy": [
+        {
+          "flag": [
+            "jp"
+          ],
+          "title": "Ran",
+          "year": 1985,
+          "director": "Akira Kurosawa",
+          "imdbId": "tt0089881",
+          "imdbRating": 8.2,
+          "rymUrl": "https://rateyourmusic.com/film/%E4%B9%B1/",
+          "rymRating": 4.21,
+          "rymCoverartImg": "https://e.snmc.io/i/300/s/cee384512e8ae0cdbf4904026f6daa4a/3777602"
+        },
+        {
+  "flag": [
+    "jp"
+  ],
+  "title": "Sansho the Bailiff",
+  "year": 1954,
+  "director": "Kenji Mizoguchi",
+  "imdbId": "tt0047445",
+  "imdbRating": 8.3,
+  "rymUrl": "https://rateyourmusic.com/film/%E5%B1%B1%E6%A4%92%E5%A4%A7%E5%A4%AB/",
+  "rymRating": 4.13,
+  "rymCoverartImg": "https://e.snmc.io/i/300/s/bbed5b770bb00f5029b681660622f2d4/6026856"
+},
+{
+  "flag": [
+    "jp"
+  ],
+  "title": "Ugetsu",
+  "year": 1953,
+  "director": "Kenji Mizoguchi",
+  "imdbId": "tt0046478",
+  "imdbRating": 8.1,
+  "rymUrl": "https://rateyourmusic.com/film/%E9%9B%A8%E6%9C%88%E7%89%A9%E8%AA%9E/",
+  "rymRating": 4.01,
+  "rymCoverartImg": "https://e.snmc.io/i/300/s/1f3807054892f178be2e12758b14c975/3836765"
+},
+{
+  "flag": [
+    "jp"
+  ],
+  "title": "Red Beard",
+  "year": 1965,
+  "director": "Akira Kurosawa",
+  "imdbId": "tt0058888",
+  "imdbRating": 8.3,
+  "rymUrl": "https://rateyourmusic.com/film/%E8%B5%A4%E3%81%B2%E3%81%92/",
+  "rymRating": 4.00,
+  "rymCoverartImg": "https://e.snmc.io/i/300/s/42916aca37d145ac20612e5aedcc8a80/5907858"
+},
+{
+  "flag": [
+    "jp"
+  ],
+  "title": "Yojimbo",
+  "year": 1961,
+  "director": "Akira Kurosawa",
+  "imdbId": "tt0055630",
+  "imdbRating": 8.2,
+  "rymUrl": "https://rateyourmusic.com/film/%E7%94%A8%E5%BF%83%E6%A3%92/",
+  "rymRating": 3.98,
+  "rymCoverartImg": "https://e.snmc.io/i/300/s/9b82022d8f7bf976e8709e2ba8a5b985/6250833"
+},
+{
+  "flag": [
+    "jp"
+  ],
+  "title": "The Life of Oharu",
+  "year": 1952,
+  "director": "Kenji Mizoguchi",
+  "imdbId": "tt0045112",
+  "imdbRating": 8.1,
+  "rymUrl": "https://rateyourmusic.com/film/%E8%A5%BF%E9%B6%B4%E4%B8%80%E4%BB%A3%E5%A5%B3/",
+  "rymRating": 3.99,
+  "rymCoverartImg": "https://e.snmc.io/i/300/s/e3ea0388d66b09f841be1da04b3a8d60/8758135"
+}
+      ]
+    },
+    {
+      "type": "terminy",
+      "first": "auto",
+      "last": "2025-08-12"
+    }
+  ]
+}
