@@ -4,6 +4,7 @@
   "opis_en": "Please input below your preferences concerning the film and date",
   "closing_info": true,
   "closing": "2025-08-05 22:05",
+  "true_closing": "2025-08-06 22:05",
   "en_available": false,
   "fields": [
     {
