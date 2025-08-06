@@ -1,0 +1,16 @@
+{
+  "title": "Hadżdż",
+  "opis": "",
+  "closing": "2030-06-20 22:05",
+  "closing_info": false,
+  "style": "towgeo.css",
+  "banner": "banners/pustynia.jpg",
+  "en_available": false,
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "2025-08-09",
+      "last": "2025-08-31"
+    }
+  ]
+}
