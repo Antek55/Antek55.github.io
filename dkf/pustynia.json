@@ -3,7 +3,8 @@
   "opis": "",
   "closing": "2030-06-20 22:05",
   "closing_info": false,
-  "style": "towgeo.css",
+  "style": "hajj.css",
+  "godło": "hajj.svg",
   "banner": "banners/pustynia.jpg",
   "en_available": false,
   "fields": [
