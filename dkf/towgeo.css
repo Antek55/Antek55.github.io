@@ -1,8 +1,8 @@
 /** LATO
-**/
 body {
   background-image: linear-gradient(26deg, darkgreen, lime);
 }
+**/
 
 /** AMERYKA
 body {
@@ -15,7 +15,9 @@ body {
 }
 **/
 
-/** JESIEñ
+/**
+JESIEñ
+**/
 body {
   background-image: linear-gradient(36deg, #cc0000, darkred);
   color: gold;
@@ -24,16 +26,15 @@ body {
 #godło {
   content:url(towgeo-jesien.webp);
 }
-**/
 
-/** ZIMA 
+/** ZIMA
 body {
   background-image: linear-gradient(36deg, #33c2d9ff, #bdc2d9ff);
   color: #555;
 }
 **/
 
-/** WIOSNA 
+/** WIOSNA
 body {
   background: radial-gradient(lime, lightgreen);
 }
