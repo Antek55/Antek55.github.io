@@ -3,15 +3,23 @@
 <channel>
  <title>Bezdyskusyjny Klub Filmowy</title>
  <description>Bezdyskusyjny Klub Filmowy</description>
- <link>https://www.static.jwodzinski.com.pl/dkf/</link>
- <lastBuildDate>2025-11-14T01:55:21.224854</lastBuildDate>
- <pubDate>2025-11-14T01:55:21.224854</pubDate>
+ <link>https://www.static.jwodzinski.wroclaw.pl/dkf/</link>
+ <lastBuildDate>2025-11-14T15:57:42.092887</lastBuildDate>
+ <pubDate>2025-11-14T15:57:42.092887</pubDate>
  <image>
-    <url>https://www.static.jwodzinski.com.pl/wakacje2021/gfx/tż2.svg</url>
-    <title>ALHKS :: Bezdyskusyjny Klub Filmowy</title>
-    <link>https://www.static.jwodzinski.com.pl/dkf/</link>
+    <url>https://www.static.jwodzinski.wroclaw.pl/dkf/tż2.webp</url>
+    <title>Bezdyskusyjny Klub Filmowy</title>
+    <link>https://www.static.jwodzinski.wroclaw.pl/dkf/</link>
     </image>
  
+ <item>
+         <title>DKF 83 The Brutalist Last-Minute</title>
+         <description>Względy organizacyjne się rozwiązały i zachęcamy do zapowiedzi i odwiedzin last-minute na dzisiejszego Brutalistę!</description>
+         
+         <guid isPermaLink="false">064010bd053e042e63ba80089fddee5fb741024aac498922d0bf6eb24adb135d</guid>
+         <pubDate>2025-11-14T16:30:00</pubDate>
+         
+         </item>
  <item>
          <title>DKF 84 ZDALNY :: głosowanie 1/2 :: nominacje</title>
          <description>Wychodząc naprzeciw prośbom rosnącej diaspory DKF-u, od tego sezonu uruchomimy spotkania zdalne równolegle do spotkań stacjonarnych, w hołdzie dla koronawirusowych korzeni klubu. Pierwsze od lat spotkanie całkiem zdalne, na które rzecz jasna oprócz diaspory zapraszamy również bywalców metropolitanych, obędzie się z programem i w terminie do ustalenia za pomocą tradycyjnego głosowania, w części pierwszej z dwóch można nominować filmy do głosowania wpisując ich tytuły w formularzu dostępnym &lt;b&gt;do jutra piątku g. 22:05&lt;/b&gt; &lt;a href="https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#nominacje"&gt;tutaj&lt;/a&gt;</description>
