@@ -1,0 +1,15 @@
+{
+  "title": "DKF 85 :: Casino :: terminy",
+  "opis": "Oznacz proszę poniżej preferencje co do terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the date of the next meeting",
+  "closing_info": true,
+  "closing": "2025-11-20 22:05",
+  "en_available": false,
+  "fields": [
+    {
+      "type": "terminy",
+      "first": "auto",
+      "last": "2025-11-29"
+    }
+  ]
+}
