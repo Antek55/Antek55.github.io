@@ -1,0 +1,1 @@
+import"./prefix_modulepreload-polyfill-B5Qt9EMX.js";/* empty css                        */import{F as l}from"./prefix_all-C9DRsF5c.js";import"./prefix__commonjsHelpers-Cpj98o6Y.js";for(let t of document.querySelectorAll(".smallflag")){let e=t.getAttribute("cc");e!==null&&t.setAttribute("src",l[e])}

@@ -6,12 +6,14 @@
   <link rel="alternate" type="application/rss+xml" href="feed.xml"/>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
-  <script type="module" crossorigin src="/v2/assets/prefix_dkf-base-C6E_RCkO.js"></script>
-  <script type="module" crossorigin src="/v2/assets/prefix__plugin-vue_export-helper-BrLH553N.js"></script>
-  <script type="module" crossorigin src="/v2/assets/prefix_main-Cu3y58qA.js"></script>
-  <link rel="stylesheet" crossorigin href="/v2/assets/dkf-base-C9wfiFHf.css">
+  <script type="module" crossorigin src="/v2/assets/index-D9L9e3Zn.js"></script>
+  <link rel="modulepreload" crossorigin href="/v2/assets/prefix_modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/v2/assets/prefix__plugin-vue_export-helper-B7ce18th.js">
+  <link rel="stylesheet" crossorigin href="/v2/assets/index-BABggkh-.css">
+  <link rel="stylesheet" crossorigin href="/v2/assets/dkf-base-HJZP4TC5.css">
 </head>
 <body>
+  <div id="paralax"></div>
   <div style="position: absolute; top: 0px; right: 0px">
     <a href="#" onclick="localStorage.setItem('lang', 'pl')" id="a_flag_pl"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Poland_%283-2%29.svg" class="smallflag" title="polski"></a>
     <a href="#" onclick="localStorage.setItem('lang', 'en')" id="a_flag_en"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Flag_of_the_United_States_%283-2_aspect_ratio%29.svg" class="smallflag" title="English"></a>
@@ -92,23 +94,4 @@
           </div>
         </div>
     </center>
-    <script src="an.js"></script>
-    <script src="i18n.js"></script>
-    <script>
-    $("a").attr("target", "_blank")
-    function showForm() {
-      $("#formDiv").fadeIn()
-      document.querySelector("input").value = ''
-      document.querySelector("input").focus()
-      window.scrollTo(0, document.body.scrollHeight);
-    }
-    function keydown(ev) {
-      if (event.key == "Enter")
-        submit_form(ev.target)
-    }
-    an_all()
-    translate_all()
-    </script>
-    <script src="colors.js"></script>
-    <script src="paralax.js"></script>
 </body>

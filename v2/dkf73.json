@@ -1,8 +1,5 @@
 {
-  "godło": "/vite.svg",
   "title": "DKF 73 :: głosowanie :: film & terminy",
-  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
-  "opis_en": "Please input below your preferences concerning the film and date",
   "closing_info": true,
   "closing": "2030-05-02 22:05",
   "en_available": true,
@@ -200,8 +197,8 @@
     },
     {
       "type": "TerminyCompo",
-      "first": "2025-05-06",
-      "last": "2025-05-08"
+      "first": "2025-11-24",
+      "last": "2025-12-08"
     }
   ]
 }

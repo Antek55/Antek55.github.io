@@ -1,1 +1,0 @@
-import{_ as r,m as c}from"./prefix__plugin-vue_export-helper-BrLH553N.js";import"./prefix_dkf-base-C6E_RCkO.js";const t={};function e(_,o){return" XXX "}const n=r(t,[["render",e]]);c(n).mount("#app");
