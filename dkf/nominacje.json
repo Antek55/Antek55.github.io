@@ -5,7 +5,7 @@
   "closing": "2030-01-01 16:15",
   "fields": [
     {
-      "type": "textarea",
+      "type": "TextArea",
       "text": "",
       "label": "Zapisz proszę poniżej <em>co najwyżej trzy</em> filmy, które chesz nominować do plebiscytu. W zależności od liczby zgłoszeń weźmiemy pewną liczbę filmów od góry listy.",
       "label_en": "Please input here <em>at most three</em> films which will then be voted in the next round. Depending on the number of submissions we will include a certain number of them from the top of the list in the vote."

@@ -1,11 +1,13 @@
 {
   "title": "DKF 73 :: głosowanie :: film & terminy",
+  "opis": "Oznacz proszę poniżej swoje preferencje co do filmu i terminu następnego spotkania",
+  "opis_en": "Please input below your preferences concerning the film and date",
   "closing_info": true,
-  "closing": "2030-05-02 22:05",
+  "closing": "2025-08-02 22:05",
   "en_available": true,
   "fields": [
     {
-      "type": "FilmyCompo",
+      "type": "filmy",
       "is_np": true,
       "filmy": [
         {
@@ -196,9 +198,9 @@
       ]
     },
     {
-      "type": "TerminyCompo",
-      "first": "2025-11-24",
-      "last": "2025-12-08"
+      "type": "terminy",
+      "first": "auto",
+      "last": "2025-09-08"
     }
   ]
 }
