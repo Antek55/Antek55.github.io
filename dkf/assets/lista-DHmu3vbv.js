@@ -1,1 +1,0 @@
-import"./prefix__plugin-vue_export-helper-DEr749xE.js";import{F as l}from"./prefix_all-b-3GAlVa.js";for(let t of document.querySelectorAll(".smallflag")){let e=t.getAttribute("cc");e!==null&&t.setAttribute("src",l[e])}
