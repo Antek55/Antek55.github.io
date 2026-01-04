@@ -1,183 +1,180 @@
 {
-  "title": "DKF 89 :: film & terminy",
-  "closing_info": true,
-  "closing": "2026-01-05 22:05",
-  "en_available": false,
-  "fields": [
-    {
-      "type": "FilmyCompo",
-      "is_np": true,
-      "filmy": [
+    "title": "DKF 89 :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-01-05 22:05",
+    "en_available": false,
+    "fields": [
         {
-            "flag": [
-              "it"
-            ],
-            "title": "La Notte",
-            "year": 1961,
-            "director": "Michelangelo Antonioni",
-            "imdbId": "tt0054130",
-            "imdbRating": "7.9",
-            "rymUrl": "https://rateyourmusic.com/film/la-notte/",
-            "rymRating": 3.96,
-            "rymCoverartImg": "https://e.snmc.io/i/300/s/99cb79c6ab0a0cc7b2a332bfad69d35d/3691172"
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Dune Part Two",
+                    "year": 2024,
+                    "director": "Denis Villeneuve",
+                    "imdbId": "tt15239678",
+                    "imdbRating": "8.4",
+                    "rymUrl": "https://rateyourmusic.com/film/dune-part-two/",
+                    "rymRating": 3.79,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/c79159c2495c213aeb35423dce5cd8b6/11927920"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Synecdoche, New York",
+                    "year": 2008,
+                    "director": "Charlie Kaufman",
+                    "imdbId": "tt0383028",
+                    "imdbRating": "7.5",
+                    "rymUrl": "https://rateyourmusic.com/film/synecdoche-new-york/",
+                    "rymRating": "3.88",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/2a1812ec84dadc91125d51fb7af2b96a/5381962"
+                },
+                {
+                    "flag": [
+                        "it"
+                    ],
+                    "title": "La Notte",
+                    "year": 1961,
+                    "director": "Michelangelo Antonioni",
+                    "imdbId": "tt0054130",
+                    "imdbRating": "7.9",
+                    "rymUrl": "https://rateyourmusic.com/film/la-notte/",
+                    "rymRating": 3.96,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/99cb79c6ab0a0cc7b2a332bfad69d35d/3691172"
+                },
+                {
+                    "flag": [
+                        "be"
+                    ],
+                    "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+                    "year": 1975,
+                    "director": "Chantal Akerman",
+                    "imdbId": "tt0073198",
+                    "imdbRating": "7.5",
+                    "rymUrl": "https://rateyourmusic.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/",
+                    "rymRating": "3.99",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3859a6733661ce0002fa4a274944f67b/7477471"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Seconds",
+                    "year": 1966,
+                    "director": "John Frankenheimer",
+                    "imdbId": "tt0060955",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/seconds/",
+                    "rymRating": "3.87",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Wag the Dog",
+                    "year": 1997,
+                    "director": "Barry Levinson",
+                    "imdbId": "tt0120885",
+                    "imdbRating": "7.1",
+                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
+                    "rymRating": "3.21",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944"
+                },
+                {
+                    "flag": [
+                        "ie",
+                        "gb",
+                        "us"
+                    ],
+                    "title": "The Killing of a Sacred Deer",
+                    "year": 2017,
+                    "director": "Yorgos Lanthimos",
+                    "imdbId": "tt5715874",
+                    "imdbRating": "7.0",
+                    "rymUrl": "https://rateyourmusic.com/film/the-killing-of-a-sacred-deer/",
+                    "rymRating": "3.47",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/1796d6cff46602fae37899137ca058a9/6706037"
+                },
+                {
+                    "flag": [
+                        "us",
+                        "ca",
+                        "es"
+                    ],
+                    "title": "Blade Runner 2049",
+                    "year": 2017,
+                    "director": "Denis Villeneuve",
+                    "imdbId": "tt1856101",
+                    "imdbRating": "8.0",
+                    "rymUrl": "https://rateyourmusic.com/film/blade-runner-2049/",
+                    "rymRating": 3.83,
+                    "rymCoverartImg": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Mean Streets",
+                    "year": 1973,
+                    "director": "Martin Scorsese",
+                    "imdbId": "tt0070379",
+                    "imdbRating": "7.2",
+                    "rymUrl": "https://rateyourmusic.com/film/mean-streets/",
+                    "rymRating": "3.54",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/65bfc7fcf5435e41be0a2af68407ee24/6249036"
+                },
+                {
+                    "flag": [
+                        "ge"
+                    ],
+                    "title": "And Then We Danced",
+                    "year": 2019,
+                    "director": "Levan Akin",
+                    "imdbId": "tt8963708",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
+                    "rymRating": 3.63,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449"
+                },
+                {
+                    "flag": [
+                        "it",
+                        "us"
+                    ],
+                    "title": "Challengers",
+                    "year": 2024,
+                    "director": "Luca Guadagnino",
+                    "imdbId": "tt16426418",
+                    "imdbRating": "7.0",
+                    "rymUrl": "https://rateyourmusic.com/film/challengers/",
+                    "rymRating": "3.55",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862"
+                },
+                {
+                    "flag": [
+                        "mx"
+                    ],
+                    "title": "Y tu mam\u00e1 tambi\u00e9n",
+                    "year": 2001,
+                    "director": "Alfonso Cuar\u00f3n",
+                    "imdbId": "tt0245574",
+                    "imdbRating": "7.7",
+                    "rymUrl": "https://rateyourmusic.com/film/y-tu-mama-tambien/",
+                    "rymRating": "3.71",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/47eb41b2d3059627f401ab6b6b04e201/5988163"
+                }
+            ]
         },
         {
-          "flag": [
-            "us",
-            "ca",
-            "es"
-          ],
-          "title": "Blade Runner 2049",
-          "year": 2017,
-          "director": "Denis Villeneuve",
-          "imdbId": "tt1856101",
-          "imdbRating": "8.0",
-          "rymUrl": "https://rateyourmusic.com/film/blade-runner-2049/",
-          "rymRating": 3.83,
-          "rymCoverartImg": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg"
-        },
-        {
-  "flag": [
-    "us"
-  ],
-  "title": "Dune Part Two",
-  "year": 2024,
-  "director": "Denis Villeneuve",
-  "imdbId": "tt15239678",
-  "imdbRating": "8.4",
-  "rymUrl": "https://rateyourmusic.com/film/dune-part-two/",
-  "rymRating": 3.79,
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/c79159c2495c213aeb35423dce5cd8b6/11927920"
-},
-
-{
-  "flag": [
-    "ge"
-  ],
-  "title": "And Then We Danced",
-  "year": 2019,
-  "director": "Levan Akin",
-  "imdbId": "tt8963708",
-  "imdbRating": "7.6",
-  "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
-  "rymRating": 3.63,
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449"
-},
-{
-  "flag": [
-    "us"
-  ],
-  "title": "Seconds",
-  "year": 1966,
-  "director": "John Frankenheimer",
-  "imdbId": "tt0060955",
-  "imdbRating": "7.6",
-  "rymUrl": "https://rateyourmusic.com/film/seconds/",
-  "rymRating": "3.87",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127"
-},
-{
-  "flag": [
-    "us"
-  ],
-  "title": "Mean Streets",
-  "year": 1973,
-  "director": "Martin Scorsese",
-  "imdbId": "tt0070379",
-  "imdbRating": "7.2",
-  "rymUrl": "https://rateyourmusic.com/film/mean-streets/",
-  "rymRating": "3.54",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/65bfc7fcf5435e41be0a2af68407ee24/6249036"
-},
-{
-  "flag": [
-    "be"
-  ],
-  "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
-  "year": 1975,
-  "director": "Chantal Akerman",
-  "imdbId": "tt0073198",
-  "imdbRating": "7.5",
-  "rymUrl": "https://rateyourmusic.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/",
-  "rymRating": "3.99",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/3859a6733661ce0002fa4a274944f67b/7477471"
-},
-{
-  "flag": [
-    "mx"
-  ],
-  "title": "Y tu mamá también",
-  "year": 2001,
-  "director": "Alfonso Cuarón",
-  "imdbId": "tt0245574",
-  "imdbRating": "7.7",
-  "rymUrl": "https://rateyourmusic.com/film/y-tu-mama-tambien/",
-  "rymRating": "3.71",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/47eb41b2d3059627f401ab6b6b04e201/5988163"
-},
-{
-  "flag": [
-    "it", "us"
-  ],
-  "title": "Challengers",
-  "year": 2024,
-  "director": "Luca Guadagnino",
-  "imdbId": "tt16426418",
-  "imdbRating": "7.0",
-  "rymUrl": "https://rateyourmusic.com/film/challengers/",
-  "rymRating": "3.55",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862"
-},
-{
-  "flag": [
-    "us"
-  ],
-  "title": "Synecdoche, New York",
-  "year": 2008,
-  "director": "Charlie Kaufman",
-  "imdbId": "tt0383028",
-  "imdbRating": "7.5",
-  "rymUrl": "https://rateyourmusic.com/film/synecdoche-new-york/",
-  "rymRating": "3.88",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/2a1812ec84dadc91125d51fb7af2b96a/5381962"
-},
-{
-  "flag": [
-    "us"
-  ],
-  "title": "Wag the Dog",
-  "year": 1997,
-  "director": "Barry Levinson",
-  "imdbId": "tt0120885",
-  "imdbRating": "7.1",
-  "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
-  "rymRating": "3.21",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944"
-},
-{
-  "flag": [
-    "ie",
-    "gb",
-    "us"
-  ],
-  "title": "The Killing of a Sacred Deer",
-  "year": 2017,
-  "director": "Yorgos Lanthimos",
-  "imdbId": "tt5715874",
-  "imdbRating": "7.0",
-  "rymUrl": "https://rateyourmusic.com/film/the-killing-of-a-sacred-deer/",
-  "rymRating": "3.47",
-  "rymCoverartImg": "https://e.snmc.io/i/300/s/1796d6cff46602fae37899137ca058a9/6706037"
-}
-
-
-
-      ]
-    },
-    {
-      "type": "TerminyCompo",
-      "first": "auto",
-      "days": 8
-    }
-  ]
+            "type": "TerminyCompo",
+            "first": "auto",
+            "days": 8
+        }
+    ]
 }
