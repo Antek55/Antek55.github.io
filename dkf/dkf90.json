@@ -10,18 +10,52 @@
             "filmy": [
                 {
                     "flag": [
-                        "ge"
+                        "us"
                     ],
-                    "title": "And Then We Danced",
-                    "year": 2019,
-                    "director": "Levan Akin",
-                    "imdbId": "tt8963708",
-                    "imdbRating": "7.6",
-                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
-                    "rymRating": 3.63,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
-                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
-                    "lbRating": "4.1"
+                    "title": "Dune Part Two",
+                    "year": 2024,
+                    "director": "Denis Villeneuve",
+                    "imdbId": "tt15239678",
+                    "imdbRating": "8.4",
+                    "rymUrl": "https://rateyourmusic.com/film/dune-part-two/",
+                    "rymRating": 3.79,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/c79159c2495c213aeb35423dce5cd8b6/11927920",
+                    "lbUrl": "https://letterboxd.com/film/dune-part-two/",
+                    "lbRating": "4.4"
+                },
+                {
+                    "director": "Alice Rohrwacher",
+                    "flag": [
+                        "it",
+                        "fr",
+                        "ch",
+                        "tr"
+                    ],
+                    "imdbId": "tt14561712",
+                    "imdbRating": 7.3,
+                    "lbRating": 4.1,
+                    "lbUrl": "https://letterboxd.com/film/la-chimera/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/583a5b64aca88905746bb9df0beddee0/10983164",
+                    "rymRating": 3.6,
+                    "rymUrl": "https://rateyourmusic.com/film/la-chimera/",
+                    "title": "La chimera",
+                    "year": 2023
+                },
+                {
+                    "flag": [
+                        "it",
+                        "us"
+                    ],
+                    "title": "Challengers",
+                    "year": 2024,
+                    "director": "Luca Guadagnino",
+                    "imdbId": "tt16426418",
+                    "imdbRating": "7.0",
+                    "rymUrl": "https://rateyourmusic.com/film/challengers/",
+                    "rymRating": "3.55",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862",
+                    "lbUrl": "https://letterboxd.com/film/challengers/",
+                    "lbRating": "3.8"
                 },
                 {
                     "flag": [
@@ -41,34 +75,76 @@
                     "lbRating": "3.7"
                 },
                 {
-                    "director": "Todd Solondz",
+                    "director": "Yorgos Lanthimos",
                     "flag": [
+                        "ie",
+                        "gb",
+                        "gr",
+                        "fr",
+                        "nl",
+                        "be",
                         "us"
                     ],
-                    "imdbId": "tt0147612",
-                    "imdbRating": 7.7,
-                    "lbRating": 4.0,
-                    "lbUrl": "https://letterboxd.com/film/happiness/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/d437e7453f651f36e63910f448a17c8c/2915918",
-                    "rymRating": "3.80",
-                    "rymUrl": "https://rateyourmusic.com/film/happiness/",
-                    "title": "Happiness",
-                    "year": 1998
+                    "imdbId": "tt3464902",
+                    "imdbRating": 7.1,
+                    "lbRating": 3.8,
+                    "lbUrl": "https://letterboxd.com/film/the-lobster/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/54c06abf66d8723269781199aeb22787/5693164",
+                    "rymRating": 3.53,
+                    "rymUrl": "https://rateyourmusic.com/film/the-lobster/",
+                    "title": "The Lobster",
+                    "year": 2015
                 },
                 {
-                    "director": "John Waters",
                     "flag": [
                         "us"
                     ],
-                    "imdbId": "tt0082926",
-                    "imdbRating": 7.0,
-                    "lbRating": 3.8,
-                    "lbUrl": "https://letterboxd.com/film/polyester/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/5c80a03715c4828d2d01beeab1681bb8/5084349",
-                    "rymRating": 3.59,
-                    "rymUrl": "https://rateyourmusic.com/film/polyester/",
-                    "title": "Polyester",
-                    "year": 1981
+                    "title": "Seconds",
+                    "year": 1966,
+                    "director": "John Frankenheimer",
+                    "imdbId": "tt0060955",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/seconds/",
+                    "rymRating": "3.87",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127",
+                    "lbUrl": "https://letterboxd.com/film/seconds/",
+                    "lbRating": "4.1"
+                },
+                {
+                    "flag": [
+                        "it"
+                    ],
+                    "title": "La Notte",
+                    "year": 1961,
+                    "director": "Michelangelo Antonioni",
+                    "imdbId": "tt0054130",
+                    "imdbRating": "7.9",
+                    "rymUrl": "https://rateyourmusic.com/film/la-notte/",
+                    "rymRating": 3.96,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/99cb79c6ab0a0cc7b2a332bfad69d35d/3691172",
+                    "lbUrl": "https://letterboxd.com/film/la-notte/",
+                    "lbRating": "4.3"
+                },
+                {
+                    "director": "Radu Jude",
+                    "flag": [
+                        "ro",
+                        "lu",
+                        "fr",
+                        "hr",
+                        "ch",
+                        "gb",
+                        "ca"
+                    ],
+                    "imdbId": "tt18162096",
+                    "imdbRating": 7.3,
+                    "lbRating": 3.9,
+                    "lbUrl": "https://letterboxd.com/film/do-not-expect-too-much-from-the-end-of-the-world/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/5abe2b8481d96d10b0a38e105f07bf49/12029486",
+                    "rymRating": 3.74,
+                    "rymUrl": "https://rateyourmusic.com/film/nu-a%C8%99tepta-prea-mult-de-la-sfar%C8%99itul-lumii/",
+                    "title": "Nie obiecujcie sobie zbyt wiele po ko\u0144cu \u015bwiata",
+                    "year": 2023
                 },
                 {
                     "director": "Luis Bu\u00f1uel",
@@ -85,6 +161,21 @@
                     "rymUrl": "https://rateyourmusic.com/film/belle-de-jour/",
                     "title": "Belle de jour",
                     "year": 1967
+                },
+                {
+                    "flag": [
+                        "ge"
+                    ],
+                    "title": "And Then We Danced",
+                    "year": 2019,
+                    "director": "Levan Akin",
+                    "imdbId": "tt8963708",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
+                    "rymRating": 3.63,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
+                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
+                    "lbRating": "4.1"
                 },
                 {
                     "flag": [
@@ -105,82 +196,6 @@
                     "flag": [
                         "us"
                     ],
-                    "title": "Wag the Dog",
-                    "year": 1997,
-                    "director": "Barry Levinson",
-                    "imdbId": "tt0120885",
-                    "imdbRating": "7.1",
-                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
-                    "rymRating": "3.21",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
-                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
-                    "lbRating": "3.5"
-                },
-                {
-                    "flag": [
-                        "us"
-                    ],
-                    "title": "Dune Part Two",
-                    "year": 2024,
-                    "director": "Denis Villeneuve",
-                    "imdbId": "tt15239678",
-                    "imdbRating": "8.4",
-                    "rymUrl": "https://rateyourmusic.com/film/dune-part-two/",
-                    "rymRating": 3.79,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/c79159c2495c213aeb35423dce5cd8b6/11927920",
-                    "lbUrl": "https://letterboxd.com/film/dune-part-two/",
-                    "lbRating": "4.4"
-                },
-                {
-                    "flag": [
-                        "it"
-                    ],
-                    "title": "La Notte",
-                    "year": 1961,
-                    "director": "Michelangelo Antonioni",
-                    "imdbId": "tt0054130",
-                    "imdbRating": "7.9",
-                    "rymUrl": "https://rateyourmusic.com/film/la-notte/",
-                    "rymRating": 3.96,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/99cb79c6ab0a0cc7b2a332bfad69d35d/3691172",
-                    "lbUrl": "https://letterboxd.com/film/la-notte/",
-                    "lbRating": "4.3"
-                },
-                {
-                    "flag": [
-                        "it",
-                        "us"
-                    ],
-                    "title": "Challengers",
-                    "year": 2024,
-                    "director": "Luca Guadagnino",
-                    "imdbId": "tt16426418",
-                    "imdbRating": "7.0",
-                    "rymUrl": "https://rateyourmusic.com/film/challengers/",
-                    "rymRating": "3.55",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862",
-                    "lbUrl": "https://letterboxd.com/film/challengers/",
-                    "lbRating": "3.8"
-                },
-                {
-                    "flag": [
-                        "us"
-                    ],
-                    "title": "Seconds",
-                    "year": 1966,
-                    "director": "John Frankenheimer",
-                    "imdbId": "tt0060955",
-                    "imdbRating": "7.6",
-                    "rymUrl": "https://rateyourmusic.com/film/seconds/",
-                    "rymRating": "3.87",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127",
-                    "lbUrl": "https://letterboxd.com/film/seconds/",
-                    "lbRating": "4.1"
-                },
-                {
-                    "flag": [
-                        "us"
-                    ],
                     "title": "Mean Streets",
                     "year": 1973,
                     "director": "Martin Scorsese",
@@ -191,6 +206,21 @@
                     "rymCoverartImg": "https://e.snmc.io/i/300/s/65bfc7fcf5435e41be0a2af68407ee24/6249036",
                     "lbUrl": "https://letterboxd.com/film/mean-streets/",
                     "lbRating": "3.7"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Wag the Dog",
+                    "year": 1997,
+                    "director": "Barry Levinson",
+                    "imdbId": "tt0120885",
+                    "imdbRating": "7.1",
+                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
+                    "rymRating": "3.21",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
+                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
+                    "lbRating": "3.5"
                 }
             ]
         },
