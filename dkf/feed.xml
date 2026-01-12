@@ -4,8 +4,8 @@
  <title>Bezdyskusyjny Klub Filmowy</title>
  <description>Bezdyskusyjny Klub Filmowy</description>
  <link>https://www.static.jwodzinski.wroclaw.pl/dkf/</link>
- <lastBuildDate>2026-01-11T17:37:58.360191</lastBuildDate>
- <pubDate>2026-01-11T17:37:58.360191</pubDate>
+ <lastBuildDate>2026-01-12T22:05:25.864218</lastBuildDate>
+ <pubDate>2026-01-12T22:05:25.864218</pubDate>
  <image>
     <url>https://www.static.jwodzinski.wroclaw.pl/dkf/tż-sfw.ico</url>
     <title>Bezdyskusyjny Klub Filmowy</title>
@@ -14,6 +14,14 @@
     <height>32</height>
     </image>
  
+ <item>
+         <title>DKF 90 :: głosowanie 2/2 :: film i terminy</title>
+         <description>Dzięki za wyjątkowo liczne nominacje! Film i termin na następne spotkanie można wybrać w formularzu dostępnym &lt;b&gt;do jutra wtorku, g. 22:05&lt;/b&gt; &lt;a href="https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#dkf90"&gt;tutaj&lt;/a&gt; 📽</description>
+         <link>https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#dkf90</link>
+         <guid isPermaLink="false">2a3327d6e7907a9c52a9601b913c83e5951ca6b97466644ddea2f3afe59ae560</guid>
+         <pubDate>2026-01-12T16:30:00</pubDate>
+         
+         </item>
  <item>
          <title>DKF 90 :: głosowanie 1/2 :: nominacje</title>
          <description>Propozycję filmową na następne spotkanie oraz jego termin wybierzemy w tradycyjnym głosowaniu, w części pierwszej z dwóch można nominować filmy do głosowania, jeśli chcesz nominować te same co ostatnim razem nie rób nic, w przeciwnym razie możesz wpisać tytuły w formularzu dostępnym &lt;b&gt;do jutra poniedziałku g. 22:05&lt;/b&gt; &lt;a href="https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#nominacje"&gt;tutaj&lt;/a&gt;</description>
