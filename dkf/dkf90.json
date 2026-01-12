@@ -10,6 +10,54 @@
             "filmy": [
                 {
                     "flag": [
+                        "gb",
+                        "cn",
+                        "us"
+                    ],
+                    "title": "Emma.",
+                    "director": "Autumn de Wilde",
+                    "year": 2020,
+                    "imdbId": "tt9214832",
+                    "imdbRating": 6.7,
+                    "rymUrl": "https://rateyourmusic.com/film/emma-6/",
+                    "rymRating": 3.11,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/72ccf3bf3396312b8b7254d81a5415d1/7947616",
+                    "lbUrl": "https://letterboxd.com/film/emma-2020/",
+                    "lbRating": 3.7,
+                    "info": "Cz\u0119\u015b\u0107 zestawu wi\u0105zanego \"double feature z jane austen\": + Clueless (1995) w re\u017c. Amy Heckerling"
+                },
+                {
+                    "flag": [
+                        "it"
+                    ],
+                    "title": "La Notte",
+                    "year": 1961,
+                    "director": "Michelangelo Antonioni",
+                    "imdbId": "tt0054130",
+                    "imdbRating": "7.9",
+                    "rymUrl": "https://rateyourmusic.com/film/la-notte/",
+                    "rymRating": 3.96,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/99cb79c6ab0a0cc7b2a332bfad69d35d/3691172",
+                    "lbUrl": "https://letterboxd.com/film/la-notte/",
+                    "lbRating": "4.3"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Wag the Dog",
+                    "year": 1997,
+                    "director": "Barry Levinson",
+                    "imdbId": "tt0120885",
+                    "imdbRating": "7.1",
+                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
+                    "rymRating": "3.21",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
+                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
+                    "lbRating": "3.5"
+                },
+                {
+                    "flag": [
                         "us"
                     ],
                     "title": "Dune Part Two",
@@ -43,6 +91,73 @@
                 },
                 {
                     "flag": [
+                        "ge"
+                    ],
+                    "title": "And Then We Danced",
+                    "year": 2019,
+                    "director": "Levan Akin",
+                    "imdbId": "tt8963708",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
+                    "rymRating": 3.63,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
+                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
+                    "lbRating": "4.1"
+                },
+                {
+                    "director": "Radu Jude",
+                    "flag": [
+                        "ro",
+                        "lu",
+                        "fr",
+                        "hr",
+                        "ch",
+                        "gb",
+                        "ca"
+                    ],
+                    "imdbId": "tt18162096",
+                    "imdbRating": 7.3,
+                    "lbRating": 3.9,
+                    "lbUrl": "https://letterboxd.com/film/do-not-expect-too-much-from-the-end-of-the-world/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/5abe2b8481d96d10b0a38e105f07bf49/12029486",
+                    "rymRating": 3.74,
+                    "rymUrl": "https://rateyourmusic.com/film/nu-a%C8%99tepta-prea-mult-de-la-sfar%C8%99itul-lumii/",
+                    "title": "Nie obiecujcie sobie zbyt wiele po ko\u0144cu \u015bwiata",
+                    "year": 2023
+                },
+                {
+                    "flag": [
+                        "cn",
+                        "hk"
+                    ],
+                    "title": "\u5927\u7d05\u71c8\u7c60\u9ad8\u9ad8\u639b / Raise the Red Lantern",
+                    "director": "Yimou Zhang",
+                    "year": 1991,
+                    "imdbId": "tt0101640",
+                    "imdbRating": 8.1,
+                    "rymUrl": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
+                    "rymRating": "3.98",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
+                    "lbUrl": "https://letterboxd.com/film/raise-the-red-lantern/",
+                    "lbRating": 4.3
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "One Battle After Another",
+                    "director": "Paul Thomas Anderson",
+                    "year": 2025,
+                    "imdbId": "tt30144839",
+                    "imdbRating": 7.8,
+                    "rymUrl": "https://rateyourmusic.com/film/one-battle-after-another/",
+                    "rymRating": "3.90",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/8e582102be92ca85ee11c5cb92ff3790/13674016",
+                    "lbUrl": "https://letterboxd.com/film/one-battle-after-another/",
+                    "lbRating": 4.3
+                },
+                {
+                    "flag": [
                         "it",
                         "us"
                     ],
@@ -58,21 +173,20 @@
                     "lbRating": "3.8"
                 },
                 {
+                    "director": "Luis Bu\u00f1uel",
                     "flag": [
-                        "ie",
-                        "gb",
-                        "us"
+                        "fr",
+                        "it"
                     ],
-                    "title": "The Killing of a Sacred Deer",
-                    "year": 2017,
-                    "director": "Yorgos Lanthimos",
-                    "imdbId": "tt5715874",
-                    "imdbRating": "7.0",
-                    "rymUrl": "https://rateyourmusic.com/film/the-killing-of-a-sacred-deer/",
-                    "rymRating": "3.47",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/1796d6cff46602fae37899137ca058a9/6706037",
-                    "lbUrl": "https://letterboxd.com/film/the-killing-of-a-sacred-deer/",
-                    "lbRating": "3.7"
+                    "imdbId": "tt0061395",
+                    "imdbRating": 7.6,
+                    "lbRating": 4.0,
+                    "lbUrl": "https://letterboxd.com/film/belle-de-jour/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/4d3e4cafea30e3a0b3fafddec0188f19/5135025",
+                    "rymRating": 3.76,
+                    "rymUrl": "https://rateyourmusic.com/film/belle-de-jour/",
+                    "title": "Belle de jour",
+                    "year": 1967
                 },
                 {
                     "director": "Yorgos Lanthimos",
@@ -99,103 +213,6 @@
                     "flag": [
                         "us"
                     ],
-                    "title": "Seconds",
-                    "year": 1966,
-                    "director": "John Frankenheimer",
-                    "imdbId": "tt0060955",
-                    "imdbRating": "7.6",
-                    "rymUrl": "https://rateyourmusic.com/film/seconds/",
-                    "rymRating": "3.87",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127",
-                    "lbUrl": "https://letterboxd.com/film/seconds/",
-                    "lbRating": "4.1"
-                },
-                {
-                    "flag": [
-                        "it"
-                    ],
-                    "title": "La Notte",
-                    "year": 1961,
-                    "director": "Michelangelo Antonioni",
-                    "imdbId": "tt0054130",
-                    "imdbRating": "7.9",
-                    "rymUrl": "https://rateyourmusic.com/film/la-notte/",
-                    "rymRating": 3.96,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/99cb79c6ab0a0cc7b2a332bfad69d35d/3691172",
-                    "lbUrl": "https://letterboxd.com/film/la-notte/",
-                    "lbRating": "4.3"
-                },
-                {
-                    "director": "Radu Jude",
-                    "flag": [
-                        "ro",
-                        "lu",
-                        "fr",
-                        "hr",
-                        "ch",
-                        "gb",
-                        "ca"
-                    ],
-                    "imdbId": "tt18162096",
-                    "imdbRating": 7.3,
-                    "lbRating": 3.9,
-                    "lbUrl": "https://letterboxd.com/film/do-not-expect-too-much-from-the-end-of-the-world/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/5abe2b8481d96d10b0a38e105f07bf49/12029486",
-                    "rymRating": 3.74,
-                    "rymUrl": "https://rateyourmusic.com/film/nu-a%C8%99tepta-prea-mult-de-la-sfar%C8%99itul-lumii/",
-                    "title": "Nie obiecujcie sobie zbyt wiele po ko\u0144cu \u015bwiata",
-                    "year": 2023
-                },
-                {
-                    "director": "Luis Bu\u00f1uel",
-                    "flag": [
-                        "fr",
-                        "it"
-                    ],
-                    "imdbId": "tt0061395",
-                    "imdbRating": 7.6,
-                    "lbRating": 4.0,
-                    "lbUrl": "https://letterboxd.com/film/belle-de-jour/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/4d3e4cafea30e3a0b3fafddec0188f19/5135025",
-                    "rymRating": 3.76,
-                    "rymUrl": "https://rateyourmusic.com/film/belle-de-jour/",
-                    "title": "Belle de jour",
-                    "year": 1967
-                },
-                {
-                    "flag": [
-                        "ge"
-                    ],
-                    "title": "And Then We Danced",
-                    "year": 2019,
-                    "director": "Levan Akin",
-                    "imdbId": "tt8963708",
-                    "imdbRating": "7.6",
-                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
-                    "rymRating": 3.63,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
-                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
-                    "lbRating": "4.1"
-                },
-                {
-                    "flag": [
-                        "us"
-                    ],
-                    "title": "One Battle After Another",
-                    "director": "Paul Thomas Anderson",
-                    "year": 2025,
-                    "imdbId": "tt30144839",
-                    "imdbRating": 7.8,
-                    "rymUrl": "https://rateyourmusic.com/film/one-battle-after-another/",
-                    "rymRating": "3.90",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/8e582102be92ca85ee11c5cb92ff3790/13674016",
-                    "lbUrl": "https://letterboxd.com/film/one-battle-after-another/",
-                    "lbRating": 4.3
-                },
-                {
-                    "flag": [
-                        "us"
-                    ],
                     "title": "Mean Streets",
                     "year": 1973,
                     "director": "Martin Scorsese",
@@ -211,18 +228,35 @@
                     "flag": [
                         "us"
                     ],
-                    "title": "Wag the Dog",
-                    "year": 1997,
-                    "director": "Barry Levinson",
-                    "imdbId": "tt0120885",
-                    "imdbRating": "7.1",
-                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
-                    "rymRating": "3.21",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
-                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
-                    "lbRating": "3.5"
+                    "title": "Seconds",
+                    "year": 1966,
+                    "director": "John Frankenheimer",
+                    "imdbId": "tt0060955",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/seconds/",
+                    "rymRating": "3.87",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127",
+                    "lbUrl": "https://letterboxd.com/film/seconds/",
+                    "lbRating": "4.1"
+                },
+                {
+                    "flag": [
+                        "ie",
+                        "gb",
+                        "us"
+                    ],
+                    "title": "The Killing of a Sacred Deer",
+                    "year": 2017,
+                    "director": "Yorgos Lanthimos",
+                    "imdbId": "tt5715874",
+                    "imdbRating": "7.0",
+                    "rymUrl": "https://rateyourmusic.com/film/the-killing-of-a-sacred-deer/",
+                    "rymRating": "3.47",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/1796d6cff46602fae37899137ca058a9/6706037",
+                    "lbUrl": "https://letterboxd.com/film/the-killing-of-a-sacred-deer/",
+                    "lbRating": "3.7"
                 }
-              ]
+            ]
         },
         {
             "type": "TerminyCompo",
