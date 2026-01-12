@@ -181,16 +181,16 @@
                     "flag": [
                         "us"
                     ],
-                    "title": "Magnolia",
-                    "year": 1999,
+                    "title": "One Battle After Another",
                     "director": "Paul Thomas Anderson",
-                    "imdbId": "tt0175880",
-                    "imdbRating": "8.0",
-                    "rymUrl": "https://rateyourmusic.com/film/magnolia/",
-                    "rymRating": 3.88,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/56dfa12b32569426ee26323284a416a2/6728050",
-                    "lbUrl": "https://letterboxd.com/film/magnolia/",
-                    "lbRating": "4.2"
+                    "year": 2025,
+                    "imdbId": "tt30144839",
+                    "imdbRating": 7.8,
+                    "rymUrl": "https://rateyourmusic.com/film/one-battle-after-another/",
+                    "rymRating": "3.90",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/8e582102be92ca85ee11c5cb92ff3790/13674016",
+                    "lbUrl": "https://letterboxd.com/film/one-battle-after-another/",
+                    "lbRating": 4.3
                 },
                 {
                     "flag": [
@@ -222,7 +222,7 @@
                     "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
                     "lbRating": "3.5"
                 }
-            ]
+              ]
         },
         {
             "type": "TerminyCompo",
