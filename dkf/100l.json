@@ -8,9 +8,10 @@
             "first": "2026-03-01",
             "last": "2026-05-01",
             "notWeekday": ["su", "mo", "tu", "we", "th", "fr"],
+            "hideUnavailable": true,
             "unclear": true,
             "set": {
-              "2026-04-04": "wielkanoc"
+              "2026-04-04": "unavailable"
             }
         }
     ]
