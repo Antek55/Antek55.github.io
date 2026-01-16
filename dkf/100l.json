@@ -1,0 +1,13 @@
+{
+    "title": "Benefis Stulecia Termin",
+    "closing_info": false,
+    "closing": "2030-01-30 22:05",
+    "fields": [
+        {
+            "type": "TerminyCompo",
+            "first": "2026-03-01",
+            "last": "2026-05-01",
+            "notWeekday": ["su", "mo", "tu", "we", "th", "fr"]
+        }
+    ]
+}
