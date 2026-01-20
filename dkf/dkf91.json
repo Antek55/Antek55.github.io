@@ -1,0 +1,190 @@
+{
+    "title": "DKF 91 Po\u017cegnanie Juliana :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-01-21 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "A Beautiful Mind",
+                    "director": "Ron Howard",
+                    "year": 2001,
+                    "imdbId": "tt0268978",
+                    "imdbRating": 8.2,
+                    "rymUrl": "https://rateyourmusic.com/film/a-beautiful-mind/",
+                    "rymRating": 3.2,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/08c12bf9d6258a144d1a5bde190b2aeb/4200463",
+                    "lbUrl": "https://letterboxd.com/film/a-beautiful-mind/",
+                    "lbRating": 3.9
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Brothers",
+                    "director": "Jim Sheridan",
+                    "year": 2009,
+                    "imdbId": "tt0765010",
+                    "imdbRating": 7.1,
+                    "rymUrl": "https://rateyourmusic.com/film/brothers-1/",
+                    "rymRating": 2.96,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/4e5cd5980e063eab4465471a9600761e/5903156",
+                    "lbUrl": "https://letterboxd.com/film/brothers-2009/",
+                    "lbRating": 3.5
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Whiplash",
+                    "director": "Damien Chazelle",
+                    "year": 2014,
+                    "imdbId": "tt2582802",
+                    "imdbRating": 8.5,
+                    "rymUrl": "https://rateyourmusic.com/film/whiplash-1/",
+                    "rymRating": 3.93,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/7696b76383cab8db7a75318e1efc9f0c/5371413",
+                    "lbUrl": "https://letterboxd.com/film/whiplash-2014/",
+                    "lbRating": 4.4
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Schindler's List",
+                    "director": "Steven Spielberg",
+                    "year": 1993,
+                    "imdbId": "tt0108052",
+                    "imdbRating": 9.0,
+                    "rymUrl": "https://rateyourmusic.com/film/schindlers-list/",
+                    "rymRating": 3.92,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/bz/1x/em/jr/yPisjyLweCl1tbgwgtzBCNCBle-0-2000-0-3000-crop.jpg?v=ca5215c5a9",
+                    "lbUrl": "https://letterboxd.com/film/schindlers-list/",
+                    "lbRating": 4.5
+                },
+                {
+                    "flag": [
+                        "us",
+                        "cn",
+                        "jp"
+                    ],
+                    "title": "Green Book",
+                    "director": "Peter Farrelly",
+                    "year": 2018,
+                    "imdbId": "tt6966692",
+                    "imdbRating": 8.2,
+                    "rymUrl": "https://rateyourmusic.com/film/green-book/",
+                    "rymRating": 3.28,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/6c0d946d2e8b9a1a6edfcce071f86ef1/7110647",
+                    "lbUrl": "https://letterboxd.com/film/green-book/",
+                    "lbRating": 3.8
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Bee Movie",
+                    "director": "Steve Hickner, Simon J. Smith",
+                    "year": 2007,
+                    "imdbId": "tt0389790",
+                    "imdbRating": 6.1,
+                    "rymUrl": "https://rateyourmusic.com/film/bee-movie/",
+                    "rymRating": 2.3,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/8/7/9/1/48791-bee-movie-0-2000-0-3000-crop.jpg?v=2b9ece5cba",
+                    "lbUrl": "https://letterboxd.com/film/bee-movie/",
+                    "lbRating": 3.0
+                },
+                {
+                    "flag": [
+                        "us",
+                        "jp"
+                    ],
+                    "title": "WALL\u00b7E",
+                    "director": "Andrew Stanton",
+                    "year": 2008,
+                    "imdbId": "tt0910970",
+                    "imdbRating": 8.4,
+                    "rymUrl": "https://rateyourmusic.com/film/wall_e/",
+                    "rymRating": 3.94,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9b0aa7f8a70e5bb68c43c0a6759b33a9/4620448",
+                    "lbUrl": "https://letterboxd.com/film/walle/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "su"
+                    ],
+                    "title": "\u0418\u0434\u0438 \u0438 \u0441\u043c\u043e\u0442\u0440\u0438 / Id\u017a i patrz",
+                    "director": "Elem Klimov",
+                    "year": 1985,
+                    "imdbId": "tt0091251",
+                    "imdbRating": 8.3,
+                    "rymUrl": "https://rateyourmusic.com/film/%D0%B8%D0%B4%D0%B8-%D0%B8-%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B8/",
+                    "rymRating": 4.38,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/3/6/1/9/2/36192-come-and-see-0-2000-0-3000-crop.jpg?v=741b0269bb",
+                    "lbUrl": "https://letterboxd.com/film/come-and-see/",
+                    "lbRating": 4.6
+                },
+                {
+                    "flag": [
+                        "us",
+                        "fr"
+                    ],
+                    "title": "Ratatouille",
+                    "director": "Brad Bird, Jan Pinkava",
+                    "year": 2007,
+                    "imdbId": "tt0382932",
+                    "imdbRating": 8.1,
+                    "rymUrl": "https://rateyourmusic.com/film/ratatouille/",
+                    "rymRating": 3.75,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/n8/rl/pc/se/jEiEU8viSb8CIIHcfprVr2V6XDz-0-2000-0-3000-crop.jpg?v=25e13045f0",
+                    "lbUrl": "https://letterboxd.com/film/ratatouille/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "jp",
+                        "us"
+                    ],
+                    "title": "\u5343\u3068\u5343\u5c0b\u306e\u795e\u96a0\u3057 / Spirited Away",
+                    "director": "Hayao Miyazaki",
+                    "year": 2001,
+                    "imdbId": "tt0245429",
+                    "imdbRating": 8.6,
+                    "rymUrl": "https://rateyourmusic.com/film/%E5%8D%83%E3%81%A8%E5%8D%83%E5%B0%8B%E3%81%AE%E7%A5%9E%E9%9A%A0%E3%81%97/",
+                    "rymRating": 4.28,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/9/2/1/51921-spirited-away-0-1000-0-1500-crop.jpg?v=a3ad463c55",
+                    "lbUrl": "https://letterboxd.com/film/spirited-away/",
+                    "lbRating": 4.4
+                },
+                {
+                    "flag": [
+                        "us",
+                        "jp"
+                    ],
+                    "title": "Puss in Boots: The Last Wish",
+                    "director": "Joel Crawford, Januel Mercado",
+                    "year": 2022,
+                    "imdbId": "tt3915174",
+                    "imdbRating": 7.8,
+                    "rymUrl": "https://rateyourmusic.com/film/puss-in-boots-the-last-wish/",
+                    "rymRating": 3.79,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/2/4/2/2/8/5/242285-puss-in-boots-the-last-wish-0-2000-0-3000-crop.jpg?v=9e9109c5cd",
+                    "lbUrl": "https://letterboxd.com/film/puss-in-boots-the-last-wish/",
+                    "lbRating": 4.1
+                }
+            ]
+        },
+        {
+            "type": "TerminyCompo",
+            "first": "auto",
+            "last": "2026-02-02"
+        }
+    ]
+}
