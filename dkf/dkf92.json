@@ -1,7 +1,7 @@
 {
-    "title": "DKF 90 :: film & terminy",
+    "title": "DKF 92 :: Hayao Miyazaki :: film & terminy",
     "closing_info": true,
-    "closing": "2026-01-13 22:05",
+    "closing": "2026-02-24 22:05",
     "en_available": false,
     "fields": [
         {
@@ -10,194 +10,344 @@
             "filmy": [
                 {
                     "flag": [
-                        "gb",
-                        "cn",
-                        "us"
+                        "jp"
                     ],
-                    "title": "Emma.",
-                    "director": "Autumn de Wilde",
-                    "year": 2020,
-                    "imdbId": "tt9214832",
-                    "imdbRating": 6.7,
-                    "rymUrl": "https://rateyourmusic.com/film/emma-6/",
-                    "rymRating": 3.11,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/72ccf3bf3396312b8b7254d81a5415d1/7947616",
-                    "lbUrl": "https://letterboxd.com/film/emma-2020/",
-                    "lbRating": 3.7,
-                    "info": "Cz\u0119\u015b\u0107 zestawu wi\u0105zanego \"double feature z jane austen\": + Clueless (1995) w re\u017c. Amy Heckerling"
+                    "title": "My Neighbor Totoro",
+                    "director": "Hayao Miyazaki",
+                    "year": 1988,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/7/7/5/6/47756-my-neighbor-totoro-0-1000-0-1500-crop.jpg?v=749abe71ad",
+                    "lbUrl": "https://letterboxd.com/film/my-neighbor-totoro/",
+                    "lbRating": 4.2
                 },
                 {
                     "flag": [
-                        "us"
+                        "jp"
                     ],
-                    "title": "Wag the Dog",
-                    "year": 1997,
-                    "director": "Barry Levinson",
-                    "imdbId": "tt0120885",
-                    "imdbRating": "7.1",
-                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
-                    "rymRating": "3.21",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
-                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
-                    "lbRating": "3.5"
-                },
-                {
-                    "director": "Alice Rohrwacher",
-                    "flag": [
-                        "it",
-                        "fr",
-                        "ch",
-                        "tr"
-                    ],
-                    "imdbId": "tt14561712",
-                    "imdbRating": 7.3,
-                    "lbRating": 4.1,
-                    "lbUrl": "https://letterboxd.com/film/la-chimera/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/583a5b64aca88905746bb9df0beddee0/10983164",
-                    "rymRating": 3.6,
-                    "rymUrl": "https://rateyourmusic.com/film/la-chimera/",
-                    "title": "La chimera",
-                    "year": 2023
+                    "title": "Pom Poko",
+                    "director": "Isao Takahata",
+                    "year": 1994,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/2/4/7/8/42478-pom-poko-0-1000-0-1500-crop.jpg?v=887706ae4b",
+                    "lbUrl": "https://letterboxd.com/film/pom-poko/",
+                    "lbRating": 3.7
                 },
                 {
                     "flag": [
-                        "ge"
+                        "jp"
                     ],
-                    "title": "And Then We Danced",
-                    "year": 2019,
-                    "director": "Levan Akin",
-                    "imdbId": "tt8963708",
-                    "imdbRating": "7.6",
-                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
-                    "rymRating": 3.63,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
-                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
-                    "lbRating": "4.1"
-                },
-                {
-                    "flag": [
-                        "cn",
-                        "hk"
-                    ],
-                    "title": "\u5927\u7d05\u71c8\u7c60\u9ad8\u9ad8\u639b / Raise the Red Lantern",
-                    "director": "Yimou Zhang",
-                    "year": 1991,
-                    "imdbId": "tt0101640",
-                    "imdbRating": 8.1,
-                    "rymUrl": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
-                    "rymRating": "3.98",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
-                    "lbUrl": "https://letterboxd.com/film/raise-the-red-lantern/",
+                    "title": "The Tale of the Princess Kaguya",
+                    "director": "Isao Takahata",
+                    "year": 2013,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/5/6/112956-the-tale-of-the-princess-kaguya-0-1000-0-1500-crop.jpg?v=2f4295660e",
+                    "lbUrl": "https://letterboxd.com/film/the-tale-of-the-princess-kaguya/",
                     "lbRating": 4.3
                 },
-                                {
+                {
                     "flag": [
-                        "it",
-                        "us"
+                        "jp"
                     ],
-                    "title": "Challengers",
-                    "year": 2024,
-                    "director": "Luca Guadagnino",
-                    "imdbId": "tt16426418",
-                    "imdbRating": "7.0",
-                    "rymUrl": "https://rateyourmusic.com/film/challengers/",
-                    "rymRating": "3.55",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862",
-                    "lbUrl": "https://letterboxd.com/film/challengers/",
-                    "lbRating": "3.8"
+                    "title": "When Marnie Was There",
+                    "director": "Hiromasa Yonebayashi",
+                    "year": 2014,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/7/0/0/6/2/170062-when-marnie-was-there-0-1000-0-1500-crop.jpg?v=7e34859d4e",
+                    "lbUrl": "https://letterboxd.com/film/when-marnie-was-there/",
+                    "lbRating": 3.9
                 },
                 {
-                    "director": "Luis Bu\u00f1uel",
                     "flag": [
-                        "fr",
-                        "it"
+                        "jp"
                     ],
-                    "imdbId": "tt0061395",
-                    "imdbRating": 7.6,
-                    "lbRating": 4.0,
-                    "lbUrl": "https://letterboxd.com/film/belle-de-jour/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/4d3e4cafea30e3a0b3fafddec0188f19/5135025",
-                    "rymRating": 3.76,
-                    "rymUrl": "https://rateyourmusic.com/film/belle-de-jour/",
-                    "title": "Belle de jour",
-                    "year": 1967
+                    "title": "The Cat Returns",
+                    "director": "Hiroyuki Morita",
+                    "year": 2002,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/2/4/2/8/42428-the-cat-returns-0-1000-0-1500-crop.jpg?v=c88b45d6cc",
+                    "lbUrl": "https://letterboxd.com/film/the-cat-returns/details/",
+                    "lbRating": 3.6
                 },
                 {
-                    "director": "Yorgos Lanthimos",
                     "flag": [
-                        "ie",
-                        "gb",
-                        "gr",
-                        "fr",
-                        "nl",
                         "be",
-                        "us"
+                        "fr",
+                        "jp"
                     ],
-                    "imdbId": "tt3464902",
-                    "imdbRating": 7.1,
-                    "lbRating": 3.8,
-                    "lbUrl": "https://letterboxd.com/film/the-lobster/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/54c06abf66d8723269781199aeb22787/5693164",
-                    "rymRating": 3.53,
-                    "rymUrl": "https://rateyourmusic.com/film/the-lobster/",
-                    "title": "The Lobster",
-                    "year": 2015
+                    "title": "The Red Turtle",
+                    "director": "Michael Dudok de Wit",
+                    "year": 2016,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/78/fl/zo/v4/w90EF8YDEbAtlbTSSRhcKdeiKJq-0-1000-0-1500-crop.jpg?v=ac5edad90d",
+                    "lbUrl": "https://letterboxd.com/film/the-red-turtle/",
+                    "lbRating": 3.9
                 },
                 {
                     "flag": [
-                        "us"
+                        "jp"
                     ],
-                    "title": "Mean Streets",
-                    "year": 1973,
-                    "director": "Martin Scorsese",
-                    "imdbId": "tt0070379",
-                    "imdbRating": "7.2",
-                    "rymUrl": "https://rateyourmusic.com/film/mean-streets/",
-                    "rymRating": "3.54",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/65bfc7fcf5435e41be0a2af68407ee24/6249036",
-                    "lbUrl": "https://letterboxd.com/film/mean-streets/",
-                    "lbRating": "3.7"
+                    "title": "Porco Rosso",
+                    "director": "Hayao Miyazaki",
+                    "year": 1992,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/pf/lk/cj/4e/nCx0EESDNxwXGn7rkCU6cvXTpIB-0-1000-0-1500-crop.jpg?v=67361260f7",
+                    "lbUrl": "https://letterboxd.com/film/porco-rosso/",
+                    "lbRating": 4.0
                 },
                 {
                     "flag": [
-                        "us"
+                        "jp"
                     ],
-                    "title": "Seconds",
-                    "year": 1966,
-                    "director": "John Frankenheimer",
-                    "imdbId": "tt0060955",
-                    "imdbRating": "7.6",
-                    "rymUrl": "https://rateyourmusic.com/film/seconds/",
-                    "rymRating": "3.87",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127",
-                    "lbUrl": "https://letterboxd.com/film/seconds/",
-                    "lbRating": "4.1"
+                    "title": "My Neighbors the Yamadas",
+                    "director": "Isao Takahata",
+                    "year": 1999,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/1/7/5/1/41751-my-neighbors-the-yamadas-0-1000-0-1500-crop.jpg?v=c1bae0cfb6",
+                    "lbUrl": "https://letterboxd.com/film/my-neighbors-the-yamadas/",
+                    "lbRating": 3.6
                 },
                 {
                     "flag": [
-                        "ie",
-                        "gb",
+                        "jp"
+                    ],
+                    "title": "Princess Mononoke",
+                    "director": "Hayao Miyazaki",
+                    "year": 1997,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/fu/5h/fp/mj/mNqZOtJIQfFQPjo3hmYLIn8Qqhf-0-1000-0-1500-crop.jpg?v=aae03975f7",
+                    "lbUrl": "https://letterboxd.com/film/princess-mononoke/",
+                    "lbRating": 4.4
+                },
+                {
+                    "flag": [
+                        "fr",
+                        "jp",
                         "us"
                     ],
-                    "title": "The Killing of a Sacred Deer",
-                    "year": 2017,
-                    "director": "Yorgos Lanthimos",
-                    "imdbId": "tt5715874",
-                    "imdbRating": "7.0",
-                    "rymUrl": "https://rateyourmusic.com/film/the-killing-of-a-sacred-deer/",
-                    "rymRating": "3.47",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/1796d6cff46602fae37899137ca058a9/6706037",
-                    "lbUrl": "https://letterboxd.com/film/the-killing-of-a-sacred-deer/",
-                    "lbRating": "3.7"
+                    "title": "The Secret World of Arrietty",
+                    "director": "Hiromasa Yonebayashi",
+                    "year": 2010,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/ba/5u/k5/he/arietty-0-1000-0-1500-crop.jpg?v=c291004a3a",
+                    "lbUrl": "https://letterboxd.com/film/the-secret-world-of-arrietty/",
+                    "lbRating": 3.9
                 },
-                {"flag":["us"],"title":"Magnolia","year":1999,"director":"Paul Thomas Anderson","imdbId":"tt0175880","imdbRating":"8.0","rymUrl":"https://rateyourmusic.com/film/magnolia/","rymRating":3.88,"rymCoverartImg":"https://e.snmc.io/i/300/s/56dfa12b32569426ee26323284a416a2/6728050","lbUrl":"https://letterboxd.com/film/magnolia/","lbRating":"4.2"},
-
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Grave of the Fireflies",
+                    "director": "Isao Takahata",
+                    "year": 1988,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/4/5/5/8/44558-grave-of-the-fireflies-0-1000-0-1500-crop.jpg?v=0c61fd55f0",
+                    "lbUrl": "https://letterboxd.com/film/grave-of-the-fireflies/",
+                    "lbRating": 4.5
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Spirited Away",
+                    "director": "Hayao Miyazaki",
+                    "year": 2001,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/9/2/1/51921-spirited-away-0-1000-0-1500-crop.jpg?v=a3ad463c55",
+                    "lbUrl": "https://letterboxd.com/film/spirited-away/",
+                    "lbRating": 4.4
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "From Up on Poppy Hill",
+                    "director": "Goro Miyazaki",
+                    "year": 2011,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/sk/6v/xg/po/9qsW5uXwn3QBxEmKhSoseXActVw-0-1000-0-1500-crop.jpg?v=89ddfb2d7d",
+                    "lbUrl": "https://letterboxd.com/film/from-up-on-poppy-hill/",
+                    "lbRating": 3.7
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Howl's Moving Castle",
+                    "director": "Hayao Miyazaki",
+                    "year": 2004,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/9/0/6/2/49062-howl-s-moving-castle-0-1000-0-1500-crop.jpg?v=fde81bda52",
+                    "lbUrl": "https://letterboxd.com/film/howls-moving-castle/",
+                    "lbRating": 4.4
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "The Boy and the Heron",
+                    "director": "Hayao Miyazaki",
+                    "year": 2023,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/3/8/6/9/2/438692-the-boy-and-the-heron-0-1000-0-1500-crop.jpg?v=521e114164",
+                    "lbUrl": "https://letterboxd.com/film/the-boy-and-the-heron/",
+                    "lbRating": 3.9
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Nausica\u00e4 of the Valley of the Wind",
+                    "director": "Hayao Miyazaki",
+                    "year": 1984,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/9/6/9/51969-nausicaa-of-the-valley-of-the-wind-0-1000-0-1500-crop.jpg?v=059bc2bbc0",
+                    "lbUrl": "https://letterboxd.com/film/nausicaa-of-the-valley-of-the-wind/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "The Castle of Cagliostro",
+                    "director": "Hayao Miyazaki",
+                    "year": 1979,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/2/4/2/7/42427-lupin-the-third-the-castle-of-cagliostro-0-1000-0-1500-crop.jpg?v=e3e82cede0",
+                    "lbUrl": "https://letterboxd.com/film/the-castle-of-cagliostro/",
+                    "lbRating": 4.0
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Kiki's Delivery Service",
+                    "director": "Hayao Miyazaki",
+                    "year": 1989,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/5e/rk/0e/99/C70E830B-E641-4CD4-87B3-8DFB91383E20-0-1000-0-1500-crop.jpg?v=359a791d0d",
+                    "lbUrl": "https://letterboxd.com/film/kikis-delivery-service/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Whisper of the Heart",
+                    "director": "Yoshifumi Kondo ",
+                    "year": 1995,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/2/6/7/1/3/26713-whisper-of-the-heart-0-1000-0-1500-crop.jpg?v=d1e50d223e",
+                    "lbUrl": "https://letterboxd.com/film/whisper-of-the-heart/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Tales from Earthsea",
+                    "director": "Goro Miyazaki",
+                    "year": 2006,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/2/6/5/8/7/26587-tales-from-earthsea-0-1000-0-1500-crop.jpg?v=23db0dfab3",
+                    "lbUrl": "https://letterboxd.com/film/tales-from-earthsea/",
+                    "lbRating": 3.0
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Only Yesterday",
+                    "director": "Isao Takahata",
+                    "year": 1991,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/2/6/1/3/42613-only-yesterday-0-1000-0-1500-crop.jpg?v=cc0bd36c20",
+                    "lbUrl": "https://letterboxd.com/film/only-yesterday/",
+                    "lbRating": 3.9
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Ponyo",
+                    "director": "Hayao Miyazaki",
+                    "year": 2008,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/4/5/9/4/44594-ponyo-0-1000-0-1500-crop.jpg?v=6e5faa20db",
+                    "lbUrl": "https://letterboxd.com/film/ponyo",
+                    "lbRating": 4.1
+                }
             ]
         },
         {
             "type": "TerminyCompo",
             "first": "auto",
-            "days": 8
+            "last": "2026-03-01"
         }
     ]
 }
