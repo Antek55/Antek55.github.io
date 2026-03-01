@@ -4,8 +4,8 @@
  <title>Bezdyskusyjny Klub Filmowy</title>
  <description>Bezdyskusyjny Klub Filmowy</description>
  <link>https://www.static.jwodzinski.wroclaw.pl/dkf/</link>
- <lastBuildDate>2026-02-27T20:30:15.860706</lastBuildDate>
- <pubDate>2026-02-27T20:30:15.860706</pubDate>
+ <lastBuildDate>2026-03-01T21:41:56.817811</lastBuildDate>
+ <pubDate>2026-03-01T21:41:56.817811</pubDate>
  <image>
     <url>https://www.static.jwodzinski.wroclaw.pl/dkf/tż-sfw.ico</url>
     <title>Bezdyskusyjny Klub Filmowy</title>
@@ -14,6 +14,14 @@
     <height>32</height>
     </image>
  
+ <item>
+         <title>DKF 93 :: głosowanie 1/2 :: nominacje</title>
+         <description>Propozycję filmową na następne spotkanie oraz jego termin wybierzemy w tradycyjnym głosowaniu, w części pierwszej z dwóch można nominować filmy do głosowania, jeśli chcesz nominować te same co ostatnim razem nie rób nic, w przeciwnym razie możesz wpisać tytuły w formularzu dostępnym &lt;b&gt;do jutra poniedziałku g. 22:05&lt;/b&gt; &lt;a href="https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#nominacje"&gt;tutaj&lt;/a&gt;</description>
+         <link>https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#nominacje</link>
+         <guid isPermaLink="false">d761a9cc5f66995ee19064c25a88b357f815ee7aa95d69f7a643f77c3da76648</guid>
+         <pubDate>2026-03-01T16:30:00</pubDate>
+         
+         </item>
  <item>
          <title>Lasek Kabacki w niedzielę Reminiscere</title>
          <description>W rocznicę męczeństwa Jolanty Brzeskiej w niedzielę Reminiscere pojutrze 1 marca wybieramy się w okolicach południa na niedługi spacer po Lasku Kabackim, dokładna godzina zbiórki jeszcze do ustalenia z ewentualnymi chętnymi. Jesli chcecie pójść z nami dajcie znać!</description>
