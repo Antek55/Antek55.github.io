@@ -1,7 +1,7 @@
 {
-    "title": "DKF 90 :: film & terminy",
+    "title": "DKF 93 :: film & terminy",
     "closing_info": true,
-    "closing": "2026-01-13 22:05",
+    "closing": "2026-03-03 22:05",
     "en_available": false,
     "fields": [
         {
@@ -10,138 +10,64 @@
             "filmy": [
                 {
                     "flag": [
-                        "gb",
-                        "cn",
-                        "us"
+                        "us",
+                        "fr"
                     ],
-                    "title": "Emma.",
-                    "director": "Autumn de Wilde",
-                    "year": 2020,
-                    "imdbId": "tt9214832",
-                    "imdbRating": 6.7,
-                    "rymUrl": "https://rateyourmusic.com/film/emma-6/",
-                    "rymRating": 3.11,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/72ccf3bf3396312b8b7254d81a5415d1/7947616",
-                    "lbUrl": "https://letterboxd.com/film/emma-2020/",
-                    "lbRating": 3.7,
-                    "info": "Cz\u0119\u015b\u0107 zestawu wi\u0105zanego \"double feature z jane austen\": + Clueless (1995) w re\u017c. Amy Heckerling"
+                    "title": "Falling Down",
+                    "director": "Joel Schumacher",
+                    "year": 1993,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/2/7/3/2/2/27322-falling-down-0-1000-0-1500-crop.jpg?v=3315b39694",
+                    "lbUrl": "https://letterboxd.com/film/falling-down/",
+                    "lbRating": 3.7
                 },
                 {
                     "flag": [
                         "us"
                     ],
-                    "title": "Wag the Dog",
-                    "year": 1997,
-                    "director": "Barry Levinson",
-                    "imdbId": "tt0120885",
-                    "imdbRating": "7.1",
-                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
-                    "rymRating": "3.21",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
-                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
-                    "lbRating": "3.5"
-                },
-                {
-                    "director": "Alice Rohrwacher",
-                    "flag": [
-                        "it",
-                        "fr",
-                        "ch",
-                        "tr"
-                    ],
-                    "imdbId": "tt14561712",
-                    "imdbRating": 7.3,
-                    "lbRating": 4.1,
-                    "lbUrl": "https://letterboxd.com/film/la-chimera/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/583a5b64aca88905746bb9df0beddee0/10983164",
-                    "rymRating": 3.6,
-                    "rymUrl": "https://rateyourmusic.com/film/la-chimera/",
-                    "title": "La chimera",
-                    "year": 2023
+                    "title": "Being John Malkovich",
+                    "director": "Spike Jonze",
+                    "year": 1999,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/6/1/8/51618-being-john-malkovich-0-1000-0-1500-crop.jpg?v=aecbc04013",
+                    "lbUrl": "https://letterboxd.com/film/being-john-malkovich/",
+                    "lbRating": 4.1
                 },
                 {
                     "flag": [
-                        "ge"
-                    ],
-                    "title": "And Then We Danced",
-                    "year": 2019,
-                    "director": "Levan Akin",
-                    "imdbId": "tt8963708",
-                    "imdbRating": "7.6",
-                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
-                    "rymRating": 3.63,
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
-                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
-                    "lbRating": "4.1"
-                },
-                {
-                    "flag": [
-                        "cn",
-                        "hk"
-                    ],
-                    "title": "\u5927\u7d05\u71c8\u7c60\u9ad8\u9ad8\u639b / Raise the Red Lantern",
-                    "director": "Yimou Zhang",
-                    "year": 1991,
-                    "imdbId": "tt0101640",
-                    "imdbRating": 8.1,
-                    "rymUrl": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
-                    "rymRating": "3.98",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
-                    "lbUrl": "https://letterboxd.com/film/raise-the-red-lantern/",
-                    "lbRating": 4.3
-                },
-                                {
-                    "flag": [
-                        "it",
                         "us"
                     ],
-                    "title": "Challengers",
-                    "year": 2024,
-                    "director": "Luca Guadagnino",
-                    "imdbId": "tt16426418",
-                    "imdbRating": "7.0",
-                    "rymUrl": "https://rateyourmusic.com/film/challengers/",
-                    "rymRating": "3.55",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862",
-                    "lbUrl": "https://letterboxd.com/film/challengers/",
-                    "lbRating": "3.8"
+                    "title": "Dirty Harry",
+                    "director": "Don Siegel",
+                    "year": 1971,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/1/8/5/51185-dirty-harry-0-1000-0-1500-crop.jpg?v=d0d3388e17",
+                    "lbUrl": "https://letterboxd.com/film/dirty-harry/",
+                    "lbRating": 3.8
                 },
                 {
-                    "director": "Luis Bu\u00f1uel",
                     "flag": [
-                        "fr",
-                        "it"
-                    ],
-                    "imdbId": "tt0061395",
-                    "imdbRating": 7.6,
-                    "lbRating": 4.0,
-                    "lbUrl": "https://letterboxd.com/film/belle-de-jour/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/4d3e4cafea30e3a0b3fafddec0188f19/5135025",
-                    "rymRating": 3.76,
-                    "rymUrl": "https://rateyourmusic.com/film/belle-de-jour/",
-                    "title": "Belle de jour",
-                    "year": 1967
-                },
-                {
-                    "director": "Yorgos Lanthimos",
-                    "flag": [
-                        "ie",
-                        "gb",
-                        "gr",
-                        "fr",
-                        "nl",
-                        "be",
                         "us"
                     ],
-                    "imdbId": "tt3464902",
-                    "imdbRating": 7.1,
-                    "lbRating": 3.8,
-                    "lbUrl": "https://letterboxd.com/film/the-lobster/",
-                    "rymCoverartImg": "https://e.snmc.io/i/300/s/54c06abf66d8723269781199aeb22787/5693164",
-                    "rymRating": 3.53,
-                    "rymUrl": "https://rateyourmusic.com/film/the-lobster/",
-                    "title": "The Lobster",
-                    "year": 2015
+                    "title": "Magnolia",
+                    "director": "Paul Thomas Anderson",
+                    "year": 1999,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/7/2/8/51728-magnolia-0-1000-0-1500-crop.jpg?v=178b5e5c17",
+                    "lbUrl": "https://letterboxd.com/film/magnolia/",
+                    "lbRating": 4.2
                 },
                 {
                     "flag": [
@@ -175,6 +101,39 @@
                 },
                 {
                     "flag": [
+                        "us"
+                    ],
+                    "title": "The Magnificent Ambersons",
+                    "director": "Orson Welles",
+                    "year": 1942,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/1/9/8/51198-the-magnificent-ambersons-0-1000-0-1500-crop.jpg?v=886922ee8a",
+                    "lbUrl": "https://letterboxd.com/film/the-magnificent-ambersons/",
+                    "lbRating": 3.9
+                },
+                {
+                    "flag": [
+                        "no",
+                        "se",
+                        "dk",
+                        "fr"
+                    ],
+                    "title": "The Worst Person in the World",
+                    "director": "Joachim Trier",
+                    "year": 2021,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/8/5/2/5/8/585258-the-worst-person-in-the-world-0-1000-0-1500-crop.jpg?v=92bc344c27",
+                    "lbUrl": "https://letterboxd.com/film/the-worst-person-in-the-world/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
                         "ie",
                         "gb",
                         "us"
@@ -190,14 +149,127 @@
                     "lbUrl": "https://letterboxd.com/film/the-killing-of-a-sacred-deer/",
                     "lbRating": "3.7"
                 },
-                {"flag":["us"],"title":"Magnolia","year":1999,"director":"Paul Thomas Anderson","imdbId":"tt0175880","imdbRating":"8.0","rymUrl":"https://rateyourmusic.com/film/magnolia/","rymRating":3.88,"rymCoverartImg":"https://e.snmc.io/i/300/s/56dfa12b32569426ee26323284a416a2/6728050","lbUrl":"https://letterboxd.com/film/magnolia/","lbRating":"4.2"},
-
+                {
+                    "flag": [
+                        "ge"
+                    ],
+                    "title": "And Then We Danced",
+                    "year": 2019,
+                    "director": "Levan Akin",
+                    "imdbId": "tt8963708",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
+                    "rymRating": 3.63,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
+                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
+                    "lbRating": "4.1"
+                },
+                {
+                    "flag": [
+                        "it",
+                        "us"
+                    ],
+                    "title": "Challengers",
+                    "year": 2024,
+                    "director": "Luca Guadagnino",
+                    "imdbId": "tt16426418",
+                    "imdbRating": "7.0",
+                    "rymUrl": "https://rateyourmusic.com/film/challengers/",
+                    "rymRating": "3.55",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862",
+                    "lbUrl": "https://letterboxd.com/film/challengers/",
+                    "lbRating": "3.8"
+                },
+                {
+                    "flag": [
+                        "gb",
+                        "us"
+                    ],
+                    "title": "Wuthering Heights",
+                    "director": "Peter Kosminsky",
+                    "year": 1992,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/3/6/2/9/0/36290-wuthering-heights-0-1000-0-1500-crop.jpg?v=88829a8fe6",
+                    "lbUrl": "https://letterboxd.com/film/wuthering-heights-1992/",
+                    "lbRating": 3.1
+                },
+                {
+                    "flag": [
+                        "cn",
+                        "hk"
+                    ],
+                    "title": "\u5927\u7d05\u71c8\u7c60\u9ad8\u9ad8\u639b / Raise the Red Lantern",
+                    "director": "Yimou Zhang",
+                    "year": 1991,
+                    "imdbId": "tt0101640",
+                    "imdbRating": 8.1,
+                    "rymUrl": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
+                    "rymRating": "3.98",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
+                    "lbUrl": "https://letterboxd.com/film/raise-the-red-lantern/",
+                    "lbRating": 4.3
+                },
+                {
+                    "director": "Luis Bu\u00f1uel",
+                    "flag": [
+                        "fr",
+                        "it"
+                    ],
+                    "imdbId": "tt0061395",
+                    "imdbRating": 7.6,
+                    "lbRating": 4.0,
+                    "lbUrl": "https://letterboxd.com/film/belle-de-jour/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/4d3e4cafea30e3a0b3fafddec0188f19/5135025",
+                    "rymRating": 3.76,
+                    "rymUrl": "https://rateyourmusic.com/film/belle-de-jour/",
+                    "title": "Belle de jour",
+                    "year": 1967
+                },
+                {
+                    "flag": [
+                        "tr",
+                        "no",
+                        "fr",
+                        "dk",
+                        "se",
+                        "de",
+                        "gb"
+                    ],
+                    "title": "Sentimental Value",
+                    "director": "Joachim Trier",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/0/1/3/3/5/7/1013357-sentimental-value-2025-0-1000-0-1500-crop.jpg?v=e89e64a309",
+                    "lbUrl": "https://letterboxd.com/film/sentimental-value-2025/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Wag the Dog",
+                    "year": 1997,
+                    "director": "Barry Levinson",
+                    "imdbId": "tt0120885",
+                    "imdbRating": "7.1",
+                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
+                    "rymRating": "3.21",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
+                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
+                    "lbRating": "3.5"
+                }
             ]
         },
         {
             "type": "TerminyCompo",
             "first": "auto",
-            "days": 8
+            "days": 7
         }
     ]
 }
