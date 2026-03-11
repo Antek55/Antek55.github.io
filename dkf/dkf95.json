@@ -1,0 +1,20 @@
+{
+    "title": "DKF 95 :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-03-20 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+              {"flag": ["us"], "title": "Boogie Nights", "director": "Paul Thomas Anderson", "year": 1997, "imdbId": "", "imdbRating": null, "rymUrl": "", "rymRating": null, "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/9/0/0/7/49007-boogie-nights-0-1000-0-1500-crop.jpg?v=57bef85dc6", "lbUrl": "https://letterboxd.com/film/boogie-nights/", "lbRating": 4.2}, {"flag": ["pl"], "title": "Szcz\u0119\u015bliwego Nowego Jorku", "director": "Janusz Zaorski", "year": 1997, "imdbId": "", "imdbRating": null, "rymUrl": "", "rymRating": null, "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/5/0/7/5/115075-happy-new-york-0-1000-0-1500-crop.jpg?v=08d683f6b1", "lbUrl": "https://letterboxd.com/film/happy-new-york/", "lbRating": 3.3}, {"flag": ["us", "ca"], "title": "Munich", "director": "Stever Spielberg", "year": 2005, "imdbId": "", "imdbRating": null, "rymUrl": "", "rymRating": null, "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/5/1/1/51511-munich-0-1000-0-1500-crop.jpg?v=0bc09aa930", "lbUrl": "https://letterboxd.com/film/munich/", "lbRating": 3.8}, {"flag": ["us"], "title": "Rebel Without a Cause", "director": "Nicholas Ray", "year": 1955, "imdbId": "", "imdbRating": null, "rymUrl": "", "rymRating": null, "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/8/3/5/51835-rebel-without-a-cause-0-1000-0-1500-crop.jpg?v=a260a5a896", "lbUrl": "https://letterboxd.com/film/rebel-without-a-cause/", "lbRating": 3.8}, {"flag": ["gb", "us"], "title": "Thelma & Louise", "director": "Ridley Scott", "year": 1991, "imdbId": "", "imdbRating": null, "rymUrl": "", "rymRating": null, "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/wt/r4/hc/iz/pnzuLoE52EiTfjfqRex2uTkH7LB-0-1000-0-1500-crop.jpg?v=5c24b21874", "lbUrl": "https://letterboxd.com/film/thelma-louise/", "lbRating": 4.2}
+            ]
+        },
+        {
+            "type": "TerminyCompo",
+            "first": "auto",
+            "days": 7
+        }
+    ]
+}
