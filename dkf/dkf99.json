@@ -1,0 +1,197 @@
+{
+    "title": "DKF 99 Oskary :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-03-23 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+                {
+                    "flag": [
+                        "tr",
+                        "no",
+                        "fr",
+                        "dk",
+                        "se",
+                        "de",
+                        "gb"
+                    ],
+                    "title": "Sentimental Value",
+                    "director": "Joachim Trier",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/0/1/3/3/5/7/1013357-sentimental-value-2025-0-1000-0-1500-crop.jpg?v=e89e64a309",
+                    "lbUrl": "https://letterboxd.com/film/sentimental-value-2025/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "br",
+                        "fr",
+                        "de",
+                        "nl",
+                        "ar"
+                    ],
+                    "title": "The Secret Agent",
+                    "director": "Kleber Mendon\u00e7a Filho",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/0/4/3/4/8/1104348-the-secret-agent-2025-0-1000-0-1500-crop.jpg?v=3bcd2a3e02",
+                    "lbUrl": "https://letterboxd.com/film/the-secret-agent-2025/",
+                    "lbRating": 3.8
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Sinners",
+                    "director": "Ryan Coogler",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-1000-0-1500-crop.jpg?v=5996b7d555",
+                    "lbUrl": "https://letterboxd.com/film/sinners-2025/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "ie",
+                        "us"
+                    ],
+                    "title": "Blue Moon",
+                    "director": "Richard Linklater",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/8/1/4/6/3/1181463-blue-moon-2025-0-1000-0-1500-crop.jpg?v=e7b58cae0d",
+                    "lbUrl": "https://letterboxd.com/film/blue-moon-2025/",
+                    "lbRating": 3.6
+                },
+                {
+                    "flag": [
+                        "us",
+                        "ca"
+                    ],
+                    "title": "Frankenstein",
+                    "director": "Guillermo del Toro",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/9/5/8/1/0/0/958100-frankenstein-2025-0-1000-0-1500-crop.jpg?v=49a1ca2305",
+                    "lbUrl": "https://letterboxd.com/film/frankenstein-2025/",
+                    "lbRating": 3.8
+                },
+                {
+                    "flag": [
+                        "ir",
+                        "fr",
+                        "lu"
+                    ],
+                    "title": "It Was Just an Accident",
+                    "director": "Jafar Panahi",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/3/3/3/4/9/8/1333498-it-was-just-an-accident-0-1000-0-1500-crop.jpg?v=d1e92cf746",
+                    "lbUrl": "https://letterboxd.com/film/it-was-just-an-accident/",
+                    "lbRating": 4.0
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "F1",
+                    "director": "Joseph Kosinski",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/8/1/7/9/7/7/817977-f1-the-movie-0-1000-0-1500-crop.jpg?v=f5ae2b99b9",
+                    "lbUrl": "https://letterboxd.com/film/f1/",
+                    "lbRating": 3.7
+                },
+                {
+                    "flag": [
+                        "gb",
+                        "us"
+                    ],
+                    "title": "Hamnet",
+                    "director": "Chlo\u00e9 Zhao",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/7/7/2/2/3/2/772232-hamnet-0-1000-0-1500-crop.jpg?v=631489314d",
+                    "lbUrl": "https://letterboxd.com/film/hamnet/",
+                    "lbRating": 3.8
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "One Battle After Another",
+                    "director": "Paul Thomas Anderson",
+                    "year": 2025,
+                    "imdbId": "tt30144839",
+                    "imdbRating": 7.8,
+                    "rymUrl": "https://rateyourmusic.com/film/one-battle-after-another/",
+                    "rymRating": "3.90",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/8e582102be92ca85ee11c5cb92ff3790/13674016",
+                    "lbUrl": "https://letterboxd.com/film/one-battle-after-another/",
+                    "lbRating": 4.3
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Train Dreams",
+                    "director": "Clint Bentley",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/3/8/3/1125383-train-dreams-0-1000-0-1500-crop.jpg?v=55740bb5b4",
+                    "lbUrl": "https://letterboxd.com/film/train-dreams/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "ie",
+                        "kr",
+                        "us",
+                        "ca"
+                    ],
+                    "title": "Bugonia",
+                    "director": "Yorgos Lanthimos",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/6/2/5/4/0/0/625400-bugonia-0-1000-0-1500-crop.jpg?v=4c6649150e",
+                    "lbUrl": "https://letterboxd.com/film/bugonia/",
+                    "lbRating": 3.9
+                }
+            ]
+        }
+    ]
+}
