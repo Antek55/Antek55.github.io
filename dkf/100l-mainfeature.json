@@ -1,0 +1,25 @@
+{
+    "title": "DKF 100 :: MAIN FEATURE :: film & terminy",
+    "closing_info": false,
+    "closing": "2030-03-23 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmySimpleCompo",
+            "is_np": false,
+            "filmy": [
+              "The Tree of Life",
+              "Mean Girls",
+              "Heretic",
+              "Mr. Smith Goes to Washington",
+              "Citizen Kane",
+              "Pink Flamingos",
+              "8½",
+              "No Country for Old Men",
+              "All That Jazz",
+              "Oldboy",
+              "Manila in the Claws of Light"
+            ]
+        }
+    ]
+}

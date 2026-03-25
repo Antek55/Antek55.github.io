@@ -1,0 +1,23 @@
+{
+    "title": "DKF 100 :: FINISZ :: film & terminy",
+    "closing_info": false,
+    "closing": "2030-03-23 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmySimpleCompo",
+            "is_np": false,
+            "filmy": [
+              "CLIMAX",
+              "Ferris Bueller's Day Off",
+              "Before Sunrise",
+              "Fantasia",
+              "Nosferatu the Vampyre",
+              "Freaky Friday",
+              "Night at the Museum",
+              "Clerks",
+              "Bottoms"
+            ]
+        }
+    ]
+}
