@@ -1,0 +1,315 @@
+{
+    "title": "DKF 102 :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-03-03 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+              {
+                  "type": "FilmyCompo",
+                  "is_np": true,
+                  "filmy": [
+                      {
+                          "flag": [
+                              "ca",
+                              "us"
+                          ],
+                          "title": "Judas and the Black Messiah",
+                          "director": "Skaka King",
+                          "year": 2021,
+                          "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/1/3/4/2/511342-judas-and-the-black-messiah-0-1000-0-1500-crop.jpg?v=e21573b175",
+                          "lbUrl": "https://letterboxd.com/film/judas-and-the-black-messiah/",
+                          "lbRating": 4.0
+                        },
+                        {
+                            "flag": [
+                                "us"
+                            ],
+                            "title": "I’m Thinking of Ending Things",
+                            "director": "Charlie Kaufman",
+                            "year": 2020,
+                            "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/3/0/8/0/6/430806-i-m-thinking-of-ending-things-0-1000-0-1500-crop.jpg?v=16bd3ec573",
+                            "lbUrl": "https://letterboxd.com/film/im-thinking-of-ending-things/",
+                            "lbRating": 3.5
+                          },
+                          {
+                              "flag": [
+                                  "us"
+                              ],
+                              "title": "Rebel Without a Cause",
+                              "director": "Nicholas Ray",
+                              "year": 1955,
+                              "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/8/3/5/51835-rebel-without-a-cause-0-1000-0-1500-crop.jpg?v=a260a5a896",
+                              "lbUrl": "https://letterboxd.com/film/rebel-without-a-cause/",
+                              "lbRating": 3.8
+                          },
+                
+              
+                {
+                    "flag": [
+                        "us",
+                        "fr"
+                    ],
+                    "title": "Falling Down",
+                    "director": "Joel Schumacher",
+                    "year": 1993,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/2/7/3/2/2/27322-falling-down-0-1000-0-1500-crop.jpg?v=3315b39694",
+                    "lbUrl": "https://letterboxd.com/film/falling-down/",
+                    "lbRating": 3.7
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Being John Malkovich",
+                    "director": "Spike Jonze",
+                    "year": 1999,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/6/1/8/51618-being-john-malkovich-0-1000-0-1500-crop.jpg?v=aecbc04013",
+                    "lbUrl": "https://letterboxd.com/film/being-john-malkovich/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Dirty Harry",
+                    "director": "Don Siegel",
+                    "year": 1971,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/1/8/5/51185-dirty-harry-0-1000-0-1500-crop.jpg?v=d0d3388e17",
+                    "lbUrl": "https://letterboxd.com/film/dirty-harry/",
+                    "lbRating": 3.8
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Magnolia",
+                    "director": "Paul Thomas Anderson",
+                    "year": 1999,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/7/2/8/51728-magnolia-0-1000-0-1500-crop.jpg?v=178b5e5c17",
+                    "lbUrl": "https://letterboxd.com/film/magnolia/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Mean Streets",
+                    "year": 1973,
+                    "director": "Martin Scorsese",
+                    "imdbId": "tt0070379",
+                    "imdbRating": "7.2",
+                    "rymUrl": "https://rateyourmusic.com/film/mean-streets/",
+                    "rymRating": "3.54",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/65bfc7fcf5435e41be0a2af68407ee24/6249036",
+                    "lbUrl": "https://letterboxd.com/film/mean-streets/",
+                    "lbRating": "3.7"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Seconds",
+                    "year": 1966,
+                    "director": "John Frankenheimer",
+                    "imdbId": "tt0060955",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/seconds/",
+                    "rymRating": "3.87",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/3008aa4c71b654d439023c65fe3b59fe/10230127",
+                    "lbUrl": "https://letterboxd.com/film/seconds/",
+                    "lbRating": "4.1"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "The Magnificent Ambersons",
+                    "director": "Orson Welles",
+                    "year": 1942,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/1/9/8/51198-the-magnificent-ambersons-0-1000-0-1500-crop.jpg?v=886922ee8a",
+                    "lbUrl": "https://letterboxd.com/film/the-magnificent-ambersons/",
+                    "lbRating": 3.9
+                },
+                {
+                    "flag": [
+                        "no",
+                        "se",
+                        "dk",
+                        "fr"
+                    ],
+                    "title": "The Worst Person in the World",
+                    "director": "Joachim Trier",
+                    "year": 2021,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/8/5/2/5/8/585258-the-worst-person-in-the-world-0-1000-0-1500-crop.jpg?v=92bc344c27",
+                    "lbUrl": "https://letterboxd.com/film/the-worst-person-in-the-world/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "ie",
+                        "gb",
+                        "us"
+                    ],
+                    "title": "The Killing of a Sacred Deer",
+                    "year": 2017,
+                    "director": "Yorgos Lanthimos",
+                    "imdbId": "tt5715874",
+                    "imdbRating": "7.0",
+                    "rymUrl": "https://rateyourmusic.com/film/the-killing-of-a-sacred-deer/",
+                    "rymRating": "3.47",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/1796d6cff46602fae37899137ca058a9/6706037",
+                    "lbUrl": "https://letterboxd.com/film/the-killing-of-a-sacred-deer/",
+                    "lbRating": "3.7"
+                },
+                {
+                    "flag": [
+                        "ge"
+                    ],
+                    "title": "And Then We Danced",
+                    "year": 2019,
+                    "director": "Levan Akin",
+                    "imdbId": "tt8963708",
+                    "imdbRating": "7.6",
+                    "rymUrl": "https://rateyourmusic.com/film/and-then-we-danced/",
+                    "rymRating": 3.63,
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/77dadaf633e146071d2ff855ed0aa715/10278449",
+                    "lbUrl": "https://letterboxd.com/film/and-then-we-danced/",
+                    "lbRating": "4.1"
+                },
+                {
+                    "flag": [
+                        "it",
+                        "us"
+                    ],
+                    "title": "Challengers",
+                    "year": 2024,
+                    "director": "Luca Guadagnino",
+                    "imdbId": "tt16426418",
+                    "imdbRating": "7.0",
+                    "rymUrl": "https://rateyourmusic.com/film/challengers/",
+                    "rymRating": "3.55",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/b801374332f83e26eeb929d042e2d17c/11663862",
+                    "lbUrl": "https://letterboxd.com/film/challengers/",
+                    "lbRating": "3.8"
+                },
+                {
+                    "flag": [
+                        "gb",
+                        "us"
+                    ],
+                    "title": "Wuthering Heights",
+                    "director": "Peter Kosminsky",
+                    "year": 1992,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/3/6/2/9/0/36290-wuthering-heights-0-1000-0-1500-crop.jpg?v=88829a8fe6",
+                    "lbUrl": "https://letterboxd.com/film/wuthering-heights-1992/",
+                    "lbRating": 3.1
+                },
+                {
+                    "flag": [
+                        "cn",
+                        "hk"
+                    ],
+                    "title": "\u5927\u7d05\u71c8\u7c60\u9ad8\u9ad8\u639b / Raise the Red Lantern",
+                    "director": "Yimou Zhang",
+                    "year": 1991,
+                    "imdbId": "tt0101640",
+                    "imdbRating": 8.1,
+                    "rymUrl": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
+                    "rymRating": "3.98",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/ae820f5dcf1d9a97b68e56714b76a514/7836770",
+                    "lbUrl": "https://letterboxd.com/film/raise-the-red-lantern/",
+                    "lbRating": 4.3
+                },
+                {
+                    "director": "Luis Bu\u00f1uel",
+                    "flag": [
+                        "fr",
+                        "it"
+                    ],
+                    "imdbId": "tt0061395",
+                    "imdbRating": 7.6,
+                    "lbRating": 4.0,
+                    "lbUrl": "https://letterboxd.com/film/belle-de-jour/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/4d3e4cafea30e3a0b3fafddec0188f19/5135025",
+                    "rymRating": 3.76,
+                    "rymUrl": "https://rateyourmusic.com/film/belle-de-jour/",
+                    "title": "Belle de jour",
+                    "year": 1967
+                },
+                {
+                    "flag": [
+                        "tr",
+                        "no",
+                        "fr",
+                        "dk",
+                        "se",
+                        "de",
+                        "gb"
+                    ],
+                    "title": "Sentimental Value",
+                    "director": "Joachim Trier",
+                    "year": 2025,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/0/1/3/3/5/7/1013357-sentimental-value-2025-0-1000-0-1500-crop.jpg?v=e89e64a309",
+                    "lbUrl": "https://letterboxd.com/film/sentimental-value-2025/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Wag the Dog",
+                    "year": 1997,
+                    "director": "Barry Levinson",
+                    "imdbId": "tt0120885",
+                    "imdbRating": "7.1",
+                    "rymUrl": "https://rateyourmusic.com/film/wag-the-dog/",
+                    "rymRating": "3.21",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/9cc6a3284cc832c95cd1f58f9c26f5f8/7504944",
+                    "lbUrl": "https://letterboxd.com/film/wag-the-dog/",
+                    "lbRating": "3.5"
+                }
+            ]
+        },
+        {
+            "type": "TerminyCompo",
+            "first": "auto",
+            "days": 7
+        }
+    ]
+}
