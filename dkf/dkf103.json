@@ -1,0 +1,244 @@
+{
+    "title": "DKF 103 :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-04-19 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Paris Is Burning",
+                    "director": "Jennie Livingston",
+                    "year": 1990,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/3/1/3/5/5/31355-paris-is-burning-0-1000-0-1500-crop.jpg?v=5f4fd6ecd0",
+                    "lbUrl": "https://letterboxd.com/film/paris-is-burning/",
+                    "lbRating": 4.5
+                },
+                {
+                    "director": "John Waters",
+                    "flag": [
+                        "us"
+                    ],
+                    "imdbId": "tt0082926",
+                    "imdbRating": 7,
+                    "lbRating": 3.8,
+                    "lbUrl": "https://letterboxd.com/film/polyester/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/5c80a03715c4828d2d01beeab1681bb8/5084349",
+                    "rymRating": 3.59,
+                    "rymUrl": "https://rateyourmusic.com/film/polyester/",
+                    "title": "Polyester",
+                    "year": 1981
+                },
+                {
+                    "director": "Todd Solondz",
+                    "flag": [
+                        "us"
+                    ],
+                    "imdbId": "tt0147612",
+                    "imdbRating": 7.7,
+                    "lbRating": 4,
+                    "lbUrl": "https://letterboxd.com/film/happiness/",
+                    "rymCoverartImg": "https://e.snmc.io/i/300/s/d437e7453f651f36e63910f448a17c8c/2915918",
+                    "rymRating": "3.80",
+                    "rymUrl": "https://rateyourmusic.com/film/happiness/",
+                    "title": "Happiness",
+                    "year": 1998
+                },
+                {
+                    "flag": [
+                        "ca"
+                    ],
+                    "title": "Humanist Vampire Seeking Consenting Suicidal Person",
+                    "director": "Ariane Louis-Seize",
+                    "year": 2023,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/8/9/0/1/0/5/890105-humanist-vampire-seeking-consenting-suicidal-person-0-1000-0-1500-crop.jpg?v=17a4ea90a4",
+                    "lbUrl": "https://letterboxd.com/film/paris-is-burning/",
+                    "lbRating": 3.9
+                },
+                {
+                    "flag": [
+                        "gb"
+                    ],
+                    "title": "The Servant",
+                    "director": "Joseph Losey",
+                    "year": 1963,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/2/2/1/3/5/22135-the-servant-0-1000-0-1500-crop.jpg?v=8a121ed37d",
+                    "lbUrl": "https://letterboxd.com/film/the-servant/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Memento",
+                    "director": "Christopher Nolan",
+                    "year": 2000,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/v1/3q/s4/aa/memento-0-1000-0-1500-crop.jpg?v=80f0732247",
+                    "lbUrl": "https://letterboxd.com/film/memento/",
+                    "lbRating": 4.2
+                },
+                {
+                    "flag": [
+                        "es",
+                        "fr"
+                    ],
+                    "title": "Sir\u0101t",
+                    "director": "Oliver Laxe",
+                    "year": 2025,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/7/7/7/1037777-sirat-2025-0-1000-0-1500-crop.jpg?v=1660cb1f29",
+                    "lbUrl": "https://letterboxd.com/film/sirat-2025/",
+                    "lbRating": 3.6
+                },
+                {
+                    "flag": [
+                        "fr"
+                    ],
+                    "title": "Beau Travail",
+                    "director": "Claire Denis",
+                    "year": 1999,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/4/2/9/4/2/42942-beau-travail-0-1000-0-1500-crop.jpg?v=a0e83a5f78",
+                    "lbUrl": "https://letterboxd.com/film/beau-travail/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "no",
+                        "se",
+                        "dk",
+                        "fr"
+                    ],
+                    "title": "The Worst Person in the World",
+                    "director": "Joachim Trier",
+                    "year": 2021,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/8/5/2/5/8/585258-the-worst-person-in-the-world-0-1000-0-1500-crop.jpg?v=92bc344c27",
+                    "lbUrl": "https://letterboxd.com/film/the-worst-person-in-the-world/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "gb",
+                        "us"
+                    ],
+                    "title": "Wuthering Heights",
+                    "director": "Peter Kosminsky",
+                    "year": 1992,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/3/6/2/9/0/36290-wuthering-heights-0-1000-0-1500-crop.jpg?v=88829a8fe6",
+                    "lbUrl": "https://letterboxd.com/film/wuthering-heights-1992/",
+                    "lbRating": 3.1
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Spirited Away",
+                    "director": "Hayao Miyazaki",
+                    "year": 2001,
+                    "imdbId": "",
+                    "imdbRating": null,
+                    "rymUrl": "",
+                    "rymRating": null,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/9/2/1/51921-spirited-away-0-1000-0-1500-crop.jpg?v=a3ad463c55",
+                    "lbUrl": "https://letterboxd.com/film/spirited-away/",
+                    "lbRating": 4.4
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Beautiful Boy",
+                    "director": "Felix van Groeningen",
+                    "year": 2018,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/3/8/4/0/5/8/384058-beautiful-boy-0-1000-0-1500-crop.jpg?v=f926f71a50",
+                    "lbUrl": "https://letterboxd.com/film/beautiful-boy-2018/",
+                    "lbRating": 4.1
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Do the Right Thing",
+                    "director": "Spike Lee",
+                    "year": 1989,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/sm/upload/zm/fz/vn/ie/obNQLtdeJy3IiKnExWoWBJH8V67-0-1000-0-1500-crop.jpg?v=b4926532f8",
+                    "lbUrl": "https://letterboxd.com/film/do-the-right-thing/",
+                    "lbRating": 4.4
+                },
+                {
+                    "flag": [
+                        "ca",
+                        "us"
+                    ],
+                    "title": "Judas and the Black Messiah",
+                    "director": "Skaka King",
+                    "year": 2021,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/5/1/1/3/4/2/511342-judas-and-the-black-messiah-0-1000-0-1500-crop.jpg?v=e21573b175",
+                    "lbUrl": "https://letterboxd.com/film/judas-and-the-black-messiah/",
+                    "lbRating": 4.0
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "I Saw the TV Glow",
+                    "director": "Jane Schoenbrun",
+                    "year": 2024,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/7/7/2/2/3/0/772230-i-saw-the-tv-glow-0-1000-0-1500-crop.jpg?v=73972177ff",
+                    "lbUrl": "https://letterboxd.com/film/i-saw-the-tv-glow/",
+                    "lbRating": 3.5
+                },
+                {
+                    "flag": [
+                        "gb"
+                    ],
+                    "title": "Lurker",
+                    "director": "Alex Russell",
+                    "year": 2025,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/4/8/8/5/8/1148858-lurker-2025-0-1000-0-1500-crop.jpg?v=0b2a289e78",
+                    "lbUrl": "https://letterboxd.com/film/lurker-2025/",
+                    "lbRating": 3.6
+                },
+                {
+                    "flag": [
+                        "no"
+                    ],
+                    "title": "Dr\u00f8mmer / Sny o mi\u0142o\u015bci",
+                    "director": "Dag Johan Haugerud ",
+                    "year": 2024,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/1/2/2/1/7/1112217-dreams-sex-love-0-1000-0-1500-crop.jpg?v=5aebdf6064",
+                    "lbUrl": "https://letterboxd.com/film/dreams-2024-5/",
+                    "lbRating": 3.8
+                },
+                {
+                    "flag": [
+                        "se",
+                        "us"
+                    ],
+                    "title": "A Minecraft Movie",
+                    "director": "Jared Hess",
+                    "year": 2025,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/8/5/4/6/9/1/854691-a-minecraft-movie-0-1000-0-1500-crop.jpg?v=074e7fed9e",
+                    "lbUrl": "https://letterboxd.com/film/a-minecraft-movie/",
+                    "lbRating": 2.4
+                }
+            ]
+        },
+        {
+            "type": "TerminyCompo",
+            "first": "auto",
+            "days": 10
+        }
+    ]
+}
