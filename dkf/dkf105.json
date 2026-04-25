@@ -1,0 +1,361 @@
+{
+    "title": "DKF 103 :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-04-25 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+                {
+                    "flag": [
+                        "de"
+                    ],
+                    "title": "Into Great Silence",
+                    "director": "Philip Gr\u00f6ning",
+                    "year": 2005,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/ctqLEwsIRYIPBGAJaDm4UxnTqpO.jpg",
+                    "lbUrl": "https://letterboxd.com/film/into-great-silence/",
+                    "lbRating": 3.9,
+                    "genres": [
+                        "Documentary"
+                    ],
+                    "runtime": 162,
+                    "trailer": "sgNj2Sf_mgo"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Happiness",
+                    "director": "Todd Solondz",
+                    "year": 1998,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/rYfUcEV88Z3gENrfYTE6i8yBkDr.jpg",
+                    "lbUrl": "https://letterboxd.com/film/happiness/",
+                    "lbRating": 4.0,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ],
+                    "runtime": 140,
+                    "trailer": "1eOzYczx-Xk"
+                },
+                {
+                    "flag": [
+                        "gb",
+                        "us"
+                    ],
+                    "title": "Wuthering Heights",
+                    "director": "Peter Kosminsky",
+                    "year": 1992,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/lV8zMPqaK8Qg39zKLzfvnYkiBiC.jpg",
+                    "lbUrl": "https://letterboxd.com/film/wuthering-heights-1992/",
+                    "lbRating": 3.1,
+                    "genres": [
+                        "Drama",
+                        "Romance"
+                    ],
+                    "runtime": 105,
+                    "trailer": "a6eTho1jxuM"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Do the Right Thing",
+                    "director": "Spike Lee",
+                    "year": 1989,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+                    "lbUrl": "https://letterboxd.com/film/do-the-right-thing/",
+                    "lbRating": 4.4,
+                    "genres": [
+                        "Drama"
+                    ],
+                    "runtime": 120,
+                    "trailer": "yVAD4fYRcvA"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Munich",
+                    "director": "Steven Spielberg",
+                    "year": 2005,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/iUekaw96QLInZpsNwRTlRKrZgwm.jpg",
+                    "lbUrl": "https://letterboxd.com/film/munich/",
+                    "lbRating": 3.8,
+                    "genres": [
+                        "Drama",
+                        "Action",
+                        "History",
+                        "Thriller"
+                    ],
+                    "runtime": 164,
+                    "trailer": "kuehOfHwnYY"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Music of the Heart",
+                    "director": "Wes Craven",
+                    "year": 1999,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/yKbzT8q9b65hc1eIZxuRsLxopi7.jpg",
+                    "lbUrl": "https://letterboxd.com/film/music-of-the-heart/",
+                    "lbRating": 3.2,
+                    "genres": [
+                        "Drama",
+                        "Music"
+                    ],
+                    "runtime": 124,
+                    "trailer": "Qz78YTyOTmA"
+                },
+                {
+                    "flag": [
+                        "es",
+                        "fr"
+                    ],
+                    "title": "Sir\u0101t",
+                    "director": "Oliver Laxe",
+                    "year": 2025,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/bzBtsLi17rK4G6kDvOXfUZfAhca.jpg",
+                    "lbUrl": "https://letterboxd.com/film/sirat-2025/",
+                    "lbRating": 3.6,
+                    "genres": [
+                        "Drama",
+                        "Thriller"
+                    ],
+                    "runtime": 115,
+                    "trailer": "3_9OkHX8ZiA"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Memento",
+                    "director": "Christopher Nolan",
+                    "year": 2000,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg",
+                    "lbUrl": "https://letterboxd.com/film/memento/",
+                    "lbRating": 4.2,
+                    "genres": [
+                        "Mystery",
+                        "Thriller"
+                    ],
+                    "runtime": 113,
+                    "trailer": "Rq9eM4ZXRgs"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "I Saw the TV Glow",
+                    "director": "Jane Schoenbrun",
+                    "year": 2024,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/hS4GYkYpN1rfl4GIxyc02sCyfAj.jpg",
+                    "lbUrl": "https://letterboxd.com/film/i-saw-the-tv-glow/",
+                    "lbRating": 3.5,
+                    "genres": [
+                        "Drama",
+                        "Horror"
+                    ],
+                    "runtime": 100,
+                    "trailer": "kymDzCgPwj0"
+                },
+                {
+                    "flag": [
+                        "ca"
+                    ],
+                    "title": "Humanist Vampire Seeking Consenting Suicidal Person",
+                    "director": "Ariane Louis-Seize",
+                    "year": 2023,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/m5OItLBY5T38ew1YI4VSIXjl5G2.jpg",
+                    "lbUrl": "https://letterboxd.com/film/humanist-vampire-seeking-consenting-suicidal-person/",
+                    "lbRating": 3.9,
+                    "genres": [
+                        "Romance",
+                        "Comedy",
+                        "Fantasy",
+                        "Horror"
+                    ],
+                    "runtime": 91,
+                    "trailer": "ksWqIui9jHo"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Beautiful Boy",
+                    "director": "Felix van Groeningen",
+                    "year": 2018,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/u2Gfv0mz3xePsgyCPHovrnFL1sB.jpg",
+                    "lbUrl": "https://letterboxd.com/film/beautiful-boy-2018/",
+                    "lbRating": 4.1,
+                    "genres": [
+                        "Drama"
+                    ],
+                    "runtime": 121,
+                    "trailer": "8NR8w8s9zWA"
+                },
+                {
+                    "flag": [
+                        "gb",
+                        "us"
+                    ],
+                    "title": "Polyester",
+                    "director": "John Waters",
+                    "year": 1981,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/14RfMqOe8eF17bUajPsy4HtRsVC.jpg",
+                    "lbUrl": "https://letterboxd.com/film/polyester/",
+                    "lbRating": 3.8,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ],
+                    "runtime": 86,
+                    "trailer": "0lNlEp5qH3E"
+                },
+                {
+                    "flag": [
+                        "pl"
+                    ],
+                    "title": "Popi\u00f3\u0142 i diament",
+                    "director": "Andrzej Wajda",
+                    "year": 1958,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/nE8aqRvVnRQEqskiarnFhdJdk8g.jpg",
+                    "lbUrl": "https://letterboxd.com/film/ashes-and-diamonds/",
+                    "lbRating": 4.1,
+                    "genres": [
+                        "Drama",
+                        "War",
+                        "Romance"
+                    ],
+                    "runtime": 103,
+                    "trailer": "O6kcDS5QM6I"
+                },
+                {
+                    "flag": [
+                        "gb"
+                    ],
+                    "title": "The Servant",
+                    "director": "Joseph Losey",
+                    "year": 1963,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/pRa4og93BeOoMCt6oWuPCwu5Coo.jpg",
+                    "lbUrl": "https://letterboxd.com/film/the-servant/",
+                    "lbRating": 4.1,
+                    "genres": [
+                        "Drama"
+                    ],
+                    "runtime": 116,
+                    "trailer": "naaFmYU2_I8"
+                },
+                {
+                    "flag": [
+                        "no"
+                    ],
+                    "title": "Dreams",
+                    "director": "Dag Johan Haugerud",
+                    "year": 2024,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/1/2/2/1/7/1112217-dreams-sex-love-0-1000-0-1500-crop.jpg?v=5aebdf6064",
+                    "lbUrl": "https://letterboxd.com/film/dreams-2024-5/",
+                    "lbRating": 3.8,
+                    "genres": [
+                        "Romance",
+                        "Drama"
+                    ],
+                    "runtime": 111,
+                    "trailer": "ijqwWwGdHZY"
+                },
+                {
+                    "flag": [
+                        "fr"
+                    ],
+                    "title": "Beau Travail",
+                    "director": "Claire Denis",
+                    "year": 2000,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/5ySa1aQaT7kMcAbKwlS1HXxp2hM.jpg",
+                    "lbUrl": "https://letterboxd.com/film/beau-travail/",
+                    "lbRating": 4.1,
+                    "genres": [
+                        "Drama"
+                    ],
+                    "runtime": 93,
+                    "trailer": "Hh4HzACZOOQ"
+                },
+                {
+                    "flag": [
+                        "gb"
+                    ],
+                    "title": "Lurker",
+                    "director": "Alex Russell",
+                    "year": 2025,
+                    "rymCoverartImg": "https://a.ltrbxd.com/resized/film-poster/1/1/4/8/8/5/8/1148858-lurker-2025-0-1000-0-1500-crop.jpg?v=0b2a289e78",
+                    "lbUrl": "https://letterboxd.com/film/lurker-2025/",
+                    "lbRating": 3.6,
+                    "trailer": "876d5ZnyzzQ"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Paris Is Burning",
+                    "director": "Jennie Livingston",
+                    "year": 1991,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/90rCWH41mj9hjHUEy2SOHfuAOl3.jpg",
+                    "lbUrl": "https://letterboxd.com/film/paris-is-burning/",
+                    "lbRating": 4.5,
+                    "genres": [
+                        "Documentary"
+                    ],
+                    "runtime": 78,
+                    "trailer": "9SqvD1-0odY"
+                },
+                {
+                    "flag": [
+                        "jp"
+                    ],
+                    "title": "Spirited Away",
+                    "director": "Hayao Miyazaki",
+                    "year": 2001,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+                    "lbUrl": "https://letterboxd.com/film/spirited-away/",
+                    "lbRating": 4.4,
+                    "genres": [
+                        "Animation",
+                        "Family",
+                        "Fantasy"
+                    ],
+                    "runtime": 125,
+                    "trailer": "GAp2_0JJskk"
+                },
+                {
+                    "flag": [
+                        "no",
+                        "se",
+                        "dk",
+                        "fr"
+                    ],
+                    "title": "The Worst Person in the World",
+                    "director": "Joachim Trier",
+                    "year": 2021,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/1NxGNQchGBTHXJ6RShLY1IlZqWn.jpg",
+                    "lbUrl": "https://letterboxd.com/film/the-worst-person-in-the-world/",
+                    "lbRating": 4.1,
+                    "genres": [
+                        "Drama",
+                        "Romance",
+                        "Comedy"
+                    ],
+                    "runtime": 128,
+                    "trailer": "gpkQgk1Fi1Q"
+                }
+            ]
+        },
+        {
+            "type": "TerminyCompo",
+            "first": "auto",
+            "days": 10
+        }
+    ]
+}
