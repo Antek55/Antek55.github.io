@@ -4,8 +4,8 @@
  <title>Bezdyskusyjny Klub Filmowy</title>
  <description>Bezdyskusyjny Klub Filmowy</description>
  <link>https://www.static.jwodzinski.wroclaw.pl/dkf/</link>
- <lastBuildDate>2026-04-30T21:55:02.842374</lastBuildDate>
- <pubDate>2026-04-30T21:55:02.842374</pubDate>
+ <lastBuildDate>2026-05-02T16:18:40.054449</lastBuildDate>
+ <pubDate>2026-05-02T16:18:40.054449</pubDate>
  <image>
     <url>https://www.static.jwodzinski.wroclaw.pl/dkf/tż-sfw.ico</url>
     <title>Bezdyskusyjny Klub Filmowy</title>
@@ -14,6 +14,14 @@
     <height>32</height>
     </image>
  
+ <item>
+         <title>DKF 105 :: głosowanie 2/2 :: film i terminy</title>
+         <description>Film i termin na następne spotkanie można wybrać w formularzu dostępnym &lt;b&gt;do dziś, g. 22:05&lt;/b&gt; &lt;a href="https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#dkf105"&gt;tutaj&lt;/a&gt; 📽</description>
+         <link>https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#dkf105</link>
+         <guid isPermaLink="false">1748c0bef6166a0c262fd5def79979be06174eba57e962ae68e0691cde2ce616</guid>
+         <pubDate>2026-05-02T16:30:00</pubDate>
+         
+         </item>
  <item>
          <title>DKF 105 :: głosowanie 1/2 :: nominacje</title>
          <description>Miłej Nocy Walpurgi! Propozycję filmową na następne spotkanie oraz jego termin wybierzemy w tradycyjnym głosowaniu, w części pierwszej z dwóch można nominować filmy do głosowania wpisując tytuły w formularzu dostępnym &lt;b&gt;do jutra piątku g. 22:05&lt;/b&gt; &lt;a href="https://www.static.jwodzinski.wroclaw.pl/dkf/formularz#nominacje"&gt;tutaj&lt;/a&gt;. Tym razem nominacje się nie przenoszą, ale oczywiście można powtarzać nominaje z przeszłości.</description>
