@@ -1,0 +1,153 @@
+{
+    "title": "DKF 106 :: film & terminy",
+    "closing_info": true,
+    "closing": "2026-05-02 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmyCompo",
+            "is_np": true,
+            "filmy": [
+              
+                {"flag": ["gb", "us"], "title": "Mississippi Masala", "director": "Mira Nair", "year": 1991, "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/b2Gks4Stt98FRI5isaL6Wu1luhh.jpg", "lbUrl": "https://letterboxd.com/film/mississippi-masala/", "lbRating": 3.9, "genres": ["Drama", "Romance"], "runtime": 118, "trailer": "seHuOmdcJqg"},
+                {"flag": ["de", "nl", "za", "ca", "fr"], "title": "Berlin Alexanderplatz", "director": "Burhan Qurbani", "year": 2020, "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/5i3ZUjsjDWrcqPGRoKrHsAltBvD.jpg", "lbUrl": "https://letterboxd.com/film/berlin-alexanderplatz-2020/", "lbRating": 3.6, "genres": ["Drama", "Crime"], "runtime": 184, "trailer": "l90T61uP-rI"},
+                {
+                    "flag": [
+                        "gb"
+                    ],
+                    "title": "The Servant",
+                    "director": "Joseph Losey",
+                    "year": 1963,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/pRa4og93BeOoMCt6oWuPCwu5Coo.jpg",
+                    "lbUrl": "https://letterboxd.com/film/the-servant/",
+                    "lbRating": 4.1,
+                    "genres": [
+                        "Drama"
+                    ],
+                    "runtime": 116,
+                    "trailer": "naaFmYU2_I8"
+                },
+                {
+                    "flag": [
+                        "de"
+                    ],
+                    "title": "Into Great Silence",
+                    "director": "Philip Gr\u00f6ning",
+                    "year": 2005,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/ctqLEwsIRYIPBGAJaDm4UxnTqpO.jpg",
+                    "lbUrl": "https://letterboxd.com/film/into-great-silence/",
+                    "lbRating": 3.9,
+                    "genres": [
+                        "Documentary"
+                    ],
+                    "runtime": 162,
+                    "trailer": "sgNj2Sf_mgo"
+                },
+                {
+                    "flag": [
+                        "fr"
+                    ],
+                    "title": "Beau Travail",
+                    "director": "Claire Denis",
+                    "year": 2000,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/5ySa1aQaT7kMcAbKwlS1HXxp2hM.jpg",
+                    "lbUrl": "https://letterboxd.com/film/beau-travail/",
+                    "lbRating": 4.1,
+                    "genres": [
+                        "Drama"
+                    ],
+                    "runtime": 93,
+                    "trailer": "Hh4HzACZOOQ"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "What Ever Happened to Baby Jane?",
+                    "director": "Robert Aldrich",
+                    "year": 1962,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/msGYzyWwtjAaA3DScdgmvJ5MReG.jpg",
+                    "lbUrl": "https://letterboxd.com/film/what-ever-happened-to-baby-jane/",
+                    "lbRating": 4.2,
+                    "genres": [
+                        "Drama",
+                        "Horror",
+                        "Thriller"
+                    ],
+                    "runtime": 135,
+                    "trailer": "3qFYjkFCxiE"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Carnival of Souls",
+                    "director": "Herk Harvey",
+                    "year": 1962,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/9ddPGH7kMe81xznwIKCt17VFUPi.jpg",
+                    "lbUrl": "https://letterboxd.com/film/carnival-of-souls/",
+                    "lbRating": 3.8,
+                    "genres": [
+                        "Horror",
+                        "Mystery",
+                        "Fantasy"
+                    ],
+                    "runtime": 78,
+                    "trailer": "uDMkgcKas3U"
+                },
+                {
+                    "flag": [
+                        "us",
+                        "it",
+                        "jp"
+                    ],
+                    "title": "Coffee and Cigarettes",
+                    "director": "Jim Jarmusch",
+                    "year": 2004,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/pfG02QCsutx3PIxFS8UY4iM9AsS.jpg",
+                    "lbUrl": "https://letterboxd.com/film/coffee-and-cigarettes-2003/",
+                    "lbRating": 3.8,
+                    "genres": [
+                        "Comedy",
+                        "Drama"
+                    ],
+                    "runtime": 97,
+                    "trailer": "mM6Mpn0-eyQ"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Singin' in the Rain",
+                    "director": "Gene Kelly, Stanley Donen",
+                    "year": 1952,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/w03EiJVHP8Un77boQeE7hg9DVdU.jpg",
+                    "lbUrl": "https://letterboxd.com/film/man-with-a-movie-camera/",
+                    "lbRating": 4.3,
+                    "trailer": "lSE8sl2-PZg"
+                },
+                {
+                    "flag": [
+                        "us"
+                    ],
+                    "title": "Do the Right Thing",
+                    "director": "Spike Lee",
+                    "year": 1989,
+                    "rymCoverartImg": "https://image.tmdb.org/t/p/w600_and_h900_face/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+                    "lbUrl": "https://letterboxd.com/film/do-the-right-thing/",
+                    "lbRating": 4.4,
+                    "genres": [
+                        "Drama"
+                    ],
+                    "runtime": 120,
+                    "trailer": "yVAD4fYRcvA"
+                }
+            ]
+        },
+        {
+            "type": "TerminyCompo",
+            "first": "auto",
+            "days": 10
+        }
+    ]
+}
