@@ -1,0 +1,20 @@
+{
+    "title": "Nowa Akademia spotkanie kolejne",
+    "closing_info": false,
+    "closing": "2030-03-23 22:05",
+    "en_available": false,
+    "fields": [
+        {
+            "type": "FilmySimpleCompo",
+            "is_np": false,
+            "filmy": [
+              "Fleurs du Mal",
+              "Rerum Novarum",
+              "Digital Schizophrenia",
+              "A Guide to Anti-Oedipus",
+              "typu Fisher albo Jameson",
+              "Rhythmanalysis: Space, Time and Everyday Life"
+            ]
+        }
+    ]
+}
