@@ -1,6 +1,6 @@
 [
   {
-    "RANDOM [0.15]": [
+    "RANDOM [0.1]": [
       {
         "Dubai (3790000)": [
           "Au6lM-ubCVI",
@@ -68,13 +68,20 @@
         ]
       },
       {
-        "Belém, Brazil (1499641)": [
+        "Bel\u00e9m, Brazil (1499641)": [
           "RfqTtYd0PbE"
         ]
       },
       {
         "Salvador, Brazil (2711840)": [
           "19GUi3kkzQg"
+        ]
+      },
+      {
+        "Curitiba, Brazil (1948626)": [
+          "xJ6BzkL0qsM",
+          "jdIRR_WtKMk",
+          "xegZIesrRsQ"
         ]
       },
       {
@@ -250,7 +257,7 @@
         ]
       },
       {
-        "Bogotá, Colombia (7674366)": [
+        "Bogot\u00e1, Colombia (7674366)": [
           "2tDvL8uqR8I"
         ]
       },
@@ -286,7 +293,7 @@
         ]
       },
       {
-        "Port–au–Prince, Haiti (1234742)": [
+        "Port\u2013au\u2013Prince, Haiti (1234742)": [
           "k5NawsokS-8",
           "xMjJXchCx8s",
           "atR8xxmKd_Y"
@@ -511,7 +518,7 @@
         ]
       },
       {
-        "Asunción, Paraguay (1482200)": [
+        "Asunci\u00f3n, Paraguay (1482200)": [
           "ukQmtKk90Q0"
         ]
       },
@@ -571,7 +578,7 @@
         ]
       },
       {
-        "İzmir, Turkey (2938292)": [
+        "\u0130zmir, Turkey (2938292)": [
           "89gxYJR-LfY",
           "ZFW31ZMq4Rc",
           "iFXNy1ZB6Qw"
@@ -611,16 +618,6 @@
         "Brooklyn, US (2736074)": [
           "auIy61og0j4",
           "otLED2MUtVw"
-        ]
-      },
-      {
-        "New York City, US (8804190)": [
-          "ySqhU27Eqz8",
-          "FoBj0icIo6U",
-          "EpgtyTRdUQo",
-          "Ue1zaB1lpGo",
-          "jBByuD1fjqw",
-          "-fyN0hrCWu8"
         ]
       },
       {
@@ -1974,7 +1971,7 @@
     ]
   },
   {
-    "Málaga (0.5)": [
+    "M\u00e1laga (0.5)": [
       "HUSv7xhmWAA",
       "xlr_XMJ6gsg",
       "xYKSSolqRF8",
@@ -2034,7 +2031,7 @@
     ]
   },
   {
-    "Córdoba, España (0.6)": [
+    "C\u00f3rdoba, Espa\u00f1a (0.6)": [
       "NraOy0pimtw",
       "3FRCAqtpfAw",
       "hTn5h0PAXGs",
@@ -2197,7 +2194,7 @@
     ]
   },
   {
-    "São Paulo (0.75)": [
+    "S\u00e3o Paulo (0.75)": [
       "WcjGyIjHLDA",
       "Ic2ERD7kt4o",
       "39eKuBwiOv0",
@@ -2921,8 +2918,16 @@
       "1KBRBzAzUF4",
       "17mb7b3ZfaQ",
       "_5k0xzSjHYw"
-    ],
+    ]
+  },
+  {
     "New York City": [
+      "ySqhU27Eqz8",
+      "FoBj0icIo6U",
+      "EpgtyTRdUQo",
+      "Ue1zaB1lpGo",
+      "jBByuD1fjqw",
+      "-fyN0hrCWu8",
       "rL2m5ua1Oc4",
       "_Sr-dWRx6GA",
       "jMazAfQDVj4",
@@ -2976,7 +2981,7 @@
       "MeZ8P73JNtw",
       "kBleVYw_MDs",
       "mpfou7-1TAA",
-      "-KAn9Fb717o",
+      "KAn9Fb717o",
       "p1D0xmXa5j4",
       "KkWE2rS-a8c"
     ]
