@@ -1151,6 +1151,16 @@
         ]
       },
       {
+        "Ulsan, Korea (1098728)": [
+          "BGGCMYG7gyM",
+          "mDsjYT2tSu4",
+          "9SgY8EkpCPE",
+          "7qc_htpCej0",
+          "8L4B66xokwI",
+          "B0A2lYY3RV4"
+        ]
+      },
+      {
         "Daegu, Korea (2365523)": [
           "ngZW7MW4I2M"
         ]
@@ -1180,6 +1190,12 @@
           "SQdA6odspls",
           "MqkuPgviE18",
           "NsdEXtZLOkY"
+        ]
+      },
+      {
+        "Incheon, Korea (3016250)": [
+          "U8vhDR1bHuY",
+          "OkL3L7Fh1iA"
         ]
       },
       {
@@ -1278,6 +1294,14 @@
       {
         "Ibadan, Nigeria (3649000)": [
           "7wuPa4geZ28"
+        ]
+      },
+      {
+        "Benin City, Nigeria (1782000)": [
+          "j5d3DQWDMtw",
+          "yhHdETcdtmE",
+          "Rcf0gcysGXY",
+          "Q2yDTHsHH38"
         ]
       },
       {
@@ -1479,6 +1503,18 @@
         ]
       },
       {
+        "Bursa, Turkey (3101833)": [
+          "b7q216sn5us",
+          "3ieozDb4e88",
+          "gA-w2W42_kg",
+          "zWNTaxs_cR4",
+          "kLDKMcb7xAQ",
+          "9i4vf5dTOZg",
+          "2PrB3VjOiRc",
+          "1aJh-u8IFNI"
+        ]
+      },
+      {
         "Tainan, Taiwan (1856642)": [
           "WhUj8_ZVUSE",
           "zr1mKVSWh8k",
@@ -1528,14 +1564,6 @@
       {
         "San Antonio, US (1526656)": [
           "UqvC6EWPBdQ"
-        ]
-      },
-      {
-        "Brooklyn, US (2736074)": [
-          "auIy61og0j4",
-          "otLED2MUtVw",
-          "BtPV84rHoD8",
-          "SoKB4-ALisk"
         ]
       },
       {
@@ -4014,6 +4042,10 @@
   },
   {
     "New York City": [
+      "auIy61og0j4",
+      "otLED2MUtVw",
+      "BtPV84rHoD8",
+      "SoKB4-ALisk",
       "Fjnqp7IDGj0",
       "n1xkO0_lSU0",
       "LtBFbvENglI",
