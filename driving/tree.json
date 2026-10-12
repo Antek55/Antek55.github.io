@@ -467,6 +467,14 @@
         ]
       },
       {
+        "Luanda, Angola (2776168)": [
+          "5JDWR7foKUw",
+          "VBZejnjV3yc",
+          "c1Ie55yuwzo",
+          "z3Gx2hp3Vo8"
+        ]
+      },
+      {
         "Perth, Australia (2309338)": [
           "iiVAln42Ci8",
           "pKso1I68wx4",
@@ -587,6 +595,14 @@
       {
         "Zhengzhou, China (4253913)": [
           "wkpZ7zcYjz8"
+        ]
+      },
+      {
+        "Zhaoqing, China (1553109)": [
+          "yCfeTpD0g_I",
+          "U5hgzqaNhLU",
+          "jNs7o3V_WH8",
+          "1IqA7aOxeyE"
         ]
       },
       {
@@ -732,6 +748,13 @@
         "Jinan, China (4335989)": [
           "KBclVVJFnS0",
           "6YRx3xVZDN0"
+        ]
+      },
+      {
+        "Jiaxing, China (1180000)": [
+          "Ell7cwGPjc0",
+          "8gzqbWPw_y0",
+          "svx7SIUTC2Y"
         ]
       },
       {
@@ -975,6 +998,12 @@
         ]
       },
       {
+        "Tangerang, Indonesia (1912679)": [
+          "nzbbyPjeSdQ",
+          "6rJW28nAgwQ"
+        ]
+      },
+      {
         "Surabaya, Indonesia (2874314)": [
           "ws76alg7RGY",
           "eQg2zuxVSJo",
@@ -1049,6 +1078,13 @@
         ]
       },
       {
+        "Lucknow, India (2472011)": [
+          "h0YpSL-u9yY",
+          "y0IHAD7hbYs",
+          "_3eApn2OXao"
+        ]
+      },
+      {
         "Kota, India (1001694)": [
           "yGF7bkXQlrI"
         ]
@@ -1116,6 +1152,12 @@
           "IQDGp_qQ1OI",
           "qABnYGIilHE",
           "XrRiumcj9Uw"
+        ]
+      },
+      {
+        "Amritsar, India (1159227)": [
+          "ddY2Pkgx3rk",
+          "nkQ5zj7i7a8"
         ]
       },
       {
@@ -1296,8 +1338,22 @@
         ]
       },
       {
+        "Ciudad Nezahualcoyotl, Mexico (1104585)": [
+          "IAN5kMnBbVg"
+        ]
+      },
+      {
         "Zapopan, Mexico (1476491)": [
           "7KUG62deyxk"
+        ]
+      },
+      {
+        "Santiago de Quer\u00e9taro, Mexico (1594212)": [
+          "qvjwA86BvKs",
+          "B4HEmc_idgg",
+          "25rLlnte-DI",
+          "yfgwlgzlEHc",
+          "jUymS5bfT-w"
         ]
       },
       {
@@ -1356,6 +1412,12 @@
       {
         "Kano, Nigeria (4910000)": [
           "wtUIS0mzsOA"
+        ]
+      },
+      {
+        "Ilorin, Nigeria (1080000)": [
+          "HJQs8umB2BU",
+          "_PZjPmpyG8Y"
         ]
       },
       {
@@ -1455,6 +1517,13 @@
       {
         "Asunci\u00f3n, Paraguay (1482200)": [
           "ukQmtKk90Q0"
+        ]
+      },
+      {
+        "Volgograd, Russia (1013533)": [
+          "JHQhiG-sMW4",
+          "Ay8eLSpvIqs",
+          "JjqjEO33UaA"
         ]
       },
       {
@@ -3509,7 +3578,7 @@
     ]
   },
   {
-    "Harbin (0.5)": [
+    "Harbin (0.3)": [
       "BvL1Hf2gD-g",
       "PSxQWgA5-Mw"
     ]
